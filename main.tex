@@ -1,0 +1,323 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{systeme}
+\usepackage{bbold}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{mathrsfs}
+\usepackage{fancybox}
+\usepackage{calc}
+\usepackage{setspace}               % for LINE SPACING
+\usepackage{physics}
+\numberwithin{equation}{section}
+
+\definecolor{main}{HTML}{5989cf}    % setting main color to be used
+\definecolor{sub}{HTML}{cde4ff}     % setting sub color to be used
+
+%\tcbset{
+%    sharp corners,
+%    colback = white,
+%    before skip = 0.2cm,    % add extra space before the box
+%    after skip = 0.5cm      % add extra space after the box
+%}                           % setting global options for tcolorbox
+
+\newtcolorbox{boxA}{
+    sharpish corners, % better drop shadow
+    boxrule = 0pt,
+    toprule = 4.5pt, % top rule weight
+    %%enhanced,
+    %%fuzzy shadow = {0pt}{-2pt}{-0.5pt}{0.5pt}{black!35} % {xshift}{yshift}{offset}{step}{options} 
+}
+
+
+
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm}
+\usepackage{units}
+\usepackage{textcomp}
+\usepackage{amstext}
+\usepackage[numbers]{natbib}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\newcommand{\noun}[1]{\textsc{#1}}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Flaurent \textsc{HEULLY--ALARY -- Internship Report}}
+\lhead{\textsc{University Paul Sabatier}}
+\cfoot{\thepage}
+
+\makeatother
+
+\usepackage{babel}
+\makeatletter
+\addto\extrasfrench{%
+   \providecommand{\og}{\leavevmode\flqq~}%
+   \providecommand{\fg}{\ifdim\lastskip>\z@\unskip\fi~\frqq}%
+}
+
+\makeatother
+\begin{document}
+%\begin{center}
+%\noun{\large{}University Paul Sabatier 2021}{\large\par}
+%\par\end{center}
+
+%\begin{center}
+%\par\end{center}
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\textsc{\LARGE
+University \noun{Paul Sabatier}
+} \\[1cm]
+%\includegraphics[scale=0.5]{LOGO.jpg} \\[1cm]
+\HRule \\[0.4cm]
+{ \huge \bfseries Un joli titre \\[0.15cm] }
+\HRule \\[1.5cm]
+Flaurent HEULLY--ALARY
+\\[1cm]
+\today \\ [1cm]
+\end{titlepage}
+\begin{center}
+\thispagestyle{plain}
+\par\end{center}
+\large
+\tableofcontents
+\newpage
+\section{Introduction}
+
+\section*{Model Hamiltonian}
+
+\subsection{Spin Hamiltonian}
+
+The most well-know Spin Hamiltonian used to describe the magnetic interaction between a pair of spin located on different magnetic centres is the Heiseinberg-Dirac-Van Vleck (HDVV) Hamiltonina, written as:
+\begin{equation}\label{Hheis}
+    \hat{H}=\sum_{i,j} J_{ij} \hat{\vb S_i} \cdot \hat{\vb S_j}
+\end{equation} 
+    where $J_{i,j}$ is the coupling constant, $\hat{\vb S_i}$ and $\hat{\vb S_j}$ are the spin operators working on site $i$ and $j$.
+    Several conventions exist for this Hamiltonian, with negative sign and/or with a factor of 2 in front. As the intention of this work %
+    was to communicate with theoretical physicist we will use remove any factor (\ref{Hheis}) unless mentioned. The coupling constant $J$ %
+     can be either positive or negative depending on the magnetic properties of the system, a negative value indicate ferromagnetism with %
+     magnetic moment aligned while positive indicate antiferromagnetism with opposite alignement of magnetic moments.
+    This Hamiltonian is regarded as a Spin Hamiltonian as it only invoke the spin degree of freedom of the system and is still %
+    to this day used in the description of the isotropic coupling in magnetic systems.
+
+\subsection{Single centre Anisotropy}
+
+    \par Effects such as Spin-Orbit-Coupling (SOC) tend to create anisotropy in the system that cannot be described only by eq \ref{Hheis}. %
+    More specifically on mononuclear systems (only one magnetic centre) with a ground state of spin larger or equal to one, %
+    a lift of degeneracy between the different $M_S$ component of a same $S$ state can be observed even in the %
+    absence of magnetic field, this phenomenon is called Zero-Field-Splitting.
+    The associated Spin Hamiltonian is written:
+    \begin{equation}\label{SDS}
+        \hat{H}_{ZFS}=\hat{\vb S} \cdot \overline{\overline{D}} \cdot \hat{\vb S}
+    \end{equation}
+    Where $\hat{\vb S}$ is the spin vector of the ground state and $\overline{\overline{D}}$ is a two rank symmetric tensor, in an arbitrary frame it is composed of six different parameters.
+     Diagonalising this tensor reduces the parameters to three which are expressed in magnetic anisotropy axes defined as the tensor principal axes. 
+     Working with traceless tensor allow us to use only two parameters, by convention the z-axis is taken as the main magnetic axis making D the axial parameter and E the rhombic term describing the difference in 
+    \begin{equation}
+        D=D_{zz}-\frac{1}{2}(D_{xx}+D_{yy})=\frac{3}{2}D_{zz}
+    \end{equation}
+    and the rhombic term:
+    \begin{equation}
+        E=\frac{1}{2}(D_{xx}-D_{yy})
+    \end{equation}
+    With $|D| \geq 3E \geq 0$. 
+    The ZFS Hamiltonian can then be written:
+    \begin{equation}  %Différentes conventions??%
+        \hat{H}_{ZFS}=D (\hat{S}_z^2-\frac{1}{3}\hat{S}^2)+E(\hat{S}_x^2-\hat{S}_y^2)
+    \end{equation}
+A positive value of D indicates that the ground state is mainly composed of the $M_S=0$ component meaning that the projection of the spin moment along the $z$-axis is close to zero resulting in a easy-plane magnetism. 
+On the contrary if D<0, the ground state is formed from the $M_S=\pm M_{Smax}$ components with a maximum projection of spin moment along the $z$-axis resulting in an easy-axis magnetism.
+For a ground state with spin larger than one and a half, other terms may appear but will not be reported in these work as the case never occured.
+
+In the case of a triplet S=1 ground statesuch as a nickel Ni(II) complex that will be studied, the matrix representation of hamiltonian \ref{SDS} in a random orientation:
+
+\begin{tabular}{ c | c c c}
+        $H_{ZFS}$ & $\ket{1,-1}$ & $\ket{1,0} $& $\ket{1,1}$ \\
+        \hline
+        $\ket{1,-1} $&  $\frac{1}{2}(D_{xx}-D_{yy})+D_{zz}$ & $-\frac{\sqrt{2}}{2}(D_{xz+iD_{yz}}) $ & $\frac{1}{2}(D_{xx}-D_{yy}+2iD_{xy})$ \\
+        $\ket{1,0}$ & $-\frac{\sqrt{2}}{2}(D_{xz-iD_{yz}})  $& $ D_{xx}+D_{yy}  $&$ \frac{\sqrt{2}}{2}(D_{xz}+iD_{yz})$ \\
+        $\ket{1,1} $& $ \frac{1}{2}(D_{xx}-D_{yy}-2iD_{xy}) $& $\frac{\sqrt{2}}{2}(D_{xz}-iD_{yz})$  & $\frac{1}{2}(D_{xx}+D_{yy})+D_{zz} $ \\
+\end{tabular}
+In the magnetic frame, this matrix becomes:
+
+\begin{tabular}{c | c c c}
+    $H_{ZFS}$ & $\ket{1,-1}$ & $\ket{1,0} $& $\ket{1,1}$ \\
+    \hline
+    $\ket{1,-1}$ & $\frac{1}{2}(D_{XX}+D_{YY})+D_{ZZ}$ & 0 & $\frac{1}{2}(D_{XX}-D_{YY})$\\
+    $\ket{1,0}$ & 0 & $D_{XX}+D_{YY}$ & 0\\
+    $\ket{1,1}$ &  0 & 0 & 0
+\end{tabular}
+
+
+
+\subsection{Multi-centre Anisotropy}
+Opening the study to multiple magnetic center introduces weak couplings between the magnetic moments of each center. This coupling between two sites A and B, of spin 1/2 both,is called exchange interaction and is described by the following spin Hamiltonian.
+
+\begin{equation}
+    \hat{H}_{AB}=\hat{\vb S}_A\cdot \overline{\overline{A}} \cdot \hat{\vb S}_B
+\end{equation}
+The spin-spin interaction tensor $\overline{\overline{A}}$ can be decomposed in three component.
+\begin{equation}
+    \hat{H}_{AB}=J(\hat{\vb S}_A \cdot \hat{\vb S}_B) + \hat{\vb S}_A \cdot\overline{\overline{D}}_{AB} \cdot \hat{\vb S}_B + \vb{d}_{AB} \cdot (\hat{\vb S}_A \cross \hat{\vb S}_B)
+\end{equation}
+
+Where the first term is the isotropic exchange, extending this coupling to more than two center this term becomes equivalent to the HDVV Hamiltonian from (\ref{Hheis}).%
+The two following terms describe the anisotropic exchange with the symmetric tensor of exchange $\overline{\overline{D}}_{AB}$ and the antisymmetric exchange $\vb{d}_{AB}$ also called Dzyaloshinskii-Moriya pseudo-vector interaction.%
+So far, we have assumed the colinearity of spin moments, the introduction of this last term now favor a \textit{spin canting} where the spin moment are no longer parallel or antiparallel resulting in weak ferromagnetism in otherwise antiferromagnetic systems.
+
+
+With magnetic centers carrying more than one magnetic electron, local tensors need to be added.
+
+
+\section{Methodology}
+
+All type of calculation discussed here after have for purpose to solve, in some way, the Schrodinger Equation:
+
+\begin{equation}
+    \hat{H}\Psi_i=E_i\Psi_i
+\end{equation}
+Where $\hat{H}$ is an Hamiltonian used to describe the system studied, $E_i$ is the energy associated to the wave-function $\Psi_i$. The solutions $E_i$ of this problem are obtained pretty straightforwardly by diagonalizing the Hamiltonian except that in most cases, the $\Psi_i$ vector are not known beforehand.
+
+The Hamiltonian discussed before is called exact electronic Hamiltonian as it encapsulate all the electronic and nuclear interaction of the system, it is written as follow in atomic units:
+
+\begin{equation}
+    \hat{H}=-\sum_{i=1}^{N}\nabla_i^2-\sum_{A=1}^{M}\frac{1}{2M_A}\nabla_A^2%
+    -\sum_{i=1}^{N}\sum_{A=1}^{M}\frac{Z_A}{|r_i-R_A|}+\sum_{i=1}^{N}\sum_{j<i}^{N}\frac{1}{r_{ij}}%
+    +\sum_{A=1}^{M}\sum_{B>A}^{M}\frac{Z_AZ_B}{|R_A-R_B|}
+\end{equation}
+Where $r_i$ is the position vector of the $i$th electron, $R_A$ the position vector of the $A$th nucleus with atomic number $Z_A$ and mass $M_A$.
+This Hamiltonian can be simplified in the context of the Born-Oppenheimer approximation, the electrons are considred to adapt instantly to the movement of the nuclei, the latter's position can be fixed and taken out of the Hamiltonian.
+This approximation is justified with the fact that the electrons are much lighter than the nuclei. 
+
+\begin{equation}
+    \hat{H}_{elec}=-\frac{1}{2}\sum_{i=1}^{N}\nabla_i^2%
+    -\sum_{i=1}^{N}\sum_{A=1}^{M}\frac{Z_A}{|r_i-R_A|}+\sum_{i=1}^{N}\sum_{j<i}^{N}\frac{1}{|r_i-r_j|}%
+\end{equation}
+
+This Hamiltonian describes the electronic problem while the nuclei contribution is set aside in a constant, having for only effect a shift in the overall energy spectrum. 
+While this greatly simplify the equations, it is still not solvable analyticaly and several approximations were developped to tackle this problem. %
+One common point to all the methods that were used in this work rely on the construction of molecular orbitals (\textbf{MO}) as expansions of atomic orbitals (\textbf{AO}).
+
+\begin{equation}
+    \psi_k=\sum_{i}c_i \phi_i
+\end{equation}
+
+Where $\psi_k$ is the $k$th MO built from the AO $\phi_i$ with the coefficient $c_i$. 
+This expansion rely on a supposedly infinite number of AO but in real case application this is not achievable and will be restricted to a finite number of basis functions.
+As the eletronic Hamiltonian does not include any information about spin, it will be included within a so called spin orbital with the introduction of two orthonormal function $\alpha(\omega)$ and $\beta(\omega)$, \textit{i.e} spin up or down function, with $\omega$ an unspecified spin variable.
+From each spatial molecular orbital, two spin orbital can be created such that:
+\begin{equation}
+    \chi_i=\begin{cases}
+    \psi_i(r)\alpha(\omega)\\
+    \quad or \\
+    \psi_i(r)\beta(\omega)
+    \end{cases}
+\end{equation}
+This definition for the spin orbital is well adapted for closed shell systems where all molecular orbitals are doubly occupied, the spatial part for any spin orbital is the same for both spin function defining the restricted formalism.
+Such definition changes when working with open shell system, \textit{i.e} some orbitals are singly occupied  necessiting the application of unrestricted formalism.
+
+\subsection{Hartree-Fock Method}
+The cornersone of $ab$ $initio$ calculation in quantum chemistry is the Hartree-Fock method which is usually the initial step for computing a first approximation of the wave function in molecules. 
+It is a variational approach that aims to treat the N-electron problems as problem of N non interacting electrons in the presence of an average potential replicating interactions between them, it is in this sense a mean-filed theory.
+This wave-function is constructed on the optimisation of a single Slater determinant $\Phi$:
+\begin{equation}
+    \Psi(x_1,x_2,...,x_N)=\frac{1}{\sqrt{N!}}
+    \begin{vmatrix}
+        \chi_i (x_1) & \chi_j (x_1) & \cdots & \chi_k (x_1)\\
+        \chi_i (x_2) & \chi_j (x_2) & \cdots & \chi_k (x_2)\\
+        \vdots & \vdots &   &  \vdots\\
+        \chi_i (x_N) & \chi_j (x_N) & \cdots & \chi_k (x_N)\\
+    \end{vmatrix}
+\end{equation}
+Where $\chi_i$ are spin orbitals and the variable $x_i=\{r_i,\omega_i\}$, it involves all combination of all $N$ electrons in all $k$ spin orbitals. 
+We introduce the shorthand notation for such determinant $\Psi(x_1,x_2,...,x_N)=\ket{\chi_1\chi_2...\chi_k}$ showing only the diagonal elements of the determinant.
+
+The way to obtain the best adapted Hartree-Fock wave function comes through the resolution of the Roothan's equation:
+\begin{equation}\label{Roothans}
+    FC=SC\epsilon
+\end{equation}
+$S$ is the overlap matrix of the basis function, $\epsilon$ the matrix of orbital energies and C is the matrix of the trial vector.
+The Fock operator is defined as:
+\begin{equation}
+    \hat{F}(i)=\hat{h}(i)+\sum_{j}^{N/2}[2\hat{J}_{j}(i)-\hat{K}_{j}(i)]
+\end{equation}
+
+The core-Hamiltonian $\hat{h}(i)$ is a mono-electronic operator that contains the kinetic energy operator of the $i$th and coulomb repulsion with the fixed nuclei. 
+The two bieletronic operator $\hat{J}_{j}(i)$ and $\hat{K}_{j}(i)$ describe the coulomb repulsion and exchange mechanism between the i$th$ electron and the rest.
+These operator are carry a direct dependance on the trial vectors from eq \ref{Roothans} as such, the Roothan's equation are non-linear and will be solved iteratively following a $Self$ $Consistent$ $Field$ (SCF) procedure
+
+%ATTENTION DEMANDER%
+As useful as this method is it fails to describe corretly some properties like the dissociation energy in $H_2$ showing sign of 
+
+
+
+\subsection{Complete Active Space Self Consistent Field}
+
+For most of magnetic systems, a single reference wave function is not enough as the system is usually not closed-shell and present one or more unpaired electron. Hence, its ground state is described by a wave function composed of several determinants.
+One of the most used method to introduce multiple reference in the wave function is called $Complete$ $Active$ $Space$ $Self$ $Consistent$ $Field$ ($CASSCF$). 
+Compared to the Hartree-Fock theory where two types of orbitals (occupied and unoccupied) were considered, in CASSCF theory orbitals are separeted in three sub-space. The inactive orbitals are doubly occupied throughout the calculation, virtual orbitals will stay empty while the active orbitals have a variable occupancy ranging from zero to two electrons.
+These active orbitals define the active space into which a configuration interaction will be realised computing all the determinants possible within this sub-space. 
+As the number of determinant grows significally with the number of orbitals included in the active space, this method is quite costly and its size becomes a limiting factor for the calculations.
+The new wave functions is now written as an expansion of Slater determinant which is obtained via a SCF procedure where both the expansion coefficients and orbitals are optimised as to minimize the Schrodinger Equation. 
+This double optimisation scheme can render the convergence troublesome, as such the definition of the active space and the choice of the starting orbitals becomes crucial. One usually starts from a set of orbitals previously obtained via an Hartree-Fock calculation.
+For computation of magnetic properties in metalic systems, the minimum active space should consists of the magnetic orbitals, $i.e$ the singly occupied d-orbitals of the metalic centers, this can be extend to all of the 3-d orbitals of the metal as well as some orbitals of the ligands.
+This calculation takes into account the correlation between the electrons inside the active space in the mean field created by the
+other electrons. While this method provides the non-dynamical correlation, it fails to capture the correlation with the inactive electron and their reponse to excitations, called dynamic-correlation and the need to look further appears.
+
+
+\subsection{Perturbation Theory}
+
+Perturbative treatment can be applied to extract the dynamical correlation of the mono and diexcitations that is left out from simple CASSCF calculation. For such calculation, one can use the CASPT (Complete Active Space Perturbation theory)
+or the NEVPT (N-electron valence state perturbation theory). Both of these methods rely on the assumption that the Hamiltonian can be partitioned into a zeroth order term and a perturbation with the parameter $\lambda$:
+
+\begin{equation}
+    \hat{H}=\hat{H}^{(0)}+\lambda\hat{H}^{(1)}+\lambda^2 \hat{H}^{(2)}+...
+\end{equation}
+
+
+The wave function and energy are expanded in a similar way and the zeroth order term $\Psi_{(0)}^{0}$ is chosen to be the CASSCF wave function. 
+The effect of the configurations outside of the active space on the energy and the wave function is estimated though perturbation theory and the expansions of the equations allows one to obtain the corrected energies.
+Usually the correction are taken at second order of perturbation with CASPT2 or NEVPT2. These two method mainly differs from their chose of zeroth-order Hamiltonian, CASPT2 rely on a monoelectronic Hamiltonian built from a one electron Fock operator that falls back to the Moller-Plesset Hamiltonian in single reference case. 
+This treatment may lead to what is called "intruder states" where low-lying states induce divergence in the denominator of the correction term where a difference of energy is taken. Several approach have been adapted such a the introduction of a $level$ $shift$, real or imaginary, as to fix this divergence.
+In case of NEVPT2, the zeroth-order Hamiltonian is a bi-electronic Dyall Hamiltoninan which in itself incluse a shift in energy between state from inside or outside the active space preventing the appearance of intruder states.
+One should add that this correlation is considered contracted as these
+methods do not act upon the coefficients inside the wave functions but only on the
+energies.
+
+\subsection{Difference dedicated configurational interaction}
+
+
+
+\subsection{Density functional theory}
+
+\subsection{Embedded Cluster Method}
+
+\subsection{Effective Hamiltonian}
+
+\section{Impact of the electric field on the ZFS parameter}
+
+\section{Electric field on Exchange anisotropy}
+
+\section{Herbertsmithite}
+
+\subsection{Isotropic component}
+
+\subsection{Anisotropy}
+
+\end{document}
