@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.2)  7 JUL 2025 10:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.2)  22 JUL 2025 15:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -513,7 +513,7 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./main.toc
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ))
@@ -521,44 +521,49 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \openout5 = `main.toc'.
 
  [1]
-Overfull \hbox (1.37263pt too wide) in paragraph at lines 107--108
-\T1/cmr/m/n/12 The most well-know Spin Hamiltonian used to describe the magnetic interaction between
+Overfull \hbox (5.06206pt too wide) in paragraph at lines 134--137
+\T1/cmr/m/n/12 Diagonalising this tensor reduces the parameters to three which are expressed in magnetic
  []
 
 [2] [3]
-Overfull \hbox (17.21672pt too wide) in paragraph at lines 197--198
-[]\T1/cmr/m/n/12 The Hamiltonian discussed before is called exact electronic Hamiltonian as it encapsulate
+Overfull \hbox (19.35187pt too wide) in paragraph at lines 201--209
+ [] 
  []
 
 [4]
-Overfull \hbox (21.30725pt too wide) in paragraph at lines 261--264
-\T1/cmr/m/n/12 bieletronic operator $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 and $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 describe the coulomb repulsion and exchange mechanism
+Overfull \hbox (17.21672pt too wide) in paragraph at lines 231--232
+[]\T1/cmr/m/n/12 The Hamiltonian discussed before is called exact electronic Hamiltonian as it encapsulate
  []
 
 [5]
-Overfull \hbox (10.25244pt too wide) in paragraph at lines 272--282
+Overfull \hbox (21.30725pt too wide) in paragraph at lines 295--298
+\T1/cmr/m/n/12 bieletronic operator $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 and $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 describe the coulomb repulsion and exchange mechanism
+ []
+
+
+Overfull \hbox (10.25244pt too wide) in paragraph at lines 302--312
 \T1/cmr/m/n/12 double optimisation scheme can render the convergence troublesome, as such the definition
  []
 
-[6] [7] (./main.aux)
+[6] [7] [8] [9] [10] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17805 strings out of 474116
- 342017 string characters out of 5743682
- 1944187 words of memory out of 5000000
- 39862 multiletter control sequences out of 15000+600000
+ 17814 strings out of 474116
+ 342147 string characters out of 5743682
+ 1947187 words of memory out of 5000000
+ 39871 multiletter control sequences out of 15000+600000
  572169 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,12n,93p,470b,256s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,12n,93p,470b,260s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (8 pages, 254879 bytes).
+Output written on main.pdf (11 pages, 271368 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
