@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{float}
 \usepackage{amsmath}
@@ -15,7 +15,8 @@
 \usepackage{calc}
 \usepackage{setspace}               % for LINE SPACING
 \usepackage{physics}
-%\numberwithin{equation}{section}
+\usepackage{braket}
+\numberwithin{equation}{section}
 
 %\definecolor{main}{HTML}{5989cf}    % setting main color to be used
 %\definecolor{sub}{HTML}{cde4ff}     % setting sub color to be used
@@ -39,7 +40,7 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{geometry}
-\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm}
+%\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm}
 \usepackage{units}
 \usepackage{textcomp}
 \usepackage{amstext}
@@ -99,26 +100,32 @@ Flaurent HEULLY--ALARY
 \tableofcontents
 \newpage
 \section{Introduction}
-
+For a long time theory has tried to match experiments, reproducing their results and trying to understand the mechanism at the origin of the different properties studied.
+%Mini intro
 \section{Model Hamiltonian}
 
 \subsection{Spin Hamiltonian}
-For a long time theory has tried to match experiments, reproducing their results and understanding the mechanism at the origin of the different properties studies.
-%Mini intro
+
 The most well-know Spin Hamiltonian used to describe the magnetic interaction between a pair of spin located on different magnetic centres is the Heiseinberg-Dirac-Van Vleck (HDVV) Hamiltonina, written as:
 \begin{equation}\label{Hheis}
-    \hat{H}_{HDVV}=\sum_{i,j} J_{ij} \hat{\vb S_i} \cdot \hat{\vb S_j}
+    \hat{H}_{HDVV}=-\sum_{i,j} J_{ij} \hat{\vb S}_i \cdot \hat{\vb S}_j
 \end{equation}
 
 where $J_{i,j}$ is the coupling constant, $\hat{\vb S_i}$ and $\hat{\vb S_j}$ are the spin operators working on site $i$ and $j$.
-Several conventions exist for this Hamiltonian, with negative sign and/or a factor of 2 in front. 
-As the intention of this work was to communicate with theoretical physicist we will use remove any factor in front of eq(\ref{Hheis}) unless mentioned. 
-The coupling constant $J$ can be either positive or negative depending on the magnetic properties of the system, a negative value indicate ferromagnetism with magnetic moment aligned while positive indicate antiferromagnetism with opposite alignement of magnetic moments.
+Several conventions exist for this Hamiltonian, with negative sign and/or a factor of 2 in front.  
+The coupling constant $J$ can be either positive or negative depending on the magnetic properties of the system, a positive value indicate ferromagnetism with magnetic moment aligned while negative indicate antiferromagnetism with opposite alignement of magnetic moments.
 This Hamiltonian is regarded as a Spin Hamiltonian as it only invoke the spin degree of freedom of the system and is still to this day used in the description of the isotropic coupling in magnetic systems.
+
+%Strating from the Hubbard Hamiltonian in the case of two electrons in two orbitals and 2nd order perturbation theory, the following expression can be obtained for $J$:
+%\begin{equation}
+%    J=K-\frac{4t^2}{U}
+%\end{equation}
+%Where K is the exchange integral which is always positive, t the hopping integral and U the on site Coulomb repulsion.
+%This expression shows the comptetition between a ferromagnetic component ( direct exchange $K$>0) and an antiferromagnetic one (indirect exchange).
 
 \subsection{Single centre Anisotropy}
 
-\par Effects such as Spin-Orbit-Coupling (SOC) tend to create anisotropy in the system that cannot be described only by eq\ref{Hheis}. 
+\par Effects such as Spin-Orbit-Coupling (SOC) tend to create anisotropy in the system that cannot be described only by eq(\ref{Hheis}). 
 More specifically on mononuclear systems (only one magnetic centre) with a ground state of spin larger or equal to one, a lift of degeneracy between the different $M_S$ component of a same $S$ state can be observed even in the absence of magnetic field, this phenomenon is called Zero-Field-Splitting.
 The associated Spin Hamiltonian is written:
 \begin{equation}\label{SDS}
@@ -132,8 +139,8 @@ Where $\hat{\vb S}$ is the spin vector of the ground state and $\overline{\overl
         D_{xz} & D_{yz} & D_{zz}
     \end{pmatrix}
 \end{equation}
-Diagonalising this tensor reduces the parameters to three which are expressed in magnetic anisotropy axes defined as the tensor principal axes. 
-Working with traceless tensor allow us to use only two parameters, by convention the z-axis is taken as the main magnetic axis making D the axial parameter and E the rhombic term describing the difference in 
+This tensor can be reduced to three parameters by diagonalization, $\textit{i.e}$ expressing them in the magnetic anisotropy axes defined as the tensor principal axes.
+Going further as to work with traceless tensor allow us to use only two parameters, by convention the z-axis is taken as the main magnetic axis making D the axial parameter and E the rhombic term describing the difference in 
 \begin{equation}\label{ParametreD}
     D=D_{zz}-\frac{1}{2}(D_{xx}+D_{yy})=\frac{3}{2}D_{zz}
 \end{equation}
@@ -146,18 +153,18 @@ The ZFS Hamiltonian can then be written:
 \begin{equation}  %Différentes conventions??%
     \hat{H}_{ZFS}=D (\hat{S}_z^2-\frac{1}{3}\hat{S}^2)+E(\hat{S}_x^2-\hat{S}_y^2)
 \end{equation}
-A positive value of D indicates that the ground state is mainly composed of the $M_S=0$ component meaning that the projection of the spin moment along the $z$-axis is close to zero resulting in a easy-plane magnetism. 
-On the contrary if D<0, the ground state is formed from the $M_S=\pm M_{Smax}$ components with a maximum projection of spin moment along the $z$-axis resulting in an easy-axis magnetism.
+A positive value of D indicates that the ground state is mainly composed of the $M_S$=0 component meaning that the projection of the spin moment along the $z$-axis is close to zero resulting in a easy-plane magnetism. 
+On the contrary if D<0, the ground state is formed from the $M_S$=$\pm M_{Smax}$ components with a maximum projection of spin moment along the $z$-axis resulting in an easy-axis magnetism.
 For a ground state with spin larger than one and a half, other terms may appear but will not be reported in this work as the case never occured.
 
-In the case of a triplet S=1 ground stat such as a nickel Ni (II) complex that will be studied, the matrix representation of hamiltonian\ref{SDS} in a random set of axis:
+In the case of a triplet S=1 ground stat such as a nickel Ni (II) complex that was studied, the matrix representation of hamiltonian (\ref{SDS}) in a random set of axis:
 \begin{center}
 \begin{tabular}{ c | c c c}
     $H_{ZFS}$ & $\ket{1,-1}$ & $\ket{1,0} $& $\ket{1,1}$ \\
     \hline
-    $\ket{1,-1} $&  $\frac{1}{2}(D_{xx}-D_{yy})+D_{zz}$ & $-\frac{\sqrt{2}}{2}(D_{xz+iD_{yz}}) $ & $\frac{1}{2}(D_{xx}-D_{yy}+2iD_{xy})$ \\
-    $\ket{1,0}$ & $-\frac{\sqrt{2}}{2}(D_{xz-iD_{yz}})  $& $ D_{xx}+D_{yy}  $&$ \frac{\sqrt{2}}{2}(D_{xz}+iD_{yz})$ \\
-    $\ket{1,1} $& $ \frac{1}{2}(D_{xx}-D_{yy}-2iD_{xy}) $& $\frac{\sqrt{2}}{2}(D_{xz}-iD_{yz})$  & $\frac{1}{2}(D_{xx}+D_{yy})+D_{zz} $ \\
+    $\bra{1,-1} $&  $\frac{1}{2}(D_{xx}-D_{yy})+D_{zz}$ & $-\frac{\sqrt{2}}{2}(D_{xz+iD_{yz}}) $ & $\frac{1}{2}(D_{xx}-D_{yy}+2iD_{xy})$ \\
+    $\bra{1,0}$ & $-\frac{\sqrt{2}}{2}(D_{xz-iD_{yz}})  $& $ D_{xx}+D_{yy}  $&$ \frac{\sqrt{2}}{2}(D_{xz}+iD_{yz})$ \\
+    $\bra{1,1} $& $ \frac{1}{2}(D_{xx}-D_{yy}-2iD_{xy}) $& $\frac{\sqrt{2}}{2}(D_{xz}-iD_{yz})$  & $\frac{1}{2}(D_{xx}+D_{yy})+D_{zz} $ \\
 \end{tabular}\\
 \end{center}
 In the magnetic frame, this matrix becomes:
@@ -165,21 +172,22 @@ In the magnetic frame, this matrix becomes:
 \begin{tabular}{c | c c c}
     $H_{ZFS}$ & $\ket{1,-1}$ & $\ket{1,0} $& $\ket{1,1}$ \\
     \hline
-    $\ket{1,-1}$ & $\frac{1}{2}(D_{XX}+D_{YY})+D_{ZZ}$ & 0 & $\frac{1}{2}(D_{XX}-D_{YY})$\\
-    $\ket{1,0}$ & 0 & $D_{XX}+D_{YY}$ & 0\\
-    $\ket{1,1}$ &  $\frac{1}{2}(D_{XX}-D_{YY})$ & 0 & $\frac{1}{2}(D_{XX}+D_{YY})+D_{ZZ}$
+    $\bra{1,-1}$ & $\frac{1}{2}(D_{XX}+D_{YY})+D_{ZZ}$ & 0 & $\frac{1}{2}(D_{XX}-D_{YY})$\\
+    $\bra{1,0}$ & 0 & $D_{XX}+D_{YY}$ & 0\\
+    $\bra{1,1}$ &  $\frac{1}{2}(D_{XX}-D_{YY})$ & 0 & $\frac{1}{2}(D_{XX}+D_{YY})+D_{ZZ}$
 \end{tabular}
 \end{center}
-Removing the trace from the tensor and applying the convention from eq\ref{ParametreD} and eq \ref{ParametreE} we get:
+Removing the trace from the tensor and applying the convention from eq(\ref{ParametreD}) and eq(\ref{ParametreE}) we get:
 \begin{center}
 \begin{tabular}{c | c c c}
     $H_{ZFS}$ & $\ket{1,-1}$ & $\ket{1,0}$ & $\ket{1,1}$\\
     \hline
-    $\ket{1,-1}$ & $\frac{1}{3}D$ & 0 & 0\\
-    $\ket{1,0}$ & 0 & $\frac{2}{3}D $& 0\\
-    $\ket{1,1}$ & 0 & 0 & $\frac{1}{3}D$
+    $\bra{1,-1}$ & $\frac{1}{3}D$ & 0 & E\\
+    $\bra{1,0}$ & 0 & $\frac{2}{3}D $& 0\\
+    $\bra{1,1}$ & E & 0 & $\frac{1}{3}D$
 \end{tabular}
 \end{center}
+
 \subsection{Multi-centre Anisotropy}
 Opening the study to multiple magnetic center introduces weak couplings between the magnetic moments of each center. 
 This coupling between two sites A and B with a least of magnetic elctron each, is called exchange interaction and is described by the following Giant Spin Hamiltonian.
@@ -201,10 +209,10 @@ The matrix representation of two $Cu^{2+}$ ions interacting is the following:
     \begin{tabular}{c | c c c c}
         $H_{MS}$ & $\ket{1,-1}$ & $\ket{1,0}$ & $\ket{1,1}$ & $\ket{0,0}$\\
         \hline
-        $\ket{1,-1}$ & $\frac{J}{4}+\frac{D_{zz}}{4}$ & $\frac{D_{xz}-iD_{yz}}{2\sqrt{2}}$ & $\frac{(D_{xx}-D_{zz}-2iD_{xy})}{4} $& $\frac{d_y+id_x}{2\sqrt{2}}$\\
-        $\ket{1,0}$ & $\frac{D_{xz}+iD_{yz}}{2\sqrt{2}}$ &$ \frac{J}{4} -\frac{D_{zz}}{4} +\frac{(D_{xx}+D_{yy})}{4}$& $-\frac{D_{xz}-iD_{yz}}{2\sqrt{2}}$ & -$\frac{id_z}{2}$ \\
-        $\ket{1,1}$ &$\frac{(D_{xx}-D_{zz}+2iD_{xy})}{4} $ & $-\frac{D_{xz}+iD_{yz}}{2\sqrt{2}}$ & $\frac{J}{4}+\frac{D_{zz}}{4}$ & $\frac{d_y-id_x}{2\sqrt{2}}$\\
-        $\ket{0,0}$ & $\frac{d_y-id_x}{2\sqrt{2}}$  & $\frac{id_z}{2}$  &$\frac{d_y+id_x}{2\sqrt{2}}$  & $-\frac{3J}{4}-\frac{D_{zz}}{4}-\frac{(D_{xx}+D_{yy})}{4}$\\
+        $\bra{1,-1}$ & $\frac{J}{4}+\frac{D_{zz}}{4}$ & $\frac{D_{xz}-iD_{yz}}{2\sqrt{2}}$ & $\frac{(D_{xx}-D_{zz}-2iD_{xy})}{4} $& $\frac{d_y+id_x}{2\sqrt{2}}$\\
+        $\bra{1,0}$ & $\frac{D_{xz}+iD_{yz}}{2\sqrt{2}}$ &$ \frac{J}{4} -\frac{D_{zz}}{4} +\frac{(D_{xx}+D_{yy})}{4}$& $-\frac{D_{xz}-iD_{yz}}{2\sqrt{2}}$ & -$\frac{id_z}{2}$ \\
+        $\bra{1,1}$ &$\frac{(D_{xx}-D_{zz}+2iD_{xy})}{4} $ & $-\frac{D_{xz}+iD_{yz}}{2\sqrt{2}}$ & $\frac{J}{4}+\frac{D_{zz}}{4}$ & $\frac{d_y-id_x}{2\sqrt{2}}$\\
+        $\bra{0,0}$ & $\frac{d_y-id_x}{2\sqrt{2}}$  & $\frac{id_z}{2}$  &$\frac{d_y+id_x}{2\sqrt{2}}$  & $-\frac{3J}{4}-\frac{D_{zz}}{4}-\frac{(D_{xx}+D_{yy})}{4}$\\
     \end{tabular}
 \end{center}
 From this we take that the Dzyaloshinskii-Moriya interaction create a coupling between the singlet with the three $M_S$ components of the triplet state.
@@ -399,6 +407,49 @@ Three procedure were explored to create such embedding:
 
 
 \subsection{Effective Hamiltonian}
+
+Having ways to compute the wave functions usually leads to lenghty expression where the WF is spanned along a large number of Slater determinant making its analysis complicated.
+On the other hand, the model Hamiltonian work in a much smaller space where a small number of electrons is used to introduce effective interactions.
+A way to connect the two Hamiltonian is to apply a theory developped by Bloch called Effective Hamiltonian theory.
+Starting from the Schrodinger equation with the Born-Oppenheimer Hamiltonian $\hat{H}$:
+
+\begin{equation}
+    \hat{H}\ket{\Psi_m}=E_m\ket{\Psi_m}
+\end{equation}
+
+Where $\Psi_m$ are the eigenvectors with the associated eigenvalue $E_m$ forming the space $S$ of size $N$. 
+We define a smaller space $S_0$ with $N_0$ states, this space is usually composed of the low lying state where the model Hamiltonian will be developped.
+An effective Hamiltonian $H_{eff}$  is built to reproduce the energy spectrum of the exact Hamiltonian in the target space $S_0$ using a small number of low-lying states $\tilde{\Psi}_m$ such that:
+
+\begin{equation}
+    \hat{H}_{eff}\ket{\tilde{\Psi}_m}=E_m \ket{\tilde{\Psi}_m}
+\end{equation}
+
+The first step is to project the eigenfunctions $\Psi_m$ onto the model space using the projector:
+
+\begin{align}
+    \hat{P}_0=\sum_{m}^{N_0} \ket{\tilde{\Psi}_m} \bra{\tilde{\Psi}_m}\\
+    \ket{\tilde{\Psi}_m}=\hat{P}_0 \ket{\Psi_m}
+\end{align}
+
+These eigenvectors are not necesserily orthogonal leading to a non-Hermitian Hamiltonian, this is problematic when comparing to the model Hamiltonians which are Hermitians.
+In this work, we apply the formalism proposed by Des Cloizeaux where the vectors are symmetrically orthonalized from the overlap matrix $S$:
+
+\begin{equation}
+    \ket{\tilde{\Psi}_m^\bot}=S^{-1/2} \ket{\tilde{\Psi}_m}
+\end{equation}
+
+At this point, it is possible to check the quality of the target space by calculating the norm of the projected vectors.
+If too small, the interactions of the system are not captured correctely by the model space making it inadecate. 
+\par When these projections are close to one, we can consider the model space adecate, the effective Hamiltonian is then built:
+
+\begin{equation}
+    H_{eff}=\sum_{m}^{N}\ket{\tilde{\Psi}_m^{\bot}}E_m \bra{\tilde{\Psi}_m^{\bot}}
+\end{equation}
+
+Once this is done, this numerical matrix $H_{eff}$ built from the $\textit{ab}$ $\textit{initio}$ exact Hamiltonian are compared to the model Hamiltonian representation matrix. 
+This allows for the extraction of values for the model Hamiltonian parameters as well as a test of validity.
+If there is too much deviation between the two matrices, it is possible that there is some missing interaction in the model.
 
 \section{Impact of the electric field on the ZFS parameter}
 
