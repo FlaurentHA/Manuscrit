@@ -2,14 +2,14 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{}%
 \contentsline {section}{\numberline {2}Model Hamiltonian}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Spin Hamiltonian}{2}{}%
-\contentsline {subsection}{\numberline {2.2}Single centre Anisotropy}{2}{}%
-\contentsline {subsection}{\numberline {2.3}Multi-centre Anisotropy}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Mononuclear Anisotropy}{3}{}%
+\contentsline {subsection}{\numberline {2.3}Polynuclear Anisotropy}{5}{}%
 \contentsline {section}{\numberline {3}Methodology}{6}{}%
-\contentsline {subsection}{\numberline {3.1}Hartree-Fock Method}{8}{}%
-\contentsline {subsection}{\numberline {3.2}Complete Active Space Self Consistent Field}{10}{}%
-\contentsline {subsection}{\numberline {3.3}Perturbation Theory}{11}{}%
-\contentsline {subsection}{\numberline {3.4}Difference dedicated configurational interaction}{12}{}%
-\contentsline {subsection}{\numberline {3.5}Density functional theory}{12}{}%
+\contentsline {subsection}{\numberline {3.1}Hartree-Fock Method}{7}{}%
+\contentsline {subsection}{\numberline {3.2}Complete Active Space Self Consistent Field}{8}{}%
+\contentsline {subsection}{\numberline {3.3}Perturbation Theory}{10}{}%
+\contentsline {subsection}{\numberline {3.4}Difference dedicated configurational interaction}{10}{}%
+\contentsline {subsection}{\numberline {3.5}Density functional theory}{11}{}%
 \contentsline {subsection}{\numberline {3.6}Embedded Cluster Method}{13}{}%
 \contentsline {subsection}{\numberline {3.7}Effective Hamiltonian}{14}{}%
 \contentsline {section}{\numberline {4}Impact of the electric field on the ZFS parameter}{16}{}%
