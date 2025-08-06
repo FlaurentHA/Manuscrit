@@ -1,4 +1,4 @@
-\documentclass[10pt]{article}
+\documentclass[12pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{float}
 \usepackage{amsmath}
@@ -55,7 +55,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
 \usepackage{fancyhdr}
-
+\setlength{\headheight}{14.49998pt}
+\addtolength{\topmargin}{-2.49998pt}
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Flaurent \textsc{HEULLY--ALARY -- Internship Report}}
@@ -102,10 +103,14 @@ Flaurent HEULLY--ALARY
 \section{Introduction}
 For a long time theory has tried to match experiments, reproducing their results and trying to understand the mechanism at the origin of the different properties studied.
 %Mini intro
+
+\chapter{Theory and Methodology}
+
 \section{Model Hamiltonian}
 
 \subsection{Spin Hamiltonian}
 
+\subsection*{Heiseinberg Hamiltonian}
 The most well-know Spin Hamiltonian used to describe the magnetic interaction between a pair of spin located on different magnetic centres is the Heiseinberg-Dirac-Van Vleck (HDVV) Hamiltonina, written as:
 \begin{equation}\label{Hheis}
     \hat{H}_{HDVV}=-\sum_{i,j} J_{ij} \hat{\vb S}_i \cdot \hat{\vb S}_j
@@ -439,7 +444,7 @@ The Hartree-potential $J[\rho]$ gives the coulomb repulstion between electrons p
 
 The energy expression eq \ref{EnergyDFT} finally becomes:
 \begin{equation}
-    E[\rho]= \int v(\vb r) \rho(vb r) d\vb r + T_s[\rho] + J[\rho]+ E_{xc}[\rho]
+    E[\rho]= \int v(\vb r) \rho(\vb r) d\vb r + T_s[\rho] + J[\rho]+ E_{xc}[\rho]
 \end{equation}
 This definition gives the exact energy given that the expression of the Exchange-Correlation is known, unfortunately this is not the case. 
 Over the years multiple attempts have been made to find an universal expression of $E_{xc}$ in terms of $\rho$ and its derivative. 
@@ -470,8 +475,9 @@ Two procedure were explored to create such embedding:
     \item[(2)] Optimised point charges were obtained using Ewal Summation from formal charges, this allows to reduce the $R_c$ to a few angstrom around the fragment.
 \end{itemize}
 
-These potentials are called Total-Ion-Potentials (TIPS) and can be either \textit{ab} \textit{initio} model potential (AIMP) or Effective Core Potential (ECP) depending on which Quantume chemistry software is used.
+These potentials are called Total-Ion-Potentials (TIPS) and can be either \textit{ab} \textit{initio} model potential (AIMP) or Effective Core Potential (ECP) depending on which Quantume Chemistry software is used.
 All of this is done to ensure that the properties extracted from the fragment, \textit{i.e} a finite system, are a good representation of the crystal properties, \textit{i.e} an infinite system.
+
 \subsection{Effective Hamiltonian}
 
 Having ways to compute the \textit{ab} \textit{initio} multi reference wave functions usually leads to lenghty expression where the wave function is spanned along a large number of Slater determinant making its analysis complicated.
@@ -521,14 +527,116 @@ Once this is done, this numerical matrix $H_{eff}$ constructed from the $\textit
 This allows for the extraction of values for the model Hamiltonian parameters as well as a test of validity.
 If there is too much deviation between the two matrices, it is possible that there is some missing interaction in the model.
 
-\section{Impact of the electric field on the ZFS parameter}
+\chapter{Study of the anisotropy in mononuclear complexes}
 
-\section{Electric field on Exchange anisotropy}
+The field of mononuclear complexes is a perfect area for the study of magnetic anisotropy. 
+The finite size of such complex as well as the localised character of the interaction allow for the explicit treatment of all atoms at play with reasonnable computational cost.
+This combined with the large amount of experimental data available allow for the validation of models and computational methodology.
+Numerous studies were dedicated to the application of the ZFS model Hamiltonian on mononuclear complexes based on fourth period transition metal.
+It has established that the value of the ZFS parameters are highly dependant on the metallic ion and its environment, the choice of ligand is crucial as we will see in this chapter.
+%ùTwo complexes were studied, based on Iron(II) and Nickel(II) ion, to explore the way to create large anisotropy as well as control it.
 
-\section{Herbertsmithite}
 
-\subsection{Isotropic component}
+\section{First Order Spin Orbit Coupling}
 
-\subsection{Anisotropy}
+The ideal case for creating large anisotropy is to approach first order spin orbit coupling regime. 
+First order spin orbit coupling arises when a two-fold degenerate ground state is formed from configuration with degenerate d-orbitals as represented on figure \ref{Fer_config} in case of $d^6$ configuration in $D_{5h}$ geometry.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/DiagOrbFed6.png}
+    \caption{Orbital diagram for $d^6$ configuration in ideal $D_{5h}$ geometry}
+    \label{Fer_config}
+\end{figure}
+
+These two states would be strongly coupled via 1$^{st}$order SOC resulting in a large splitting of the $M_S$ component of the ground state with a large value for the D term as strong as the spin orbit coupling constant.
+In reality a lift of degeneracy of the d orbitals is induced from the coordination sphere stabilising one of the two configurations, making it the main component of the ground state, and destabilising the other to an excited state.
+This loss of symmetry greatly reduces energy splitting of $M_S$ component and may induce rhombicity in the system. Nevertheless, the 
+The remaining anisotropy is the result of second order spin orbit coupling from the ground state with low-lying exicted states.
+This interaction stems from the excitation of an electron from a d orbital to a higher-energy orbital as depicted on figure \ref{excitattionanisotropie} and its magnitude rely on the difference in energy between the orbitals.
+Small energy differences (a few hundred cm$^{1}$) between the orbital allow to retrieve a contribution of 1$^{st}$order SOC increasing the value of D.
+It has then become an interest to find ligands that satisfy this condition of quasi-degeneracy of the d-orbital.
+
+With this in mind, a series of five Iron(II) complexes were synthesized in a heptacoordinated environment with different apical ligands.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/ComplexFe.XY.jpg}
+    \caption{Schematic representation of the complex with H atoms attached to carbon hidden}
+    \label{FeComplex}
+\end{figure}
+
+
+\section{Impact of the Electric field on the ZFS parameters}
+
+This chapter is the follow up of a previous study on a Nickel II complex exhibiting large axial anisotropy.
+This complex is formed from a tetradant ligand (hexathyl-2,2',2''-triamino-triethylamine) with three Nitrogens forming in plane bonds with the metal ion, the fourth Nitrogen forms a bond in the perpendicular plane as shown on figure \ref{NiMe6tren}.
+At the opposite of this fourth Nitrogen a halogen apical ligand is found, Chlorine or Bromine.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics{Images/NiMe6trenTalal.png}
+    \caption{Representation of the complex [Ni(Me6trenCl)](ClO4), Nickel in green, Chlorine in pink, Nitrogen in blue, Carbon in black and Hydrogen in white}
+    \label{NiMe6tren}
+\end{figure}
+
+Cristallographic data indicates that this complex crystallises in the trigonal space $R3c$ with a $C_3$ axis of symmetry along the Ni-Cl axis.
+This coordination induces a degeneracy of the d-orbital which share the same angular component $m_l$, \textit{i.e} $d_{xy}$($d{xz}$) and $d_{x^2-y^2}$($d_{yz}$). 
+This degeneracy gives rise to a two-fold degenerate ground state which are carried by the two configuration depicted on figure \ref{NiMe6tren_config} in the $C_3$ geometry. 
+These two states would be strongly coupled via first order spin orbit coupling resulting in a large splitting of the $M_S$ component of the ground state with a large value for the D term as strong as the spin orbit coupling constant of the nickel ion ($\xi_{Ni}$=644cm$^{-1}$).
+At this stage, a competiting effect appears, the Jahn-Teller effect which break the orbital degeneracy by deforming the ligand which in turn reduces the axial anisotropy and give rise to non-zero rhombic term (E$\neq$0).
+This distortion is confirmed by both eletron paramagnetic resonance (EPR) studies and theoretical study, this revokes the possibility of 1$^{st}$order SOC leaving only 2$^{nd}$order SOC at the origin of the anisotropy.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/NiMe6tren_config.png}
+    \caption{Energy diagrams of the d orbitals in case of three-fold symmetry $C_3$ (left) and in presence of Jahn-Teller distortion (right) with the induced lift of degeneracy of the d-orbitals. }
+    \label{NiMe6tren_config}
+\end{figure}
+
+The ground state is now mainly carried by the configuration shown on figure \ref{NiMe6tren_config} where the $d_{x^2-y^2}$ is simply occupied while the $d_{xy}$ stays doubly occupied.
+The concluding remark of this study was that this complex shows a large axial anisotropy with $D$\~-120cm$^{-1}$ and a significant rhombic term $E$=1.6cm$^{-1}$. 
+While the Jahn-Teller effect has a large impact on the values of anisotropic parameters, it is not able to completely negate them showing that the ligand rigidity is on par with the distortion.
+
+\par The focus of our study lies in the interest of controlling such anisotropy via an external stimulus such as an electric field.
+Indeed, while the effect of magnetic field on the different $M_S$ component is well known, it is practically impossible to focus a magnetic field at the nanoscale.
+This is not the case for electric field which allows very accurate control at this scale and can affect the magnetic properties of a material via Magneto-Electric couplings.
+\textit{Ab} \textit{initio} calculations allow for the appreciation of the Jahn-Teller distortion as well a the determination of the anisotropic parameters D and E as a function of the applied electric field.
+The rationalization of such mechanism comes from the analysis of the spin-orbit coupled wave-function and the contribution of the excited states to the ZFS both provided by the ORCA program.
+
+
+
+\chapter{Electric field on Exchange anisotropy}
+
+\chapter{Herbertsmithite}
+
+\subsection{DFT study}
+\subsubsection*{In-plane couplings}
+
+fragment trimère, présentation de la méthodologie + extraction d'une première valeur de J1
+
+Ouverture à des fragments plus grands, 9CU,12Cu,13Cu permettant l'introduction de couplage à plus longue distance ainsi que le calcul d'un plus grand nombre de solutions.
+Plein de système d'équation et donc plein d'extraction possible.
+
+ 9cu à écarter car trop de variance dûe au fait que les interaction font toutes intervenir des cuivres sur les bords.
+
+Pour 13 Cu, beaucoup de solutions prise en compte, grosse variance quand les solutions principalement ferromagnétique sont prise en compte.
+Si on les élimine, extraction consistante
+
+Resultats 2 derniers fragments.
+
+\subsubsection*{Out-of-plane coupling}
+Présence de défaut à hauteur de 15\%....
+
+création de trois fragments, un représentant la structure sans défaut, les deux autres avec changement intersite.
+Introduction du couplage J5
+Extraction ==> présence d'un couplage ferromagnétique important, de l'ordre de -0.5J1.
+CAS44 indique des résultats similaire quand on regarde les orbitales => ferromagnetisme clair.
+
+Nouveau couplage premier voisin
+
+\subsection{Wave-Function study}
+présentation fragments ainsi que les modèles HDVV avec différence d'énergien, écriture fonciton d'onde 
+Singulet/Triplet, Doublet/Quartet.
+
 
 \end{document}
