@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.2)  6 AUG 2025 16:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.2)  8 AUG 2025 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -441,20 +441,20 @@ Language: nil 2024/02/07 v24.2 Nil language
 )) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count309
@@ -485,15 +485,15 @@ Package caption Info: End \AtBeginDocument code.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
-* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=430.00462pt
-* \textheight=556.47656pt
-* \oddsidemargin=19.8752pt
-* \evensidemargin=19.8752pt
-* \topmargin=-16.3726pt
+* \textwidth=472.03123pt
+* \textheight=709.61174pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-69.09085pt
 * \headheight=14.49998pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -523,258 +523,164 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
  [2
 
-] [3] [4]
+] [3]
 Chapter 1.
 
-Overfull \hbox (2.62611pt too wide) in paragraph at lines 119--123
-\T1/cmr/m/n/14.4 moment aligned while negative indicate antiferromagnetism with opposite
+Overfull \hbox (24.6887pt too wide) in paragraph at lines 125--126
+[]\T1/cmr/m/n/14.4 The $\OML/cmm/m/it/14.4 J$ \T1/cmr/m/n/14.4 constant is defined as an effective integral as it involves several mechanisms: 
  []
 
-[5
+[4
 
 ]
-Overfull \hbox (19.67975pt too wide) in paragraph at lines 128--129
-[]\T1/cmr/m/n/14.4 Super-exchange where a diamagnetic bridging ligand open new pathway
+Overfull \hbox (0.57729pt too wide) in paragraph at lines 152--156
+\T1/cmr/m/n/14.4 determinantal functions opening up the extraction to new computation methods.
  []
 
 
-Overfull \hbox (10.0964pt too wide) in paragraph at lines 135--139
-\T1/cmr/m/n/14.4 This expression shows the competition between a ferromagnetic component
+Overfull \hbox (22.28307pt too wide) in paragraph at lines 159--162
+\T1/cmr/m/n/14.4 system that cannot be described only by eq(1.1.1[]). More specifically on mononuclear
  []
 
-
-Overfull \hbox (3.30733pt too wide) in paragraph at lines 135--139
-\T1/cmr/m/n/14.4 ( direct exchange $\OML/cmm/m/it/14.4 K$\T1/cmr/m/n/14.4 >0) and an antiferromagnetic one (indirect exchange).
- []
-
-
-Overfull \hbox (20.64374pt too wide) in paragraph at lines 135--139
-\T1/cmr/m/n/14.4 and requires going up to fourth-order pertubation giving a similar expression: 
+[5]
+Overfull \hbox (0.26741pt too wide) in paragraph at lines 172--175
+\T1/cmr/m/n/14.4 This tensor can be reduced to three parameters by diagonalization, $[]$ expressing
  []
 
 [6]
-Overfull \hbox (26.358pt too wide) in paragraph at lines 151--155
-\T1/cmr/m/n/14.4 advantage of this approximation is that the eigenfunctions of this Hamiltonian
+Overfull \hbox (8.2623pt too wide) in paragraph at lines 223--225
+\T1/cmr/m/n/14.4 Opening the study to multiple magnetic center introduces weak couplings between
  []
 
-[7]
-Overfull \hbox (23.61485pt too wide) in paragraph at lines 192--198
+
+Overfull \hbox (14.48221pt too wide) in paragraph at lines 236--239
+\T1/cmr/m/n/14.4 called Dzyaloshinskii-Moriya pseudo-vector interaction. The matrix representation
+ []
+
+
+Overfull \hbox (51.83282pt too wide) in paragraph at lines 240--248
  [] 
  []
 
-
-Overfull \hbox (13.18225pt too wide) in paragraph at lines 202--209
- [] 
- []
-
-[8]
-Overfull \hbox (9.41234pt too wide) in paragraph at lines 235--238
-\T1/cmr/m/n/14.4 Hamiltonian from (1.1.1[]). The two following terms describe the anisotropic
- []
-
-
-Overfull \hbox (18.70529pt too wide) in paragraph at lines 235--238
-\T1/cmr/m/n/14.4 exchange with the symmetric tensor of exchange $[][]$ and the antisymmetric
- []
-
-
-Overfull \hbox (7.47746pt too wide) in paragraph at lines 235--238
-\T1/cmr/m/n/14.4 exchange $\OT1/cmr/bx/n/14.4 d[]$ \T1/cmr/m/n/14.4 also called Dzyaloshinskii-Moriya pseudo-vector interaction.
- []
-
-[9]
-Overfull \hbox (93.85944pt too wide) in paragraph at lines 239--247
- [] 
- []
-
-[10]
-Overfull \hbox (56.91747pt too wide) detected at line 276
+[7] [8]
+Overfull \hbox (14.89085pt too wide) detected at line 277
 [][] \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4 ^^@ [] r[] ^^@ [] []r[] ^^@ [] [] [] \OT1/cmr/m/n/14.4 + [] [] [] + [] [] []
  []
 
-[11]
-Overfull \hbox (28.27246pt too wide) in paragraph at lines 304--307
-\T1/cmr/m/it/14.4 i.e \T1/cmr/m/n/14.4 some orbitals are singly occupied necessiting the application of unrestricted
+
+Overfull \hbox (11.02011pt too wide) in paragraph at lines 287--290
+[]\T1/cmr/m/n/14.4 This Hamiltonian describes the electronic problem while the nuclei contribution
+ []
+
+[9]
+Overfull \hbox (14.88141pt too wide) in paragraph at lines 321--324
+\T1/cmr/m/n/14.4 Where $\OML/cmm/m/it/14.4 ^^_[]$ \T1/cmr/m/n/14.4 are spin orbitals and the variable $\OML/cmm/m/it/14.4 x[] \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 r[]; ![]\OMS/cmsy/m/n/14.4 g$\T1/cmr/m/n/14.4 , it involves all combination
+ []
+
+
+Overfull \hbox (4.63545pt too wide) in paragraph at lines 335--338
+\T1/cmr/m/n/14.4 equation are non-linear and will be solved iteratively following a $\OML/cmm/m/it/14.4 Self$ $Consistent$
+ []
+
+<Images/EspaceCAS.png, id=54, 657.45625pt x 392.46625pt>
+File: Images/EspaceCAS.png Graphic file (type png)
+<use Images/EspaceCAS.png>
+Package pdftex.def Info: Images/EspaceCAS.png  used on input line 348.
+(pdftex.def)             Requested size: 377.62642pt x 225.42679pt.
+
+Overfull \hbox (13.52675pt too wide) in paragraph at lines 342--359
+\T1/cmr/m/n/14.4 separeted in three sub-space. The inactive orbitals are doubly occupied throughout
+ []
+
+[10] [11 <./Images/EspaceCAS.png>]
+Overfull \hbox (2.92607pt too wide) in paragraph at lines 380--386
+\T1/cmr/m/n/14.4 To get a full picture of the dynamic correlation one has to go to Multi-Referential-
  []
 
 [12]
-Overfull \hbox (29.02177pt too wide) in paragraph at lines 309--312
-\T1/cmr/m/n/14.4 wave-function is constructed on the optimisation of a single Slater determinant
- []
-
-
-Overfull \hbox (9.0613pt too wide) in paragraph at lines 320--323
-\T1/cmr/m/n/14.4 shorthand notation for such determinant $\OT1/cmr/m/n/14.4 	(\OML/cmm/m/it/14.4 x[]; x[]; [] ; x[]\OT1/cmr/m/n/14.4 ) = []$
- []
-
-[13]
-<Images/EspaceCAS.png, id=67, 657.45625pt x 392.46625pt>
-File: Images/EspaceCAS.png Graphic file (type png)
-<use Images/EspaceCAS.png>
-Package pdftex.def Info: Images/EspaceCAS.png  used on input line 347.
-(pdftex.def)             Requested size: 344.005pt x 205.35318pt.
-
-Overfull \hbox (10.04036pt too wide) in paragraph at lines 341--358
-\T1/cmr/m/n/14.4 Hartree-Fock theory where two types of orbitals (occupied and unoccupied)
- []
-
-
-Overfull \hbox (16.56657pt too wide) in paragraph at lines 341--358
-\T1/cmr/m/n/14.4 space. The inactive orbitals are doubly occupied throughout the calculation,
- []
-
-
-Overfull \hbox (13.19887pt too wide) in paragraph at lines 341--358
-\T1/cmr/m/n/14.4 orbitals becomes crucial. One usually starts from a set of orbitals previously
- []
-
-[14] [15 <./Images/EspaceCAS.png>]
-Overfull \hbox (8.3592pt too wide) in paragraph at lines 362--364
-\T1/cmr/m/n/14.4 Perturbative treatment can be applied to extract the dynamical correlation
- []
-
-
-Overfull \hbox (1.00455pt too wide) in paragraph at lines 362--364
-\T1/cmr/m/n/14.4 state perturbation theory). Both of these methods rely on the assumption
- []
-
-
-Overfull \hbox (28.95654pt too wide) in paragraph at lines 370--376
-\T1/cmr/m/n/14.4 These two method mainly differs from their chose of zeroth-order Hamiltonian,
- []
-
-[16]
-<Images/DDCI.png, id=79, 851.18pt x 576.1525pt>
+<Images/DDCI.png, id=67, 851.18pt x 576.1525pt>
 File: Images/DDCI.png Graphic file (type png)
 <use Images/DDCI.png>
-Package pdftex.def Info: Images/DDCI.png  used on input line 388.
-(pdftex.def)             Requested size: 344.005pt x 232.85695pt.
+Package pdftex.def Info: Images/DDCI.png  used on input line 389.
+(pdftex.def)             Requested size: 377.62642pt x 255.60901pt.
+ [13 <./Images/DDCI.png>]
+Overfull \hbox (3.77913pt too wide) in paragraph at lines 435--437
+\T1/cmr/m/n/14.4 Where $\OML/cmm/m/it/14.4 T[]\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.4 ^^Z\OT1/cmr/m/n/14.4 ]$ \T1/cmr/m/n/14.4 is the non interacting kinetic energy functional of density $\OML/cmm/m/it/14.4 ^^Z$ \T1/cmr/m/n/14.4 expressed
+ []
 
-Overfull \hbox (11.87265pt too wide) in paragraph at lines 392--396
-\T1/cmr/m/n/14.4 Dedicated-Configurational-Interaction (DDCI). Three sub-variant of DDCI
+[14] [15]
+Overfull \hbox (1.77844pt too wide) in paragraph at lines 476--477
+\T1/cmr/m/n/14.4 charges, this allows to reduce the $\OML/cmm/m/it/14.4 R[]$ \T1/cmr/m/n/14.4 to a few angstrom around the fragment. 
  []
 
 
-Overfull \hbox (2.98808pt too wide) in paragraph at lines 392--396
-\T1/cmr/m/n/14.4 involving bridging ligand requires the use of the DDCI3 method to provide
+Overfull \hbox (22.05428pt too wide) in paragraph at lines 491--492
+[]\T1/cmr/m/n/14.4 Starting from the Schrodinger equation with the Born-Oppenheimer Hamiltonian
  []
 
-[17]
-Overfull \hbox (8.23936pt too wide) in paragraph at lines 403--405
-\T1/cmr/m/n/14.4 single Slater determinant obtained from the determination of the electronic
- []
-
-[18 <./Images/DDCI.png>]
-Overfull \hbox (28.7888pt too wide) in paragraph at lines 429--432
-\T1/cmr/m/n/14.4 the interacting system with a fictious system of N non interacting electronsThe
- []
-
-[19]
-Overfull \hbox (3.69652pt too wide) in paragraph at lines 439--441
-\T1/cmr/m/n/14.4 The Hartree-potential $\OML/cmm/m/it/14.4 J\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.4 ^^Z\OT1/cmr/m/n/14.4 ]$ \T1/cmr/m/n/14.4 gives the coulomb repulstion between electrons
- []
-
-
-Overfull \hbox (6.64554pt too wide) in paragraph at lines 448--454
-\T1/cmr/m/n/14.4 the years multiple attempts have been made to find an universal expression
- []
-
-
-Overfull \hbox (3.19879pt too wide) in paragraph at lines 457--465
-\T1/cmr/m/n/14.4 In the case of molecules, the study of magnetic anisotropy is well described
- []
-
-[20] [21]
-Overfull \hbox (12.96544pt too wide) in paragraph at lines 483--487
-\T1/cmr/m/n/14.4 along a large number of Slater determinant making its analysis complicated.
- []
-
-[22]
-Overfull \hbox (17.81131pt too wide) in paragraph at lines 511--513
-\T1/cmr/m/n/14.4 proposed by Des Cloizeaux where the vectors are symmetrically orthonalized
- []
-
-[23] [24]
+[16] [17] [18]
 Chapter 2.
-
-Overfull \hbox (9.14188pt too wide) in paragraph at lines 532--538
-\T1/cmr/m/n/14.4 models and computational methodology. Numerous studies were dedicated
- []
-
-
-Overfull \hbox (14.16197pt too wide) in paragraph at lines 532--538
-\T1/cmr/m/n/14.4 to the application of the ZFS model Hamiltonian on mononuclear complexes
- []
-
-
-Overfull \hbox (8.71048pt too wide) in paragraph at lines 542--544
-\T1/cmr/m/n/14.4 degenerate d-orbitals as represented on figure 2.1[] in case of $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 configuration
- []
-
-<Images/DiagOrbFed6.png, id=108, 350.30875pt x 247.92625pt>
+<Images/DiagOrbFed6.png, id=89, 447.6725pt x 241.90375pt>
 File: Images/DiagOrbFed6.png Graphic file (type png)
 <use Images/DiagOrbFed6.png>
-Package pdftex.def Info: Images/DiagOrbFed6.png  used on input line 547.
-(pdftex.def)             Requested size: 215.0023pt x 152.1692pt.
+Package pdftex.def Info: Images/DiagOrbFed6.png  used on input line 551.
+(pdftex.def)             Requested size: 236.01561pt x 127.53658pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `excitattionanisotropie' on page 25 undefined on input line 556.
+LaTeX Warning: Reference `excitattionanisotropie' on page 19 undefined on input line 561.
 
-[25
+[19
 
 ]
-<Images/ComplexFe.XY.jpg, id=112, 396.48125pt x 217.81375pt>
+<Images/ComplexFe.XY.jpg, id=93, 396.48125pt x 217.81375pt>
 File: Images/ComplexFe.XY.jpg Graphic file (type jpg)
 <use Images/ComplexFe.XY.jpg>
-Package pdftex.def Info: Images/ComplexFe.XY.jpg  used on input line 563.
-(pdftex.def)             Requested size: 215.0023pt x 118.1162pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (11.27652pt too wide) in paragraph at lines 569--569
-[]\T1/cmr/bx/n/17.28 Impact of the Electric field on the ZFS parameters 
- []
-
-
-Overfull \hbox (2.55469pt too wide) in paragraph at lines 571--574
-\T1/cmr/m/n/14.4 exhibiting large axial anisotropy. This complex is formed from a tetradant
- []
-
-
-Overfull \hbox (25.7549pt too wide) in paragraph at lines 571--574
-\T1/cmr/m/n/14.4 ligand (hexathyl-2,2',2''-triamino-triethylamine) with three Nitrogens forming
- []
-
-[26 <./Images/DiagOrbFed6.png>]
-<Images/NiMe6trenTalal.png, id=119, 144.54pt x 123.1875pt>
+Package pdftex.def Info: Images/ComplexFe.XY.jpg  used on input line 568.
+(pdftex.def)             Requested size: 236.01561pt x 129.66226pt.
+ [20 <./Images/DiagOrbFed6.png> <./Images/ComplexFe.XY.jpg>]
+<Images/NiMe6trenTalal.png, id=100, 144.54pt x 123.1875pt>
 File: Images/NiMe6trenTalal.png Graphic file (type png)
 <use Images/NiMe6trenTalal.png>
-Package pdftex.def Info: Images/NiMe6trenTalal.png  used on input line 577.
+Package pdftex.def Info: Images/NiMe6trenTalal.png  used on input line 583.
 (pdftex.def)             Requested size: 144.53963pt x 123.1872pt.
- [27 <./Images/ComplexFe.XY.jpg> <./Images/NiMe6trenTalal.png>]
-<Images/NiMe6tren_config.png, id=124, 615.29875pt x 297.11pt>
+<Images/NiMe6tren_config.png, id=101, 615.29875pt x 297.11pt>
 File: Images/NiMe6tren_config.png Graphic file (type png)
 <use Images/NiMe6tren_config.png>
-Package pdftex.def Info: Images/NiMe6tren_config.png  used on input line 591.
-(pdftex.def)             Requested size: 215.0023pt x 103.81778pt.
- [28 <./Images/NiMe6tren_config.png>] [29]
+Package pdftex.def Info: Images/NiMe6tren_config.png  used on input line 597.
+(pdftex.def)             Requested size: 236.01561pt x 113.9638pt.
+ [21 <./Images/NiMe6trenTalal.png>] [22 <./Images/NiMe6tren_config.png>]
 Chapter 3.
-[30
+[23
 
 ]
 Chapter 4.
-[31
+[24
 
 ]
-Overfull \hbox (28.90991pt too wide) in paragraph at lines 638--640
-\T1/cmr/m/n/14.4 présentation fragments ainsi que les modèles HDVV avec différence d'énergien,
+<Images/FragmentDFT_plan.png, id=117, 784.9325pt x 368.37625pt>
+File: Images/FragmentDFT_plan.png Graphic file (type png)
+<use Images/FragmentDFT_plan.png>
+Package pdftex.def Info: Images/FragmentDFT_plan.png  used on input line 654.
+(pdftex.def)             Requested size: 377.62642pt x 177.22891pt.
+ [25 <./Images/FragmentDFT_plan.png>]
+<Images/ModeleDFT_plan.png, id=123, 276.7941pt x 126.11115pt>
+File: Images/ModeleDFT_plan.png Graphic file (type png)
+<use Images/ModeleDFT_plan.png>
+Package pdftex.def Info: Images/ModeleDFT_plan.png  used on input line 692.
+(pdftex.def)             Requested size: 377.62642pt x 172.05922pt.
+
+Overfull \hbox (14.97298pt too wide) in paragraph at lines 715--717
+[]\T1/cmr/m/n/14.4 These results highlight the mainly antiferromagnetic nature of these interactions
  []
 
-[32] (./main.aux)
+[26 <./Images/ModeleDFT_plan.png>]
+Overfull \hbox (4.74213pt too wide) in paragraph at lines 724--728
+\T1/cmr/m/n/14.4 indique des résultats similaire quand on regarde les orbitales => ferromagnetisme
+ []
+
+[27] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -785,18 +691,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17946 strings out of 474116
- 344872 string characters out of 5743682
- 1941187 words of memory out of 5000000
- 39994 multiletter control sequences out of 15000+600000
+ 17962 strings out of 474116
+ 345365 string characters out of 5743682
+ 1944187 words of memory out of 5000000
+ 40010 multiletter control sequences out of 15000+600000
  578639 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,12n,93p,470b,387s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (33 pages, 543732 bytes).
+Output written on main.pdf (28 pages, 1040616 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
+ 220 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

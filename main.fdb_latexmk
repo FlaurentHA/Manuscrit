@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1754491682.57002 "/Users/fheully/Thèse/Manuscrit/main.tex" "main.pdf" "main" 1754491683.34373 0
-  "/Users/fheully/Thèse/Manuscrit/main.tex" 1754491681.12433 44707 c040a6aeab3fcaf3f3e0afef9e5f23b2 ""
+["pdflatex"] 1754662765.1879 "/Users/fheully/Thèse/Manuscrit/main.tex" "main.pdf" "main" 1754662766.17927 0
+  "/Users/fheully/Thèse/Manuscrit/main.tex" 1754662764.93746 52912 ec54fd6d60a57381377fe47d816ef02f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -179,13 +179,15 @@
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "Images/ComplexFe.XY.jpg" 1754489758.04547 11699 41ee8f9b4415f17709b2011cbe882910 ""
   "Images/DDCI.png" 1754055478.4415 151238 3b81982eadf8d19af5d2cb37608ed4f0 ""
-  "Images/DiagOrbFed6.png" 1754490879.44404 36813 ac7b470925a7d272c65120142c18670e ""
+  "Images/DiagOrbFed6.png" 1754494694.73367 44216 d36e616d8fd5ae34635b64dee3183f70 ""
   "Images/EspaceCAS.png" 1753891368.48324 69236 e4e838d7bd7750e16a770a9f856b20b2 ""
+  "Images/FragmentDFT_plan.png" 1754573079.6623 524789 5c07ff8ef038139af59bf4916a270f45 ""
+  "Images/ModeleDFT_plan.png" 1754575045 24562 d7a914db2b209ab0674097e743175245 ""
   "Images/NiMe6trenTalal.png" 1754318947.37419 68153 f9f653032636f786c2fc85f421ce9dad ""
   "Images/NiMe6tren_config.png" 1754389250.5483 63750 e7a9b2d197198932778866a68e8b8edf ""
-  "main.aux" 1754491683.25765 4713 72da79f495ae203c5eff033b22d969cf "pdflatex"
-  "main.tex" 1754491681.12433 44707 c040a6aeab3fcaf3f3e0afef9e5f23b2 ""
-  "main.toc" 1754491683.25846 1651 888e739f823779488fce79f05619b15a "pdflatex"
+  "main.aux" 1754662766.08463 5189 b2b7e8e60152348c43f72276f1624994 "pdflatex"
+  "main.tex" 1754662764.93746 52912 ec54fd6d60a57381377fe47d816ef02f ""
+  "main.toc" 1754662766.08529 1650 6f1fbdb62c512b37609279f26bb540c7 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
