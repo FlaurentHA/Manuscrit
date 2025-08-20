@@ -16,6 +16,8 @@
 \usepackage{setspace}               % for LINE SPACING
 \usepackage{physics}
 \usepackage{braket}
+\usepackage{array}
+\usepackage{multirow}
 \usepackage{hyperref}
 \numberwithin{equation}{section}
 
@@ -509,6 +511,7 @@ The centre of the study is the metallic ions, charged positively, forming ionic 
 A correct description of these magnetic centre requires to include all closest neighbors which makes the overall fragment negatively charged.
 The ions at the border of the fragment, replaced by point charges, are then positive. This induces a polarization of the electron density of the anions bordering the cluster.
 To avoid the electrons escaping the fragment, pseudo-potentials are placed at the lattice sites near the fragment to act as walls which prevent electrons from approaching these positive charges as if they were real atoms.
+These potentials are called Total-Ion-Potentials (TIPS) and can be either \textit{ab} \textit{initio} model potential (AIMP) or Effective Core Potential (ECP) depending on which Quantum Chemistry software is used.
 
 Two procedure were explored to create such embedding:
 \begin{itemize}
@@ -516,7 +519,6 @@ Two procedure were explored to create such embedding:
     \item[(2)] Optimised point charges were obtained using Ewal Summation from formal charges, this allows to reduce the $R_c$ to a few angstrom around the fragment.
 \end{itemize}
 
-These potentials are called Total-Ion-Potentials (TIPS) and can be either \textit{ab} \textit{initio} model potential (AIMP) or Effective Core Potential (ECP) depending on which Quantum Chemistry software is used.
 All of this is done to ensure that the properties extracted from the fragment, \textit{i.e} a finite system, are a good representation of the crystal properties, \textit{i.e} an infinite system.
 
 \subsection{Effective Hamiltonian}
@@ -602,6 +604,7 @@ Small energy differences (a few hundred cm$^{-1}$) between the orbital allow to 
 It has then become an interest to find ligands that satisfy this condition of quasi-degeneracy of the d-orbital.
 
 With this in mind, a series of five Iron(II) complexes were synthesized in a heptacoordinated environment with different apical ligands (X and Y position in figure \ref{FeComplex}).
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.5\textwidth]{Images/ComplexFe.XY.jpg}
@@ -668,7 +671,7 @@ The Hamiltonian used to rationalize the SOC is given by $\hat{H}^{SO}=\sum_{i} \
 The two lowest triplet are formed primarily from orbitals that are combination of $m_l$=$\pm$2, the resulting SOC then originate only from the $\hat{l}_z^i\hat{s}_z^i$ part of the Hamiltonian between the $m_s$=$\pm$1 of each triplet.
 This coupling tends to stabilise the $m_s$=$\pm$1 of the $T_0$ ground state without affecting the $m_s$=0 component, which gives a negative contribution to the D term.
 This contribution can be estimated at second order perturbation:
-\begin{equation}
+\begin{equation}\label{ContrPert}
     C(D)^{(2)}=-\frac{|\bra{T^0_{\pm1}}\hat{H}^SO\ket{T^1_{\pm1}}|^2}{\Delta E}
 \end{equation}
 With $\Delta E = E(T^1)-E(T^0)$ being the energy difference between the two states.
@@ -678,8 +681,135 @@ As the difference in energy is relatively small, a better treatment of this cont
 \end{equation}
 Where $|SOC|^2$ is the square value of the off-diagonal term in $\hat{H}^{SO}$ between ground and excited components.
 Other states may contribute positively or negatively to the overvalue value of D, their contribution can be obtained the same way. 
-However the variation of the electric field has almost no impact on those other contributions, as such they will be left out of the rationalization.
+These contributions are also provided by the ORCA program, to approach the actual value of D one needs to sum all these contributions.
+However the variation of the electric field has almost no impact on the contributions from the excited state other than $T^1_{\pm1}$, as such they will be left out of the rationalization.
+A rationalization of the rhombic term E will be done but as the sum of the contributions provided by the program do not match the overall variation of the E term the analysis will be done using the wave-function
 
+\subsection{Computational Informations}
+Wave function based calculations have been performed using the ORCA package.
+In a first place, Complete Active Space Self-Consistent Field calculations have been performed to account for non-dynamic correlations. 
+The CAS(8,5) active space contains 8 electrons in the 5 essentially 3d orbitals of the Ni(II) ion, and two sets of orbitals have been optimized using an average procedure over all triplet and all singlet states of the configuration.
+To account for dynamic correlations at the 2nd order of perturbation, NEVPT217 calculations have been carried out for all states. 
+The Spin-orbit State-Interaction method was then used to account for Spin-Orbit Couplings SOCs between the Ms components of all spin states using the NEVPT2 correlated energies as diagonal elements of the SO matrix. 
+ZFS parameters were extracted using a procedure18 based on the effective Hamiltonian theory which proved to provide accurate values of the anisotropic parameters. 
+The QZVPP extended basis sets21 have been used for Ni atoms (14s10p5d4f2g), SVP for H (2s1p) and TZVP for all other atoms (6s3p2d1f for N, 8s4p2d1f for Cl and 6s3p2d1f for C). 
+As the field may change the geometrical structure, geometry optimizations were performed for different values and orientations of the field. 
+We used the Hay-Wadt LanL2TZ(f) basis set for Ni and its corresponding relativistic effective core, Pople triple-$\zeta$ basis set (6-311G) for N24 and Cl25 atoms, a Pople double-$\zeta$ plus polarization basis set (6-31G*)26 for C atoms, and a Pople double-$\zeta$ basis set (6-31G) for H atoms26 and the B3LYP functional.
+Convergence thresholds for geometry optimization were set as VERYTIGHT.
+
+The field will be applied in the two opposite directions referred as positive +F and negative –F with a maximal amplitude of |F|= 1.028.109 V.m-1.
+The positive direction for the field in the Z direction induces an elongation of the Ni2+-Cl- bond, i.e., the positive region of the electric potential is above Cl- in Figure 1. 
+The positive direction for the field in the Y direction induces an elongation of the Ni2+-N3, i.e., the positive region of the electric potential is to the right of N3 in Figure 1a.
+
+\subsection{Application of the electric field along the Z axis}
+
+First we consider the field F along the Z axis, which carry the main component of the dipolar moment (Table \ref{MomentDipolaireZ}).
+Figure \ref{GSE_Z} shows the energy of the ground state as a function of the electric field for the three cases of calculation.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\textwidth]{Images/E_Z_grand.png}
+    \caption{Energies in cm-1 (shifted by 58.35795.107 cm$^{-1}$) of the ground state obtained for the cases (a) (in blue and plain line), (b)
+    (in orange and dotted line) and (c) (in red and dashed line) as functions of the field applied in the Z direction.}
+    \label{GSE_Z}
+\end{figure}
+
+The variation of case (a) is linear with reference to the field $F$ as expected from Stark effect.
+In case (b) the energy follows a parabolic curves as the electric field is only a weak perturbation to the equilibrium geometry found a $F=0V.m^{-1}$, the curvature being very small comapred to the variation from case (a) the overall behavior case (c) follows the eletronic effects (a).
+
+
+
+%\begin{figure}[!h]
+%    \centering
+%    \includegraphics[width=\textwidth]{Images/D_E_Z.png}
+%    \caption{Axial D parameter as a function of the field applied in cases (a) (in blue and plain line), (b)
+%    (in orange and dotted line) and (c) (in red and dashed line) in the Z}
+%    \label{Ni_D_Z}
+%\end{figure}
+
+Figure \ref{fig:Ni_D_Z} shows the evolution of the $D$ paramter as a function of the applied field $F$.
+In all three case the absolute variation $|dD/dF|$ is linear, with a negative slope in case (a) and positive in (b) and (c).
+This shows that the geometric effects (b) have a stronger effect that the electric ones (a) on the variation of the $D$ value.
+The volution of the $E$ parameter is represented on figure \ref{fig:Ni_E_Z}, again the variation is linear to the field.
+Some deviation is observed for the geometric case (b) maily due to the lack of precision in calculating this specific property.
+Nonetheless the variation in case (b) is very small (<0.05 cm$^{-1}$) and the behavior of case (c) is now governed by the electronic effects with a negative absolute slope.
+
+\begin{figure}[!h]
+    \centering
+    \begin{subfigure}{.5\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{Images/D_E_Z.png}
+      \caption{Axial D paramter}
+      \label{fig:Ni_D_Z}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{Images/E_E_Z.png}
+      \caption{Rhombic E paramter}
+      \label{fig:Ni_E_Z}
+    \end{subfigure}
+    \caption{Evolution of the Axial D (left) and Rhombic E (right) parameters (in cm$^{-1}$) as a function of the field applied in cases (a) (in blue and plain line), (b)
+    (in orange and dotted line) and (c) (in red and dashed line) in the Z}
+    \label{fig:ParamNi_E_Z}
+\end{figure}
+
+Table \ref{Slope_D_Z} shows the absolute slopes $|dD/dF|$ and $|dE/dF|$ in all three cases of calculations, note that these slopes are additive with good precision.
+
+\begin{table}[!h]
+    \begin{tabular}{c | c c c c}
+        \hline
+        $Hz/(V.m^{-1})$ &  (a) Electronic structure & (b) Geometric structure & (c) Both & Sum of (a) and (b)\\
+        \hline
+        $|dD/dF|$ & -13.52	& +26.66& 	+13.15 & 	+13.14\\
+        $|dE/dF|$ &-2.53& 	-0.36& 	-2.88& 	-2.89\\
+    \end{tabular}
+    \caption{Slopes of the straight lines in cases (a), (b) and (c) for the D and E parameter for F//Z}
+    \label{Slope_D_Z}
+\end{table}
+
+To rationalize these results, the most important contributions to the D parameter C(D) were studied as reported in table \ref{tab:Contribution_Z}.
+As mentionned before, the main contribution comes from the first excited triplet, but it is also the most receptive contribution to the application of the field F with notable variation.
+Other states may have large contributions but small variation from $-F$ to $+F$, as these contribution are positive it is clear that the first excited triplet is the main source of the large axial D parameter in this system.
+
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c | c | c  c | c c |c |c}
+    \hline
+    \textbf{} & \textbf{Excited state} & \textbf{C(D) for -F} & \textbf{C(D) for +F} & $\Delta C(D)$ ORCA & $\Delta C(D)$ VAR. & $\Delta|\text{SOC}|^2$ & $\Delta(\Delta E)$ \\
+    \hline
+    \multirow{4}{*}{\textbf{(a)}} 
+     & T$_1$ & -179.18 & -180.06 & -0.88 & -0.82 & 1722.78 & -1.60 \\
+     & T$_2$ &  23.84 &  23.72 & -0.12 &        &          &       \\
+     & T$_3$ &  19.61 &  19.68 &  0.07 &        &          &       \\
+     & S$_3$ &  20.48 &  20.57 &  0.09 &        &          &       \\
+    \hline
+    \hline
+    \multirow{4}{*}{\textbf{(b)}} 
+     & T$_1$ & -180.95 & -178.25 &  2.70 &  2.70 & -209.90 & 36.2  \\
+     & T$_2$ &  23.82 &  23.72 & -0.10 &        &         &       \\
+     & T$_3$ &  19.71 &  19.58 & -0.13 &        &         &       \\
+     & S$_3$ &  20.55 &  20.51 & -0.04 &        &         &       \\
+    \hline
+    \hline
+    \multirow{4}{*}{\textbf{(c)}} 
+     & T$_1$ & -180.49 & -178.66 &  1.83 &  1.90 & 1509.15 & 34.7  \\
+     & T$_2$ &  23.88 &  23.66 & -0.22 &        &         &       \\
+     & T$_3$ &  19.67 &  19.61 & -0.06 &        &         &       \\
+     & S$_3$ &  20.51 &  20.56 &  0.05 &        &         &       \\
+    \hline
+    \end{tabular}
+    \caption{Contributions to the axial parameter D (in cm-1) of the most contributing excited states and their variations $\Delta$C(D) between the -$F$ and +$F$ in the Z direction either provided by ORCA or calculated variationally. $\Delta$|SOC|2 is the variation of the square of the module of the SOC between the ground and the first excited triplet states while $\Delta$($\Delta$E) is the variation between the -$F$ and +$F$ of their energy difference (in cm$^{-1}$) obtained at the NEVPT2 level.}
+    \label{tab:Contribution_Z}
+\end{table}
+
+The variation of the first excited triplet $\Delta C(D)_v{VAR}$ matches well with the one provided by ORCA indicating that one can use the variation of the SOC as well as the variation of the difference in energy $\Delta (\Delta E)$ for the analysis.
+Perturbative estimation of this contribution gives a slightly larger contribution ($-193 cm^{-1}$ at $F=0$) because the two lowest states are rather close in energy ($\approx 2166 cm^{-1}$) leaving the pertubation regime.
+In case (a), the difference in energy between the two lowest triplets states remain roughly the same leaving the variation of SOC as the leading factor in the change of $|D|$, as the soc increases so does $D$.
+The opposite is seen in case (b) where the leading factor is the change in energy of the two states. 
+The energy difference increases thus $|D|$ decreases as can be deduced from the perturbative expression of the contribution \ref{ContrPert}.
+The overall changes in $|D|$, case (c), follow the same behavior as case (b) as the energy difference remains the leading factor indicating that the geometrical structure dominates.
+The origin of this can be found in the 
 
 \chapter{Electric field on Exchange anisotropy}\label{chap:Cu2Cl5}
 
@@ -693,13 +823,16 @@ In order to achieve this, a procedure of extraction was developped to obtain the
 This procedure was tested on a simple model molecule composed of two $Cu{2+}$ ion with $Cl^-$ ions as ligands as represented on figure \ref{MolCu2Cl5}. 
 This system was chosen because of its simplicity, with only one magnetic electron per center and a reasonnable size it allows for simple analytical derivation and high level treatment of the correlation.
 Such a toy molecule can also be modeled to assess the impact of geometry, \textit{i.e} distances and angles, on these interactions.
-It was first determined how to create giant Dzyaloshinskii-Moriya interaction by modifying the $\theta$ angle.
+It was first determined how to create giant Dzyaloshinskii-Moriya interaction by acting on the $\theta$ angle resulting in the mixing of the Cartesian d-orbitals.
+
+
+
 
 \chapter{Herbertsmithite}
 
 introduction sur les liquides de spin
 
-\subsubsection*{Computational Informations}
+\subsection*{Computational Informations}
 
 The structure studied was taken from a X-ray study, the Hydrogen position were optimised using periodic DFT with PBE functional on the Quantum Espresso code.
 
@@ -712,7 +845,7 @@ The quality of the embedding was checked by comparing the value of $J_1$ using t
 The J1 values are in perfect agreement: 240K for periodic and 239K for embedded cluster. 
 As we will see below, these B3LYP values slightly overestimate the coupling but demonstrate the adequacy of the material model adopted in this study.
 
-\subsection{DFT study}
+\section{DFT study}
 
 In a first approximation, the isotropic behavior of Herbertsmithite is described by an unique first neighbor coupling. 
 The highly-correlated nature of such system suggests the possibility of longer range interaction between copper ions by one or more neighbor. 
@@ -728,7 +861,7 @@ It is then possible to obtains multiple solutions per fragments to make a connec
 Additionaly, the time necessary for a DFT calculation and for the derivation of its analytical solution allows for the exploration of different properties of the embedding such as the size of the fragments and overall quality of it.
 
 
-\subsubsection*{In-plane couplings}
+\subsection*{In-plane couplings}
 
 In a first description, a fragment presenting only the first neighbor coupling was introduced with three copper ions as shown on figure \ref{FragmentDFT}.
 Four solutions are possible to compute with $M_S$$\ge$$0$, first a $M_S=3/2$ where all magnetic moment of the Cu$^{2+}$ ions are aligned creating a fully ferromagnetic solution. 
@@ -801,7 +934,7 @@ The closest neighbor interaction $J_1$ is in good agreement with values publishe
 These results highlight the mainly antiferromagnetic nature of these interactions with a leading interaction $J_1$ at least two order of magnitude higher than the other.
 This confirm the the use of models composed of only one $J$ interaction, the negligenge of other couplings should cause no more than a small deviation.
 
-\subsubsection*{Out-of-plane coupling}
+\subsection*{Out-of-plane coupling}
 
 Another preoccupation of the model is the occupation disorder, cristallographic studies have identified two types of defects present at low-temperature. 
 First the substitution of the $Zn^{2+}$ inter-plane site with a $Cu^{2+}$ ion, estimated with a 0.15 occurance rate, and second an $Zn^{2+}$ entering the Kagome plane with a much smaller occurance rate (<0.05).
@@ -851,7 +984,7 @@ Due to this magnetic coupling, Herbertsmithtie might not be the perfect realisat
 \end{center}
 
 
-\subsection{Wave-Function Theory study}
+\section{Wave-Function Theory study}
 
 A second purpose of this study was the determination of anisotropic interaction in the crystal.
 The extraction of such interactions follows the same procedure as described in chapter \autoref{chap:Cu2Cl5}.
@@ -877,10 +1010,11 @@ The computation of SO-states being very computationally demanding, this extracti
     \end{figure}
 
 The first fragment, figure \ref{fig:subtrimer}, is similar to the one used for DFT calculation, with three copper ions arranged in an equilateral triangle. 
-A second fragment was designed by substituting one of the $Cu^{2+}$ with a diamagnetic $Zn^{2+}$.
-As the d shell of the zinc ion is completely filled it will not take part in the magnetic interactions, leaving us with essentially a dimer which capture the interaction of only two $Cu^{2+}$.
+A second fragment was designed by substituting one of the $Cu^{2+}$ with a diamagnetic $Zn^{2+}$, both share rather close structural properties (charge, mass, ionic radius).
+As the d shell of the zinc ion is completely filled it will not take part in the magnetic interactions, leaving us with essentially a dimer to capture the interaction of only two $Cu^{2+}$. 
+This approach has been studied in serveral other materials and we will see from the results that this substitution has little impact on the extracted values but can significally reduce ther overall study time.
 
-\subsubsection*{Isotropic Coupling}
+\subsection{Isotropic Coupling}
 
 To check the applicability of WFT calculation to this system, the first step was to try and reproduce the value of $J_1$.
 In both cluster, two type of active space were considered:
@@ -915,10 +1049,10 @@ CASSCF calculation tends to "over"-localise the wavefunction on the metallic cen
 As such it does not provides a good estimate but can nevertheless give information about the nature of the coupling.
 Table \ref{ResultatsWFT} shows the results obtained at multiple level of calculation for different active space.
 
-\begin{center}\label{ResultatsIntersite}
-    \begin{tabular}{c c c c c c }
+\begin{center}\label{ResultatsWFT}
+    \begin{tabular}{c m{8em} m{10em} c c c }
         \hline
-        $J_1 (K)$ & CAS(2,2)/CAS(3,3) & CAS(18,10)/CAS(27,15) & CASPT2 & DDCI1  & DDCI3  \\
+        $J_1 (K)$ & CAS(2,2) CAS(3,3) & CAS(18,10) CAS(27,15) & CASPT2 & DDCI1  & DDCI3  \\
         \hline
         Dimer & 10.7 & 8.3 & 69.8 & 50.0 & 80.1 \\
         Trimer & 8.2 & 7.7 & 56.0  & 50.7 & 60 \\
@@ -927,7 +1061,116 @@ Table \ref{ResultatsWFT} shows the results obtained at multiple level of calcula
 \end{center}
 
 
+\subsection{Anisotropic interactions}
+
+The computation of the isotropic couplings was a way to assertain the validity of our methods and calibration of the embedded cluster methods.
+The electronic structure of the compound seems to be well replicated with a satisfying extraction of the these coupling.
+The main purpose of this study can now be adressed, which is the extraction of anisotropic interactions.
+Theoretical model propose the inclusion of a weak Dzyaloshinskii-Moriya pseudo-vector along the out of plane direction to account for the behavior at low temperature but the symmetric tensor of anisotropy $\overline{\overline{D}}_{ij}$ is usually left out.
+Following the procedure explained in \ref{chap:Cu2Cl5}, all three components of the DMI were extracted as well as the $D_{ij}$-tensor.
+
+\subsubsection*{Bi-nuclear calculation}
+
+Starting from the CASSCF wave-function with the enlarge active space of all 18 copper d-shell electrons and the 10 d-orbitals, computation of the SO-states was performed using the SO-RASSI method implemented in MOLCAS.
+The lowest part of the energy spectrum was corrected using the isotropic coupling value previously obtained.
+No assumption on the magnetic axes were made and so the extracted of all anisotropic parameters (9 in total) was performed using effective hamiltonian theory with the following matrix representation of the model Hamiltonian in the coupled basis of Triplet and Singlet states.
+
+\begin{center}
+    \begin{tabular}{c | c c c c}
+        $H_{MS}$ & $\ket{1,-1}$ & $\ket{1,0}$ & $\ket{1,1}$ & $\ket{0,0}$\\
+        \hline
+        $\bra{1,-1}$ & $\frac{J}{4}+\frac{D_{zz}}{4}$ & $\frac{D_{xz}-iD_{yz}}{2\sqrt{2}}$ & $\frac{(D_{xx}-D_{zz}-2iD_{xy})}{4} $& $\frac{d_y+id_x}{2\sqrt{2}}$\\
+        $\bra{1,0}$ & $\frac{D_{xz}+iD_{yz}}{2\sqrt{2}}$ &$ \frac{J}{4} -\frac{D_{zz}}{4} +\frac{(D_{xx}+D_{yy})}{4}$& $-\frac{D_{xz}-iD_{yz}}{2\sqrt{2}}$ & -$\frac{id_z}{2}$ \\
+        $\bra{1,1}$ &$\frac{(D_{xx}-D_{zz}+2iD_{xy})}{4} $ & $-\frac{D_{xz}+iD_{yz}}{2\sqrt{2}}$ & $\frac{J}{4}+\frac{D_{zz}}{4}$ & $\frac{d_y-id_x}{2\sqrt{2}}$\\
+        $\bra{0,0}$ & $\frac{d_y-id_x}{2\sqrt{2}}$  & $\frac{id_z}{2}$  &$\frac{d_y+id_x}{2\sqrt{2}}$  & $-\frac{3J}{4}-\frac{D_{zz}}{4}-\frac{(D_{xx}+D_{yy})}{4}$\\
+    \end{tabular}
+\end{center}
+
+The values obtained for both interaction expressed in Kelvin in the axis system of the cluster are:
+
+\[ \overline{\overline{D}}_{ij} \left( \begin{array}{c c c}
+    1 & 0 & 0\\
+    0 & 1 & 0\\
+    0 & 0 & 1
+    \end{array} \right)
+    %
+    \qquad
+    \vb{d}_{ij}
+    \left( \begin{array}{c}
+    0  \\
+    4.73  \\
+    1.70
+    \end{array} \right)
+    \]
+    
+The symmetric tensor can be diagonalized to extract the $ D = - 0.46 K $ axial parameter and a small $ E = 0.13 K$ rhombic term. These values are small and should have only little impact on the magnetic properties of this system however the DMI components are non negligible. 
+The DMI value along the $x$-axis is naught, as expected from symmetry reason. 
+Note that the in-plane component (along the $y$-axis) is larger than the out of plane component (along the $z$-axis), this is result can be suprising but can be rationalized looking at the origins of the DMI component.
+It was demonstrated analyticaly that the DM-interaction comes from the hybdridization of the metal's d-orbitals. 
+It showed that:
+\begin{itemize}
+    \item a mixing between $ d_{x^2-y^2}$ and $ d_{yz}$ or $ d_{xy}$ and $d_{xz}$ generates a $ d_{x}$ component.
+    \item a mixing between $d_{x^2-y^2}$ and $ d_{xz}$ or $ d_{xy}$ and $d_{yz}$ generates a $ d_{y}$ component.
+    \item a mixing between $ d_{x^2-y^2}$ and $d_{xy}$ or $ d_{xz}$ and $d_{yz}$ generates a $ d_{z}$ component.
+\end{itemize}
+
+This mixing can be clearly observed on figure \ref{CAS22}, and from the expression of one of these magnetic orbitals on the Cartesian
+d-orbitals of one copper ion : $0.4889d_{x^2-y^2}+0.2120d_{xz}-0.2841d_{xy}-0.3666d_{yz}$.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{Images/CAS22.png}
+    \caption{CAS(2,2)SCF magnetic orbitals calculated on the dimer fragment}
+    \label{CAS22}
+\end{figure}
 
 
+Different configuration for the dimer cluster were explored to make sure the values extracted were not affected by which "couple" of $Cu^{2+}$ ions were chosen. 
+The extra zinc ion was swapped around all three in plane site followed by the same procedure of extraction the same out of plane $|d_{\perp}|$ value and the same projection in the $xy$ plane ($|d_{\parallel}|$)
+
+
+\subsubsection*{Trinuclear calculations}
+
+The extraction was then performed on the tri-nuclear fragment with an active space of 27 electrons in 15 orbitals.
+In the case of three magnetic center denoted byt their magnetic orbital, the model Hamiltonian is now written:
+
+
+\begin{equation}
+    \begin{split}
+    \hat{H}_{MS}=&J_{12} \hat{\vb S}_1 \cdot \hat{\vb S}_2 + \hat{\vb S}_1 \cdot\overline{\overline{D}}_{12} \cdot \hat{\vb S}_2 + \vb{d}_{12} \cdot (\hat{\vb S}_1 \cross \hat{\vb S}_2)\\
+    &J_{12} \hat{\vb S}_2 \cdot \hat{\vb S}_3 + \hat{\vb S}_2 \cdot\overline{\overline{D}}_{23} \cdot \hat{\vb S}_3 + \vb{d}_{23} \cdot (\hat{\vb S}_2 \cross \hat{\vb S}_3)\\
+    &J_{13} \hat{\vb S}_1 \cdot \hat{\vb S}_3 + \hat{\vb S}_1 \cdot\overline{\overline{D}}_{13} \cdot \hat{\vb S}_3 - \vb{d}_{13} \cdot (\hat{\vb S}_1 \cross \hat{\vb S}_3)
+    \end{split}
+\end{equation}
+
+Note the negative sing in front of the last term $d_{13}$ which originates from the permutation realtionship specific to the DMI ($d_{13}$=-$d_{31}$). On the other hand we set $J_{12}=J_{23}=J_{13}$ and let the $D_{ij}$-tensor be expressed in the axis system of the cluster with 6 paramaters each.
+First, we can obtain the matrix representation of this Hamiltonian in the basis of the determinant formed from the three magnetic orbitals on each site (a, b and c) located on each copper center:
+
+%%% Matrice dans la base découplée
+
+To express this matrix in the coupled basis, \textit{i.e} in the basis formed from the $m_s$ components of the quartet and two doublet states, one has to build the transofrmation matrix.
+This matrix can be obtained using the Clebsch-Gordan coefficients or by diagonalizing the HDvV Hamiltonian representation matrix and using the eigenvectors as the transition matrix.
+
+\begin{center}
+    \begin{tabular}{c | c c c c c c c c}
+        $U$ & $\ket{\frac{3}{2},\frac{3}{2}}$ & $\ket{\frac{3}{2},\frac{1}{2}}$ & $\ket{\frac{3}{2},-\frac{1}{2}}$ & $\ket{\frac{3}{2}\frac{3}{2}}$ & $\ket{\frac{1}{2},\frac{1}{2}}_1$ & $\ket{\frac{1}{2},-\frac{1}{2}}_1$ & $\ket{\frac{1}{2},\frac{1}{2}}_2$ & $\ket{\frac{1}{2},-\frac{1}{2}}_2$\\
+        \hline
+        $\bra{abc}$ &  1 & 0 & 0 & 0 & 0 & 0 & 0 &0  \\
+        $\bra{ab\overline{c}}$ &  0 & $\frac{1}{\sqrt{3}}$ & 0 & 0 & 0 &  0& $-\frac{2}{\sqrt{6}}$ &0   \\
+        $\bra{a\overline{b}c}$ & 0 &  $\frac{1}{\sqrt{3}}$& 0 & 0 & $-\frac{1}{\sqrt{2}}$ & 0 & $\frac{1}{\sqrt{6}}$ & 0 \\
+        $\bra{\overline{a}bc}$ &  0 & $\frac{1}{\sqrt{3}}$ &  0&  0 &  $\frac{1}{\sqrt{2}}$& 0& $\frac{1}{\sqrt{6}}$ & 0  \\
+        $\bra{a\overline{b}\overline{c}}$ & 0 & 0 & $\frac{1}{\sqrt{3}}$ &0  & 0 &0 &0 & $-\frac{2}{\sqrt{6}}$  \\
+        $\bra{\overline{a}b\overline{c}}$ &  0 & 0 & $\frac{1}{\sqrt{3}}$ & 0 & 0 & $-\frac{1}{\sqrt{2}}$ & 0 & $\frac{1}{\sqrt{6}}$ \\
+        $\bra{\overline{a}\overline{b}c}$ &  0  & 0 & $\frac{1}{\sqrt{3}}$ & 0 & 0 & $\frac{1}{\sqrt{2}}$ &0  & $\frac{1}{\sqrt{6}}$ \\
+        $\bra{\overline{a}\overline{b}\overline{c}}$ & 0 &0 & 0 & 1 & 0 & 0 & 0 & 0  
+    \end{tabular}
+\end{center}
+
+
+%%% Matrice dans la bases des etats couplés sans les 
+
+%commentaire couplage doublet mais pas quartets
+
+%%% Resultats, même chose que dans le binucléaire.
 
 \end{document}

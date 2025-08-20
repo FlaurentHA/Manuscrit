@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.2)  13 AUG 2025 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.2)  20 AUG 2025 12:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -387,7 +387,22 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box73
 ))
 Package: xparse 2024-02-18 L3 Experimental document command parser
-)) (/usr/local/texlive/2024/texmf-dist/tex/latex/braket/braket.sty) (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/braket/braket.sty) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen259
+\ar@mcellbox=\box74
+\extrarowheight=\dimen260
+\NC@list=\toks45
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box75
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip67
+\multirow@cntb=\count303
+\multirow@dima=\skip68
+\bigstrutjot=\dimen261
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
  (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
@@ -420,11 +435,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count303
+\c@section@level=\count304
 )
-\@linkdim=\dimen259
-\Hy@linkcounter=\count304
-\Hy@pagecounter=\count305
+\@linkdim=\dimen262
+\Hy@linkcounter=\count305
+\Hy@pagecounter=\count306
  (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -432,7 +447,7 @@ Now handling font encoding PD1 ...
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count306
+\Hy@SavedSpaceFactor=\count307
  (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -445,21 +460,21 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count307
+\c@Hy@tempcnt=\count308
  (/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen260
+\XeTeXLinkMargin=\dimen263
  (/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count308
-\Field@Width=\dimen261
-\Fld@charsize=\dimen262
+\Fld@menulength=\count309
+\Field@Width=\dimen264
+\Fld@charsize=\dimen265
 Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
@@ -471,9 +486,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count309
-\c@Item=\count310
-\c@Hfootnote=\count311
+\Hy@abspage=\count310
+\c@Item=\count311
+\c@Hfootnote=\count312
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -482,8 +497,8 @@ File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count312
-\c@bookmark@seq@number=\count313
+\Fld@listcount=\count313
+\c@bookmark@seq@number=\count314
  (/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -491,7 +506,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip65
+\Hy@SectionHShift=\skip69
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
@@ -499,86 +514,82 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count314
-\Gm@cntv=\count315
-\c@Gm@tempcnt=\count316
-\Gm@bindingoffset=\dimen263
-\Gm@wd@mp=\dimen264
-\Gm@odd@mp=\dimen265
-\Gm@even@mp=\dimen266
-\Gm@layoutwidth=\dimen267
-\Gm@layoutheight=\dimen268
-\Gm@layouthoffset=\dimen269
-\Gm@layoutvoffset=\dimen270
-\Gm@dimlist=\toks45
+\Gm@cnth=\count315
+\Gm@cntv=\count316
+\c@Gm@tempcnt=\count317
+\Gm@bindingoffset=\dimen266
+\Gm@wd@mp=\dimen267
+\Gm@odd@mp=\dimen268
+\Gm@even@mp=\dimen269
+\Gm@layoutwidth=\dimen270
+\Gm@layoutheight=\dimen271
+\Gm@layouthoffset=\dimen272
+\Gm@layoutvoffset=\dimen273
+\Gm@dimlist=\toks46
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/units/units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip66
-\L@UnitsRaiseTextstyle=\skip67
-\L@UnitsRaiseScriptstyle=\skip68
+\L@UnitsRaiseDisplaystyle=\skip70
+\L@UnitsRaiseTextstyle=\skip71
+\L@UnitsRaiseScriptstyle=\skip72
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip69
-\bibsep=\skip70
+\bibhang=\skip73
+\bibsep=\skip74
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count317
+\c@NAT@ctr=\count318
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/02/07 v24.2 The Babel package
-\babel@savecnt=\count318
-\U@D=\dimen271
+\babel@savecnt=\count319
+\U@D=\dimen274
 \l@unhyphenated=\language89
  (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read5
-\bbl@dirlevel=\count319
+\bbl@dirlevel=\count320
 Package babel Info: You haven't specified a language as a class or package
 (babel)             option. I'll load 'nil'. Reported on input line 4258.
  (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/nil.ldf
 Language: nil 2024/02/07 v24.2 Nil language
 \l@nil=\language90
-)) (./main.aux
-
-LaTeX Warning: Label `ResultatsIntersite' multiply defined.
-
-)
+)) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
-\scratchdimen=\dimen272
-\scratchbox=\box74
-\nofMPsegments=\count321
-\nofMParguments=\count322
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count323
-\MPscratchDim=\dimen273
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count321
+\scratchdimen=\dimen275
+\scratchbox=\box76
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count324
+\MPscratchDim=\dimen276
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -588,7 +599,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 78.
+Package hyperref Info: Link coloring OFF on input line 80.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -634,7 +645,7 @@ Package hyperref Info: Link coloring OFF on input line 78.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 \tableofcontents
+l.105 \tableofcontents
                        [1] (./main.toc
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -648,194 +659,234 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ] [3]
 Chapter 1.
 
-Overfull \hbox (1.37263pt too wide) in paragraph at lines 116--117
+Overfull \hbox (1.37263pt too wide) in paragraph at lines 118--119
 \T1/cmr/m/n/12 The most well-know Spin Hamiltonian used to describe the magnetic interaction between
  []
 
 
-Overfull \hbox (7.25516pt too wide) in paragraph at lines 130--131
+Overfull \hbox (7.25516pt too wide) in paragraph at lines 132--133
 []\T1/cmr/m/n/12 Super-exchange where a diamagnetic bridging ligand open new pathway for exchange
  []
 
 [4
 
 ] [5]
-<Images/SpectreZFS.png, id=164, 260.975pt x 265.99374pt>
+<Images/SpectreZFS.png, id=185, 260.975pt x 265.99374pt>
 File: Images/SpectreZFS.png Graphic file (type png)
 <use Images/SpectreZFS.png>
-Package pdftex.def Info: Images/SpectreZFS.png  used on input line 228.
+Package pdftex.def Info: Images/SpectreZFS.png  used on input line 230.
 (pdftex.def)             Requested size: 177.42868pt x 180.84088pt.
  [6] [7 <./Images/SpectreZFS.png>]
-Overfull \hbox (19.35187pt too wide) in paragraph at lines 279--287
+Overfull \hbox (19.75186pt too wide) in paragraph at lines 281--289
  [] 
  []
 
 [8] [9]
-Overfull \hbox (21.30725pt too wide) in paragraph at lines 370--373
+Overfull \hbox (21.30725pt too wide) in paragraph at lines 372--375
 \T1/cmr/m/n/12 bieletronic operator $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 and $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 describe the coulomb repulsion and exchange mechanism
  []
 
-<Images/EspaceCAS.png, id=210, 657.45625pt x 392.46625pt>
+<Images/EspaceCAS.png, id=230, 657.45625pt x 392.46625pt>
 File: Images/EspaceCAS.png Graphic file (type png)
 <use Images/EspaceCAS.png>
-Package pdftex.def Info: Images/EspaceCAS.png  used on input line 383.
+Package pdftex.def Info: Images/EspaceCAS.png  used on input line 385.
 (pdftex.def)             Requested size: 354.86412pt x 211.83878pt.
 
-Overfull \hbox (10.25244pt too wide) in paragraph at lines 377--394
+Overfull \hbox (10.25244pt too wide) in paragraph at lines 379--396
 \T1/cmr/m/n/12 double optimisation scheme can render the convergence troublesome, as such the definition
  []
 
 [10] [11 <./Images/EspaceCAS.png>]
-<Images/DDCI.png, id=226, 851.18pt x 576.1525pt>
+<Images/DDCI.png, id=246, 851.18pt x 576.1525pt>
 File: Images/DDCI.png Graphic file (type png)
 <use Images/DDCI.png>
-Package pdftex.def Info: Images/DDCI.png  used on input line 424.
+Package pdftex.def Info: Images/DDCI.png  used on input line 426.
 (pdftex.def)             Requested size: 354.86412pt x 240.20653pt.
  [12] [13 <./Images/DDCI.png>] [14]
-<Images/Bain.png, id=257, 419.5675pt x 365.365pt>
+<Images/Bain.png, id=277, 419.5675pt x 365.365pt>
 File: Images/Bain.png Graphic file (type png)
 <use Images/Bain.png>
-Package pdftex.def Info: Images/Bain.png  used on input line 503.
+Package pdftex.def Info: Images/Bain.png  used on input line 505.
 (pdftex.def)             Requested size: 221.78923pt x 193.1352pt.
  [15 <./Images/Bain.png>]
-Overfull \hbox (0.82468pt too wide) in paragraph at lines 516--517
+Overfull \hbox (0.82468pt too wide) in paragraph at lines 519--520
 []\T1/cmr/m/n/12 Optimised point charges were obtained using Ewal Summation from formal charges,
  []
 
-
-Overfull \hbox (4.90807pt too wide) in paragraph at lines 519--521
-\T1/cmr/m/n/12 model potential (AIMP) or Effective Core Potential (ECP) depending on which Quantum
- []
-
-
-Overfull \hbox (0.18686pt too wide) in paragraph at lines 519--521
-\T1/cmr/m/n/12 from the fragment, \T1/cmr/m/it/12 i.e \T1/cmr/m/n/12 a finite system, are a good representation of the crystal properties,
- []
-
 [16]
-Overfull \hbox (25.24405pt too wide) in paragraph at lines 552--554
+Overfull \hbox (25.24405pt too wide) in paragraph at lines 554--556
 []\T1/cmr/m/n/12 These eigenvectors are not necesserily orthogonal leading to a non-Hermitian Hamiltonian,
  []
 
 [17]
 Chapter 2.
 
-Overfull \hbox (2.09471pt too wide) in paragraph at lines 573--578
+Overfull \hbox (2.09471pt too wide) in paragraph at lines 575--580
 \T1/cmr/m/n/12 The field of mononuclear complexes is a perfect area for the study of magnetic anisotropy.
  []
 
-<Images/DiagOrbFed6.png, id=280, 447.6725pt x 241.90375pt>
+<Images/DiagOrbFed6.png, id=301, 447.6725pt x 241.90375pt>
 File: Images/DiagOrbFed6.png Graphic file (type png)
 <use Images/DiagOrbFed6.png>
-Package pdftex.def Info: Images/DiagOrbFed6.png  used on input line 590.
+Package pdftex.def Info: Images/DiagOrbFed6.png  used on input line 592.
 (pdftex.def)             Requested size: 221.78923pt x 119.84792pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `excitattionanisotropie' on page 18 undefined on input line 600.
+LaTeX Warning: Reference `excitattionanisotropie' on page 18 undefined on input line 602.
 
 [18
 
 ]
-<Images/ComplexFe.XY.jpg, id=289, 396.48125pt x 217.81375pt>
-File: Images/ComplexFe.XY.jpg Graphic file (type jpg)
-<use Images/ComplexFe.XY.jpg>
-Package pdftex.def Info: Images/ComplexFe.XY.jpg  used on input line 607.
-(pdftex.def)             Requested size: 221.78923pt x 121.84523pt.
-
-Overfull \hbox (30.52057pt too wide) in paragraph at lines 604--611
+Overfull \hbox (30.52057pt too wide) in paragraph at lines 606--607
 []\T1/cmr/m/n/12 With this in mind, a series of five Iron(II) complexes were synthesized in a heptacoordinated
  []
 
-<Images/NiMe6trenTalal.png, id=291, 144.54pt x 123.1875pt>
+<Images/ComplexFe.XY.jpg, id=309, 396.48125pt x 217.81375pt>
+File: Images/ComplexFe.XY.jpg Graphic file (type jpg)
+<use Images/ComplexFe.XY.jpg>
+Package pdftex.def Info: Images/ComplexFe.XY.jpg  used on input line 610.
+(pdftex.def)             Requested size: 221.78923pt x 121.84523pt.
+<Images/NiMe6trenTalal.png, id=311, 144.54pt x 123.1875pt>
 File: Images/NiMe6trenTalal.png Graphic file (type png)
 <use Images/NiMe6trenTalal.png>
-Package pdftex.def Info: Images/NiMe6trenTalal.png  used on input line 622.
+Package pdftex.def Info: Images/NiMe6trenTalal.png  used on input line 625.
 (pdftex.def)             Requested size: 144.53963pt x 123.1872pt.
 [19 <./Images/DiagOrbFed6.png> <./Images/ComplexFe.XY.jpg>]
-<Images/NiMe6tren_config.png, id=302, 615.29875pt x 297.11pt>
+<Images/NiMe6tren_config.png, id=322, 615.29875pt x 297.11pt>
 File: Images/NiMe6tren_config.png Graphic file (type png)
 <use Images/NiMe6tren_config.png>
-Package pdftex.def Info: Images/NiMe6tren_config.png  used on input line 636.
+Package pdftex.def Info: Images/NiMe6tren_config.png  used on input line 639.
 (pdftex.def)             Requested size: 221.78923pt x 107.09552pt.
 
-Overfull \hbox (21.49239pt too wide) in paragraph at lines 645--652
+Overfull \hbox (21.49239pt too wide) in paragraph at lines 648--655
 \T1/cmr/m/n/12 anisotropic parameters D and E as a function of the applied electric field. The rationalization
  []
 
 [20 <./Images/NiMe6trenTalal.png> <./Images/NiMe6tren_config.png>]
-Overfull \hbox (0.23596pt too wide) in paragraph at lines 656--657
+Overfull \hbox (0.23596pt too wide) in paragraph at lines 659--660
 []\T1/cmr/m/n/12 combined eletronic and geometric, both geometry optimisation and ZFS calculation
  []
 
-[21] [22]
+[21]
+Overfull \hbox (5.12303pt too wide) in paragraph at lines 689--699
+\T1/cmr/m/n/12 first place, Complete Active Space Self-Consistent Field calculations have been performed
+ []
+
+
+LaTeX Warning: Reference `MomentDipolaireZ' on page 22 undefined on input line 706.
+
+[22]
+<Images/E_Z_grand.png, id=346, 794.97pt x 614.295pt>
+File: Images/E_Z_grand.png Graphic file (type png)
+<use Images/E_Z_grand.png>
+Package pdftex.def Info: Images/E_Z_grand.png  used on input line 711.
+(pdftex.def)             Requested size: 443.57848pt x 342.77493pt.
+ [23 <./Images/E_Z_grand.png>]
+<Images/D_E_Z.png, id=357, 794.97pt x 614.295pt>
+File: Images/D_E_Z.png Graphic file (type png)
+<use Images/D_E_Z.png>
+Package pdftex.def Info: Images/D_E_Z.png  used on input line 741.
+(pdftex.def)             Requested size: 221.78923pt x 171.38278pt.
+<Images/E_E_Z.png, id=358, 794.97pt x 614.295pt>
+File: Images/E_E_Z.png Graphic file (type png)
+<use Images/E_E_Z.png>
+Package pdftex.def Info: Images/E_E_Z.png  used on input line 747.
+(pdftex.def)             Requested size: 221.78923pt x 171.38278pt.
+
+Overfull \hbox (55.31747pt too wide) in paragraph at lines 777--802
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24 <./Images/D_E_Z.png> <./Images/E_E_Z.png>] [25]
 Chapter 3.
 
-LaTeX Warning: Reference `MolCu2Cl5' on page 23 undefined on input line 693.
+LaTeX Warning: Reference `MolCu2Cl5' on page 26 undefined on input line 823.
 
-[23
+[26
 
 ]
 Chapter 4.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 715.
-
-[24
+[27
 
 ]
-Overfull \hbox (10.5745pt too wide) in paragraph at lines 733--737
+Overfull \hbox (10.5745pt too wide) in paragraph at lines 866--870
 \T1/cmr/m/n/12 In a first description, a fragment presenting only the first neighbor coupling was introduced
  []
 
-<Images/FragmentDFT_plan.png, id=337, 784.9325pt x 368.37625pt>
+<Images/FragmentDFT_plan.png, id=388, 784.9325pt x 368.37625pt>
 File: Images/FragmentDFT_plan.png Graphic file (type png)
 <use Images/FragmentDFT_plan.png>
-Package pdftex.def Info: Images/FragmentDFT_plan.png  used on input line 740.
+Package pdftex.def Info: Images/FragmentDFT_plan.png  used on input line 873.
 (pdftex.def)             Requested size: 354.86412pt x 166.54346pt.
-[25 <./Images/FragmentDFT_plan.png>]
-<Images/ModeleDFT_plan.png, id=347, 276.7941pt x 126.11115pt>
+[28 <./Images/FragmentDFT_plan.png>]
+<Images/ModeleDFT_plan.png, id=398, 276.7941pt x 126.11115pt>
 File: Images/ModeleDFT_plan.png Graphic file (type png)
 <use Images/ModeleDFT_plan.png>
-Package pdftex.def Info: Images/ModeleDFT_plan.png  used on input line 778.
+Package pdftex.def Info: Images/ModeleDFT_plan.png  used on input line 911.
 (pdftex.def)             Requested size: 354.86412pt x 161.68724pt.
- [26 <./Images/ModeleDFT_plan.png>]
-<Images/FragmentDefauts.png, id=357, 648.4225pt x 253.94875pt>
+ [29 <./Images/ModeleDFT_plan.png>]
+<Images/FragmentDefauts.png, id=408, 648.4225pt x 253.94875pt>
 File: Images/FragmentDefauts.png Graphic file (type png)
 <use Images/FragmentDefauts.png>
-Package pdftex.def Info: Images/FragmentDefauts.png  used on input line 822.
+Package pdftex.def Info: Images/FragmentDefauts.png  used on input line 955.
 (pdftex.def)             Requested size: 221.78923pt x 86.86067pt.
-<Images/ModeleDFT_interplan.png, id=358, 150.3216pt x 109.8504pt>
+<Images/ModeleDFT_interplan.png, id=409, 150.3216pt x 109.8504pt>
 File: Images/ModeleDFT_interplan.png Graphic file (type png)
 <use Images/ModeleDFT_interplan.png>
-Package pdftex.def Info: Images/ModeleDFT_interplan.png  used on input line 828.
+Package pdftex.def Info: Images/ModeleDFT_interplan.png  used on input line 961.
 (pdftex.def)             Requested size: 221.78923pt x 162.0849pt.
- [27 <./Images/FragmentDefauts.png> <./Images/ModeleDFT_interplan.png>]
-Overfull \hbox (5.771pt too wide) in paragraph at lines 856--859
+ [30 <./Images/FragmentDefauts.png> <./Images/ModeleDFT_interplan.png>]
+Overfull \hbox (5.771pt too wide) in paragraph at lines 989--992
 \T1/cmr/m/n/12 chapter []chapter 3[][]. The computation of SO-states being very computationally demanding,
  []
 
-<Images/Trimere.jpg, id=372, 548.0475pt x 465.74pt>
+<Images/Trimere.jpg, id=422, 548.0475pt x 465.74pt>
 File: Images/Trimere.jpg Graphic file (type jpg)
 <use Images/Trimere.jpg>
-Package pdftex.def Info: Images/Trimere.jpg  used on input line 865.
+Package pdftex.def Info: Images/Trimere.jpg  used on input line 998.
 (pdftex.def)             Requested size: 221.78923pt x 188.48154pt.
-<Images/Dimer.jpg, id=373, 588.1975pt x 497.86pt>
+<Images/Dimer.jpg, id=423, 588.1975pt x 497.86pt>
 File: Images/Dimer.jpg Graphic file (type jpg)
 <use Images/Dimer.jpg>
-Package pdftex.def Info: Images/Dimer.jpg  used on input line 871.
+Package pdftex.def Info: Images/Dimer.jpg  used on input line 1004.
 (pdftex.def)             Requested size: 221.78923pt x 187.7226pt.
-[28{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Images/Trimere.jpg> <./Images/Dimer.jpg>]
+[31 <./Images/Trimere.jpg> <./Images/Dimer.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1055
+[]|\T1/cmr/m/n/12 CAS(2,2)
+ []
 
-LaTeX Warning: Reference `ResultatsWFT' on page 29 undefined on input line 916.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1055
+[]|\T1/cmr/m/n/12 CAS(18,10)
+ []
 
 
-Overfull \hbox (9.67426pt too wide) in paragraph at lines 919--927
+Overfull \hbox (12.0665pt too wide) in paragraph at lines 1066--1071
+\T1/cmr/m/n/12 anisotropic interactions. Theoretical model propose the inclusion of a weak Dzyaloshinskii-
+ []
+
+[32{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (19.75186pt too wide) in paragraph at lines 1079--1087
  [] 
  []
 
-[29] (./main.aux)
+
+Overfull \hbox (4.63881pt too wide) in paragraph at lines 1106--1111
+[]\T1/cmr/m/n/12 The symmetric tensor can be diagonalized to extract the $\OML/cmm/m/it/12 D \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 46\OML/cmm/m/it/12 K$ \T1/cmr/m/n/12 axial parameter
+ []
+
+[33]
+<Images/CAS22.png, id=452, 550.055pt x 160.6pt>
+File: Images/CAS22.png Graphic file (type png)
+<use Images/CAS22.png>
+Package pdftex.def Info: Images/CAS22.png  used on input line 1122.
+(pdftex.def)             Requested size: 443.57848pt x 129.51674pt.
+ [34 <./Images/CAS22.png>] [35] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -844,25 +895,22 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0BF2B9704F1D1FCC38368E0371145591;3998.
+(rerunfilecheck)             Checksum: 534BDB21359A196278DCCCFADD40889B;4852.
  ) 
 Here is how much of TeX's memory you used:
- 24682 strings out of 474116
- 450792 string characters out of 5743682
+ 24883 strings out of 474116
+ 454246 string characters out of 5743682
  1947187 words of memory out of 5000000
- 46500 multiletter control sequences out of 15000+600000
- 581058 words of font info for 88 fonts, out of 8000000 for 9000
+ 46676 multiletter control sequences out of 15000+600000
+ 582592 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,12n,93p,470b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (30 pages, 1840923 bytes).
+ 83i,19n,93p,677b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (36 pages, 2191430 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
- 128 named destinations out of 1000 (max. 500000)
- 251 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 618 PDF objects out of 1000 (max. 8388607)
+ 485 compressed objects within 5 object streams
+ 145 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
