@@ -1,4 +1,4 @@
-\documentclass[12pt]{report}
+\documentclass[10pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{float}
 \usepackage{amsmath}
@@ -707,7 +707,7 @@ Table \ref{tab:DipF0Z} shows the three compoments of the dipole moment and its m
     \centering
     \begin{tabular}{|c | c c c | c|}
         \hline
-        & $\mu_x$ & $\mu_y$ & $\mu_z$ & |$\vb \mu$|\\
+        & $\mu_X$ & $\mu_Y$ & $\mu_Z$ & |$\vb \mu$|\\
         \hline
         $F$=0 & -0.0228007 & -0.0772935 & -8.1053645 & 8.1057651   \\
         \hline
@@ -750,13 +750,13 @@ Nonetheless the variation in case (b) is very small (<0.05 cm$^{-1}$) and the be
     \begin{subfigure}{.5\textwidth}
       \centering
       \includegraphics[width=\linewidth]{Images/D_E_Z.png}
-      \caption{Axial D paramter}
+      \caption{Axial D parameter}
       \label{fig:Ni_D_Z}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
       \centering
       \includegraphics[width=\linewidth]{Images/E_E_Z.png}
-      \caption{Rhombic E paramter}
+      \caption{Rhombic E parameter}
       \label{fig:Ni_E_Z}
     \end{subfigure}
     \caption{Evolution of the Axial D (left) and Rhombic E (right) parameters (in cm$^{-1}$) as a function of the field applied in cases (a) (in blue and plain line), (b)
@@ -866,7 +866,7 @@ In the case of an applied field along the Z axis, the $d_{x^2-y^2}$,$d_{xy}$ and
 There are six of these determinants with $M_S$=1, two of them have the largest coefficients in the wave-function of the $T_2$ and $T_3$ excited states and are results of single excitation from either of these orbitals to the $d_{x^2-y^2}$ or $d_{z^2}$ which are singly occupied in the ground state $T_0$.
 If there is no difference between the two directions, \textit{i.e} no rhombicity $E$=0, the weights of these determinants should be the same in both states leading to two contributions that cancel out. 
 To estimate the evoluton of the rhombicity, one can look at the variations of these weight with respect to the field.
-Let's define $\Delta w(X-Y)$ which is the difference between the weight w($d_{xz}$) and w($d_{yz}$) and its overall variation $\Delta (\Delta w(X-Y))$ between $+F$ and $-F$ as reported in Table .
+Let's define $\Delta w(X-Y)$ which is the difference between the weight w($d_{xz}$) and w($d_{yz}$) and its overall variation $\Delta (\Delta w(X-Y))$ between $+F$ and $-F$ as reported in Table \ref{tab:PoidsZ}.
 
 \begin{table}[h]
     \centering
@@ -890,6 +890,7 @@ Let's define $\Delta w(X-Y)$ which is the difference between the weight w($d_{xz
         \hline
     \end{tabular}
     \caption{Weight w($d_{xz}$) and w($d_{yz})$ of the determinants with single occupation in the respective orbitals, their difference $\Delta w(X-Y)$ and their overall variation $\Delta (\Delta w(X-Y))$ in all three case of calculation. }
+    \label{tab:PoidsZ}
 \end{table}
 
 First, we can notice the small variation for case (b) which matches well the variation of $E$ for this case in \ref{fig:Ni_E_Z}.
@@ -898,22 +899,57 @@ The variation $\Delta (\Delta w(X-Y))$ is very similar between case (a) and case
 
 \subsection{Application of the electric field along the Y axis}
 
-Now, let's consider the applied field along the Y direction, the field is now not aligned with the main component of the dipole moment ($\mu_z$). Note that the field is not directly applied along the Ni-N$_3$ bond as it is slightly ou
-The application of the electric field will lead to a change in sign of the $\mu_y$ component as can be observed from the quadratic behavior of the ground state energy represented on figure \ref{GSE_Y}.
+Now, let's consider the applied field along the Y direction F//Y, the field is now perpendicular to the main component of the dipole moment ($\mu_Z$).
+Note that the field is not directly applied along the Ni-N$_3$ bond as it is slightly ouut of the XoY plane, the reason for that is that it made sense to consider two perpendicular orientation onto which apply the electric field
+Figure \ref{GSE_Y} shows the evolution of the ground state energy when F//Y, the quadratic behavior of the case (a) curve can be explained by a change in sign of the dipole moment component $\mu_Y$
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/E_Y.png}
+    \caption{Energies in cm-1 (shifted by 58.35795.107 cm$^{-1}$) of the ground state obtained for the cases (a) (in blue and plain line), (b)
+    (in orange and dotted line) and (c) (in red and dashed line) as functions of the field applied in the Y direction.}
+    \label{GSE_Y}
+\end{figure}
+
 
 Figure \ref{fig:Ni_D_Y} shows the evolution of the $D$ term with respect to the applied field, it once again follows a linear behavior in all three cases.
+The sign of the slopes now have inversed with $|dD/dF|$ being positive for case (a) and negativ for both case (b) and (c) as opposed to when the field was along the Z direction.
 
+\begin{figure}[!h]
+    \centering
+    \begin{subfigure}{.5\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{Images/D_E_Y.png}
+      \caption{Axial D parameter}
+      \label{fig:Ni_D_Y}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+      \centering
+      \includegraphics[width=\linewidth]{Images/E_E_Y.png}
+      \caption{Rhombic E parameter}
+      \label{fig:Ni_E_Y}
+    \end{subfigure}
+    \caption{Evolution of the Axial D (left) and Rhombic E (right) parameters (in cm$^{-1}$) as a function of the field F//Y in cases (a) (in blue and plain line), (b)
+    (in orange and dotted line) and (c) (in red and dashed line)}
+    \label{fig:ParamNi_E_Y}
+\end{figure}
+
+The slopes for each case are shown in Table \ref{tab:Slope_D_Y}, once again the variation of the $D$ term is dictated by the geometrical changes under the applied field, case (b).
+Note that the slopes $|dD/dF|$ are very much additive and now much higher in the case F//Y than it was with F//Z, almost seven times larger.
 \begin{table}[!h]
     \begin{tabular}{c | c c c c}
         \hline
         $Hz/(V.m^{-1})$ &  (a) Electronic structure & (b) Geometric structure & (c) Both & Sum of (a) and (b)\\
         \hline
-        $|dD/dF|$ & -13.52	& +26.66& 	+13.15 & 	+13.14\\
-        $|dE/dF|$ &-2.53& 	-0.36& 	-2.88& 	-2.89\\
+        $|dD/dF|$ & +25.32	& -110.75 & 	-85.45 & 	-85.43\\
+        $|dE/dF|$ &-2.39& 	+1.20& 	-1.19& 	-1.19\\
     \end{tabular}
     \caption{Slopes of the straight lines in cases (a), (b) and (c) for the D and E parameter for F//Y}
-    \label{Slope_D_Y}
+    \label{tab:Slope_D_Y}
 \end{table}
+
+
 
 \chapter{Electric field on Exchange anisotropy}\label{chap:Cu2Cl5}
 
