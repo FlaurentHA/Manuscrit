@@ -936,7 +936,8 @@ The sign of the slopes now have inversed with $|dD/dF|$ being positive for case 
 \end{figure}
 
 The slopes for each case are shown in Table \ref{tab:Slope_D_Y}, once again the variation of the $D$ term is dictated by the geometrical changes under the applied field, case (b).
-Note that the slopes $|dD/dF|$ are very much additive and now much higher in the case F//Y than it was with F//Z, almost seven times larger.
+Note that the slopes $|dD/dF|$ are very much additive and almost seven times larger than in the case of F//Z.
+
 \begin{table}[!h]
     \begin{tabular}{c | c c c c}
         \hline
@@ -948,6 +949,7 @@ Note that the slopes $|dD/dF|$ are very much additive and now much higher in the
     \caption{Slopes of the straight lines in cases (a), (b) and (c) for the D and E parameter for F//Y}
     \label{tab:Slope_D_Y}
 \end{table}
+
 
 
 
@@ -1322,8 +1324,20 @@ In the case of three magnetic center, the model Hamiltonian is now written:
 Note the negative sing in front of the last term $d_{13}$ which originates from the permutation realtionship specific to the DMI ($d_{13}$=-$d_{31}$). On the other hand we set $J_{12}=J_{23}=J_{13}$ and let the $D_{ij}$-tensor be expressed in the axis system of the cluster with 6 paramaters each.
 First, we can obtain the matrix representation of this Hamiltonian in the basis of the determinant formed from the three magnetic orbitals on each site (a, b and c) located on each copper center:
 
-%%% Matrice dans la base découplée
-
+\begin{table}
+    \begin{tabular}{c | c c c c c c c c}
+        $H_{ms}$ & $\ket{abc}$ & $\ket{ab\overline{c}}$ & $\bra{a\overline{b}c}$ & $\bra{\overline{a}bc}$ & $\bra{a\overline{b}\overline{c}}$ & $\bra{\overline{a}b\overline{c}}$ & $\bra{\overline{a}\overline{b}c}$ & $\bra{\overline{a}\overline{b}\overline{c}}$\\
+        \hline
+        $\bra{abc}$ &  1 & 0 & 0 & 0 & 0 & 0 & 0 &0  \\
+        $\bra{ab\overline{c}}$ &  0 & $\frac{1}{\sqrt{3}}$ & 0 & 0 & 0 &  0& $-\frac{2}{\sqrt{6}}$ &0   \\
+        $\bra{a\overline{b}c}$ & 0 &  $\frac{1}{\sqrt{3}}$& 0 & 0 & $-\frac{1}{\sqrt{2}}$ & 0 & $\frac{1}{\sqrt{6}}$ & 0 \\
+        $\bra{\overline{a}bc}$ &  0 & $\frac{1}{\sqrt{3}}$ &  0&  0 &  $\frac{1}{\sqrt{2}}$& 0& $\frac{1}{\sqrt{6}}$ & 0  \\
+        $\bra{a\overline{b}\overline{c}}$ & 0 & 0 & $\frac{1}{\sqrt{3}}$ &0  & 0 &0 &0 & $-\frac{2}{\sqrt{6}}$  \\
+        $\bra{\overline{a}b\overline{c}}$ &  0 & 0 & $\frac{1}{\sqrt{3}}$ & 0 & 0 & $-\frac{1}{\sqrt{2}}$ & 0 & $\frac{1}{\sqrt{6}}$ \\
+        $\bra{\overline{a}\overline{b}c}$ &  0  & 0 & $\frac{1}{\sqrt{3}}$ & 0 & 0 & $\frac{1}{\sqrt{2}}$ &0  & $\frac{1}{\sqrt{6}}$ \\
+        $\bra{\overline{a}\overline{b}\overline{c}}$ & 0 &0 & 0 & 1 & 0 & 0 & 0 & 0  
+    \end{tabular}
+\end{table}
 To express this matrix in the coupled basis, \textit{i.e} in the basis formed from the $m_s$ components of the quartet and two doublet states, one has to build the transofrmation matrix.
 This matrix can be obtained using the Clebsch-Gordan coefficients or by diagonalizing the HDvV Hamiltonian representation matrix and using the eigenvectors as the transition matrix.
 
