@@ -20,6 +20,7 @@
 \usepackage{multirow}
 \usepackage{hyperref}
 \usepackage{gensymb}
+\usepackage{lscape}
 \numberwithin{equation}{section}
 
 %\definecolor{main}{HTML}{5989cf}    % setting main color to be used
@@ -115,6 +116,7 @@ Flaurent HEULLY--ALARY
 
 \subsection*{Heiseinberg Hamiltonian}
 The most well-know Spin Hamiltonian used to describe the magnetic interaction between a pair of spin located on different magnetic centres is the Heiseinberg-Dirac-Van Vleck (HDVV) Hamiltonina, written as:
+
 \begin{equation}\label{Hheis}
     \hat{H}_{HDVV}=-\sum_{i,j} J_{ij} \hat{\vb S}_i \cdot \hat{\vb S}_j
 \end{equation}
@@ -828,11 +830,11 @@ The overall changes in $|D|$, case (c), follow the same behavior as case (b) as 
         \hline
         Ligands & $-F$ & $+F$ &$\Delta(distance)$\\
         \hline
-        Cl & 2.31391& 2.32709&0.01318 \\
-        N$_1$ (apical) & 2.2.15016  & 2.14727 &-0.00289\\
-        N$_2$ & 2.22739 & 2.22043&-0.00696 \\
-        N$_3$ & 2.14628& 2.14139&-0.00489 \\
-        N$_4$ & 2.22688 & 2.22023 &-0.00665\\
+        Cl & 2.31391& 2.32709&  131.8.10$^{-4}$\\
+        N$_1$ (apical) & 2.2.15016  & 2.14727 &-28.9.10$^{-4}$\\
+        N$_2$ & 2.22739 & 2.22043&-69.6.10$^{-4}$ \\
+        N$_3$ & 2.14628& 2.14139&-48.9.10$^{-4}$ \\
+        N$_4$ & 2.22688 & 2.22023 &-6.65.10$^{-4}$\\
         \hline
     \end{tabular}
     \caption{Variation of the distances in Angstrom between the Ni(II) ion and the closest atoms of the ligand between $-F$ and $+F$ with F//Z.}
@@ -936,8 +938,7 @@ The sign of the slopes now have inversed with $|dD/dF|$ being positive for case 
 \end{figure}
 
 The slopes for each case are shown in Table \ref{tab:Slope_D_Y}, once again the variation of the $D$ term is dictated by the geometrical changes under the applied field, case (b).
-Note that the slopes $|dD/dF|$ are very much additive and almost seven times larger than in the case of F//Z.
-
+Note that the slopes $|dD/dF|$ are very much additive and now much higher in the case F//Y than it was with F//Z, almost seven times larger.
 \begin{table}[!h]
     \begin{tabular}{c | c c c c}
         \hline
@@ -950,15 +951,38 @@ Note that the slopes $|dD/dF|$ are very much additive and almost seven times lar
     \label{tab:Slope_D_Y}
 \end{table}
 
+The same rationalization can be applied here through the evolution of the ligand field.
+The application of the field al the 
 
-
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{| c | c| c | c |}
+        \hline
+        Ligands & $-F$ & $+F$ &$\Delta(distance)$\\
+        \hline
+        Cl & 2.32024& 2.32043&  2.4.10$^{-4}$\\
+        N$_1$ (apical) & 2.14947  & 2.14727 &1.7.10$^{-4}$\\
+        N$_2$ & 2.22518& 2.22245&-27.3.10$^{-4}$ \\
+        N$_3$ & 2.1482& 2.14596&11.4.10$^{-4}$ \\
+        N$_4$ & 2.2270& 2.22229 &-4.1.10$^{-4}$\\
+        \hline
+    \end{tabular}
+    \caption{Variation of the distances in Angstrom between the Ni(II) ion and the closest atoms of the ligand between $-F$ and $+F$ with F//Y.}
+    \label{tab:DistanceY}
+\end{table}
 
 \chapter{Electric field on Exchange anisotropy}\label{chap:Cu2Cl5}
 
-Numerous studies have been conducted to characterise certain properties of magnetic anisotropies and many procedures have been developped with great success as discusses above. 
+Numerous studies have been conducted to characterise certain properties of magnetic anisotropies and many procedures have been developped with great success as discussed above. 
 However, only a few studies have been applied to determine the properties of the exchange anisotropy using Quantum Chemistry theories.
 This study is part of a series of work that aims to rationalize the origin of exchange anisotropy in polynuclear molecules.
-In order to achieve this, a procedure of extractin was developped to obtain values of the Dzyaloshinskii-Moriya pseudovector interaction as well as the symmetric exchange anisotropy $D_{ij}$-tensor
+The spin Hamiltonian used to describe anisotropic behavior in binuclear systems is as follows:
+
+\begin{equation}
+    \hat{H}_{AB}=J_{AB}\hat{\vb S}_A \cdot \hat{\vb S}_B + \hat{\vb S}_A \cdot\overline{\overline{D}}_{AB} \cdot \hat{\vb S}_B + \vb{d}_{AB} \cdot (\hat{\vb S}_A \cross \hat{\vb S}_B)
+\end{equation}
+
+In order to achieve this, a procedure of extractin was developped to obtain values of the Dzyaloshinskii-Moriya pseudovector interaction as well as the symmetric exchange anisotropy $D_{ij}$-tensor using effective Hamiltonian theory in combination with wave-funcion based method.
 
 This procedure was tested on a simple model molecule represented on figure \ref{MolCu2Cl5} which consists of two $Cu^{2+}$ cations separated by $Cl^-$ anions.
 \begin{figure}[h!]
@@ -972,15 +996,20 @@ This procedure was tested on a simple model molecule represented on figure \ref{
 This choice of this system lies in its simplicity, with only one magnetic electron per center and a reasonnable size it allows for simple analytical derivation and high level treatment of the correlation.
 Such a toy molecule can also be modeled to assess the impact of geometry, \textit{i.e} distances and angles, on these interactions.
 It was first determined that the most favourable setting for obtaining large values of anisotropic interaction is to approach first order coupling regime without reaching it.
-Such situation arises when the outside angle $\phi$ is reaches $120 \degree$, the local environment of each $Cu^{2+}$ is close to a $C_3$-axis symmetry.
-This allow the condition of quasi-degeneracy of the $d_{x^2-y^2}$ and $d_{xy}$ orbitals to be achieved but due to the $D_{2h}$ symmetry of the system it possess an inversion center leading to a zero value of DMI.
+Such situation arises when the outside angle $\phi$ reaches $120 \degree$, the local environment of each $Cu^{2+}$ is then close to a $C_3$-axis symmetry.
+This allow the condition of quasi-degeneracy of the $d_{x^2-y^2}$ and $d_{xy}$ orbitals to be achieved, but due to the $D_{2h}$ symmetry of the system it possess an inversion center leading to a zero value of DMI.
 To induce a non-zero value of the DMI, the first two studies relied on the deformation of the molecule via a variation of the $\theta$ angle resulting in the hybridization of the otherwise pure cartesian d-orbitals.
 This mixing of the d-orbital is the key ingredient to the creation of DMI, as it was shown that increasing the mixing allow for the obtention of very large values of DMI.
-It was then though that the application of an external electric field could have the same effect with a smaller scale by acting not on the nuclei's position but on the electronic cloud.
+It was then though that the application of an external electric field could have the same effect with a smaller scale by acting not on the nuclei's position but the electronic cloud itself.
 As mentionned in the previous chapter, an electric field is a very interesting choice to consider as it can be focused accurately at the molecular level. 
 It is also much easier to use an external stimuli instead of relying on the "intrinsic" geometry of the molecule.
-In a following work, the impact of the electric field on the isotropic and antisymmetric exchange spin Hamiltonian parameter was determined.
-In this work, we follow the already established procedure to focus our attention on the symmetric exchange anisotropy tensor.
+In a following work, the impact of the electric field on the isotropic and antisymmetric exchange spin Hamiltonian parameter was determined, it was determined that the Dzyaloshinskii-Moriya pseudo-vector is very sensitive to the external field.
+Here we follow the already established procedure to focus our attention on the symmetric exchange anisotropy tensor.
+The work follows to two axis:
+\begin{itemize}
+    \item[(i)] Derive an appropriate model to estimate the symmetric tensor in the condition of $1^{st}$ order SOC in the absence of electric field.
+    \item[(ii)] Study the variation of the symmetric tensor under the effect of the electric field and its behavior relative to the DMI.
+\end{itemize}
 
 \section{Computational Informations}
 
@@ -997,12 +1026,140 @@ Three type of SO-SI calculations were performed:
     \item CAS(6,4)DDCI/SCF-SO : the DDCI energy are used while the wavefunction remain that of the CAS(6,4)SCF
     \item CAS(6,4)DDCI/DDCI-SO : the energy and wavefunction are obtained from DDCI calculation
 \end{itemize}
-This allows to study the impact of each component of dynamic correlation (energy or wavefunction) on the exchange interaction.
+This allows to study the impact of each component of dynamic correlation (energy or wavefunction) on the exchange interactions.
 The TZVP basis set were used throughout all calculations: 5s4p3d1p for Cu and 4s3p1d for Cl.
+
+The continious electric field was added in the SEWARD stage of the calculation in MOLCAS, the X,Y and Z directions were treated but most of the results reported here relates to the Y direction.
 
 \section{Theorical model}
 
+To derive the parameters of the Multispin Hamiltonian, we first have to define the model space.
+Let's call a (a') and b(b') the magnetic orbitals located on each copper ion, these orbitals are obtained from state specific calculation and might differ between triplet and singlet states by the tails on the $Cl^-$ ligands hence the difference of notation a and a'.
+One can predict that with the application of an electric field, the otherwise pure cartesian orbitals $d_{x^2-y^2}$ and $d_{xy}$ will hybridize to form the orbital $a$($a'$) and $b$($b'$).
+ We note the orthogonal cartesians orbitals $a_1$($b_1$) and $a_2$($b_2$) respectively depending on the site A or B.
 
+\begin{align}
+    a=\alpha a_1 + \beta a_2 \qquad b=-\alpha b_1  + \beta b_2 \qquad a'= \alpha ' a_1 +\beta ' a_2 \qquad b'=-\alpha' b_1 +\beta b_2
+\end{align}
+Where $\alpha$($\alpha'$) and $\beta$($\beta'$) are the mixing coefficients between the d orbital in the triplet(singlet) state.
+The coupling between the lone electron of each copper ion gives rise to a triplet and singlet state that will form the basis of the model space:
+\begin{align}
+    &T^+=|ab|\\
+    &T^0=\frac{1}{\sqrt{2}}(|a\overline{b'}|-|b\overline{a'}|)\\
+    &T^-=|\overline{a}\overline{b}|\\
+    &S=\frac{1}{\sqrt{2}}(|a'\overline{b'}|+|b'\overline{a'}|)
+\end{align}
+
+The matrix representation of the Multi-Spin Hamiltonian in this basis is:
+
+\begin{center}
+    \makebox[0pt][c]{%
+    \begin{tabular}{c | c c c c}
+        $H_{MS}$ & $T^+$ & $T^0$ & $T^-$ & $S$\\
+        \hline
+        $T^+$ & $\frac{J_{AB}}{4}+\frac{D_{zz}}{4}$ & $\frac{D_{xz}-iD_{yz}}{2\sqrt{2}}$ & $\frac{(D_{xx}-D_{zz}-2iD_{xy})}{4} $& $\frac{d_y+id_x}{2\sqrt{2}}$\\
+        $T^0$ & $\frac{D_{xz}+iD_{yz}}{2\sqrt{2}}$ &$ \frac{J_{AB}}{4} -\frac{D_{zz}}{4} +\frac{(D_{xx}+D_{yy})}{4}$& $-\frac{D_{xz}-iD_{yz}}{2\sqrt{2}}$ & -$\frac{id_z}{2}$ \\
+        $T^-$ &$\frac{(D_{xx}-D_{zz}+2iD_{xy})}{4} $ & $-\frac{D_{xz}+iD_{yz}}{2\sqrt{2}}$ & $\frac{J_{AB}}{4}+\frac{D_{zz}}{4}$ & $\frac{d_y-id_x}{2\sqrt{2}}$\\
+        $S$ & $\frac{d_y-id_x}{2\sqrt{2}}$  & $\frac{id_z}{2}$  &$\frac{d_y+id_x}{2\sqrt{2}}$  & $-\frac{3J_{AB}}{4}-\frac{D_{zz}}{4}-\frac{(D_{xx}+D_{yy})}{4}$\\
+    \end{tabular}
+    }
+\end{center}
+The evolution of the $J_{AB}$ the isotropic coupling and the component $d_x$, $d_y$ and $d_z$ under the application of an external electric field has already been studied previously.
+The component $D_{xx}$, $D_{xy}$,etc are the component of the symmetric exchange anisotropy $\overline{\overline{D}}$-tensor which is the focus of this study and its evolution will be compared to previous results, especially with the DMI.
+
+Approaching the condition of quasi-degeneracy of the $d_{x^2-y^2}$ and $d_{xy}$ orbitals, \textit{i.e} first order spin orbit coupling, the use of second order perturbation theory is now impossible to account for spin-orbit coupling because of the small differences in energy between the lowest states.
+As such, variational treatment is mandatory, to do so a model was derived to assess the contribution of $1^{st}$ order SOC based on the spin-free states generated by the occupation of these two orbitals.
+The following states form the uncoupled basis:
+
+\begin{align}\label{Cu2Cl5states}
+    \begin{split}
+    T_1^+&=|a_1b_1| ; \qquad T_1^0= \frac{|a_1 \overline{b}_1|-|b_1\overline{a}_1|}{\sqrt{2}}\\
+    S_1&=\frac{|a_1 \overline{b}_1|-|b_1\overline{a}_1}{\sqrt{2}}\\
+    T_2^+&=\frac{|a_1b_2|+|b_1a_2|}{\sqrt{2}} ;\qquad T_2^0=\frac{|a_1\overline{b}_2|+|b_1\overline{a}_2|-|a_2\overline{b}_1|-b_2\overline{a}_1|}{2}\\
+    S_2&=\frac{|a_1\overline{b}_2|+|b_1\overline{a}_2|+|a_2\overline{b}_1|+b_2\overline{a}_1|}{2}\\
+    T_3^+&=\frac{-|a_1b_2|+|b_1a_2|}{\sqrt{2}} ;\qquad T_3^0=\frac{-|a_1\overline{b}_2|+|b_1\overline{a}_2|-|a_2\overline{b}_1|+b_2\overline{a}_1|}{2}\\
+    S_3&=\frac{-|a_1\overline{b}_2|+|b_1\overline{a}_2|+|a_2\overline{b}_1|-b_2\overline{a}_1|}{2}\\
+    T_4^+&=|a_2b_2| ; \qquad T_4^0= \frac{|a_2 \overline{b}_2|-|b_2\overline{a}_2|}{\sqrt{2}}\\
+    S_4&=\frac{|a_2 \overline{b}_2|-|b_2\overline{a}_2|}{\sqrt{2}} 
+    \end{split}
+\end{align}
+
+The ionic part of these states were left out of the model for simplicity but will be taken into account in the \textit{ab} \textit{inito} calculations as they play an essential part in the antiferromagtic coupling.
+Note that crystal field theory indicates that in absence of electric field, the magnetic orbitals are the $d_{x^2-y^2}$ on each copper center, thus the energy ordering should follow the same order they are expressed in \ref{Cu2Cl5states}.
+The Spin-Orbit matrix can be derived from the SO-Hamiltonian:
+
+\begin{equation}
+    \hat{H}^{SO}=\zeta (\hat{l}_1 \hat{s}_1 +\hat{l}_2 + \hat{s}_2)
+\end{equation}
+
+With $\hat{l}_i$ the angular momenta and $\hat{s}_i$ the spin momenta operators working on electron $i$ and $\zeta$ the spin-orbit constant.
+The representation matrix of this Hamiltonian in the basis developped in eq \ref{Cu2Cl5states} with the addition of electronic couplings.
+
+\begin{table}[!h]
+    \centering
+    \makebox[0pt][c]{%
+    \begin{tabular}{c c c c c c c c c c c}
+    $\hat{H}^{SO}$& $\ket{T_1^+}$&$ \ket{T_2^+}$ & $\ket{T_3^+}$ &$\ket{T_4^+}$ & $\ket{T_1^0} $& $\ket{T_2^0}$ & $\ket{T_4^0}$  & $\ket{S_1}$ & $\ket{S_3}$ &$ \ket{S_4}$ \\ 
+    \hline
+    \hline
+    $\bra{T_1^+}$ & $E_1+J_1$ & $h_1$ & $i\zeta\sqrt{2}$ & $\delta_4$ & 0 & 0 & 0 & 0 & 0 & 0 \\
+    $\bra{T_2^+}$ & $h_1$ & $E_2+J_2$ & 0 & $h_2$ & 0 & 0 & 0 & 0 & 0 & 0 \\
+    $\bra{T_3^+}$ & $-i\zeta\sqrt{2}$ & 0 & $E_3+J_3$ & $i\zeta\sqrt{2}$ & 0 & 0 & 0 & 0 & 0 & 0 \\
+    $\bra{T_4^+}$ & $\delta_4$ & $h_2$ & $-i\zeta\sqrt{2}$ & $E_4+J_4$ & 0 & 0 & 0 & 0 & 0 & 0 \\
+    $\bra{T_1^0}$ & 0 & 0 & 0 & 0 & $E_1+J_1$ & $h_1$ & $\delta_4$ & 0& $-i\zeta\sqrt{2}$ & 0 \\
+    $\bra{T_2^0}$ & 0 & 0 & 0 & 0 & $h_1$ & $E_2+J_2$ & $h_2$& $-i\zeta\sqrt{2}$ & 0  & $-i\zeta\sqrt{2}$ \\
+    $\bra{T_4^0}$ & 0 & 0 & 0 & 0 & $\delta_4$ & $h_2$ & $E_4+J_4$ & 0 & $-i\zeta\sqrt{2}$ & 0 \\
+    $\bra{S_1}$   & 0 & 0 & 0 & 0 & 0 & $i\zeta\sqrt{2}$ & 0 & $E_1$ & $h_1'$ & $\delta_4'$ \\
+    $\bra{S_3} $  & 0 & 0 & 0 & 0 &$i\zeta\sqrt{2}$ & 0 &  $i\zeta\sqrt{2}$ & $h_1'$ & $E_3$ & $h_2'$ \\
+    $\bra{S_4}$   & 0 & 0 & 0 & 0 & 0 & $i\zeta\sqrt{2}$& 0  & $\delta_4'$ & $h_2'$ & $E_4$ \\
+    \hline
+    \hline
+    \end{tabular}
+    }
+\caption{Representation matrix of $\hat{H}^{SO}$ and electronic couplings in the uncoupled basis. $T_3^0$ and $S_2$ are not coupled to the others, as such they were left out for clarity. $h_1$($h_1$') and $h_2$($h_2'$) are couplings induced by the electric field and differ between triplet and singlet states by their exchange integrals. $\delta_1$ and $\delta_2$ are small bielectronic integrals between $T_1$($S_1$) and $T_4$($S_4$). The $M_S$=-1 components of the triplets are left out but possess the same couplings as the $M_S$=1 components.}
+\label{HSOCu2Cl5}
+\end{table}
+
+The electronic effect included are the isotropic couplings $J_i$ between tripplet and singlet states of same spatial nature. 
+$h_i$($h_i$') coupling are induced by the mixing of the the $d_{x^2-y^2}$ and $d_{xy}$ orbitals when the electric field is applied along the Y direction, this coupling is at the origin of the DMI interaction in this system as it opens coupling path between $S_1$ and $T_1^0$.
+Estimation of the couplings can be done perturbatively at second order, but as the system enter $1^{st}$ order SOC the best approach is to diagonalize the matrix.
+The spin-orbit couplings between these states originate from the $\hat{l}_z\hat{s}_z$ part of the $\hat{H}^{SO}$ that couples the determinants formed from orbitals of same spatial ($m_l$) and spin ($m_s$) component.
+
+To be complete in the extraction, one must also consider the effect of higher lying states made from determinant with the $d_{xz}$ or $d_{yz}$, noted $a_3$($b_3$) and $a_4$($b_4$), singly occupied. 
+
+\begin{align}
+    \begin{split}
+        T_5^+&=\frac{-|a_1b_3|+|b_1a_3|}{\sqrt{2}} \qquad T_5^0=\frac{-|a_1\overline{b}_3|+|b_1\overline{a}_3|-|a_3\overline{b}_1|+|b_3\overline{a}_1|}{2}\\
+        S_5&=\frac{-|a_1\overline{b}_4|+|b_1\overline{a}_3|+|a_3\overline{b}_1|-|b_3\overline{a}_1|}{2}\\
+        T_6^+&=\frac{-|a_1b_4|+|b_1a_4|}{\sqrt{2}} \qquad T_6^0=\frac{-|a_1\overline{b}_4|+|b_1\overline{a}_4|-|a_4\overline{b}_1|+|b_4\overline{a}_1|}{2}\\
+        S_6&=\frac{-|a_1\overline{b}_4|+|b_1\overline{a}_4|+|a_4\overline{b}_1|-|b_4\overline{a}_1|}{2}
+    \end{split}
+\end{align}
+
+These states are coupled with $T_1$ and $S_1$ through the $\hat{l}_+ \hat{s}_- + \hat{l}_-\hat{s}_+$ operator in $\hat{H}^{SO}$.
+Note that the determinants formed from the $d_{z^2}$ orbital can be left out because it cannot interact with either $T_1$ or $S_1$ via $\hat{H}^{SO}$.
+
+\section{Impact of First Order Spin Orbit Coupling in the absence of electric field}
+
+The symmetric anisotropic exchange is described by a tensor of rank two which has six different components in a random set of axis.
+Expressed in its proper axis this is reduced to simply two, an axial parameter $D_{AB}$ and rhombic term $E_{AB}$.
+Expression for these term have already been derived using second order perturbation theory and involves the $T_5$($S_5$) and $T_6$($S_6$) states:
+\begin{align}\label{eq:PertCu2Cl5}
+    \begin{split}
+        D_{AB}&=4\frac{\zeta^2 J_3}{\Delta E^2_3}-\frac{1}{2}(\frac{\zeta^2 J_5}{\Delta E^2_5}+\frac{\zeta^2 J_6}{\Delta E^2_6})\\
+        E_{AB}&=\frac{1}{2}(\frac{\zeta^2 J_5}{\Delta E^2_5}-\frac{\zeta^2 J_6}{\Delta E^2_6})
+    \end{split}
+\end{align}
+
+where $\Delta E^2_i=\sqrt{\Delta T_i \Delta S_i}$ is the geometric mean of excitation energy between the state $T_1$ and $T_i$ or $S_i$ and $J_i=E_{T_i}-E_{S_i}$ is the isotropic coupling between excited states.
+As the first term of $D_{AB}$ in eq \ref{eq:PertCu2Cl5} involves a state that contributes to $1^{st}$ order SOC, its estimation might deteriorate as $\phi$ decreases, \textit{i.e} entering first order regime.
+This render these equation valid only far from first-order regime and in absence of external field. Note that the rhombic term requires the inclusion of the higher states to be different from zero.
+
+To perform a rigorous extraction of the anisotropic parameter would require to include all the excited state generated from single excitation within the d-orbital space, \textit{i.e} CAS(18,10).
+As this work focus solely on the contribution of $1^{st}$ order SOC, a CAS(6,4) is enough. 
+The evolution of the axial term $D_{AB}$ as a function of the angle $\phi$ is shown on figure \ref{Cu2Cl5Angle}. 
+The angle has been varied from $\phi=170\degree$ to $\phi=130\degree$ with no external field applied, the system is still centrosymmetric as such the DMI is naught.
+As the angle $\phi$ decreases the magnitude $|D_{AB}|$ increases as well 
 
 \chapter{Herbertsmithite}
 
@@ -1237,6 +1394,18 @@ Table \ref{ResultatsWFT} shows the results obtained at multiple level of calcula
 \end{center}
 
 These results indicate an antiferromagnetic $J$ coupling with a large impact of dynamical correlation, yet these values do not match with the DFT calculations and the litterature.
+An active space only composed of d-orbitals is not enough to achieve a correct estimation of the isotropic coupling in this system, to improve the description of the antiferromagnetic mechanisms it was then thought to bring the bridging ligand orbitals into the active space.
+The inclusion of the p-orbitals of the bridging oxygen presents a challenge, as they stay doubly occupied and do not contribute to the wave-function at CAS level, reaching a stable active space becomes challenging because of convergence issue.
+To avoid these troubles, a methodology based on the projection of the oxygen's p-orbitals onto the ligand's tail of the active orbitals was applied.
+This allows to obtain a reproducible active space with well defined orbitals represented on figure \ref{Porb}.
+
+It has been previously established that performing a DDCI1 calculation on a active space composed of the ligands orbitals in addition to the magnetic orbitals allows to obtain value of $J$ coupling on par to a DDCI3 calculation.
+This allows to greatly reduce computational time, the active space is now composed of one electron/orbital per metallic center and two electrons in one orbital per oxygen (CAS(4,3) in the dinuclear and CAS(9,6) in the trinuclear fragment).
+This procedure has allowed the extraction of new values for $J_1$ in both fragment, $J_1=105.3 cm^{-1}$ in the dinuclear cluster and $J_1=126.3 cm^{-1}$ in the trinuclear cluster.
+Even if the dinuclear value of $J_1$ is lower, the coupling extracted from the trinuclear fragment is well within range of the expected value by both DFT and experiment.
+
+
+
 
 \subsection{Anisotropic interactions}
 
@@ -1250,8 +1419,8 @@ Following the procedure explained in \ref{chap:Cu2Cl5}, all three components of 
 
 Starting from the CASSCF wave-function with the enlarge active space of all 18 copper d-shell electrons and the 10 d-orbitals, computation of the SO-states was performed using the SO-RASSI method implemented in MOLCAS.
 The lowest part of the energy spectrum was corrected using the isotropic coupling value previously obtained.
-No assumption on the magnetic axes were made and so the extraction of all anisotropic parameters (9 in total) was performed using effective hamiltonian theory with the following matrix representation of the model Hamiltonian in the coupled basis of Triplet and Singlet states.
-
+No assumption on the magnetic axes were made and so the extraction of all anisotropic parameters (9 in total) was performed using effective hamiltonian theory with a model space composed of the three $M_S$ component of the triplet state and the singlet state.
+The matrix representation of the model Hamiltonian in the model space basis is:
 \begin{center}
     \begin{tabular}{c | c c c c}
         $H_{MS}$ & $\ket{1,-1}$ & $\ket{1,0}$ & $\ket{1,1}$ & $\ket{0,0}$\\
@@ -1324,26 +1493,14 @@ In the case of three magnetic center, the model Hamiltonian is now written:
 Note the negative sing in front of the last term $d_{13}$ which originates from the permutation realtionship specific to the DMI ($d_{13}$=-$d_{31}$). On the other hand we set $J_{12}=J_{23}=J_{13}$ and let the $D_{ij}$-tensor be expressed in the axis system of the cluster with 6 paramaters each.
 First, we can obtain the matrix representation of this Hamiltonian in the basis of the determinant formed from the three magnetic orbitals on each site (a, b and c) located on each copper center:
 
-\begin{table}
-    \begin{tabular}{c | c c c c c c c c}
-        $H_{ms}$ & $\ket{abc}$ & $\ket{ab\overline{c}}$ & $\bra{a\overline{b}c}$ & $\bra{\overline{a}bc}$ & $\bra{a\overline{b}\overline{c}}$ & $\bra{\overline{a}b\overline{c}}$ & $\bra{\overline{a}\overline{b}c}$ & $\bra{\overline{a}\overline{b}\overline{c}}$\\
-        \hline
-        $\bra{abc}$ &  1 & 0 & 0 & 0 & 0 & 0 & 0 &0  \\
-        $\bra{ab\overline{c}}$ &  0 & $\frac{1}{\sqrt{3}}$ & 0 & 0 & 0 &  0& $-\frac{2}{\sqrt{6}}$ &0   \\
-        $\bra{a\overline{b}c}$ & 0 &  $\frac{1}{\sqrt{3}}$& 0 & 0 & $-\frac{1}{\sqrt{2}}$ & 0 & $\frac{1}{\sqrt{6}}$ & 0 \\
-        $\bra{\overline{a}bc}$ &  0 & $\frac{1}{\sqrt{3}}$ &  0&  0 &  $\frac{1}{\sqrt{2}}$& 0& $\frac{1}{\sqrt{6}}$ & 0  \\
-        $\bra{a\overline{b}\overline{c}}$ & 0 & 0 & $\frac{1}{\sqrt{3}}$ &0  & 0 &0 &0 & $-\frac{2}{\sqrt{6}}$  \\
-        $\bra{\overline{a}b\overline{c}}$ &  0 & 0 & $\frac{1}{\sqrt{3}}$ & 0 & 0 & $-\frac{1}{\sqrt{2}}$ & 0 & $\frac{1}{\sqrt{6}}$ \\
-        $\bra{\overline{a}\overline{b}c}$ &  0  & 0 & $\frac{1}{\sqrt{3}}$ & 0 & 0 & $\frac{1}{\sqrt{2}}$ &0  & $\frac{1}{\sqrt{6}}$ \\
-        $\bra{\overline{a}\overline{b}\overline{c}}$ & 0 &0 & 0 & 1 & 0 & 0 & 0 & 0  
-    \end{tabular}
-\end{table}
+%%% Matrice dans la base découplée
+
 To express this matrix in the coupled basis, \textit{i.e} in the basis formed from the $m_s$ components of the quartet and two doublet states, one has to build the transofrmation matrix.
 This matrix can be obtained using the Clebsch-Gordan coefficients or by diagonalizing the HDvV Hamiltonian representation matrix and using the eigenvectors as the transition matrix.
 
 \begin{center}
     \begin{tabular}{c | c c c c c c c c}
-        $U$ & $\ket{\frac{3}{2},\frac{3}{2}}$ & $\ket{\frac{3}{2},\frac{1}{2}}$ & $\ket{\frac{3}{2},-\frac{1}{2}}$ & $\ket{\frac{3}{2}\frac{3}{2}}$ & $\ket{\frac{1}{2},\frac{1}{2}}_1$ & $\ket{\frac{1}{2},-\frac{1}{2}}_1$ & $\ket{\frac{1}{2},\frac{1}{2}}_2$ & $\ket{\frac{1}{2},-\frac{1}{2}}_2$\\
+        $U$ & $\ket{\frac{3}{2},\frac{3}{2}}$ & $\ket{\frac{3}{2},\frac{1}{2}}$ & $\ket{\frac{3}{2},-\frac{1}{2}}$ & $\ket{\frac{3}{2},\frac{3}{2}}$ & $\ket{\frac{1}{2},\frac{1}{2}}_1$ & $\ket{\frac{1}{2},-\frac{1}{2}}_1$ & $\ket{\frac{1}{2},\frac{1}{2}}_2$ & $\ket{\frac{1}{2},-\frac{1}{2}}_2$\\
         \hline
         $\bra{abc}$ &  1 & 0 & 0 & 0 & 0 & 0 & 0 &0  \\
         $\bra{ab\overline{c}}$ &  0 & $\frac{1}{\sqrt{3}}$ & 0 & 0 & 0 &  0& $-\frac{2}{\sqrt{6}}$ &0   \\
@@ -1356,11 +1513,26 @@ This matrix can be obtained using the Clebsch-Gordan coefficients or by diagonal
     \end{tabular}
 \end{center}
 
+\begin{landscape}
+\begin{center}
+    \begin{tabular}{c | c c c c c c c c}
+        $U$ & $\ket{\frac{3}{2},\frac{3}{2}}$ & $\ket{\frac{3}{2},\frac{1}{2}}$ & $\ket{\frac{3}{2},-\frac{1}{2}}$ & $\ket{\frac{3}{2},\frac{3}{2}}$ & $\ket{\frac{1}{2},\frac{1}{2}}_1$ & $\ket{\frac{1}{2},-\frac{1}{2}}_1$ & $\ket{\frac{1}{2},\frac{1}{2}}_2$ & $\ket{\frac{1}{2},-\frac{1}{2}}_2$\\
+        \hline
+        $\bra{\frac{3}{2},\frac{3}{2}}$ &  $\frac{3J}{4}$ & 0 & 0 & 0 & $-\frac{\sqrt{2}i}{8}(\vb e_x + i\vb e_y)(2\vb d_{12}-\vb d_{13}-\vb d_{23})$ & 0 & $\frac{\sqrt{6}i}{8}(\vb e_x + i\vb e_y)(\vb d_{13} - \vb d_{23})$ &0  \\
+        $\bra{\frac{3}{2},\frac{1}{2}}$ &  0 & $\frac{3J}{4}$ & 0 & 0 & $-\frac{\sqrt{6}}{12}\vb e_z (2\vb d_{12}-\vb d_{13}-\vb d_{23})$ &  $-\frac{\sqrt{6}}{24}(\vb e_x + i\vb e_y)(2\vb d_{12} - \vb d_{13} - \vb d_{23})$& $\frac{\sqrt{2}i}{4}\vb e_z (\vb d_{13} - \vb d_{23})$ &$\frac{\sqrt{2}i}{8}(\vb e_x + i\vb e_y)(2\vb d_{12}-\vb d_{13}-\vb d_{23})$   \\
+        $\bra{\frac{3}{2},\frac{-1}{2}}$ & 0 &  0 & $\frac{3J}{4}$ & 0 & $-\frac{\sqrt{6}}{24}(\vb e_x + i\vb e_y)(2\vb d_{12} - \vb d_{13} - \vb d_{23})$& $-\frac{\sqrt{6}}{12}\vb e_z (2\vb d_{12}-\vb d_{13}-\vb d_{23})$ & $-\frac{\sqrt{2}i}{8}(\vb e_x + \vb e_y)(2\vb d_{12}-\vb d_{13}-\vb d_{23})$ & $\frac{\sqrt{2}i}{4}\vb e_z (\vb d_{13} - \vb d_{23})$ \\
+        $\bra{\frac{3}{2},\frac{-3}{2}}$ &  0 & 0 &  0&  $\frac{3J}{4}$ &  0& 0& 0 & 0  \\
+        $\bra{\frac{1}{2},\frac{1}{2}}_1$ & 0 & 0 & 0 &0  & -$\frac{3J}{4}$&0 &0 & 0  \\
+        $\bra{\frac{1}{2},\frac{-1}{2}}_1$ &  0 & 0 & 0 & 0 & 0 & -$\frac{3J}{4}$ & 0 & 0 \\
+        $\bra{\frac{1}{2},\frac{1}{2}}_2$ &  0  & 0 & 0 & 0 & 0 & 0 &-$\frac{3J}{4}$ & 0 \\
+        $\bra{\frac{1}{2},\frac{-1}{2}}_2$ & 0 &0 & 0 & 1 & 0 & 0 & 0 & $-\frac{3J}{4}$  
+    \end{tabular}
+\end{center}
+\end{landscape}
 
-%%% Matrice dans la bases des etats couplés sans les 
 
 %commentaire couplage doublet mais pas quartets
-
+The symmetric tensor terms (6 each, 18 total) were left out for clarity 
 %%% Resultats, même chose que dans le binucléaire.
-
+Following the same procedure with an active space of 27 electrons in 15 orbitals 
 \end{document}

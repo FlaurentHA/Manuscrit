@@ -22,8 +22,9 @@
 \contentsline {chapter}{\numberline {4}Electric field on Exchange anisotropy}{29}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Computational Informations}{30}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Theorical model}{31}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Herbertsmithite}{32}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Density-Functional Theory study}{32}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Wave-Function Theory study}{36}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Isotropic Coupling}{36}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Anisotropic interactions}{38}{subsection.5.2.2}%
+\contentsline {section}{\numberline {4.3}Impact of First Order Spin Orbit Coupling in the absence of electric field}{34}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Herbertsmithite}{36}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Density-Functional Theory study}{36}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Wave-Function Theory study}{40}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Isotropic Coupling}{40}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Anisotropic interactions}{42}{subsection.5.2.2}%
