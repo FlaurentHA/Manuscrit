@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.16)  5 SEP 2025 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.16)  5 SEP 2025 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -905,92 +905,92 @@ Chapter 5.
 [38
 
 ]
-Overfull \hbox (10.5745pt too wide) in paragraph at lines 1292--1296
+Overfull \hbox (10.5745pt too wide) in paragraph at lines 1294--1298
 \T1/cmr/m/n/12 In a first description, a fragment presenting only the first neighbor coupling was introduced
  []
 
 <Images/FragmentDFT_plan.png, id=519, 784.9325pt x 368.37625pt>
 File: Images/FragmentDFT_plan.png Graphic file (type png)
 <use Images/FragmentDFT_plan.png>
-Package pdftex.def Info: Images/FragmentDFT_plan.png  used on input line 1299.
+Package pdftex.def Info: Images/FragmentDFT_plan.png  used on input line 1301.
 (pdftex.def)             Requested size: 354.86412pt x 166.54346pt.
 [39 <./Images/FragmentDFT_plan.png>]
 <Images/ModeleDFT_plan.png, id=529, 276.7941pt x 126.11115pt>
 File: Images/ModeleDFT_plan.png Graphic file (type png)
 <use Images/ModeleDFT_plan.png>
-Package pdftex.def Info: Images/ModeleDFT_plan.png  used on input line 1337.
+Package pdftex.def Info: Images/ModeleDFT_plan.png  used on input line 1339.
 (pdftex.def)             Requested size: 354.86412pt x 161.68724pt.
  [40 <./Images/ModeleDFT_plan.png>]
 <Images/FragmentDefauts.png, id=539, 648.4225pt x 253.94875pt>
 File: Images/FragmentDefauts.png Graphic file (type png)
 <use Images/FragmentDefauts.png>
-Package pdftex.def Info: Images/FragmentDefauts.png  used on input line 1381.
+Package pdftex.def Info: Images/FragmentDefauts.png  used on input line 1383.
 (pdftex.def)             Requested size: 221.78923pt x 86.86067pt.
 <Images/ModeleDFT_interplan.png, id=540, 150.3216pt x 109.8504pt>
 File: Images/ModeleDFT_interplan.png Graphic file (type png)
 <use Images/ModeleDFT_interplan.png>
-Package pdftex.def Info: Images/ModeleDFT_interplan.png  used on input line 1387.
+Package pdftex.def Info: Images/ModeleDFT_interplan.png  used on input line 1389.
 (pdftex.def)             Requested size: 221.78923pt x 162.0849pt.
  [41 <./Images/FragmentDefauts.png> <./Images/ModeleDFT_interplan.png>]
-Overfull \hbox (5.771pt too wide) in paragraph at lines 1415--1418
+Overfull \hbox (5.771pt too wide) in paragraph at lines 1417--1420
 \T1/cmr/m/n/12 chapter []chapter 4[][]. The computation of SO-states being very computationally demanding,
  []
 
 <Images/Trimere.jpg, id=552, 548.0475pt x 465.74pt>
 File: Images/Trimere.jpg Graphic file (type jpg)
 <use Images/Trimere.jpg>
-Package pdftex.def Info: Images/Trimere.jpg  used on input line 1424.
+Package pdftex.def Info: Images/Trimere.jpg  used on input line 1426.
 (pdftex.def)             Requested size: 221.78923pt x 188.48154pt.
 <Images/Dimer.jpg, id=553, 588.1975pt x 497.86pt>
 File: Images/Dimer.jpg Graphic file (type jpg)
 <use Images/Dimer.jpg>
-Package pdftex.def Info: Images/Dimer.jpg  used on input line 1430.
+Package pdftex.def Info: Images/Dimer.jpg  used on input line 1432.
 (pdftex.def)             Requested size: 221.78923pt x 187.7226pt.
 [42 <./Images/Trimere.jpg> <./Images/Dimer.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1481--1481
+Underfull \hbox (badness 10000) in paragraph at lines 1483--1483
 []|\T1/cmr/m/n/12 CAS(2,2)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1481--1481
+Underfull \hbox (badness 10000) in paragraph at lines 1483--1483
 []|\T1/cmr/m/n/12 CAS(18,10)
  []
 
 
-LaTeX Warning: Reference `Porb' on page 43 undefined on input line 1493.
+LaTeX Warning: Reference `Porb' on page 43 undefined on input line 1495.
 
 
-Overfull \hbox (10.60358pt too wide) in paragraph at lines 1489--1494
+Overfull \hbox (10.60358pt too wide) in paragraph at lines 1491--1496
 []\T1/cmr/m/n/12 These results indicate an antiferromagnetic $\OML/cmm/m/it/12 J$ \T1/cmr/m/n/12 coupling with a large impact of dynamical
  []
 
 
-Overfull \hbox (9.92603pt too wide) in paragraph at lines 1489--1494
+Overfull \hbox (9.92603pt too wide) in paragraph at lines 1491--1496
 \T1/cmr/m/n/12 of the isotropic coupling in this system, to improve the description of the antiferromagnetic
  []
 
 [43]
-Overfull \hbox (12.0665pt too wide) in paragraph at lines 1505--1510
+Overfull \hbox (12.0665pt too wide) in paragraph at lines 1507--1512
 \T1/cmr/m/n/12 anisotropic interactions. Theoretical model propose the inclusion of a weak Dzyaloshinskii-
  []
 
 
-Overfull \hbox (19.75186pt too wide) in paragraph at lines 1518--1526
+Overfull \hbox (19.75186pt too wide) in paragraph at lines 1520--1528
  [] 
  []
 
 [44]
-Overfull \hbox (4.63881pt too wide) in paragraph at lines 1545--1550
+Overfull \hbox (4.63881pt too wide) in paragraph at lines 1547--1552
 []\T1/cmr/m/n/12 The symmetric tensor can be diagonalized to extract the $\OML/cmm/m/it/12 D \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 46\OML/cmm/m/it/12 K$ \T1/cmr/m/n/12 axial parameter
  []
 
 <Images/CAS22.png, id=583, 550.055pt x 160.6pt>
 File: Images/CAS22.png Graphic file (type png)
 <use Images/CAS22.png>
-Package pdftex.def Info: Images/CAS22.png  used on input line 1561.
+Package pdftex.def Info: Images/CAS22.png  used on input line 1563.
 (pdftex.def)             Requested size: 443.57848pt x 129.51674pt.
 [45 <./Images/CAS22.png>] [46]
-Overfull \hbox (301.50552pt too wide) in paragraph at lines 1611--1623
+Overfull \hbox (301.50552pt too wide) in paragraph at lines 1613--1625
  [] 
  []
 
@@ -1019,7 +1019,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  83i,19n,93p,730b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (49 pages, 2638471 bytes).
+Output written on main.pdf (49 pages, 2638825 bytes).
 PDF statistics:
  774 PDF objects out of 1000 (max. 8388607)
  614 compressed objects within 7 object streams
