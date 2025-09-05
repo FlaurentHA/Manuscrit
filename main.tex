@@ -1022,9 +1022,9 @@ It was nonetheless used for the treatment of second order spin orbit coupling.
 Dynamical correlation was introduced using the Difference-dedicated-configuration-interaction (DDCI3) method perfored via the CASDI code interfaced with the MOLCAS chain.
 Three type of SO-SI calculations were performed:
 \begin{itemize}
-    \item CAS(6,4)SCF : the energy and wavefunction are obtained from CASSCF calculation
-    \item CAS(6,4)DDCI/SCF-SO : the DDCI energy are used while the wavefunction remain that of the CAS(6,4)SCF
-    \item CAS(6,4)DDCI/DDCI-SO : the energy and wavefunction are obtained from DDCI calculation
+    \item[(i)] CAS(6,4)SCF : the energy and wavefunction are obtained from CASSCF calculation
+    \item[(ii)] CAS(6,4)DDCI/SCF-SO : the DDCI energy are used while the wavefunction remain that of the CAS(6,4)SCF
+    \item[(iii)] CAS(6,4)DDCI/DDCI-SO : the energy and wavefunction are obtained from DDCI calculation
 \end{itemize}
 This allows to study the impact of each component of dynamic correlation (energy or wavefunction) on the exchange interactions.
 The TZVP basis set were used throughout all calculations: 5s4p3d1p for Cu and 4s3p1d for Cl.
@@ -1062,6 +1062,7 @@ The matrix representation of the Multi-Spin Hamiltonian in this basis is:
         $T^-$ &$\frac{(D_{xx}-D_{zz}+2iD_{xy})}{4} $ & $-\frac{D_{xz}+iD_{yz}}{2\sqrt{2}}$ & $\frac{J_{AB}}{4}+\frac{D_{zz}}{4}$ & $\frac{d_y-id_x}{2\sqrt{2}}$\\
         $S$ & $\frac{d_y-id_x}{2\sqrt{2}}$  & $\frac{id_z}{2}$  &$\frac{d_y+id_x}{2\sqrt{2}}$  & $-\frac{3J_{AB}}{4}-\frac{D_{zz}}{4}-\frac{(D_{xx}+D_{yy})}{4}$\\
     \end{tabular}
+    \label{tab:HMSCU2}
     }
 \end{center}
 The evolution of the $J_{AB}$ the isotropic coupling and the component $d_x$, $d_y$ and $d_z$ under the application of an external electric field has already been studied previously.
@@ -1093,6 +1094,7 @@ The Spin-Orbit matrix can be derived from the SO-Hamiltonian:
 \end{equation}
 
 With $\hat{l}_i$ the angular momenta and $\hat{s}_i$ the spin momenta operators working on electron $i$ and $\zeta$ the spin-orbit constant.
+The spin-orbit couplings between the states \ref{Cu2Cl5states} originate from the $\hat{l}_z\hat{s}_z$ part of the $\hat{H}^{SO}$ that couples the determinants formed from orbitals of same spatial ($m_l$) and spin ($m_s$) component.
 The representation matrix of this Hamiltonian in the basis developped in eq \ref{Cu2Cl5states} with the addition of electronic couplings.
 
 \begin{table}[!h]
@@ -1117,17 +1119,31 @@ The representation matrix of this Hamiltonian in the basis developped in eq \ref
     \end{tabular}
     }
 \caption{Representation matrix of $\hat{H}^{SO}$ and electronic couplings in the uncoupled basis. $T_3^0$ and $S_2$ are not coupled to the others, as such they were left out for clarity. $h_1$($h_1$') and $h_2$($h_2'$) are couplings induced by the electric field and differ between triplet and singlet states by their exchange integrals. $\delta_1$ and $\delta_2$ are small bielectronic integrals between $T_1$($S_1$) and $T_4$($S_4$). The $M_S$=-1 components of the triplets are left out but possess the same couplings as the $M_S$=1 components.}
-\label{HSOCu2Cl5}
+\label{tab:HSOCu2Cl5}
 \end{table}
 
-The electronic effect included are the isotropic couplings $J_i$ between tripplet and singlet states of same spatial nature. 
+The electronic effect included are the isotropic couplings $J_i$ between triplet and singlet states of same spatial nature. 
 $h_i$($h_i$') coupling are induced by the mixing of the the $d_{x^2-y^2}$ and $d_{xy}$ orbitals when the electric field is applied along the Y direction, this coupling is at the origin of the DMI interaction in this system as it opens coupling path between $S_1$ and $T_1^0$.
 Estimation of the couplings can be done perturbatively at second order, but as the system enter $1^{st}$ order SOC the best approach is to diagonalize the matrix.
-The spin-orbit couplings between these states originate from the $\hat{l}_z\hat{s}_z$ part of the $\hat{H}^{SO}$ that couples the determinants formed from orbitals of same spatial ($m_l$) and spin ($m_s$) component.
+To understand the origins of the anisotropic parameter, $D_{AB}$ and the DMI, the couplings must be decomposed by their contributions.
+Simply speaking, the $D_{AB}$ describe the difference in energy between the $M_S$=$\pm$ 1 and the $M_S$=0 component.
+From this matrix there is no difference in couplings between the two $M_S$=$\pm$1, as such there is no rhombic term $E_{AB}$ when considering only first order SOC, hence to estimate the $D_{AB}$ one has to look for states coupled to $T_1^0$ or $T_1^+$.
+The $T_1^+$ component is coupled via SOC with $T_3^+$ which will stabilize it, contributing negatively to the $D_{AB}$ by bringing down in energy the $M_S$=$\pm$1 component.
+On the other hand, the $S_3$ which is coupled to $T_1^0$ will bring a positive contribution to the $D_{AB}$. 
+One way to assess their contribution is by diagonalizing the matrix with only the relevant couplings, $T_3^+$ or $S_3$, and see how the energies of $T_1^+$ or $T_1^0$ are affected.
+The small bielectronic integrals $\delta_4$ and $\delta_4'$ also allow the contribution of $T_4^+$ and $S_4$ but to a much smaller scale.
+
+In the presence of an electric field applied in the Y direction, the situation of table \ref{tab:HSOCu2Cl5}, the $h_i$ and $h_i'$ electronic coupling turn different from zero and new pathways open up for the DMI.
+As shown in matrix \ref{eq:HMSCU2}, the $d_z$ component is created by the coupling between the $T_1^0$ and the $S_1$ states which can be expressed using second order pertubation theory:
+
+\begin{equation}
+    \frac{id_z}{2}=\bra{S}H^{SO}\ket{T^0}^{(0)}=\frac{\bra{S_1}H^{SO}\ket{T_2^0}\bra{T_2^0}H^{el}\ket{T_1^0}}{E_2+J_2-E_1}+\frac{\bra{S_1}H^{el}\ket{S_3}\bra{S_3}H^{SO}\ket{T_1^0}}{E_3-E_1}
+\end{equation}
+This equation is only valid far from first order SOC regime but helps visualising how the DMI appears due to the combination of electronic and spin orbit couplings.
 
 To be complete in the extraction, one must also consider the effect of higher lying states made from determinant with the $d_{xz}$ or $d_{yz}$, noted $a_3$($b_3$) and $a_4$($b_4$), singly occupied. 
 
-\begin{align}
+\begin{align}\label{T5T6}
     \begin{split}
         T_5^+&=\frac{-|a_1b_3|+|b_1a_3|}{\sqrt{2}} \qquad T_5^0=\frac{-|a_1\overline{b}_3|+|b_1\overline{a}_3|-|a_3\overline{b}_1|+|b_3\overline{a}_1|}{2}\\
         S_5&=\frac{-|a_1\overline{b}_4|+|b_1\overline{a}_3|+|a_3\overline{b}_1|-|b_3\overline{a}_1|}{2}\\
@@ -1138,6 +1154,7 @@ To be complete in the extraction, one must also consider the effect of higher ly
 
 These states are coupled with $T_1$ and $S_1$ through the $\hat{l}_+ \hat{s}_- + \hat{l}_-\hat{s}_+$ operator in $\hat{H}^{SO}$.
 Note that the determinants formed from the $d_{z^2}$ orbital can be left out because it cannot interact with either $T_1$ or $S_1$ via $\hat{H}^{SO}$.
+Taking these states into account able to differentiate the two $M_S$=$\pm$1 of the triplet state and create a rhombicity in the 
 
 \section{Impact of First Order Spin Orbit Coupling in the absence of electric field}
 
@@ -1157,9 +1174,85 @@ This render these equation valid only far from first-order regime and in absence
 
 To perform a rigorous extraction of the anisotropic parameter would require to include all the excited state generated from single excitation within the d-orbital space, \textit{i.e} CAS(18,10).
 As this work focus solely on the contribution of $1^{st}$ order SOC, a CAS(6,4) is enough. 
-The evolution of the axial term $D_{AB}$ as a function of the angle $\phi$ is shown on figure \ref{Cu2Cl5Angle}. 
-The angle has been varied from $\phi=170\degree$ to $\phi=130\degree$ with no external field applied, the system is still centrosymmetric as such the DMI is naught.
-As the angle $\phi$ decreases the magnitude $|D_{AB}|$ increases as well 
+To assess the impact of dynamical correlation on the $D_{AB}$ parameter, calculations were performed with gradual inclusion of the DDCI3 components (energy and wave-function).
+These results are reported on figure \ref{DABangle} with the angle $\phi$ variating from $130\degree$ to $170\degree$.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/D_AB_Angle2.png}
+    \caption{$D_{AB}$ as a function of the outside angle $\phi$ for (i) CAS(6,4)SCF/SCF-SO level (blue line with squares), (ii) CAS(6,4)DDCI/SCF-SO level (orange line with triangles), and (iii) CAS(6,4)DDCI/DDCI-SO level (green line with circles) }
+    \label{DABangle}
+\end{figure}
+
+This shows that the magnitude $|D_{AB}|$ increases when entering $1^{st}$ order SOC, \textit{i.e} a decrease of the angle $\phi$.
+A similar observation has been made for the DMI in previous study and in mononuclear complexes for local zero field splitting parameter $D$.
+It is important to observe that far from first order SOC, the impact of electron correlation is not very important with only a slight variation between the three curves.
+This difference increases when $\phi$ decreases.
+Note that the curves (ii) and (iii), which differ by the wave-function used (CASSCF-SO or DDCI-SO) are very similar and that the inclusion of the DDCI wavefunction does not improve the results much unlike what was observed with the DMI.
+Hence the us of the correlated DDCI wave-function in addition to the DDCI energies is not required and CASSCF wave-function should suffice in the SO-SI calculation in absence of DMI. 
+As the rest of this work include a DMI, which has been proven to require the DDCI wave-functions, we have considered the CAS(6,4)DDCI/DDCI-SO calculation for numerical estimates.
+
+
+Far from first order SOC the equation \ref{eq:PertCu2Cl5} can be used with the large active space CAS(18,10) taking into account the states \ref{T5T6}.
+At $\phi=170\degree$, the perturbative espressions give $D_{AB}^{pert}$=-4.86cm$^{-1}$ and $E_{AB}^{pert}$=0.18cm$^{-1}$, a good estimate when compared to the value extracted from the CAS(18,10)DDCI/DDCI-SO and effective Hamiltonian theory $D_{AB}$=-4.09cm$^{-1}$ and $E_{AB}$=0.10cm$^{-1}$.
+The slight overestimation may come from the fact that a unique $\zeta=830cm^{-1}$ value of the free ion $Cu^{2+}$ was used, in a complex this value is bound to decrease.
+These expressions lose their quality when entering first order SOC as expected, $\phi=130\degree$, $D_{AB}^{pert}$=-83.31cm$^{-1}$ and $E_{AB}^{pert}$=0.21cm$^{-1}$ compared with the values extracted from CAS(18,10)DDCI/DDCI-SO and effective Hamiltonian theory $D_{AB}$=-45.20cm$^{-1}$ and $E_{AB}$=0.02cm$^{-1}$.
+The rhombicity is almost naught justifying the use of the small active space CAS(6,4) compared to the CAS(18,10).
+
+
+\begin{table}[!h]
+    \centering
+    \makebox[0pt][c]{%
+    \begin{tabular}{c c c c c c c c c c c}
+    $\hat{H}^{SO}$& $\ket{T_1^+}$&$ \ket{T_2^+}$ & $\ket{T_3^+}$ &$\ket{T_4^+}$ & $\ket{T_1^0} $& $\ket{T_2^0}$ & $\ket{T_4^0}$  & $\ket{S_1}$ & $\ket{S_3}$ &$ \ket{S_4}$ \\ 
+    \hline
+    \hline
+    $\bra{T_1^+}$ & 1585 & 0 & 1079i & 12 & 0 & 0 & 0 & 0 & 0 & 0 \\
+    $\bra{T_2^+}$ & 0 & 2362& 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+    $\bra{T_3^+}$ & -1079i & 0 & 3275& 1079i & 0 & 0 & 0 & 0 & 0 & 0 \\
+    $\bra{T_4^+}$ & 12 &0 & -1079i & 5036  & 0 & 0 & 0 & 0 & 0 & 0 \\
+    $\bra{T_1^0}$ & 0 & 0 & 0 & 0 & 1585 & 0 & 12 & 0& -1078i & 0 \\
+    $\bra{T_2^0}$ & 0 & 0 & 0 & 0 & 0 & 2362 & 0& -1075i & 0  & -1076i \\
+    $\bra{T_4^0}$ & 0 & 0 & 0 & 0 & 12 & 0 & 5036 & 0 & -1078i & 0 \\
+    $\bra{S_1}$   & 0 & 0 & 0 & 0 & 0 & 1075i & 0 & 550 & 0 & 2 \\
+    $\bra{S_3} $  & 0 & 0 & 0 & 0 &1078i & 0 &  1078i & 0 & 3369 & 0 \\
+    $\bra{S_4}$   & 0 & 0 & 0 & 0 & 0 & 1076i& 0  & 2 & 0 & 4486 \\
+    \hline
+    \hline
+    \end{tabular}
+    }
+\caption{Numerical matrix of $\hat{H}^{SO}$ and electronic couplings in the uncoupled basis from a CAS(6,4)DDCI/DDCI-SO calculation with no electric field and $\phi=130\degree$.}
+\label{tab:HSOnum}
+\end{table}
+The matrix \ref{tab:HSOCu2Cl5} was extracted from ab initio calculation, CAS(6,4)DDCI/DCCI-SO at $\phi=130\degree$ and no electrical field, its numerical matrix is shown in table \ref{tab:HSOnum} with good correspondance. 
+Note that the coupling terms $h_i$ are equal to zero making it impossible for DMI to occur.
+Diagonalizing this matrix with or without the inclusion of $T_3^+$ and $S_3$ allow to determine their individual contribution to the $D_{AB}$ which are reported in table \ref{ContE0}
+The sum of the two contributions matches perfectely with the value obtained via $H^{eff}$.
+
+\begin{table}
+    \centering
+    \begin{tabular}{c c c}
+        \hline
+        \hline
+         & $\qquad$&$D_{AB}$\\
+         \hline
+         Contribution of $T_3^+$ and $T_3^-$& $\qquad$& -1176.74 \\
+         Contribution of $S_3$& $\qquad$& 1124.28\\
+         Sum &$\qquad$ &-52.46\\
+         $D_{AB}$ from $H^{eff}$ & $\qquad$ &-52.46\\
+         \hline
+         \hline
+    \end{tabular}
+    \caption{Variational contribution in cm$^{-1}$ of the excited states to $D_{AB}$ and its value in cm$^{-1}$ extracted from effective Hamiltonian at CAS(6,4)DDCI/DDCI-SO level}
+    \label{ContE0}
+\end{table}
+
+Note that from the final value of $D_{AB}$ and the perturbative expression \ref{eq:PertCu2Cl5}, it is clear that the main contribution to the $D_AB$ comes from $T_3$ and $S_3$ even with the large active space CAS(18,10) justifying once again the use of the small CAS(6,4) calculations.
+
+
+\section{Impact of the electric field on the symmetric anisotropic exchange parameter}
+
+
 
 \chapter{Herbertsmithite}
 
