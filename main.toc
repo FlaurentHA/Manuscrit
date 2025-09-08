@@ -5,9 +5,9 @@
 \contentsline {subsection}{\numberline {2.1.1}Spin Hamiltonian}{4}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Mononuclear Anisotropy}{5}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Polynuclear Anisotropy}{7}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Methodology}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Methodology}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Hartree-Fock Method}{10}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Complete Active Space Self Consistent Field}{11}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Complete Active Space Self Consistent Field}{10}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Perturbation Theory}{12}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Difference dedicated configurational interaction}{12}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Density functional theory}{13}{subsection.2.2.5}%
@@ -24,8 +24,8 @@
 \contentsline {section}{\numberline {4.2}Theorical model}{31}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Impact of First Order Spin Orbit Coupling in the absence of electric field}{35}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Impact of the electric field on the symmetric anisotropic exchange parameter}{37}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Herbertsmithite}{38}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Density-Functional Theory study}{38}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Wave-Function Theory study}{42}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Isotropic Coupling}{42}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Anisotropic interactions}{44}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {5}Herbertsmithite}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Density-Functional Theory study}{39}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Wave-Function Theory study}{43}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Isotropic Coupling}{43}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Anisotropic interactions}{45}{subsection.5.2.2}%
