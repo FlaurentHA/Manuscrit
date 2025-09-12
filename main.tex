@@ -154,11 +154,11 @@ To draw an easier picture, it is possible to restrict the spin vector to its com
 \begin{equation}
     H_{ising}=- \sum_{i,j} J_{ij} \hat{\vb S}_{z,i} \hat{\vb S}_{z,j}
 \end{equation}
-The magnetic moment of each lattice site are now considered to align themselves with the $z$ axis at all time, taking a $\pm 1$ value.
+The magnetic moment of each magnetic site are now considered to align themselves with the $z$ axis at all time, taking a $\pm 1$ value.
 The main advantage of this approximation is that the eigenfunctions of this Hamiltonian are now spin functions opening up the extraction to new computation methods. 
 It also reduces the analytical derivation allowing to work on larger systems without the need to diagonalize large matrices.
 
-\subsection{Mononuclear Anisotropy}
+\subsection{Magnetic anisotropy in mononuclear complexes}
 
 \par Effects such as Spin-Orbit-Coupling (SOC) tend to create anisotropy in systems that cannot be described only by eq (\ref{Hheis}). 
 More specifically on mononuclear systems (only one magnetic centre) with a ground state of spin larger or equal to one and correct symmetry conditions, a lift of degeneracy between the different $M_S$ component of a same $S$ state can be observed even in the absence of magnetic field, this phenomenon is called Zero-Field-Splitting.
@@ -186,12 +186,11 @@ and the rhombic term:
 \end{equation}
 With $|D| \geq 3E \geq 0$. 
 The ZFS Hamiltonian can then be written:
-\begin{equation}  %Différentes conventions??%
+\begin{equation}\label{HZFS}
     \hat{H}_{ZFS}=D (\hat{S}_z^2-\frac{1}{3}\hat{S}^2)+E(\hat{S}_x^2-\hat{S}_y^2)
 \end{equation}
 A positive value of D indicates that the ground state is mainly composed of the $M_S$=0 component meaning that the projection of the spin moment along the $z$-axis is close to zero resulting in an easy-plane anisotropy. 
 On the contrary if D<0, the ground state is formed from the $M_S$=$\pm M_{Smax}$ components with a maximum projection of spin moment along the $z$-axis resulting in an easy-axis anisotropy.
-For a ground state with spin larger than one and a half, other terms may appear but will not be considered in this work. (Rajouter le B40)
 
 In the case of a triplet S=1 ground stat such as a nickel Ni (II) complex, the matrix representation of hamiltonian (\ref{SDS}) in an arbitrary axes frame:
 \begin{center}
@@ -252,9 +251,26 @@ and
     E=\frac{1}{2}(E_2-E_3)
 \end{equation}
 
+For the study of system with a ground state of $S<2$ these two parameters are enough to reproduce accurately the energy spectrum.
+In case of larger $S\ge2$, one needs to introduce the Stevens operators which are linked to the crystal field and can be expressed from angular momenta operators $\hat{J}$
+These operators were first derived to describe the lift of degeneracy induced by the crystal field potential studid in spectroscopy.
+Note that this formalism is not resticted to transition metals but can also be used on rare earth.
+The ZFS is now described by the more complete model Hamiltonian:
+
+\begin{equation}
+    \hat{H}_{Stevens}=\sum_{k=0}^{2S}\sum_{n=0}^{k}B_k^n\hat{O}_k^n
+\end{equation}
+
+where $B_k^n$ are the Stevens parameter specific to each systems and $\hat{O}_k^n$ the Stevens Operators are spherical tensors of rank $k$.
+In case of mono-nuclear complexes, only the even rank k tensors contribute for symmetry reasons. 
+The ZFS parameters are related to the second rank Stevens paramters:
+
+\begin{align}
+    D=3B_2^0 && E=B_2^2
+\end{align}
 
 
-\subsection{Polynuclear Anisotropy}
+\subsection{Magnetic anisotropy in polynuclear complexes}
 Opening the study to multiple magnetic centers introduces couplings that can be anisotropic between the magnetic moments of each center. 
 This coupling between two sites A and B with at least one magnetic electron each, is called anisotropic exchange interaction and is described by the following Giant Spin Hamiltonian.
 \begin{equation}
@@ -262,13 +278,14 @@ This coupling between two sites A and B with at least one magnetic electron each
 \end{equation}
 The interaction tensor $\overline{\overline{D}}$ describes Zero-Field-Splitting the same way as before but now between two sites $A$ and $B$, two parameters $D$ and $E$ can be defined similarly. 
 This Hamiltonian is suitable for system with a ground state of spin larger or equal to one that is well separated in energy from other SO-states.
-It is also possible to study all the states of the configuration using the multi-spin Hamiltonian
+This tensor can be split in three compoentns, an isotropic term that relates to the HDvV Hamiltonian and two anisotropic terms.
+It is then possible to study all the states of the configuration using the multi-spin Hamiltonian
 
 \begin{equation}
     \hat{H}_{AB}=J(\hat{\vb S}_A \cdot \hat{\vb S}_B) + \hat{\vb S}_A \cdot\overline{\overline{D}}_{AB} \cdot \hat{\vb S}_B + \vb{d}_{AB} \cdot (\hat{\vb S}_A \cross \hat{\vb S}_B)
 \end{equation}
 
-where the first term is the isotropic exchange, extending this coupling to more than two center this term becomes equivalent to the HDVV Hamiltonian from (\ref{Hheis}).
+where the first term is the isotropic exchange.
 The two following terms describe the anisotropic exchange with the symmetric tensor of exchange $\overline{\overline{D}}_{AB}$ and the antisymmetric exchange $\vb{d}_{AB}$ also called Dzyaloshinskii-Moriya pseudo-vector interaction.
 For couplings involving more than one unpaired electron per site, local tensor must be introduced:
 \begin{equation}
@@ -1234,7 +1251,7 @@ The sum of the two contributions matches perfectely with the value obtained via 
         \hline
          & $\qquad$&$D_{AB}$\\
          \hline
-         Contribution of $T_3^+$ and $T_3^-$& $\qquad$& -1176.74 \\
+         Contribution of $T_3^+$ and $T_3^-$& $\qquad$& -1176.74X \\
          Contribution of $S_3$& $\qquad$& 1124.28\\
          Sum &$\qquad$ &-52.46\\
          $D_{AB}$ from $H^{eff}$ & $\qquad$ &-52.46\\
@@ -1604,14 +1621,14 @@ The matrix representation of the model Hamiltonian in the model space basis is:
 
 The values obtained for both interaction expressed in Kelvin in the axis system of the cluster are:
 
-\[ \overline{\overline{D}}_{ij} \left( \begin{array}{c c c}
+\[ \overline{\overline{D}}_{12}= \left( \begin{array}{c c c}
     1 & 0 & 0\\
     0 & 1 & 0\\
     0 & 0 & 1
     \end{array} \right)
     %
     \qquad
-    \vb{d}_{ij}
+    \vb{d}_{12}=
     \left( \begin{array}{c}
     0  \\
     4.73  \\
@@ -1702,6 +1719,34 @@ This matrix can be obtained using the Clebsch-Gordan coefficients or by diagonal
 
 
 The symmetric tensor terms (6 each, 18 total) are left out of the matrix for clarity but are taken into account during the extraction.
+The extracted Dzyaloshinskii-Moriya pseudo vectors are:
+
+\[     \vb{d}_{12}=
+\left( \begin{array}{c}
+-4.1  \\
+2.36  \\
+1.70
+\end{array} \right)
+    \qquad
+    \vb{d}_{13}=
+    \left( \begin{array}{c}
+    0  \\
+    4.73  \\
+    1.70
+    \end{array} \right)
+    \qquad    \vb{d}_{23}=
+    \left( \begin{array}{c}
+    4.1  \\
+    2.36  \\
+    1.70
+    \end{array} \right)
+    \]
+
+The axis system was not changed between the dinuclear and trinuclear fragment and that the two $Cu^{2+}$ ions numbered 1 and 3 are the one taken into account in the dinuclear calculation.
+Note that the extracted DMI-vector is strictly the same $\vb{d}_{12}^{dinuclear}$=$\vb{d}_{13}^{trinuclear}$ as expected.
+The three DMI vectors share the same out of plane $d_z^{ij}=1.70K$ and in plane component $|d_{xy}^{ij}|=4.73K$
+
+
 
 
 \end{document}
