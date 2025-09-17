@@ -393,6 +393,10 @@ where $\hat{h}(i)$ is a mono-electronic operator that contains the kinetic energ
 The two operators $\hat{J}_{j}(i)$ and $\hat{K}_{j}(i)$ describe the coulomb repulsion and exchange mechanism between the i$th$ electron and the rest.
 These operator carry a direct dependance on the trial vectors from eq \ref{Roothans} as such, the Roothan's equation are non-linear and will be solved iteratively following a $Self$ $Consistent$ $Field$ (SCF) procedure.
 
+\subsection{Configuration Interaction}
+
+
+
 
 \subsection{Complete Active Space Self Consistent Field}
 
@@ -518,7 +522,7 @@ The same cannot be said about cristalline systems which are infinite and cannot 
 In theory one would want the fragment to be as large as possible to reduce the error created by cutting off the fragment from its environment, unfortunately to reduce computational cost we have to limit ourselves with small sized fragments. 
 It then becomes crucial to chose correctly the fragment based on our knowledge of the physics we want to reproduce.
 The properties of the cluster alone differ from the one inside its natural environment. To reproduce it accurately it is immersed inside an embedding. 
-This embedding is composed of point charges that aim to replicate the electrostatic field of the crystal inside the cluster region, called Madelung Field. 
+This embedding is composed of point charges that aim to replicate the electrostatic field of the crystal, called Madelung Field, inside the cluster region. 
 To keep the symmetries of the crystal, the point charges are positionned at the lattice site in a sphere of radius $R_c$. 
 \begin{figure}[h!]
     \centering
@@ -710,12 +714,12 @@ A rationalization of the rhombic term E will be done but as the sum of the contr
 wave-function based calculations have been performed using the ORCA package.
 In a first place, Complete Active Space Self-Consistent Field calculations have been performed to account for non-dynamic correlations. 
 The CAS(8,5) active space contains 8 electrons in the 5 essentially 3d orbitals of the Ni(II) ion, and two sets of orbitals have been optimized using an average procedure over all triplet and all singlet states of the configuration.
-To account for dynamic correlations at the 2nd order of perturbation, NEVPT217 calculations have been carried out for all states. 
+To account for dynamic correlations at the 2nd order of perturbation, NEVPT2 calculations have been carried out for all states. 
 The Spin-orbit State-Interaction method was then used to account for Spin-Orbit Couplings SOCs between the Ms components of all spin states using the NEVPT2 correlated energies as diagonal elements of the SO matrix. 
-ZFS parameters were extracted using a procedure18 based on the effective Hamiltonian theory which proved to provide accurate values of the anisotropic parameters. 
-The QZVPP extended basis sets21 have been used for Ni atoms (14s10p5d4f2g), SVP for H (2s1p) and TZVP for all other atoms (6s3p2d1f for N, 8s4p2d1f for Cl and 6s3p2d1f for C). 
+ZFS parameters were extracted using a procedure based on the effective Hamiltonian theory which proved to provide accurate values of the anisotropic parameters. 
+The QZVPP extended basis sets have been used for Ni atoms (14s10p5d4f2g), SVP for H (2s1p) and TZVP for all other atoms (6s3p2d1f for N, 8s4p2d1f for Cl and 6s3p2d1f for C). 
 As the field may change the geometrical structure, geometry optimizations were performed for different values and orientations of the field. 
-We used the Hay-Wadt LanL2TZ(f) basis set for Ni and its corresponding relativistic effective core, Pople triple-$\zeta$ basis set (6-311G) for N24 and Cl25 atoms, a Pople double-$\zeta$ plus polarization basis set (6-31G*)26 for C atoms, and a Pople double-$\zeta$ basis set (6-31G) for H atoms26 and the B3LYP functional.
+We used the Hay-Wadt LanL2TZ(f) basis set for Ni and its corresponding relativistic effective core, Pople triple-$\zeta$ basis set (6-311G) for N and Cl atoms, a Pople double-$\zeta$ plus polarization basis set (6-31G*)26 for C atoms, and a Pople double-$\zeta$ basis set (6-31G) for H atoms and the B3LYP functional.
 Convergence thresholds for geometry optimization were set as VERYTIGHT.
 
 The field will be applied in the two opposite directions referred as positive +F and negative –F with a maximal amplitude of |F|= 1.028.109 V.m-1.
@@ -750,7 +754,7 @@ Figure \ref{GSE_Z} shows the energy of the ground state as a function of the ele
     \label{GSE_Z}
 \end{figure}
 
-The variation of case (a) is linear with respects to the field $F$ as expected from Stark effect.
+The variation of case (a) is linear with respects to the field $F$ as expected from Stark effect which tend to stabilize the ground state when the applied field and dipolar moment share the same orientation.
 In case (b) the energy follows a parabolic curves as the electric field disrupts the equilibirum geometry found at $F=0V.m^{-1}$, the curvature being very small compared to the variation for case (a), the overall behavior case (c) follows the electronic effects (a).
 
 
@@ -763,7 +767,7 @@ In case (b) the energy follows a parabolic curves as the electric field disrupts
 %    \label{Ni_D_Z}
 %\end{figure}
 
-Figure \ref{fig:Ni_D_Z} shows the evolution of the $D$ paramter as a function of the applied field $F$.
+Figure \ref{fig:Ni_D_Z} shows the evolution of the $D$ parameter as a function of the applied field $F$.
 In all three case the absolute variation $|dD/dF|$ is linear, with a negative slope in case (a) and positive in (b) and (c).
 This shows that the geometric effects (b) have a stronger effect that the electric ones (a) on the variation of the $D$ value.
 The evolution of the $E$ parameter is represented on figure \ref{fig:Ni_E_Z}, even through some deviation is observed for the geometric case (b), mainly due to the lack of precision in calculating this specific property, the overall variation is linear with the field.
@@ -771,22 +775,36 @@ Nonetheless the variation in case (b) is very small (<0.05 cm$^{-1}$) and the be
 
 \begin{figure}[!h]
     \centering
-    \begin{subfigure}{.5\textwidth}
-      \centering
-      \includegraphics[width=\linewidth]{Images/D_E_Z.png}
-      \caption{Axial D parameter}
-      \label{fig:Ni_D_Z}
-    \end{subfigure}%
-    \begin{subfigure}{.5\textwidth}
-      \centering
-      \includegraphics[width=\linewidth]{Images/E_E_Z.png}
-      \caption{Rhombic E parameter}
-      \label{fig:Ni_E_Z}
-    \end{subfigure}
-    \caption{Evolution of the Axial D (left) and Rhombic E (right) parameters (in cm$^{-1}$) as a function of the field applied in cases (a) (in blue and plain line), (b)
-    (in orange and dotted line) and (c) (in red and dashed line) in the Z}
-    \label{fig:ParamNi_E_Z}
+    \includegraphics[width=0.8\textwidth]{Images/D_E_Z.png}
+    \caption{Evolution of the Axial D (left) parameter (in cm$^{-1}$) as a function of the field applied in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line) in the Z direction}
+    \label{fig:Ni_D_Z}
 \end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/E_E_Z.png}
+    \caption{Evolution of the Rhombic E (right) parameter (in cm$^{-1}$) as a function of the field applied in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line) in the Z direction}
+    \label{fig:Ni_E_Z}
+\end{figure}
+
+%\begin{figure}[!h]
+%    \centering
+%    \begin{subfigure}{.5\textwidth}
+%      \centering
+%      \includegraphics[width=\linewidth]{Images/D_E_Z.png}
+%      \caption{Axial D parameter}
+%      \label{fig:Ni_D_Z}
+%    \end{subfigure}%
+%    \begin{subfigure}{.5\textwidth}
+%      \centering
+%      \includegraphics[width=\linewidth]{Images/E_E_Z.png}
+%      \caption{Rhombic E parameter}
+%      \label{fig:Ni_E_Z}
+%    \end{subfigure}
+%    \caption{Evolution of the Axial D (left) and Rhombic E (right) parameters (in cm$^{-1}$) as a function of the field applied in cases (a) (in blue and plain line), (b)
+%    (in orange and dotted line) and (c) (in red and dashed line) in the Z}
+%    \label{fig:ParamNi_E_Z}
+%\end{figure}
 
 Table \ref{Slope_D_Z} shows the absolute slopes $|dD/dF|$ and $|dE/dF|$ in all three cases of calculations, note that these slopes are additive with good precision.
 
@@ -923,14 +941,17 @@ The variation $\Delta (\Delta w(X-Y))$ is very similar between case (a) and case
 
 \subsection{Application of the electric field along the Y axis}
 
-Now, let's consider the applied field along the Y direction F//Y, the field is now perpendicular to the main component of the dipole moment ($\mu_Z$).
-Note that the field is not directly applied along the Ni-N$_3$ bond as it is slightly ouut of the XoY plane, the reason for that is that it made sense to consider two perpendicular orientation onto which apply the electric field
-Figure \ref{GSE_Y} shows the evolution of the ground state energy when F//Y, the quadratic behavior of the case (a) curve can be explained by a change in sign of the dipole moment component $\mu_Y$
+Now, let's consider the applied field along the Y direction $F$//Y, the field is now perpendicular to the main component of the dipole moment ($\mu_Z$).
+Note that the field is not directly applied along the Ni-N$_3$ bond, whose slightly out of the XoY plane, but along the Y axis perpendicular to the Z direction.
+Figure \ref{GSE_Y} shows the evolution of the ground state energy when $F$//Y.
+Case (b) follows the same parabolic trend as when $F$//Z, the argument remaining the same.
+The situation differs from F//Z in case (a), the evolution is not linear but quadratic. 
+The applied field induces a change in sign of the dipole moment component $\mu_y$ which is very small \ref{tab:DipF0Z}, the Stark effect then stabilise the ground state for both sing of the electric field $F$.
 
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[width=0.8\textwidth]{Images/E_Y.png}
+    \includegraphics[width=\textwidth]{Images/E_Y.png}
     \caption{Energies in cm-1 (shifted by 58.35795.107 cm$^{-1}$) of the ground state obtained for the cases (a) (in blue and plain line), (b)
     (in orange and dotted line) and (c) (in red and dashed line) as functions of the field applied in the Y direction.}
     \label{GSE_Y}
@@ -940,24 +961,39 @@ Figure \ref{GSE_Y} shows the evolution of the ground state energy when F//Y, the
 Figure \ref{fig:Ni_D_Y} shows the evolution of the $D$ term with respect to the applied field, it once again follows a linear behavior in all three cases.
 The sign of the slopes now have inversed with $|dD/dF|$ being positive for case (a) and negativ for both case (b) and (c) as opposed to when the field was along the Z direction.
 
+
 \begin{figure}[!h]
     \centering
-    \begin{subfigure}{.5\textwidth}
-      \centering
-      \includegraphics[width=\linewidth]{Images/D_E_Y.png}
-      \caption{Axial D parameter}
-      \label{fig:Ni_D_Y}
-    \end{subfigure}%
-    \begin{subfigure}{.5\textwidth}
-      \centering
-      \includegraphics[width=\linewidth]{Images/E_E_Y.png}
-      \caption{Rhombic E parameter}
-      \label{fig:Ni_E_Y}
-    \end{subfigure}
-    \caption{Evolution of the Axial D (left) and Rhombic E (right) parameters (in cm$^{-1}$) as a function of the field F//Y in cases (a) (in blue and plain line), (b)
-    (in orange and dotted line) and (c) (in red and dashed line)}
-    \label{fig:ParamNi_E_Y}
+    \includegraphics[width=0.8\textwidth]{Images/D_E_Y.png}
+    \caption{Evolution of the Axial D (left) parameter (in cm$^{-1}$) as a function of the field F//Y in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line)}
+    \label{fig:Ni_D_Y}
 \end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/E_E_Y.png}
+    \caption{Evolution of the Rhombic E (right) parameter (in cm$^{-1}$) as a function of the field F//Y in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line)}
+    \label{fig:Ni_E_Y}
+\end{figure}
+
+%\begin{figure}[!h]
+ %   \centering
+ %   \begin{subfigure}{.5\textwidth}
+ %     \centering
+ %     \includegraphics[width=\linewidth]{Images/D_E_Y.png}
+ %     \caption{Axial D parameter}
+ %     \label{fig:Ni_D_Y}
+ %   \end{subfigure}%
+ %   \begin{subfigure}{.5\textwidth}
+ %     \centering
+ %     \includegraphics[width=\linewidth]{Images/E_E_Y.png}
+ %     \caption{Rhombic E parameter}
+ %     \label{fig:Ni_E_Y}
+ %   \end{subfigure}
+ %   \caption{Evolution of the Axial D (left) and Rhombic E (right) parameters (in cm$^{-1}$) as a function of the field F//Y in cases (a) (in blue and plain line), (b)
+ %   (in orange and dotted line) and (c) (in red and dashed line)}
+ %   \label{fig:ParamNi_E_Y}
+%\end{figure}
 
 The slopes for each case are shown in Table \ref{tab:Slope_D_Y}, once again the variation of the $D$ term is dictated by the geometrical changes under the applied field, case (b).
 Note that the slopes $|dD/dF|$ are very much additive and now much higher in the case F//Y than it was with F//Z, almost seven times larger.
@@ -974,7 +1010,7 @@ Note that the slopes $|dD/dF|$ are very much additive and now much higher in the
 \end{table}
 
 The same rationalization can be applied here through the evolution of the ligand field.
-The application of the field al the 
+The application of the field a
 
 \begin{table}[h!]
     \centering
@@ -992,6 +1028,9 @@ The application of the field al the
     \caption{Variation of the distances in Angstrom between the Ni(II) ion and the closest atoms of the ligand between $-F$ and $+F$ with F//Y.}
     \label{tab:DistanceY}
 \end{table}
+
+
+
 
 \chapter{Electric field on Exchange anisotropy}\label{chap:Cu2Cl5}
 
