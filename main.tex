@@ -21,6 +21,7 @@
 \usepackage{hyperref}
 \usepackage{gensymb}
 \usepackage{lscape}
+\usepackage{makecell}
 \numberwithin{equation}{section}
 
 %\definecolor{main}{HTML}{5989cf}    % setting main color to be used
@@ -697,7 +698,7 @@ The two lowest triplets are formed primarily from orbitals that are combinations
 This coupling tends to stabilise the $m_s$=$\pm$1 of the $T_0$ ground state without affecting the $m_s$=0 component, which gives a negative contribution to the D term.
 This contribution can be estimated at second-order perturbation:
 \begin{equation}\label{ContrPert}
-    C(D)^{(2)}=-\frac{|\bra{T^0_{\pm1}}\hat{H}^SO\ket{T^1_{\pm1}}|^2}{\Delta E}
+    C(D)^{(2)}=-\frac{|\bra{T^0_{\pm1}}\hat{H}^{SO}\ket{T^1_{\pm1}}|^2}{\Delta E}
 \end{equation}
 with $\Delta E = E(T^1)-E(T^0)$ being the energy difference between the two states.
 As the difference in energy is relatively small, a better treatment of this contribution can be obtained variationally by diagonalizing the 2$\cross$2 SOC matrices in the basis of $T^0_{\pm1}$ and $T^1_{\pm1}$:
@@ -828,33 +829,33 @@ Other states may have large contributions but small variation from $-F$ to $+F$,
 \begin{table}[h]
     \centering
     \makebox[0pt][c]{%
-    \begin{tabular}{c | c | c  c | c c |c |c}
+    \begin{tabular}{c | c | c  c | c c c |c |c}
     \hline
-    \textbf{} & \textbf{Excited state} & \textbf{C(D) for -F} & \textbf{C(D) for +F} & $\Delta C(D)$ ORCA & $\Delta C(D)$ VAR. & $\Delta|\text{SOC}|^2$ & $\Delta(\Delta E)$ \\
+    \textbf{} & \textbf{Excited state} & \textbf{C(D) for -F} & \textbf{C(D) for +F} & \makecell{$\Delta C(D)$ \\ORCA} & \makecell{$\Delta C(D)$ \\VAR.} & \makecell{$\Delta C(D)$ \\ PERT.} & $\Delta|\text{SOC}|^2$ & $\Delta(\Delta E)$ \\
     \hline
     \multirow{4}{*}{\textbf{(a)}} 
-     & T$_1$ & -179.18 & -180.06 & -0.88 & -0.82 & 1722.78 & -1.60 \\
-     & T$_2$ &  23.84 &  23.72 & -0.12 &        &          &       \\
-     & T$_3$ &  19.61 &  19.68 &  0.07 &        &          &       \\
-     & S$_3$ &  20.48 &  20.57 &  0.09 &        &          &       \\
+     & T$_1$ & -179.18 & -180.06 & -0.88 & -0.82 & -0.96 &1722.78 & -1.60 \\
+     & T$_2$ &  23.84 &  23.72 & -0.12 &        &     &     &       \\
+     & T$_3$ &  19.61 &  19.68 &  0.07 &        &     &     &       \\
+     & S$_3$ &  20.48 &  20.57 &  0.09 &        &      &    &       \\
     \hline
     \hline
     \multirow{4}{*}{\textbf{(b)}} 
-     & T$_1$ & -180.95 & -178.25 &  2.70 &  2.70 & -209.90 & 36.2  \\
-     & T$_2$ &  23.82 &  23.72 & -0.10 &        &         &       \\
-     & T$_3$ &  19.71 &  19.58 & -0.13 &        &         &       \\
-     & S$_3$ &  20.55 &  20.51 & -0.04 &        &         &       \\
+     & T$_1$ & -180.95 & -178.25 &  2.70 &  2.70 & 3.42&-209.90 & 36.2  \\
+     & T$_2$ &  23.82 &  23.72 & -0.10 &        &    &     &       \\
+     & T$_3$ &  19.71 &  19.58 & -0.13 &        &    &     &       \\
+     & S$_3$ &  20.55 &  20.51 & -0.04 &        &    &     &       \\
     \hline
     \hline
     \multirow{4}{*}{\textbf{(c)}} 
-     & T$_1$ & -180.49 & -178.66 &  1.83 &  1.90 & 1509.15 & 34.7  \\
-     & T$_2$ &  23.88 &  23.66 & -0.22 &        &         &       \\
-     & T$_3$ &  19.67 &  19.61 & -0.06 &        &         &       \\
-     & S$_3$ &  20.51 &  20.56 &  0.05 &        &         &       \\
+     & T$_1$ & -180.49 & -178.66 &  1.83 &  1.90 & 2.47&1509.15 & 34.7  \\
+     & T$_2$ &  23.88 &  23.66 & -0.22 &        &   &      &       \\
+     & T$_3$ &  19.67 &  19.61 & -0.06 &        &    &     &       \\
+     & S$_3$ &  20.51 &  20.56 &  0.05 &        &    &     &       \\
     \hline
     \end{tabular}
     }
-    \caption{Contributions to the axial parameter D (in cm-1) of the most contributing excited states and their variations $\Delta$C(D) between the -$F$ and +$F$ in the Z direction either provided by ORCA or calculated variationally. $\Delta$|SOC|2 is the variation of the square of the module of the SOC between the ground and the first excited triplet states while $\Delta$($\Delta$E) is the variation between the -$F$ and +$F$ of their energy difference (in cm$^{-1}$) obtained at the NEVPT2 level.}
+    \caption{Contributions to the axial parameter D (in cm-1) of the most contributing excited states and their variations $\Delta$C(D) between the -$F$ and +$F$ in the Z direction either provided by ORCA, calculated variationally and perturbatively. $\Delta$|SOC|2 is the variation of the square of the module of the SOC between the ground and the first excited triplet states while $\Delta$($\Delta$E) is the variation between the -$F$ and +$F$ of their energy difference (in cm$^{-1}$) obtained at the NEVPT2 level.}
     \label{tab:Contribution_Z}
 \end{table}
 
@@ -1009,8 +1010,56 @@ Note that the slopes $|dD/dF|$ are very much additive and now much higher in the
     \label{tab:Slope_D_Y}
 \end{table}
 
-The same rationalization can be applied here through the evolution of the ligand field.
-The application of the field a
+
+
+
+\begin{table}[h]
+    \centering
+    \makebox[0pt][c]{%
+    \begin{tabular}{c | c | c  c | c c c |c |c}
+    \hline
+    \textbf{} & \textbf{Excited state} & \textbf{C(D) for -F} & \textbf{C(D) for +F} & \makecell{$\Delta C(D)$ \\ORCA} & \makecell{$\Delta C(D)$\\ VAR.}& \makecell{$\Delta C(D)$ \\PERT.} & $\Delta|\text{SOC}|^2$ & $\Delta(\Delta E)$ \\
+    \hline
+    \multirow{4}{*}{\textbf{(a)}} 
+     & T$_1$ & -179.99 & -178.26 & 1.73 & 1.74 & 2.21 & 36.05 & 24.40 \\
+     & T$_2$ &  23.66 &  24.05 & 0.39 &        &     &     &       \\
+     & T$_3$ &  19.60 &  19.61 &  0.01 &        &    &      &       \\
+     & S$_3$ &  20.53 &  20.50 &  -0.03 &        &    &      &       \\
+    \hline
+    \hline
+    \multirow{4}{*}{\textbf{(b)}} 
+     & T$_1$ & -174.84 & -183.67 &  -8.83 &  -8.76& -11.10 & -162.22 & -122.40  \\
+     & T$_2$ &  23.91 &  23.82 & -0.09 &        &    &     &       \\
+     & T$_3$ &  19.56 &  19.65 & 0.09 &        &    &     &       \\
+     & S$_3$ &  20.44 &  20.60 & 0.16 &        &     &    &       \\
+    \hline
+    \hline
+    \multirow{4}{*}{\textbf{(c)}} 
+     & T$_1$ & -175.65 & -182.86 &  -7.11 &  -7.02 & -8.91 & -124.89 & -98.20  \\
+     & T$_2$ &  23.71 &  24.02 & 0.31 &        &     &    &       \\
+     & T$_3$ &  19.56 &  19.65 & 0.09 &        &    &     &       \\
+     & S$_3$ &  20.45 &  20.59 &  0.14 &        &     &    &       \\
+    \hline
+    \end{tabular}
+    }
+    \caption{Contributions to the axial parameter D (in cm-1) of the most contributing excited states and their variations $\Delta$C(D) between the -$F$ and +$F$ in the Y direction either provided by ORCA, calculated variationally and perturbatively. $\Delta$|SOC|2 is the variation of the square of the module of the SOC between the ground and the first excited triplet states while $\Delta$($\Delta$E) is the variation between the -$F$ and +$F$ of their energy difference (in cm$^{-1}$) obtained at the NEVPT2 level.}
+    \label{tab:Contribution_Y}
+\end{table}
+
+The most important contribution are reported in table \ref{tab:Contribution_Y}. 
+Once again the contribution that is the most affected by the electric field is that of the first excited state $T^1$.
+In case (a) one note the increase of the difference in energy $\Delta (\Delta E)$, this comes from a deformation of the electronic could around the Ni(II) ion in the direction of N$_3$ for $+F$. 
+This destabilize the $d_{x^2-y^2}$ which point directly toward N$_3$ and stabilize the $d_{xy}$ resulting in an increase of difference of energy between states.
+
+The rationalization of the variations for case (b) can be made through the evolution of the ligand field in table \ref{tab:DistanceY}.
+The application of the electric field alond the Y direction tends to elongate the Ni-N$_3$ bond and concomitantly reduce the two other Ni-N bond lengths in the XY plane.
+The ligand field along the Y axis is therefore reduced stabilizing the $d_{x^2-y^2}$ orbital while the $d_{xy}$ orbital, pointing directly toward N$_2$ and N$_4$, is destabilised. 
+This result in a decrease of the difference of orbital energy $\Delta (\Delta \epsilon (d_{x^2-y^2}-d_{xy}))$, thus a decrease of the difference of energy between the ground state $T^0$ and excited state $T^1$.
+According to eq \ref{ContrPert}, this leads to an increase of the magnitude $|D|$ as seen in figure \ref{fig:Ni_D_Y} for case (b).
+
+
+
+
 
 \begin{table}[h!]
     \centering
@@ -1028,9 +1077,6 @@ The application of the field a
     \caption{Variation of the distances in Angstrom between the Ni(II) ion and the closest atoms of the ligand between $-F$ and $+F$ with F//Y.}
     \label{tab:DistanceY}
 \end{table}
-
-
-
 
 \chapter{Electric field on Exchange anisotropy}\label{chap:Cu2Cl5}
 
