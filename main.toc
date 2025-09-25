@@ -13,20 +13,22 @@
 \contentsline {subsection}{\numberline {2.2.5}Difference dedicated configurational interaction}{12}{subsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.2.6}Density functional theory}{13}{subsection.2.2.6}%
 \contentsline {subsection}{\numberline {2.2.7}Embedded Cluster Method}{14}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8}Effective Hamiltonian}{15}{subsection.2.2.8}%
-\contentsline {chapter}{\numberline {3}Study of the magnetic anisotropy in mononuclear complexes}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}First-Order Spin-Orbit Coupling}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Impact of the Electric field on the ZFS parameters}{19}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Computational Informations}{21}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Application of the electric field along the Z axis}{22}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Application of the electric field along the Y axis}{25}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}Electric field on Exchange anisotropy}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Computational Informations}{32}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Theorical model}{33}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Impact of First Order Spin Orbit Coupling in the absence of electric field}{36}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Impact of the electric field on the symmetric anisotropic exchange parameter}{38}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Herbertsmithite}{41}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Density-Functional Theory study}{41}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Wave-Function Theory study}{46}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Isotropic Coupling}{46}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Anisotropic interactions}{48}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {2.2.8}Effective Hamiltonian Theory}{15}{subsection.2.2.8}%
+\contentsline {chapter}{\numberline {3}Study of the magnetic anisotropy in mononuclear complexes}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}First-Order Spin-Orbit Coupling}{18}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Impact of the Electric field on the ZFS parameters}{20}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Computational Informations}{22}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Application of the electric field along the Z axis}{23}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Application of the electric field along the Y axis}{27}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Conlcusion}{31}{subsection.3.2.4}%
+\contentsline {chapter}{\numberline {4}Electric field on Exchange anisotropy}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Computational Informations}{33}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Theorical model}{34}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Impact of First Order Spin Orbit Coupling in the absence of electric field}{37}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Impact of the electric field on the symmetric anisotropic exchange parameter}{39}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Conclusion}{42}{subsection.4.4.1}%
+\contentsline {chapter}{\numberline {5}Herbertsmithite}{43}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Density-Functional Theory study}{43}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Wave-Function Theory study}{48}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Isotropic Coupling}{49}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Anisotropic interactions}{50}{subsection.5.2.2}%
