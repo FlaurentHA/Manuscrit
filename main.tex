@@ -1,4 +1,5 @@
-\documentclass[10pt]{report}
+\documentclass[12pt]{report}
+\usepackage{times}
 \usepackage[utf8]{inputenc}
 \usepackage{float}
 \usepackage{amsmath}
@@ -113,23 +114,13 @@ Flaurent HEULLY--ALARY
 \newpage
 \chapter{Introduction}
 
-This work has for purpose the characterisation of magnetic interactions in different types of systems based on transition metals.
-At the molecular scale, several systems have been studied extensively for the the search of magnetic properties of interest.
-The centre of this work work is anisotropic interaction in both mono- and polynuclear complexes. 
-Such anisotropy stems from a combination of spin and symmetry conditions to which many studies have been dedicated.
-The most famous system exhibiting anisotroppy is based on a Mn$_{12}$ complex which helped define Single Molecule Magnets (SMMs).
-At very low temperature, measurement of hysterisis have discovered a spontaneous magnetisation 
-
-
-
-
-The present work aims to determine the mechanisms at play to obtain large values of molecular anisotropy and annd in one case extend the established procedure to real cristalline system.
+The present work aims to determine the mechanisms at play to obtain large values of molecular anisotropy and in one case extend the established procedure to real cristalline system.
 This thesis is organised around four chapters. The first is dedicated to the review of the theoretical models applied to molecular anisotropy by both experimentalist and theoricians.
 The model Hamiltonians and interactions will presented and some insight on their origins will be given.
 The second part of this chapter is dedicated to the computational methodology that will be applied throughout this work.
 It introduces some informations on ways to obtain the wave-functions and energies that are crucial to make the connection to model Hamiltonians.
 Chapter 2 concerns the study of first-order spin-orbit coupling and its implication on the models. 
-Two mononuclear complexes were examined, the first originate from a collaboration with experimentalists whose objective is the synthesis of complexes with large anisotropy induced by first-order SOC.
+Two types of mononuclear complexes were examined, the first originates from a collaboration with experimentalists whose objective is the synthesis of complexes with large anisotropy induced by first-order SOC.
 Our work was complementary to the experimental characterisation of the complexes and to the evaluation of the validity of the usual models.
 Following a previous study, the second complex has already been identified to exhibit large anisotropy values.
 Our interest lies in the evolution of its properties under the effect of an external electric field.
@@ -325,6 +316,8 @@ For couplings involving more than one unpaired electron per site, local tensor m
 
 The matrix representation for two interacting spin 1/2 systems is the following:
 \begin{center}
+    \centering
+    \makebox[0pt][c]{%
     \begin{tabular}{c | c c c c}
         $H_{MS}$ & $\ket{1,-1}$ & $\ket{1,0}$ & $\ket{1,1}$ & $\ket{0,0}$\\
         \hline
@@ -333,6 +326,7 @@ The matrix representation for two interacting spin 1/2 systems is the following:
         $\bra{1,1}$ &$\frac{(D_{xx}-D_{zz}+2iD_{xy})}{4} $ & $-\frac{D_{xz}+iD_{yz}}{2\sqrt{2}}$ & $\frac{J}{4}+\frac{D_{zz}}{4}$ & $\frac{d_y-id_x}{2\sqrt{2}}$\\
         $\bra{0,0}$ & $\frac{d_y-id_x}{2\sqrt{2}}$  & $\frac{id_z}{2}$  &$\frac{d_y+id_x}{2\sqrt{2}}$  & $-\frac{3J}{4}-\frac{D_{zz}}{4}-\frac{(D_{xx}+D_{yy})}{4}$\\
     \end{tabular}
+    }
 \end{center}
 From this matrix, we notice that the Dzyaloshinskii-Moriya interaction creates a coupling between the singlet with the three $M_S$ components of the triplet state.
 As for the symmetric tensor of anisotropic exchange, it only couples the three component of the triplet which undergo an energy splitting.
@@ -692,8 +686,9 @@ One way to increase the anisotropy is to try and retrieve a contribution from fi
 This situation is well known for lanthanide ions, where unquenched orbital moments naturally give rise to extreme anisotropy, but it is rarely accessible for 3d ions, except in very low coordination numbers or highly symmetric geometries.
 The theoretical appeal of such systems is clear: when orbital quasi-degeneracy is preserved, the ZFS model breaks down, and anisotropy must instead be understood in terms of the mixing of spin–orbit states at the ab initio level.
 With this in mind, a series of five Iron(II) complexes were synthesized with the purpose of retrieving a first-order SOC.
-The use of a pentadentate ligand in the equatorial plane enforces a pentagonal bipyramidal geometry around the metallic center. Combined with a halides or H$_2$O ligands in the apical positions, this allows the conditions of quadidegeneracy of the $d_{xz}$ and $d_{yz}$ orbitals to be met.
-
+Through a joint study by experimentalists and theoricians, this work aims to determine the properties of the complexes and identify the contribution of first-order SOC
+The use of a pentadentate ligand in the equatorial plane enforces a pentagonal bipyramidal geometry around the metallic center.
+Combined with a halides or H$_2$O ligands in the apical positions, this allows the conditions of quasidegeneracy of the $d_{xz}$ and $d_{yz}$ orbitals to be met.
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/ComplexFe.XY.jpg}
@@ -701,6 +696,38 @@ The use of a pentadentate ligand in the equatorial plane enforces a pentagonal b
     \label{FeComplex}
 \end{figure}
 
+The electronic structure of the complexe were computed using CAS(6,5)SCF calculations, which allow for the evaluation of the energy splitting of the d-orbitals.
+First-oder SOC involves the two lowest quintuplets $Q_1$ and $Q_2$, which are essentially monoconfigurational with one electron occupying either the $d_{xz}$ or $d_{yz}$ orbital.
+The incorporation of the SOC was performed using the So-SI method generating the full manifold of SO-states for the extraction of anisotropic parameter of the ZFS Hamiltonian.
+In parallel, a first-order SOC model was adopted, previously developed for low-symmetry iron and nickel complexes.
+In this picture, the ligand field Hamiltonian is represented in a basis of the nearly degenerate orbitals $d_{xz}$ and $d_{yz}$.
+This lift of degeneracy is induced by disotrtion of the fully symmetric geometry and is described by two parameters:
+
+\begin{itemize}
+    \item $\delta_1$ the splitting between the two orbitals, reflecting the extent to which degeneracy is broken.
+    \item $\delta_2$ the off-diagonal mixing between the orbitals, which couples them in the ligand field Hamiltonian.
+\end{itemize}
+
+The ligand field Hamiltonian is then written:
+\[ \hat{H}_{LF}= \left( \begin{array}{c c}
+    -\delta_1 & \delta_2 \\
+    \delta_2& \delta_1
+    \end{array} \right)
+\]
+
+An expression of the SO-states energy spectrum can be derived and directly compared to the $ab$ $initio$ one to obtain values for the $delta_i$ terms.
+It also provide a way to estimate the $D$ and $E$ parameter from the ZFS formalism.
+
+
+The study indicates that the ZFS formalism is only applicable in the case of the H$_2$O ligand with a lift of orbital degeneracy of 412 cm$^{-1}$ between the $d_{xz}$ and $d_{yz}$.
+The results indicates a significant unaxial anisotropy and rhombicity that is slightly underestimated compared to experimental determination with a S=2 model.
+The two models, ZFS and first-order SOC, provide values that are in very good agreement.
+In the case of other complexes, results indicates that they behave like SMMs with large anisotropy
+However, the energy splitting between the $d_{xz}$ and $d_{yz}$ orbitals is very small, which leads to a strong mixing of the two lowest quintuplet states in the SO-ground state.
+Only a few cm$^{-1}$ separate the five lowest SO-states from the other, rendering the ZFS hamiltonian inappropriate.
+
+Overall, this study highlight that first-order SOC, traditionally associated with low-coordinate 3d complexes, can also be engineered in higher coordination environments by careful ligand design.
+This not only advances the conceptual understanding of magnetic anisotropy in transition metals, but also provides promising building blocks for the design of exchange-coupled molecular materials with enhanced anisotropic interactions.
 
 
 \newpage
@@ -720,6 +747,7 @@ Opposite this fourth nitrogen atom is an apical halogenated ligand, either chlor
     \caption{Representation of the complex [Ni(Me6trenCl)](ClO4), Ni in green, Cl, N in blue, C in black and H in white}
     \label{NiMe6tren}
 \end{figure}
+
 
 Cristallographic data indicates that this complex crystallises in the trigonal space $R3c$ with a $C_3$ axis of symmetry along the Ni-Cl axis.
 This coordination induces a degeneracy of the d-orbital that share the same angular component $m_l$=$\pm2$($\pm1$), \textit{i.e} $d_{xy}$($d{xz}$) and $d_{x^2-y^2}$($d_{yz}$). 
@@ -882,6 +910,8 @@ Table \ref{tab:Slope_D_Z} shows the absolute slopes $|dD/dF|$ and $|dE/dF|$ for 
 Note that these slopes are additive with good precision for both parameters.
 
 \begin{table}[!ht]
+    \centering
+    \makebox[0pt][c]{%
     \begin{tabular}{c | c c c c}
         \hline
         $Hz/(V.m^{-1})$ &  (a) Electronic structure & (b) Geometric structure & (c) Both & Sum of (a) and (b)\\
@@ -889,6 +919,7 @@ Note that these slopes are additive with good precision for both parameters.
         $|dD/dF|$ & -13.52	& +26.66& 	+13.15 & 	+13.14\\
         $|dE/dF|$ &-2.53& 	-0.36& 	-2.88& 	-2.89\\
     \end{tabular}
+    }
     \caption{Slopes of the straight lines in cases (a), (b) and (c) for the D and E parameter for F//Z}
     \label{tab:Slope_D_Z}
 \end{table}
@@ -1073,6 +1104,8 @@ The sign of the slopes has now inverted, with $|dD/dF|$ being positive for case 
 The slopes for each case are shown in Table \ref{tab:Slope_D_Y}, once again the variation of the $D$ term is dictated by the geometrical changes under the applied field, case (b).
 Note that the slopes $|dD/dF|$ remain additive and are now much higher in the F//Y case than in the F//Z case, almost seven times larger.
 \begin{table}[!ht]
+    \centering
+    \makebox[0pt][c]{%
     \begin{tabular}{c | c c c c}
         \hline
         $Hz/(V.m^{-1})$ &  (a) Electronic structure & (b) Geometric structure & (c) Both & Sum of (a) and (b)\\
@@ -1080,6 +1113,7 @@ Note that the slopes $|dD/dF|$ remain additive and are now much higher in the F/
         $|dD/dF|$ & +25.32	& -110.75 & 	-85.45 & 	-85.43\\
         $|dE/dF|$ &-2.39& 	+1.20& 	-1.19& 	-1.19\\
     \end{tabular}
+    }
     \caption{Slopes of the straight lines in cases (a), (b) and (c) for the D and E parameter for F//Y}
     \label{tab:Slope_D_Y}
 \end{table}
@@ -1277,15 +1311,20 @@ Crystal field theory indicates that these orbitals should mainly be composed of 
 With the application of an electric field, one can predict that these orbitals will hybridise to form the orbitals $a$($a'$) and $b$($b'$).
 We refer to the orthogonal cartesians orbitals as $a_1$($b_1$) and $a_2$($b_2$) respectively depending wether the site is A or B so that:
 \begin{align}
-    a=\alpha a_1 + \beta a_2 \qquad b=-\alpha b_1  + \beta b_2 \qquad a'= \alpha ' a_1 +\beta ' a_2 \qquad b'=-\alpha' b_1 +\beta b_2
+    \begin{split}
+    a=\alpha a_1 + \beta a_2 \qquad b=-\alpha b_1  + \beta b_2 \\
+    a'= \alpha ' a_1 +\beta ' a_2 \qquad b'=-\alpha' b_1 +\beta b_2
+    \end{split}
 \end{align}
 Where $\alpha$($\alpha'$) and $\beta$($\beta'$) are the mixing coefficients between the d-orbital in the triplet(singlet) state.
 The coupling of the lone electron of each copper ion gives rise to a triplet and singlet state that will form the basis of the model space:
 \begin{align}
+    \begin{split}
     &T^+=|ab|\\
     &T^0=\frac{1}{\sqrt{2}}(|a\overline{b}|-|b\overline{a}|)\\
     &T^-=|\overline{a}\overline{b}|\\
     &S=\frac{1}{\sqrt{2}}(|a'\overline{b'}|+|b'\overline{a'}|)
+    \end{split}
 \end{align}
 
 The matrix representation of the Multi-Spin Hamiltonian in this basis is:
@@ -1926,14 +1965,17 @@ As such it does not provide a good estimate but can nonetheless give information
 Table \ref{ResultatsWFT} shows the results obtained at different levels of calculation for different active space.
 
 \begin{center}\label{ResultatsWFT}
+    \centering
+    \makebox[0pt][c]{%
     \begin{tabular}{c m{8em} m{10em} c c c }
         \hline
-        $J_1 (K)$ & CAS(2,2) CAS(3,3) & CAS(18,10) CAS(27,15) & CASPT2 & DDCI1  & DDCI3  \\
+        $J_1 (K)$ & \makecell{CAS(2,2) \\CAS(3,3)} &\makecell{CAS(18,10) \\CAS(27,15)} & CASPT2 & DDCI1  & DDCI3  \\
         \hline
         Dimer & 10.7 & 8.3 & 69.8 & 50.0 & 80.1 \\
         Trimer & 8.2 & 7.7 & 56.0  & 50.7 & 60 \\
         \hline
     \end{tabular}
+    }
 \end{center}
 
 These results indicate an antiferromagnetic $J$ coupling with a large impact of dynamical correlation, yet these values do not match with the DFT calculations and the litterature.
@@ -1965,6 +2007,8 @@ The lowest part of the energy spectrum was corrected using the isotropic couplin
 No assumption on the magnetic axes was made and so the extraction of all anisotropic parameters (9 in total) was performed using effective hamiltonian theory with a model space composed of the three $M_S$ component of the triplet state and the singlet state.
 The matrix representation of the model Hamiltonian in the model space basis is:
 \begin{center}
+    \centering
+    \makebox[0pt][c]{%
     \begin{tabular}{c | c c c c}
         $H_{MS}$ & $\ket{1,-1}$ & $\ket{1,0}$ & $\ket{1,1}$ & $\ket{0,0}$\\
         \hline
@@ -1973,6 +2017,7 @@ The matrix representation of the model Hamiltonian in the model space basis is:
         $\bra{1,1}$ &$\frac{(D_{xx}-D_{zz}+2iD_{xy})}{4} $ & $-\frac{D_{xz}+iD_{yz}}{2\sqrt{2}}$ & $\frac{J}{4}+\frac{D_{zz}}{4}$ & $\frac{d_y-id_x}{2\sqrt{2}}$\\
         $\bra{0,0}$ & $\frac{d_y-id_x}{2\sqrt{2}}$  & $\frac{id_z}{2}$  &$\frac{d_y+id_x}{2\sqrt{2}}$  & $-\frac{3J}{4}-\frac{D_{zz}}{4}-\frac{(D_{xx}+D_{yy})}{4}$\\
     \end{tabular}
+    }
 \end{center}
 
 The values obtained for both interaction expressed in Kelvin in the axis system of the cluster are:
@@ -2112,8 +2157,36 @@ The extracted Dzyaloshinskii-Moriya pseudo vectors are:
 The axis system was not changed between the dinuclear and trinuclear fragment. Hence, the two $Cu^{2+}$ ions numbered 1 and 3 in the trinuclear fragment are the one that are included in the dinuclear calculation.
 Note that the extracted DMI-vector is strictly the same $\vb{d}_{12}^{dinuclear}$=$\vb{d}_{13}^{trinuclear}$ which validate the expansion to a trinuclear fragment.
 The three DMI vectors share the same out of plane $d_z^{ij}=1.70K$ and in plane component $|d_{xy}^{ij}|=4.73K$.
+Their orientations is depicted in Figure \ref{fig:schemaDMI}.
+It is important to mention that the out-of-plane component $d_{\perp}$ oscillates between below and above the (X Y ) plane of copper ions from one triangle to the next, following the alternating positions above and below of the oxygens
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/SchemaDMI.png}
+    \caption{Schematic representation of the DMI vector components in two adjacent $Cu^{2+}$ triangle of the lattice. The black arrows
+    between the magnetic centers indicates the order of the first and second spins in the
+    vector products of the DM interactions. The out-of-plane components alternate from
+    one triangle to its neighbors and point in the opposite direction to the position of
+    the oxygens. The angle between the in-plane components of the vectors within the
+    triangle is 120◦. }
+    \label{fig:schemaDMI}
+\end{figure}
 
+\begin{table}
+    \centering
+    \begin{tabular}{ c c c c c c }
+        \hline
+        Fragment & $|d_{ij}^{\parallel}|$ & $|d_{ij}^{\parallel}|$ & $|d|$ & D & E\\
+        \hline
+        Bi-nuclear & 4.73  & 1.70 &  5.03 & -0.46 & 0.13 \\
+        Tri-nuclear & 4.73 & 1.78 &  5.05 & -0.51 & 0.16\\
+        \hline 
+    \end{tabular}
+    \caption{Values of the $|d|$ DM magnitude and its components, axial (D) and rhomic (E) anisotropic exchange parameters, obtained for both fragments in Kelvin.}
+    \label{tab:ResumeDMI}
+\end{table}
 
+Table \ref{tab:ResumeDMI} provides the results obtained from the extractions performed on the bi-nuclear and tri-nuclear fragments. 
+It shows good agreement between the two fragment for all of the parameters considered in the model.
 
 \section{Conclusion}
 
