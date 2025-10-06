@@ -1,5 +1,5 @@
 \documentclass[12pt]{report}
-\usepackage{times}
+%\usepackage{times}
 \usepackage[utf8]{inputenc}
 \usepackage{float}
 \usepackage{amsmath}
@@ -72,7 +72,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Flaurent \textsc{HEULLY--ALARY -- Thesis Report}}
-\lhead{\textsc{University Paul Sabatier}}
+\lhead{\textsc{University of Toulouse}}
 \cfoot{\thepage}
 
 \makeatother
@@ -96,7 +96,7 @@
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \center
 \textsc{\LARGE
-University \noun{Paul Sabatier}
+	University of Toulouse
 } \\[1cm]
 %\includegraphics[scale=0.5]{LOGO.jpg} \\[1cm]
 \HRule\\[0.4cm]
@@ -112,15 +112,21 @@ Flaurent HEULLY--ALARY
 \large
 \tableofcontents
 \newpage
+\thispagestyle{empty}
+\listoffigures
+\listoftables
+\newpage
+
 \chapter{Introduction}
 
-The present work aims to determine the mechanisms at play to obtain large values of molecular anisotropy and in one case extend the established procedure to real cristalline system.
-This thesis is organised around four chapters. The first is dedicated to the review of the theoretical models applied to molecular anisotropy by both experimentalist and theoricians.
+The present work aims to determine the mechanisms at play to obtain large values of molecular magnetic anisotropy and in one case extend the established procedure to real cristalline system.
+This thesis is organised around four chapters. The first is dedicated to the review of the theoretical models applied to molecular magnetic anisotropy by both experimentalist and theoricians.
+anisotropy by both experimentalist and theoricians.
 The model Hamiltonians and interactions will presented and some insight on their origins will be given.
 The second part of this chapter is dedicated to the computational methodology that will be applied throughout this work.
 It introduces some informations on ways to obtain the wave-functions and energies that are crucial to make the connection to model Hamiltonians.
-Chapter 2 concerns the study of first-order spin-orbit coupling and its implication on the models. 
-Two types of mononuclear complexes were examined, the first originates from a collaboration with experimentalists whose objective is the synthesis of complexes with large anisotropy induced by first-order SOC.
+Chapter \ref{TheoryMethod} concerns the study of first-order spin-orbit coupling and its implication on the models. 
+Two types of mononuclear complexes were examined (Chapter \ref{MonoNucl}), the first originates from a collaboration with experimentalists whose objective is the synthesis of complexes with large anisotropy induced by first-order SOC.
 Our work was complementary to the experimental characterisation of the complexes and to the evaluation of the validity of the usual models.
 Following a previous study, the second complex has already been identified to exhibit large anisotropy values.
 Our interest lies in the evolution of its properties under the effect of an external electric field.
@@ -131,58 +137,58 @@ Finally, a real system application
 
 
 \chapter{Theory and Methodology}
-
+\label{TheoryMethod}
 \section{Model Hamiltonian}
 
-\subsection{Spin Hamiltonian}
+\subsection{Isotropic Hamiltonian}
 
-\subsection*{Heiseinberg Hamiltonian}
-The most well-know Spin Hamiltonian used to describe the magnetic interaction between a pair of spins located on different magnetic centres is the Heiseinberg-Dirac-Van Vleck (HDVV) Hamiltonina, written as:
+\subsection*{Heisenberg Hamiltonian}
+The Heisenberg-Dirac-van Vleck (HDvV) Hamiltonian is the most well-known and the most widely used Hamiltonian to model the behavior of system of interacting localized magnetic centers. It writes:
 
 \begin{equation}\label{Hheis}
     \hat{H}_{HDVV}=-\sum_{i,j} J_{ij} \hat{\vb S}_i \cdot \hat{\vb S}_j
 \end{equation}
 
-where $J_{i,j}$ is the coupling constant, $\hat{\vb S_i}$ and $\hat{\vb S_j}$ are the spin operators working on site $i$ and $j$.
-Several conventions exist for this Hamiltonian, with negative sign and/or a factor of 2 in front.  
-The coupling constant $J$ can be either positive or negative depending on the magnetic properties of the system, a positive value indicate ferromagnetism with magnetic moment aligned while negative indicate antiferromagnetism with opposite alignement of magnetic moments.
-This Hamiltonian is regarded as a Spin Hamiltonian as it only invoke the spin degree of freedom of the system and is still to this day used in the description of the isotropic magnetic properties.
+where $J_{i,j}$ is the coupling constant, $\hat{\vb S_i}$ and $\hat{\vb S_j}$ are the spin operators working on site $i$ and $j$. Other conventions exist with a positive sign and/or a factor of 2 in front).  
+With the convention of eq. \ref{Hheis}, a positive $J_{i,j}$ value indicates a ferromagnetic coupling between sites $i$ and $j$ (the coupling between these sites stabilizes the state with the largest total $\hat{\vb S_{tot}}=\hat{\vb S_i}+\hat{\vb S_j}$ ) while a negative value indicates an antiferromagnetic coupling (the state with the lowest $S_{tot}$ value is stabilized).
+This Hamiltonian is regarded as a spin Hamiltonian since it acts only on the spin degree of freedom of the system (i.e. the spatial part of all determinants is supposed to be the same).
 
-The $J$ constant is defined as an effective integral as it involves several mechanisms:
+$J$  is a effective parameter, that means that it considers, in the ideal case, all the mechanisms that couple $\hat{\vb S_i}$ and $\hat{\vb S_j}$. The most important ones are:
 \begin{itemize}
-    \item[1-] Direct exchange originating from the exchange integral $K$.
-    \item[2-] Indirect exchange involving ionic determinants.
-    \item[3-] Super-exchange where a diamagnetic bridging ligand open new pathway for exchange mechanisms.
+    \item[1-] The direct exchange originating from the exchange integral $K$ that has a ferromagnetic contribution
+    \item[2-] The Anderson mechanism going through ionic determinants that has an antiferromagnetic contribution
+    \item[3-] Super-exchange and spin polarization involving excitations of a diamagnetic bridging ligand
 \end{itemize}
 
-The origins and contributions of these mechanisms to the effective integral can be understood from the Hubbard Hamiltonian in the case of two electrons in two orbitals.
-Up to the second-order perturbation theory, the following expression can be obtained for the effective integral $J$:
+ In the case of two electrons in two orbitals $a$ and $b$, the Anderson mechanism and its contribution to the effective integral value can be understood from the Hubbard Hamiltonian that considers both the neutral forms $|ab|$, $|\bar{ab}|$, $|\bar{a}b|$, $|a\bar{b}|$ (i.e. those considered in the HDvV Hamiltonian) and the ionic forms , $|\bar{aa}|$ and  $|\bar{bb}|$(see table XXX mettre la représentation matricielle de Hubbard).
+ $t=t_{ab}$ is the hopping integral between sites $a$ and $b$ and $U$ is the energy of the ionic forms compared to the energy of the neutral ones.
+ As long as $U$ is large compared t, neutral forms dominate the wave function of the low energy singlet state (the triplet state is fully neutral) and it is possible to derive $J=J_{ab}$ from $K$, $t$ and $U$.
+ At the second-order perturbation theory, one obtains the following expression of effective integral $J$:
 \begin{equation}
     J=2K-\frac{4t^2}{U}
 \end{equation}
-where $K$ is the exchange integral which is always positive, $t$ the hopping integral between the two unpaired electrons and $U$ the on site Coulomb repulsion.
-This expression shows the competition between a ferromagnetic component (direct exchange $K$>0) and an antiferromagnetic one (indirect exchange).
-The contribution of super-exchange cannot be estimated at second-order and requires going up to fourth-order pertubation giving a similar expression:
+This expression shows the competition between a ferromagnetic component (direct exchange $K$>0) and an antiferromagnetic one (Anderson mechanism).
+
+Super-exchange contributions (excitations on diamagnetic ligands) appear at higher order of perturbation and can be seen as correction to the value of the above parameters and can be expressed as:
 \begin{equation}
-    J=2K-\frac{4t_{eff}^2}{U}
+	J=2K_{eff}-\frac{4t_{eff}^2}{U_{eff}}
 \end{equation}
-where $t_{eff}$ is now an effective hopping integral involving the bridging ligand, the hopping term between metal and ligand being much larger than the metal to metal one, the $t$ term is usually neglected in this expression.
-Note that the perturbation expansion is valid only in case of $U>>t$, when the system's behavior is not dominated by delocalisation that would render the HDVV Hamiltonian inadecate.
+where the parameters are now effective parameters taking into account the effect of mechanisms involving the bridging ligand electrons and orbitals. For $t_{eff}$ some mechanisms are illustrated in Figure XXX une belle figure montrant un mécanisme passant par le pont. The hopping intergral between a metal and the ligands of its coordination sphere being much larger than the metal to metal one, the $t_{eff}$ may be much larger than $t$ metal-metal.
 
 \subsection*{Ising Hamiltonian}
 
-The eigenfunctions of the Heiseinberg Hamiltonian are eigenfunctions of the $\hat{\vb S}^2$ operator, making them mostly multi-determinental functions which can only be obtained via specific computational methods.
-To draw an easier picture, it is possible to restrict the spin vector to its component along the $z$ axis alone essentially reducing this to a classical spin problem.
+The eigenfunctions of the Heisenberg Hamiltonian are eigenfunctions of the $\hat{\vb S}^2$ and $\hat{S^z}$ operators, making them intrinsically multi-determinantal functions (except for the maximum |Ms| components), that requires Wave Function Theory (WFT) based calculation methods to be evaluated. Ising is a simpler model restricted to the components of $\vec{S}$ along the $z$ axis (reducing it to a classical-like spin problem) whose states are eigenfunctions of $S^z$ only:
+%To draw an easier picture, it is possible to restrict the spin vector to its component along the $z$ axis alone essentially reducing this to a classical spin problem.
 \begin{equation}
     H_{ising}=- \sum_{i,j} J_{ij} \hat{\vb S}_{z,i} \hat{\vb S}_{z,j}
 \end{equation}
-The magnetic moment of each magnetic site are now considered to align themselves with the $z$ axis at all time, taking a $\pm 1$ value.
-The main advantage of this approximation is that the eigenfunctions of this Hamiltonian are now spin functions opening up the extraction to new computation methods. 
-It also reduces the analytical derivation allowing to work on larger systems without the need to diagonalize large matrices.
+The magnetic moment of each magnetic site are now considered to align with the $z$ axis at all time, taking a $\pm S$ value.
+The main advantage of this approximation is that the eigenfunctions of this Hamiltonian are those of broken-symmetry DFT methods.
+It is then possible to fit $J_{ij}$ values to DFT results. DFT avoiding the diagonalization of large matrices, it is much faster and applicable on larger systems than WFT methods.
 
 \subsection{Magnetic anisotropy in mononuclear complexes}
 
-\par Effects such as Spin-Orbit-Coupling (SOC) tend to create anisotropy in systems that cannot be described only by eq (\ref{Hheis}). 
+\par Effects such as Spin-Orbit-Coupling (SOC) tend to create magnetic anisotropy that cannot be described by eq (\ref{Hheis}). 
 More specifically on mononuclear systems (only one magnetic centre) with a ground state of spin larger or equal to one and correct symmetry conditions, a lift of degeneracy between the different $M_S$ component of a same $S$ state can be observed even in the absence of magnetic field, this phenomenon is called Zero-Field-Splitting.
 
 The associated spin Hamiltonian is written:
@@ -214,7 +220,7 @@ The ZFS Hamiltonian can then be written:
 A positive value of D indicates that the ground state is mainly composed of the $M_S$=0 component meaning that the projection of the spin moment along the $z$-axis is close to zero resulting in an easy-plane anisotropy. 
 On the contrary if D<0, the ground state is formed from the $M_S$=$\pm M_{Smax}$ components with a maximum projection of spin moment along the $z$-axis resulting in an easy-axis anisotropy.
 
-In the case of a triplet S=1 ground stat such as a nickel Ni (II) complex, the matrix representation of hamiltonian (\ref{SDS}) in an arbitrary axes frame:
+In the case of a triplet S=1 ground state such as for a Ni (II) complex, in an arbitrary axes frame (x,y,z), the matrix representation of hamiltonian (\ref{SDS}) writes:
 \begin{center}
     \begin{tabular}{ c | c c c}
         $H_{ZFS}$ & $\ket{1,-1}$ & $\ket{1,0} $& $\ket{1,1}$ \\
@@ -224,7 +230,7 @@ In the case of a triplet S=1 ground stat such as a nickel Ni (II) complex, the m
         $\bra{1,1} $& $ \frac{1}{2}(D_{xx}-D_{yy}-2iD_{xy}) $& $\frac{\sqrt{2}}{2}(D_{xz}-iD_{yz})$  & $\frac{1}{2}(D_{xx}+D_{yy})+D_{zz} $ \\
     \end{tabular}\\
 \end{center}
-In the magnetic axes frame, this matrix becomes:
+In the magnetic axes frame (X, Y, Z), this matrix becomes:
 \begin{center}
 \begin{tabular}{c | c c c}
     $H_{ZFS}$ & $\ket{1,-1}$ & $\ket{1,0} $& $\ket{1,1}$ \\
@@ -244,13 +250,14 @@ Removing the trace from the tensor and applying the convention from eq(\ref{Para
     $\bra{1,1}$ & E & 0 & $\frac{1}{3}D$
 \end{tabular}
 \end{center}
-Note that in the case of an even number of unpaired electrons, the D and E parameters can be estimated directly from the energy spectrum.
+%Note that in the case of an even number of unpaired electrons, the D and E parameters can be estimated directly from the energy spectrum.
 \begin{figure}
     \centering
     \includegraphics[width=0.4\textwidth]{Images/SpectreZFS.png}
     \caption{Schematic representation of the three lowest SO-state undergoing ZFS in the case of triplet ground state.}
 \label{SpectreZFS}
 \end{figure}
+Note that in this case (S=1) the D and E parameters can be estimated directly from the energy spectrum. Indeed, diagonalizing the model Hamiltonian matrix gives the three eigenvalues:
 In the case of a triplet ground state, diagonalizing the model Hamiltonian matrix gives the three eigenvalues:
 \begin{align}
     E_1&=-\frac{2}{3}D\\
@@ -263,7 +270,7 @@ with the eigenvectors:
     \psi_2&=\frac{1}{\sqrt{2}}(\ket{1,-1}+\ket{1,1})\\
     \psi_3&=\frac{1}{\sqrt{2}}(\ket{1,-1}-\ket{1,1})
 \end{align}
-leading to the extraction of the D and E terms directly from the energies:
+leading to the extraction of the D and E terms directly from the calculated or measured energy differences:
 
 \begin{equation}
     D=\frac{1}{2}(E_2+E_3)-E_1
@@ -273,10 +280,10 @@ and
     E=\frac{1}{2}(E_2-E_3)
 \end{equation}
 
-For the study of system with a ground state of $S<2$ these two parameters are enough to reproduce accurately the energy spectrum.
-In case of larger $S\ge2$, one needs to introduce the Stevens operators which are linked to the crystal field and can be expressed from angular momenta operators $\hat{J}$
+For the study of system with a ground state of $S<2$ these two parameters are enough to reproduce exactly the energy spectrum.
+In case of larger $S\ge2$, one needs to introduce the Stevens operators which are linked to the crystal field and can be expressed from angular momenta operators $\hat{J}$.
 These operators were first derived to describe the lift of degeneracy induced by the crystal field potential studied in spectroscopy.
-Note that this formalism is not resticted to transition metals but is also used for rare earth complexes.
+Note that this formalism is not restricted to transition metals and is often used for lanthanides and actinides complexes.
 The ZFS is now described by a more complete model Hamiltonian:
 
 \begin{equation}
@@ -284,7 +291,7 @@ The ZFS is now described by a more complete model Hamiltonian:
 \end{equation}
 
 where $B_k^n$ are the Stevens parameter specific to each systems and $\hat{O}_k^n$ the Stevens Operators are spherical tensors of rank $k$.
-In case of mono-nuclear complexes, only the even rank k tensors contribute for symmetry reasons. 
+In case of mononuclear complexes, only the even rank k tensors contribute for symmetry reasons. 
 The ZFS parameters are related to the second rank Stevens parameters:
 
 \begin{align}
@@ -299,7 +306,7 @@ This coupling between two sites A and B with at least one magnetic electron each
     \hat{H}_{AB}=\hat{\vb S}_A\cdot \overline{\overline{D}} \cdot \hat{\vb S}_B
 \end{equation}
 The interaction tensor $\overline{\overline{D}}$ describes Zero-Field-Splitting the same way as before but now between two sites $A$ and $B$, two parameters $D$ and $E$ can be defined similarly. 
-This Hamiltonian is suiTable for system with a ground state of spin larger or equal to one that is well separated in energy from other SO-states.
+This Hamiltonian is suitable for system with a ground state of spin larger or equal to one well separated in energy from other SO-states.
 This tensor can be split in three components, an isotropic term that relates to the HDvV Hamiltonian and two anisotropic terms.
 It is then possible to study all the states of the configuration using the multi-spin Hamiltonian:
 
@@ -353,7 +360,7 @@ The Hamiltonian treated during the calculations is called exact electronic Hamil
 where $r_i$ is the position vector of the $i$th electron, $R_A$ the position vector of the $A$th nucleus with atomic number $Z_A$ and mass $M_A$.
 This Hamiltonian can be simplified in the context of the Born-Oppenheimer approximation, the electrons are considered to adapt instantly to the movement of the nuclei.
 This allows to decouple the movement of the electrons from that of the nuclei, whose position can be fixed at the equilibrium (or any other geometry).
-Note that once the electronic energies and wave-funcion have been obtained for different geometries, it is also possibe to study the nuclei motion within this approximation.
+Note that once the electronic energies and wave-function have been obtained for different geometries, it is also possibe to study the nuclei motion within this approximation.
 This approximation is justified with the fact that the electrons are much lighter than the nuclei. 
 
 \begin{equation}\label{HBO}
@@ -417,30 +424,53 @@ These operator carry a direct dependance on the trial vectors from eq \ref{Rooth
 
 \subsection{Configuration Interaction}
 
+A single Hartree-Cok determinant provides a good starting point for the wave-function but fails to describe properties associated with open-shell systems.
+For most of magnetic systems, a single reference wave-function is not enough as the system is usually not closed shell and present one or more unpaired electrons.
+Hence, its ground state is described by a wave-function composed of several determinants.
+The most straightforward way to compute such a wave-function is to perform a full Configuration Interaction calculation.
+This method relies on the diagonalisation the N-electron Hamiltonian in a basis of N-electron function (Slater Determinant).
+In other word, each configurations of N-electrons in the $k$-spin orbitals is considered and added to the wave-function.
+With a complete basis, the energy obtained would be exact in the Born-Oppenheimer approximation and solve the N-electron problem.
+However, this is not applicable due to the finite nature of our calculation as we cannot handle infinite basis set.
+Still, full CI calculations are possible on some systems and provide a good upper bound to the exact energy. \\
+The determinant $|\psi_0\rangle$ is a Slater determinant describing the case where electrons occupy the lowest orbitals obtained by a Hartree-Fock calculation.
+The determinant $|\psi_a^r\rangle$ describes the configuration where an electron from orbital $a$ is excited to orbital $r$.
+In the same way, all the excitations are taken into account and the generated determinants are used as the basis for the many-electron wave function $|\Psi_0\rangle$
+\begin{equation}\label{eq:FullCI}
+    | \Psi_0 \rangle = c_0 |\psi_0 \rangle + \sum_{ar} c_a^r |\psi_a^r \rangle + \sum_{\substack{a<b\\ r<s}} c_{ab}^{rs} |\psi_{ab}^{rs} \rangle + \ldots
+\end{equation}
+
+As the number of determinants grows factorially with the number of electrons and the basis set (i.e the number of orbitals), this is very costly calculation wise.
+This method is thus only applicable on small system where the number of electrons is small and with small basis set.
+This is not the case for the systems studied in this work, so the need to decrease the computational time is of importance.
+One can see from the wave function computed, that a significant number of determinants do not play a big role in the physics of the wave function.
+The ones with high excitations should appear with little weight unless high excited states are computed, therefore they can be left out of the wave-function without removing too much of physical relevance. 
+Most of the studies in this work concern systems based on 3d-transition metals.
+The main focus is on characterising the ground state, which is mainly carried by the metal's 3d orbitals, as well as the excited states at the bottom of the spectrum resulting from excitations within these orbitals.
+It becomes clear that in these systems, most of the determinants taken into account in eq \ref{eq:FullCI} do not play an important role in the physics of the system.
 
 
 
 \subsection{Complete Active Space Self Consistent Field}
 
-For most of magnetic systems, a single reference wave-function is not enough as the system is usually not closed shell and present one or more unpaired electrons.
-Hence, its ground state is described by a wave-function composed of several determinants.
 One of the most used method to introduce multiple references in the wave-function is called $Complete$ $Active$ $Space$ $Self$ $Consistent$ $Field$ ($CASSCF$). 
-Compared to the Hartree-Fock theory where two types of orbitals (occupied and unoccupied) were considered, in CASSCF theory orbitals are separeted in three sub-spaces. The inactive orbitals are doubly occupied throughout the calculation, virtual orbitals will stay empty while the active orbitals have a variable occupancy ranging from zero to two electrons.
-These active orbitals define the active space into which a configuration interaction will be realised considering all the possible determinants within this sub-spaces. 
+Compared to the Hartree-Fock theory where two types of orbitals (occupied and unoccupied) were considered, in CASSCF theory orbitals are separated in three sub-spaces. The inactive orbitals are doubly occupied throughout the calculation, virtual orbitals will stay empty while the active orbitals have a variable occupancy ranging from zero to two electrons.
+These active orbitals (and the active electrons they bear) define the active space into which a configuration interaction will be realised considering all the possible determinants within this sub-space. 
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{Images/EspaceCAS.png}
     \caption{Difference between the orbitals space in Hartree-Fock and CASSCF Theory}
     \label{CAS}
 \end{figure}
-As the number of determinants grows significally with the number of orbitals included in the active space, this method is quite costly and its size becomes a limiting factor for the calculations.
+As the number of determinants grows significally with the number of active electrons and orbitals,  this method is still costly and its size becomes a limiting factor for the calculations.
 The new wave-function is now written as an expansion of Slater determinants which is obtained via a SCF procedure where both the expansion coefficients and the orbitals are optimised as to minimize the ground state energy or of several states in an "average" way. 
-This dual optimisation scheme can render the convergence troublesome, as such the definition of the active space and the choice of the starting orbitals becomes crucial. One usually starts from a set of orbitals previously obtained via an Hartree-Fock calculation.
+This dual optimisation scheme can render the convergence troublesome, as such the definition of the active space and the choice of the starting orbitals become crucial.
+One usually starts from a set of orbitals previously obtained via an Hartree-Fock calculation.
 For computation of magnetic properties in transition metal systems, the minimum active space should consists of the magnetic orbitals, $i.e$ the singly occupied d-orbitals of the metallic centers, this can later be extended to all of the 3-d orbitals of the metal as well as some orbitals of the ligands.
 As a result of the CASSCF method we obtain the energies of all states included in the calculation and a new set of orbitals into which they are expressed.
 Note that depending on the computational code used, the sets of orbitals may be $specific$ to a single state or $averaged$ to lower the average energy of all of the states computed.
 This calculation takes into account the correlation between the electrons inside the active space in the mean field created by the other electrons. 
-While this method provides the non-dynamical correlation, it fails to capture the correlation with the inactive electron and their reponse to excitations, called dynamic-correlation and the need to look further appears.
+While this method provides the non-dynamical correlation, it fails to capture the correlation with the inactive electron and their reponse to excitations, called dynamic-correlation which play a crucial work in the physics of magnetic systems.
 
 
 \subsection{Perturbation Theory}
@@ -456,16 +486,16 @@ or the NEVPT (N-electron valence state perturbation theory). Both of these metho
 The wave-function and energy are expanded in a similar way and the zeroth order term $\Psi_{(0)}^{0}$ is chosen to be the CASSCF wave-function. 
 The effect of the configurations outside of the active space on the energy and the wave-function is estimated though perturbation theory and the expansions of the equations allows one to obtain the corrected energies
 usually at second-order of perturbation with CASPT2 or NEVPT2. These two methods mainly differ from the choise of the zeroth-order Hamiltonian, CASPT2 rely on a monoelectronic Hamiltonian built from a one electron Fock operator that falls back to the Moller-Plesset Hamiltonian in single reference case. 
-This treatment may lead to what is called "intruder states" coming divergence in the denominator of the corrections term where a difference of orbital energy is taken. Several approach have been adapted such as the introduction of  $level$ $shifts$, real or imaginary, as to fix this divergence.
+This treatment may lead to what is called "intruder states" coming from divergence in the denominator of the corrections term where a difference of orbital energy is taken. Several approach have been adapted such as the introduction of  $level$ $shifts$, real or imaginary, as to fix this divergence.
 In case of NEVPT2, the zeroth-order Hamiltonian is a bi-electronic (Dyall) Hamiltoninan which in itself include a shift in energy between state from inside or outside the active space preventing the appearance of intruder states.
-One should add that the corrections are considered to be contracted as these methods do not act upon the coefficients inside the wave-functions but only on the energies.
+One should add that the corrections are considered to be contracted (NEVPT2 proposes both fully and partially contracted scheme) as these methods do not act upon the coefficients inside the wave-functions but only on the energies.
 
 \subsection{Difference dedicated configurational interaction}
-
-To get a full picture of the dynamic correlation one has to go to Multi-Referential-Configuration-Interaction (MRCI) methods.
-This method allows to introduce new determinants in the wave-function that do not belong to the CASSCF space, this way not only the energies but the wave-functions are revised.
-While very promising this method is not applicable to large systems because of the number of determinants to include in the CI expansion, the cost of calculation becoming too high, one has to truncate the CI space.
-Restricting the CI to all the simple and double excitations is stil computationally demanding as the double excitation are too numerous, but some of them can be left out of the calculations. 
+Another way to retrieve the dynamical correlation that is lost in CASSCF calculation is apply a Configuration Interaction restricted to the mono and diexcitations considered in perturbation theory.
+%To get a full picture of the dynamic correlation one has to go to Multi-Referential-Configuration-Interaction (MRCI) methods.
+This method allows the introduction of new determinants in the wave-function that do not belong to the CASSCF space, this way not only the energies but the wave-functions are revised.
+While very promising, the size of the system remains a limiting factor because of the number of determinants to include in the CI expansion, the cost of calculation becoming too high, one has to truncate the CI space even more.
+Restricting the CI to all the simple and double excitations is still computationally demanding as the double excitation are too numerous, but some of them can be left out of the calculations. 
 These excitations are classified into eight categories depending on the number of hole/particle created represented on Figure \ref{DDCI}. 
 A hole is an excitation from an inactive orbital to an active or virtual orbital, while a particle is an excitation from an active or inactive orbital to a virtual one.
 
@@ -475,7 +505,7 @@ A hole is an excitation from an inactive orbital to an active or virtual orbital
     \caption{Classes of excitations and associated DDCI method}
     \label{DDCI}
 \end{figure}
-The most troublesome excitations are the one generating two holes and two particles (2h-2p) as they are the most numerous, but it can be shown that at second-order of perturbation they do not contribute to the energy difference between states but only act as a shift of the diagonal energies.
+The most troublesome excitations are the one generating two holes and two particles (2h-2p) as they are the most numerous, but it can be shown that at second-order of perturbation they do not contribute to the energy difference between states but only act as a shift of the diagonal energies as long as a common set of MO is used.
 As such they can be neglected giving rise to a variant of MRCI called Difference-Dedicated-Configurational-Interaction (DDCI). 
 Three sub-variant of DDCI exists taking into account different classes of excitations as pictured on fig \ref{DDCI}
 It has been established that the extraction of magnetic coupling involving bridging ligand requires the use of the DDCI3 method to provide good estimates.
@@ -485,11 +515,11 @@ It has been established that the extraction of magnetic coupling involving bridg
 \subsection{Density functional theory}
 
 Another way to get a description of the electronic structure of is through density functional theory (DFT).
-The main interest of such a method is the description of the ground state properties through the determination of the ground state energy $E_0$ following the variationl theorem:
+The main interest of such a method is the description of the ground state properties through the determination of the ground state energy $E_0$ following the variational theorem:
 \begin{equation}
     E_0 = \min \bra{\Psi} \hat{H} \ket{\Psi}
 \end{equation}
-Here, the electronic wave-function of the molcule $\Psi$ is approximated to a single Slater determinant obtained from the determination of the electronic density $\rho(\vb r)$:
+Here, the electronic wave-function of the molecule $\Psi$ is approximated to a single Slater determinant obtained from the determination of the electronic density $\rho(\vb r)$:
 \begin{equation}
     \rho(\vb r)=N\int |\Psi(\vb x_1 \ldots \vb x_N)|^2 ds_1 dx_2 \ldots dx_N
 \end{equation}
@@ -498,10 +528,10 @@ The Hamiltonian\ref{Helec} can be written:
     \hat{H}=\hat{T} + \hat{V}_{ee} + \hat{V}_{ne}
 \end{equation} 
 with $\hat{T}$ the kinetic energy operator, $\hat{V}_{ee}$ the electron-electron interaction operator and $\hat{V}_{ne}$ the nuclei-electron interaction operator. 
-By replacing $v_{ne}(\rho\vb r)$ with a known external potential $v(\vb r)$, one can obtain the ground state wave-function $\Psi$ by solving the Shrodinger equation giving the electron density follows.
+By replacing $v_{ne}(\vb r)$ with a known external potential $v(\vb r)$, one can obtain the ground state wave-function $\Psi$ by solving the Shrodinger equation and the electron density follows.
 The first Hohenberg-Kohn theorem states that this external potential is a unique functional of the electron density.
 As such, knowing the electron density allows to determine the properties of the ground states.
-The second Hohenberg-Kohn gives in case of non degenerate ground state, the wave-function $\Psi$ is itself a functionl of $\rho(\vb r)$ which allow to define the total energy:
+The second Hohenberg-Kohn gives, in case of non degenerate ground state, that the wave-function $\Psi$ is itself a functional of $\rho(\vb r)$ which allows to define the total energy:
 
 \begin{equation}\label{EnergyDFT}
     E[\rho]= F[\rho]+ \int \rho(\vb r) v(\vb r)dr
@@ -509,7 +539,7 @@ The second Hohenberg-Kohn gives in case of non degenerate ground state, the wave
 
 with $F[\rho]$ a universal density functional which contains the kinetic and potential contributions.
 The ground state energy $E_0$ is the minimum of eq \ref{EnergyDFT} which is reached when the electron density $\rho_0(\vb r)$ is that of the gound state.
-In theory the knowledge of the electon density allows to determine $E_0$, however the density dependance expression of $F[\rho]$ is not known.
+In theory the knowledge of the electron density allows to determine $E_0$, however the density dependance expression of $F[\rho]$ is not known.
 \begin{equation}
     F[\rho]=T[\rho]+V_{ee}[\rho]
 \end{equation}
@@ -518,9 +548,9 @@ The functional becomes:
 \begin{equation}
     F[\rho]=T_s[\rho]+J[\rho]+E_{xc}[\rho]
 \end{equation}
-where $T_s[\rho]$ is the non-interacting kinetic energy functional of density $\rho$ expressed in the basis of $\phi_i (\vb r)$ that are built to reproduce the ground state density $\rho(\vb r)$.
+where $T_s[\rho]$ is the non-interacting kinetic energy functional of density $\rho$ expressed in the basis of $\phi_i (\vb r)$ that are built to reproduce the ground state density $\rho_0(\vb r)$.
 \begin{gather}
-    \rho(\vb r) = \sum_{i}^{N} |\phi_i (\vb r)|^2\\
+    \rho_0(\vb r) = \sum_{i}^{N} |\phi_i (\vb r)|^2\\
     T_s[\rho]=\sum_{i}^{n} \bra{\phi_i} -\frac{1}{2}\nabla^2 \ket{\phi_i}
 \end{gather}
 The Hartree-potential $J[\rho]$ gives the coulomb repulsion between electrons pair:
@@ -540,7 +570,7 @@ Other attemps tried to improve the functional by incorporating a dependance in t
 
 \subsection{Inclusion of Spin-Orbit effects}
 
-As the goal of this thesis is the characterisation of the anisotropy, which is a direct consequence of spin-orbit coupling, it is crucial to find a way to include some of the relativistic effects in our calculation.
+As the goal of this thesis is the characterisation of the magnetic anisotropy, which is a direct consequence of relativistic mechanisms, it is crucial to include the most important ones in our calculation, namely spin-orbit coupling.
 Following the already established procedure, a two-step approach is chosen for this work.
 It relies on the computation of the spin-orbit free states, that are independant from spin-orbit, using CASSCF or post-CASSCF method as the first step.
 The spin-orbit is then included $a$ $posteriori$ following the State-Interaction method.
@@ -592,7 +622,7 @@ All of this is done to ensure that the properties extracted from the fragment ca
 Having ways to compute the \textit{ab} \textit{initio} multi-reference wave-functions usually leads to lenghty expression where the wave-function is spanned along a large number of Slater determinant making its analysis complicated.
 On the other hand, the model Hamiltonian works in a much smaller space where a small number of electrons is used to introduce effective interactions.
 A way to connect the two Hamiltonians is to apply a theory developped by Bloch called Effective Hamiltonian theory. 
-Its purpose is to build an effective Hamiltonian whose eigenvalues reproduce the energy spectrum of the \textit{ab} \textit{initio} Hamiltonian but using a much smaller number of eigenfunctions.
+Its purpose is to build an effective Hamiltonian whose eigenvalues and eigenvectors reproduce the energy spectrum and wave-functions of the \textit{ab} \textit{initio} Hamiltonian but using a much smaller number of eigenfunctions.
 
 \begin{figure}[!ht]
     \centering
@@ -623,7 +653,7 @@ The first step is to project the eigenfunctions $\Psi_m$ onto the model space us
     \ket{\tilde{\Psi}_m}=\hat{P}_0 \ket{\Psi_m}
 \end{align}
 
-These eigenvectors are not necesserilly orthogonal leading to a non-Hermitian Hamiltonian, this is problematic when comparing to the model Hamiltonians which are Hermitians.
+These eigenvectors are not necessarily orthogonal leading to a non-Hermitian Hamiltonian, this is problematic when comparing to the model Hamiltonians which are Hermitians.
 In this work, we apply the formalism proposed by Des Cloizeaux where the vectors are symmetrically orthogonalized from the overlap matrix $S$:
 
 \begin{equation}
@@ -631,7 +661,7 @@ In this work, we apply the formalism proposed by Des Cloizeaux where the vectors
 \end{equation}
 
 At this point, it is possible to check the quality of the model space by calculating the norm of the projected vectors present in the $S$ matrix.
-If too small, the interactions of the system are not captured correctely by the model space making it inadequate. 
+If too small, the interactions of the system are not captured correctly by the model space making it inadequate. 
 \par When these projections are close to one, we can consider the model space adequate, the effective Hamiltonian is then built:
 
 \begin{equation}
@@ -644,16 +674,17 @@ If there is too much deviation between the two matrices, it is possible that the
 In such a case, analytical derivation allows one to derive a new Hamiltoninan from a more sophisticated Hamiltonian.
 
 \chapter{Study of the magnetic anisotropy in mononuclear complexes}
+\label{MonoNucl}
 
 The field of mononuclear complexes is a perfect area for the study of magnetic anisotropy. 
-The finite size of such complexes as well as the localised character of the interaction allow for the explicit treatment of all atoms at play with reasonnable computational cost.
+The finite size of such complexes as well as the localised character of the magnetic entities allow for the explicit treatment of all atoms at play with reasonnable computational cost.
 This combined with the large amount of experimental data available enable for the validation of models and computational methodology.
-Numerous studies have been dedicated to the application of the ZFS model Hamiltonian on mononuclear complexes based on fourth period transition metals.
-It has established that the value of the ZFS parameters are highly dependant on the metallic ion, the d-shell configuration, and its environment which impact the energy difference of the d-orbitals.
-The ligands around the metallic centre becomes a crucial choice that helps as we will see in this chapter.
-\par State of the art methodology for such studies is to generate a wave-function starting from a CASSCF calculation. This should includes all electronic states generated by an active space composed of all the d-orbitalss of the metallic ion and the electrons occupying them. 
+Numerous studies have been dedicated to the ability of the ZFS Hamiltonian to model the behaviour of mononuclear complexes based on fourth period transition metals.
+It has established that the value of the ZFS parameters are highly dependant on the metallic ion nature and charge, its d-shell configuration, and its environment which impact the energy difference of the d-orbitals.
+The ligands around the metallic centre becomes a crucial choice that helps  as we will see in this chapter.
+\par State of the art methodology for such studies is to generate a wave-function starting from a CASSCF calculation. This should includes all electronic states generated by an active space composed of all the d-orbitals of the metallic ion and the electrons occupying them. 
 The energies of these states are then computed using the NEVPT2 method to include the dynamical correlation.
-Spin orbit coupling between $M_S$ components of all states are accounted for using Spin-Orbit-State-Interaction method with NEVPT2 correlated energies as the diagonal elements of the SO matrix.
+Spin orbit coupling between $M_S$ components of all states are accounted for using Spin-Orbit-State-Interaction (SO-SI) method with NEVPT2 correlated energies as the diagonal elements of the SO matrix.
 Finally, the ZFS parameters are extracted using the Effective Hamiltonian Theory in a procedure implemented in the ORCA package.
 To go beyond the simple extraction of the parameters, a more thorough study requires the analysis of the wave-functions, energy differences and contributions to ZFS parameters.
 
@@ -679,29 +710,29 @@ To go beyond the simple extraction of the parameters, a more thorough study requ
 % Small energy differences (a few hundred cm$^{-1}$) between the orbital allow to retrieve a contribution of 1$^{st}$order SOC increasing the value of D.
 % It has then become an interest to find ligands that satisfy this condition of quasi-degeneracy of the d-orbital.
 The search for large magnetic anisotropy in molecular systems remains a central objective in the design of next-generation single-molecule magnets (SMMs).
-In 3d transition-metal complexes, the challenge arises from the fact that the orbital angular momentum is usually quenched by the ligand field, leaving second-order spin–orbit coupling (SOC) as the only source of magnetic anisotropy.
-In this scenario, anisotropy is described by the zero-field splitting (ZFS) Hamiltonian, in which the axial $D$ and rhombic $E$ parameters quantify the splitting of the $M_S$ components in the ground state.
+In 3d transition-metal complexes, the challenge arises from the fact that usually SOC is weak compared to the ligand field, the orbital angular momentum is then almost quenched. SOC can be considered as a perturbation of spin-orbit free states (situation called second-order spin-orbit coupling) and magnetic anisotropy properties are correctly described by the zero-field splitting (ZFS) Hamiltonian, in which the axial $D$ and rhombic $E$ parameters quantify the splitting of the $M_S$ components in the ground state.
+%In this scenario, anisotropy is described by the zero-field splitting (ZFS) Hamiltonian, in which the axial $D$ and rhombic $E$ parameters quantify the splitting of the $M_S$ components in the ground state.
 While this formalism has proved successful in identifying SMMs candidates, it fundamentally limits the achievable anisotropy, since second-order processes rely on large orbital energy gaps.
 One way to increase the anisotropy is to try and retrieve a contribution from first-order SOC, where near-degenerate orbitals allow the spin and orbital angular momenta to couple directly.
 This situation is well known for lanthanide ions, where unquenched orbital moments naturally give rise to extreme anisotropy, but it is rarely accessible for 3d ions, except in very low coordination numbers or highly symmetric geometries.
 The theoretical appeal of such systems is clear: when orbital quasi-degeneracy is preserved, the ZFS model breaks down, and anisotropy must instead be understood in terms of the mixing of spin–orbit states at the ab initio level.
 With this in mind, a series of five Iron(II) complexes were synthesized with the purpose of retrieving a first-order SOC.
-Through a joint study by experimentalists and theoricians, this work aims to determine the properties of the complexes and identify the contribution of first-order SOC
+Through a joint study by experimentalists and theoricians, this work aims to determine the properties of the complexes and identify the contribution of first-order SOC.
 The use of a pentadentate ligand in the equatorial plane enforces a pentagonal bipyramidal geometry around the metallic center.
 Combined with a halides or H$_2$O ligands in the apical positions, this allows the conditions of quasidegeneracy of the $d_{xz}$ and $d_{yz}$ orbitals to be met.
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/ComplexFe.XY.jpg}
-    \caption{Schematic representation of the Fe(II) complex with H atoms attached to carbon hidden}
+    \caption[Schematic representation of the Fe(II) complex]{Schematic representation of the Fe(II) complex with H atoms attached to carbon hidden}
     \label{FeComplex}
 \end{figure}
 
 The electronic structure of the complexe were computed using CAS(6,5)SCF calculations, which allow for the evaluation of the energy splitting of the d-orbitals.
 First-oder SOC involves the two lowest quintuplets $Q_1$ and $Q_2$, which are essentially monoconfigurational with one electron occupying either the $d_{xz}$ or $d_{yz}$ orbital.
-The incorporation of the SOC was performed using the So-SI method generating the full manifold of SO-states for the extraction of anisotropic parameter of the ZFS Hamiltonian.
+The incorporation of the SOC was performed using the SO-SI method generating the full manifold of SO-states for the extraction of anisotropic parameter of the ZFS Hamiltonian.
 In parallel, a first-order SOC model was adopted, previously developed for low-symmetry iron and nickel complexes.
 In this picture, the ligand field Hamiltonian is represented in a basis of the nearly degenerate orbitals $d_{xz}$ and $d_{yz}$.
-This lift of degeneracy is induced by disotrtion of the fully symmetric geometry and is described by two parameters:
+This lift of degeneracy is induced by distortion of the fully symmetric geometry and is described by two parameters:
 
 \begin{itemize}
     \item $\delta_1$ the splitting between the two orbitals, reflecting the extent to which degeneracy is broken.
@@ -715,8 +746,8 @@ The ligand field Hamiltonian is then written:
     \end{array} \right)
 \]
 
-An expression of the SO-states energy spectrum can be derived and directly compared to the $ab$ $initio$ one to obtain values for the $delta_i$ terms.
-It also provide a way to estimate the $D$ and $E$ parameter from the ZFS formalism.
+An expression of the SO-states energy spectrum can be derived and directly compared to the $ab$ $initio$ one to obtain values for the $\delta_i$ terms.
+It also provides a way to estimate the $D$ and $E$ parameter from the ZFS formalism.
 
 
 The study indicates that the ZFS formalism is only applicable in the case of the H$_2$O ligand with a lift of orbital degeneracy of 412 cm$^{-1}$ between the $d_{xz}$ and $d_{yz}$.
@@ -727,7 +758,7 @@ However, the energy splitting between the $d_{xz}$ and $d_{yz}$ orbitals is very
 Only a few cm$^{-1}$ separate the five lowest SO-states from the other, rendering the ZFS hamiltonian inappropriate.
 
 Overall, this study highlight that first-order SOC, traditionally associated with low-coordinate 3d complexes, can also be engineered in higher coordination environments by careful ligand design.
-This not only advances the conceptual understanding of magnetic anisotropy in transition metals, but also provides promising building blocks for the design of exchange-coupled molecular materials with enhanced anisotropic interactions.
+This not only advances the understanding of magnetic anisotropy in transition metals, but also provides new opportunities for designing molecular materials with enhanced anisotropic interactions.
 
 
 \newpage
@@ -737,29 +768,29 @@ This not only advances the conceptual understanding of magnetic anisotropy in tr
 
 \section{Impact of the Electric field on the ZFS parameters}
 
-This section follows on a previous study of a Nickel II complex exhibiting strong uniaxial anisotropy.
-This complex has a tetradantate ligand (hexathyl-2,2',2''-triamino-triethylamine) in which three nitrogen atoms form bonds in the plane with the metal ion, while the fourth nitrogen atom forms a bond in the perpendicular plane, as shown in Figure \ref{NiMe6tren}.
-Opposite this fourth nitrogen atom is an apical halogenated ligand, either chlorine or bromine.
+This section follows on a previous study of a Ni(II) complex exhibiting strong unaxial anisotropy.
+This complex has a tetradentate ligand (hexamethyl-2,2',2''-triamino-triethylamine) in which three nitrogen atoms form bonds in the plane with the metal ion, while the fourth nitrogen atom forms a bond in the perpendicular plane, as shown in Figure \ref{NiMe6tren}.
+Opposite this fourth nitrogen atom is an apical halide ligand, either chlorine or bromine.
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.7\textwidth]{Images/NiMe6trenTalal.png}
-    \caption{Representation of the complex [Ni(Me6trenCl)](ClO4), Ni in green, Cl, N in blue, C in black and H in white}
+    \caption[Representation of the complex [Ni(Me6trenCl)](ClO4)]{Representation of the complex [Ni(Me6trenCl)](ClO4), Ni in green, Cl, N in blue, C in black and H in white}
     \label{NiMe6tren}
 \end{figure}
 
 
-Cristallographic data indicates that this complex crystallises in the trigonal space $R3c$ with a $C_3$ axis of symmetry along the Ni-Cl axis.
+Cristallographic data indicates that this complex crystallises in the trigonal space $R_{3c}$ with a $C_3$ axis of symmetry along the Ni-Cl axis.
 This coordination induces a degeneracy of the d-orbital that share the same angular component $m_l$=$\pm2$($\pm1$), \textit{i.e} $d_{xy}$($d{xz}$) and $d_{x^2-y^2}$($d_{yz}$). 
 The conditions for 1$^{st}$ order SOC are met between two degenerate ground states carried by the two $d^8$ configurations depicted on Figure \ref{NiMe6tren_config}.
 This would result in a large splitting of the $M_S$ components of the ground state with a large value for the D term as strong as the spin orbit coupling constant of the nickel ion ($\xi_{Ni}$=644cm$^{-1}$).
-At this point, a competing effect appears, the Jahn-Teller effect, which breaks the orbital degeneracy by distorting the ligand, reducing the axial anisotropy and gives rise to non-zero rhombic term (E$\neq$0).
+At this point, a competing effect appears, the Jahn-Teller effect, which breaks the orbital degeneracy by distorting the complex (mainly removing the Ni atom from the barycenter of the N$_2$, N$_3$ and N$_4$ atoms), reducing the axial anisotropy and gives rise to non-zero rhombic term (E$\neq$0).
 This distortion is confirmed by both electron paramagnetic resonance (EPR) studies and a theoretical study, which revokes of 1$^{st}$order SOC, leaving only 2$^{nd}$order SOC as the source of the anisotropy.
 
 \begin{figure}
     \centering
     \includegraphics[width=0.6\textwidth]{Images/NiMe6tren_config.png}
-    \caption{Energy diagrams of the d-orbitalss in case of three-fold symmetry $C_3$ (left) and in presence of Jahn-Teller distortion (right) with the induced lift of degeneracy of the d-orbitals. }
+    \caption[Energy diagrams of the d-orbitals in $C_3$ symmetre and affected by Jahn-Teller distortion]{Energy diagrams of the d-orbitals in case of three-fold symmetry $C_3$ (left) and in presence of Jahn-Teller distortion (right) with the induced lift of degeneracy of the d-orbitals. }
     \label{NiMe6tren_config}
 \end{figure}
 
@@ -782,16 +813,16 @@ To identify and quantify these mechanisms, the electric field was applied under 
     \item[(c)] electronic and geometric changes, both geometry optimisation and ZFS calculation performed under an applied electric field.
 \end{itemize}
 
-In order to explore the response to the electric field for different orientations, the field F was initially applied along the Ni-Cl axis, which corresponds to the easy axis of magnetisation.
-This orientation includes the maximum component of the dipole moment and is referred to as F//Z.
-It was then applied perpendicular to this axis (F//Y) in the YZ plane containing the Ni, N1 and N3 atoms (see to Figure \ref{NiMe6tren} for atom numbering). 
+In order to explore the response to the electric field for different orientations, the field $\vec{\vb F}$ was initially applied along the Ni-Cl axis, which corresponds to the easy axis of magnetisation.
+This orientation includes the maximum component of the dipole moment and is referred to as $\vec{\vb F}\parallel Z$.
+It was then applied perpendicular to this axis ($\vec{\vb F}\parallel Y$) in the YZ plane containing the Ni, N1 and N3 atoms (see to Figure \ref{NiMe6tren} for atom numbering). 
 The YZ plane was chosen because the Ni-N3 bond length is the shortest of the three Ni-N bonds in the XY plane.
 
 \subsubsection*{Analysis of the contribution}
 
 The main contribution to the D term comes from the SOC with the first excited triplet state ($T^1$), which is predominantly expressed in the determinant formed by exciting an electron from the $d_{x^2-y^2}$ to the $d_{xy}$ orbitals.
 The Hamiltonian used to rationalise the SOC is given by $\hat{H}^{SO}=\sum_{i} \zeta(\hat{l}_x^i\hat{s}_x^i+\hat{l}_y^i\hat{s}_y^i+\hat{l}_z^i\hat{s}_z^i)$ where $i$ runs over all the electrons in the $d^8$ configuration.
-The two lowest triplets are primarily formed from orbitals that are combinations of $m_l$=$\pm$2, the resulting SOC originates only from the part of the Hamiltonian involving the $m_s$=$\pm$1 of each triplet, $i.e$ from the $\hat{l}_z^i\hat{s}_z^i$ term.
+The two lowest triplets mainly present singly occupied orbitals that are combinations of $m_l$=$\pm$2, the resulting SOC originates only from the part of the Hamiltonian involving the $m_s$=$\pm$1 of each triplet, $i.e$ from the $\hat{l}_z^i\hat{s}_z^i$ term.
 This coupling stabilises the $m_s$=$\pm$1 of the $T_0$ ground state without affecting the $m_s$=0 component, which gives a negative contribution to the D term.
 This contribution can be estimated using second-order perturbation theory:
 \begin{equation}\label{ContrPert}
@@ -810,25 +841,24 @@ The rhombic term E will be rationalised, but as the sum of the contributions pro
 
 \subsection{Computational Informations}
 Wave-function based calculations have been performed using the ORCA package.
-In a first place, Complete Active Space Self-Consistent Field calculations have been performed to account for non-dynamic correlations. 
+In a first place, CASSCF calculations have been performed to account for non-dynamic correlations. 
 The CAS(8,5) active space contains eight electrons in the five essentially 3d orbitals of the Ni(II) ion, and two sets of orbitals have been optimized using an average procedure over all triplet and all singlet states of the configuration.
 To account for dynamic correlations at the 2nd order of perturbation, NEVPT2 calculations have been carried out for all states. 
-The Spin-orbit State-Interaction method was then used to account for Spin-Orbit Couplings SOCs between the Ms components of all spin states using the NEVPT2 correlated energies as diagonal elements of the SO matrix. 
+The SI-SO method was then used to account for Spin-Orbit Couplings SOCs between all Ms components of all spin states using the NEVPT2 correlated energies as diagonal elements of the SO matrix. 
 ZFS parameters were extracted using a procedure based on the effective Hamiltonian theory which proved to provide accurate values of the anisotropic parameters. 
 The QZVPP extended basis sets have been used for Ni atoms (14s10p5d4f2g), SVP for H (2s1p) and TZVP for all other atoms (6s3p2d1f for N, 8s4p2d1f for Cl and 6s3p2d1f for C). 
 As the field may change the geometrical structure, geometry optimizations were performed for different values and orientations of the field. 
 We used the Hay-Wadt LanL2TZ(f) basis set for Ni and its corresponding relativistic effective core, Pople triple-$\zeta$ basis set (6-311G) for N and Cl atoms, a Pople double-$\zeta$ plus polarization basis set (6-31G*)26 for C atoms, and a Pople double-$\zeta$ basis set (6-31G) for H atoms and the B3LYP functional.
 Small variations in the geometries have proved to have a large impact on the ZFS parameters, as such the convergence thresholds were set as VERYTIGHT.
 
-The field is applied in the two opposite directions referred as positive +F and negative –F with an amplitude of |F|= 1.028.10$^9$ V.m-1.
+The field is applied in the two opposite directions referred as positive +F and negative –F with an amplitude of |F|= 1.028.10$^9$ V.m$^{-1}$.
 The positive direction for the field in the Z direction induces an elongation of the Ni$^{2+}$-Cl$^-$ bond, i.e., the positive region of the electric potential is above Cl$^-$ in Figure 1. 
 The positive direction for the field in the Y direction induces an elongation of the Ni$^{2+}$-N$_3$, i.e., the positive region of the electric potential is to the right of N$_3$ in Figure \ref{NiMe6tren}.
 
 \subsection{Application of the electric field along the Z axis}
 
-First, we consider the field F along the Z axis, which carries the main component of the dipole moment.
+First, we consider the $\vec{\vb F}\parallel Z$ situation since electric dipole moment is almost along Z, coinciding with the Ni-Cl bond while the X and Y components are small.
 Table \ref{tab:DipF0Z} shows the three components of the dipole moment and its magnitude in absence of electric field.
-While not perfectly aligned, most of the dipole moment is carried by the Z component, coinciding with the Ni-Cl bond while the X and Y components are small.
 
 \begin{table}[h]
     \centering
@@ -839,7 +869,7 @@ While not perfectly aligned, most of the dipole moment is carried by the Z compo
         $F$=0 & -0.0228007 & -0.0772935 & -8.1053645 & 8.1057651   \\
         \hline
     \end{tabular}
-    \caption{Dipole moment in Debye at $F$=0}
+    \caption{Dipole moment components in Debye at $F$=0 V.m$^{-1}$}
     \label{tab:DipF0Z}
 \end{table}
 
@@ -848,12 +878,12 @@ Figure \ref{GSE_Z} shows the ground state energy as a function of the electric f
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/E_Z_grand.png}
-    \caption{Energies in cm$^{-1}$ (shifted by 58.35795.107 cm$^{-1}$) of the ground state obtained for the cases (a) (in blue and plain line), (b)
+    \caption[Energies of the ground state in the three cases (a),(b) and (c) for F//Z]{Energies in cm$^{-1}$ (shifted by 58.35795.107 cm$^{-1}$) of the ground state obtained for the cases (a) (in blue and plain line), (b)
     (in orange and dotted line) and (c) (in red and dashed line) as functions of the field applied in the Z direction.}
     \label{GSE_Z}
 \end{figure}
 As expected from the Stark effect, the variation of case (a) is linear with respect to the field $F$, which tends to stabilise the ground state when the applied field and dipolar moment share the same orientation.
-In case (b) the energy follows a parabolic curve as the electric field disrupts the equilibrium geometry found at $F=0V.m^{-1}$. 
+In case (b) the energy follows a parabolic curve as the electric field disrupts the equilibrium geometry found at $F=0 V.m^{-1}$. 
 The curvature is much smaller compared to the variation in case (a) and the overall behaviour in case (c) follows the electronic effects.
 
 
@@ -867,7 +897,7 @@ The curvature is much smaller compared to the variation in case (a) and the over
 %\end{figure}
 
 Figure \ref{fig:Ni_D_Z} shows how the $D$ parameter evolves as a function of the applied field $F$.
-In all three cases the absolute variation ($|dD/dF|$) is linear, with a negative slope in case (a) and a positive slope in cases (b) and (c).
+In all three cases the absolute variation ($|dD/dF|$) is linear, with a small negative slope in case (a) and a large positive slope in cases (b) and (c).
 This demonstrates that the geometric effects (b) have a stronger impact on the variation of the $D$ value than electronic effects (a) as the overall tendency of case (c) follows that of case (b).
 Figure \ref{fig:Ni_E_Z} shows the evolution of the $E$ parameter.
 Although some deviation is observed for the geometric case (b), mainly due to the lack of precision in calculating this specific property, the overall variation is linear with the field.
@@ -876,14 +906,14 @@ However, the variation in case (b) is very small (<0.05 cm$^{-1}$) and the behav
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/D_E_Z.png}
-    \caption{Evolution of the Axial D parameter (in cm$^{-1}$) as a function of the field applied in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line) in the Z direction}
+    \caption[Evolution of the Axial D parameter as a function of the field applied in cases (a), (b) and (c) for F//Z]{Evolution of the Axial D parameter (in cm$^{-1}$) as a function of the field applied in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line) in the Z direction}
     \label{fig:Ni_D_Z}
 \end{figure}
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/E_E_Z.png}
-    \caption{Evolution of the Rhombic E parameter (in cm$^{-1}$) as a function of the field applied in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line) in the Z direction}
+    \caption[Evolution of the Rhombic E parameter as a function of the field applied in cases (a), (b) and (c) for F//Z]{Evolution of the Rhombic E parameter (in cm$^{-1}$) as a function of the field applied in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line) in the Z direction}
     \label{fig:Ni_E_Z}
 \end{figure}
 
@@ -959,13 +989,13 @@ Given that these contributions are positive it is clear that the first excited t
     \hline
     \end{tabular}
     }
-    \caption{Contributions to the axial parameter D (in cm-1) of the most contributing excited states and their variations $\Delta$C(D) between the -$F$ and +$F$ in the Z direction either provided by ORCA, calculated variationally and perturbatively. $\Delta$|SOC|2 is the variation of the square of the module of the SOC between the ground and the first excited triplet states while $\Delta$($\Delta$E) is the variation between the -$F$ and +$F$ of their energy difference (in cm$^{-1}$) obtained at the NEVPT2 level.}
+    \caption[Contributions to the axial parameter D of the most contributing excited states, variations of SOC and energy difference $\Delta E$ for F//Z]{Contributions to the axial parameter D (in cm-1) of the most contributing excited states and their variations $\Delta$C(D) between the -$F$ and +$F$ in the Z direction either provided by ORCA, calculated variationally and perturbatively. $\Delta$|SOC|2 is the variation of the square of the module of the SOC between the ground and the first excited triplet states while $\Delta$($\Delta$E) is the variation between the -$F$ and +$F$ of their energy difference (in cm$^{-1}$) obtained at the NEVPT2 level.}
     \label{tab:Contribution_Z}
 \end{table}
 
 The variation of the first excited triplet $\Delta C(D)_{VAR}$ matches well with that provided by ORCA, indicating that the variation of the SOC, as well as the variation of the difference in energy $\Delta (\Delta E)$, can be used for the analysis.
-The perturbative estimation of this contribution yields a slightly larger value ($-193 cm^{-1}$ at $F=0$), as the two lowest states are rather close in energy ($\approx 2166 cm^{-1}$), which takes them outside the pertubation regime.
-In case (a), the energy difference between the two lowest triplet states remains roughly the same, so the variation of the SOC is the leading factor in the change of $|D|$. As the soc increases, so does $D$.
+The perturbative estimation of this contribution yields a slightly larger value ($-193 cm^{-1}$ at $F=0$), as the two lowest states are rather close in energy ($\approx 2166 cm^{-1}$), which takes them outside the perturbation regime.
+In case (a), the energy difference between the two lowest triplet states remains roughly the same, so the variation of the SOC is the leading factor in the change of $|D|$. As the SOC increases, so does $D$.
 The opposite is seen in case (b) where the leading factor is the change in energy of the two states. 
 The energy difference increases, so $|D|$ decreases as can be deduced from the perturbative expression of the contribution \ref{ContrPert}.
 The overall changes in $|D|$, case (c), follows the same behaviour as in case (b), as the energy difference remains the dominant factor indicating that the geometrical structure dominates.
@@ -1005,7 +1035,7 @@ As can be seen from Tables \ref{tab:Contribution_Z} and \ref{tab:EOrbitaleZ}, th
     \label{tab:EOrbitaleZ}
 \end{table}
 
-The rhombic term $E$ describes the difference in anisotropy between the X and Y axes. For its rationalisation, the same analysis based on the contributions provided by ORCA should be used.
+The rhombic term $E$ arises from the difference between the X and Y directions. For its rationalisation, the same analysis based on the contributions provided by ORCA should be used.
 Unfortunately, these contributions cannot be used because their sum increases with the field while the $E$ values extracted via effective Hamiltonian theory decrease as shown in Figure \ref{fig:Ni_E_Z}.
 Nevertheless it is possible to rationalise the $E$ term by identifying the determinants that distinguish the X direction from the Y direction. 
 In the case of an applied field along the Z axis, the $d_{x^2-y^2}$,$d_{xy}$ and $d_{z^2}$ orbitals are symmetric in X and Y. As such the only determinants that treat these two directions differently are those with a single occupation in the $d_{xz}$ or $d_{yz}$ orbitals.
@@ -1052,33 +1082,33 @@ Figure \ref{GSE_Y} shows the evolution of the ground state energy when $F$//Y.
 Case (b) follows the same parabolic trend as when $F$//Z, the argument remains the same.
 The situation differs from that of F//Z in case (a), the evolution is now quadradic rather than linear. 
 The applied field induces a change in the sign of the dipole moment component $\mu_y$ which is very small, see Table \ref{tab:DipF0Z}.
-The Stark effect then act to stabilise the ground state for both signs of the electric field $F$.
+The Stark effect then acts to stabilise the ground state for both signs of the electric field $F$.
 
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=\textwidth]{Images/E_Y.png}
-    \caption{Energies in cm$^{-1}$ (shifted by 58.35795.107 cm$^{-1}$) of the ground state obtained for the cases (a) (in blue and plain line), (b)
+    \caption[Energies of the ground state in the three cases (a),(b) and (c) for F//Y]{Energies in cm$^{-1}$ (shifted by 58.35795.107 cm$^{-1}$) of the ground state obtained for the cases (a) (in blue and plain line), (b)
     (in orange and dotted line) and (c) (in red and dashed line) as functions of the field applied in the Y direction.}
     \label{GSE_Y}
 \end{figure}
 
 
 Figure \ref{fig:Ni_D_Y} shows the evolution of the $D$ term with respect to the applied field. It once again follows a linear behavior in all three cases.
-The sign of the slopes has now inverted, with $|dD/dF|$ being positive for case (a) and negative for cases (b) and (c) as opposed to when the field was along the Z direction.
+The sign of the slopes are now inverted, with $|dD/dF|$ being positive for case (a) and negative for cases (b) and (c) as opposed to when the field was along the Z direction.
 
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/D_E_Y.png}
-    \caption{Evolution of the Axial D parameter (in cm$^{-1}$) as a function of the field F//Y in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line)}
+    \caption[Evolution of the Axial D parameter as a function of the field applied in cases (a), (b) and (c) for F//Y]{Evolution of the Axial D parameter (in cm$^{-1}$) as a function of the field F//Y in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line)}
     \label{fig:Ni_D_Y}
 \end{figure}
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/E_E_Y.png}
-    \caption{Evolution of the Rhombic E parameter (in cm$^{-1}$) as a function of the field F//Y in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line)}
+    \caption[Evolution of the Rhombic E parameter as a function of the field applied in cases (a), (b) and (c) for F//Y]{Evolution of the Rhombic E parameter (in cm$^{-1}$) as a function of the field F//Y in cases (a) (in blue and plain line), (b) (in orange and dotted line) and (c) (in red and dashed line)}
     \label{fig:Ni_E_Y}
 \end{figure}
 
@@ -1150,7 +1180,7 @@ Note that the slopes $|dD/dF|$ remain additive and are now much higher in the F/
     \hline
     \end{tabular}
     }
-    \caption{Contributions to the axial parameter D (in cm-1) of the most contributing excited states and their variations $\Delta$C(D) between the -$F$ and +$F$ in the Y direction either provided by ORCA, calculated variationally and perturbatively. $\Delta$|SOC|2 is the variation of the square of the module of the SOC between the ground and the first excited triplet states while $\Delta$($\Delta$E) is the variation between the -$F$ and +$F$ of their energy difference (in cm$^{-1}$) obtained at the NEVPT2 level.}
+    \caption[Contributions to the axial parameter D of the most contributing excited states, variations of SOC and energy difference $\Delta E$ for F//Y]{Contributions to the axial parameter D (in cm-1) of the most contributing excited states and their variations $\Delta$C(D) between the -$F$ and +$F$ in the Y direction either provided by ORCA, calculated variationally and perturbatively. $\Delta$|SOC|2 is the variation of the square of the module of the SOC between the ground and the first excited triplet states while $\Delta$($\Delta$E) is the variation between the -$F$ and +$F$ of their energy difference (in cm$^{-1}$) obtained at the NEVPT2 level.}
     \label{tab:Contribution_Y}
 \end{table}
 
@@ -1229,9 +1259,9 @@ Two orientations for the field were explored. Depending on which parameter it af
 The findings can be summarised in a few points:
 
 \begin{itemize}
-    \item[(i)] The rhombicity of the system, described by the rhomic term $E$, can be modulated by the electric field. 
+    \item[(i)] The rhombicity of the system, described by the rhombic term $E$, can be modulated by the electric field. 
     The variation $dE/dF$ can be significant, especially for F//Z which was not expected at first.
-    As rhombicity describes the anisotropy between the X and Y axes, it seems reasonnable to assume that it would be more affected by the field oriented in the XY plane rather than in the Z direction.
+    As rhombicity describes the anisotropy between the X and Y directions, it seems reasonnable to assume that it would be more affected by the field oriented in the XY plane rather than in the Z direction.
     However, the most important contributions to the $E$ term were found to come from excited states ($T^2$ and $T^3$) coupled to the ground state via excitations from the $d_{xz}$ or the $d_{yz}$ orbitals to the $d_{z^2}$ or the $d_{x^2-y^2}$ orbitals.
     As these orbitals are mainly oriented along the Z axis, it is therefore natural that these excitations would be more impacted by the field along the Z directions than in the XY plane.
     \item[(ii)] The electronic and geometric changes have an opposite effect on the variation $dD/dF$ for both field orientation. 
@@ -1377,7 +1407,6 @@ The spin-orbit couplings between the states \ref{Cu2Cl5states} originate from th
 The representation matrix of the SO Hamiltonian with the addition of electronic couplings is given in the basis developped in eq \ref{Cu2Cl5states}.
 
 \begin{table}[!ht]
-    \centering
     \makebox[0pt][c]{%
     \begin{tabular}{c c c c c c c c c c c}
     $\hat{H}^{SO}$& $\ket{T_1^+}$&$ \ket{T_2^+}$ & $\ket{T_3^+}$ &$\ket{T_4^+}$ & $\ket{T_1^0} $& $\ket{T_2^0}$ & $\ket{T_4^0}$  & $\ket{S_1}$ & $\ket{S_3}$ &$ \ket{S_4}$ \\ 
@@ -1397,7 +1426,7 @@ The representation matrix of the SO Hamiltonian with the addition of electronic 
     \hline
     \end{tabular}
     }
-\caption{Representation matrix of $\hat{H}^{SO}$ and electronic couplings in the uncoupled basis. $T_3^0$ and $S_2$ are not coupled to the others, as such they were left out for clarity. $h_1$($h_1'$) and $h_2$($h_2'$) are couplings induced by the electric field and differ between triplet and singlet states by their exchange integrals. $\delta_1$ and $\delta_2$ are small bielectronic integrals between $T_1$($S_1$) and $T_4$($S_4$). The $M_S$=-1 components of the triplets are left out but possess the same couplings as the $M_S$=1 components.}
+\caption[Representation matrix of $\hat{H}^{SO}$ and electronic couplings in the uncoupled basis.]{Representation matrix of $\hat{H}^{SO}$ and electronic couplings in the uncoupled basis. $T_3^0$ and $S_2$ are not coupled to the others, as such they were left out for clarity. $h_1$($h_1'$) and $h_2$($h_2'$) are couplings induced by the electric field and differ between triplet and singlet states by their exchange integrals. $\delta_1$ and $\delta_2$ are small bielectronic integrals between $T_1$($S_1$) and $T_4$($S_4$). The $M_S$=-1 components of the triplets are left out but possess the same couplings as the $M_S$=1 components.}
 \label{tab:HSOCu2Cl5}
 \end{table}
 
@@ -1462,7 +1491,7 @@ These results are reported on Figure \ref{DABangle} with the angle $\phi$ variat
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/D_AB_Angle2.png}
-    \caption{$D_{AB}$ as a function of the outside angle $\phi$ for (i) CAS(6,4)SCF/SCF-SO level (blue line with squares), (ii) CAS(6,4)DDCI/SCF-SO level (orange line with triangles), and (iii) CAS(6,4)DDCI/DDCI-SO level (green line with circles) }
+    \caption[$D_{AB}$ as a function of the outside angle $\phi$ for different levels of calculations]{$D_{AB}$ as a function of the outside angle $\phi$ for (i) CAS(6,4)SCF/SCF-SO level (blue line with squares), (ii) CAS(6,4)DDCI/SCF-SO level (orange line with triangles), and (iii) CAS(6,4)DDCI/DDCI-SO level (green line with circles)}
     \label{DABangle}
 \end{figure}
 
@@ -1540,7 +1569,7 @@ Only changes in the electronic structure are studied, not the geometric ones. In
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/D_AB_E.png}
-    \caption{$D_{AB}$ (in cm$^{-1}$) as a function of the electric field applied in the X (blue line with triangles), Y (red line with circles) and Z (grey line with squares) directions, obtained at CAS(6,4)SCF/SCF-SO}
+    \caption[$D_{AB}$ (in cm$^{-1}$) as a function of the electric field applied in the X, Y and Z directions for CAS(6,4)SCF/SCF-SO calculations]{$D_{AB}$ (in cm$^{-1}$) as a function of the electric field applied in the X (blue line with triangles), Y (red line with circles) and Z (grey line with squares) directions, obtained at CAS(6,4)SCF/SCF-SO}
     \label{DABchamp}
 \end{figure}
 
@@ -1556,7 +1585,7 @@ The importance of dynamical correlation is expected, because as the field increa
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/DABcorrelation.png}
-    \caption{$D_{AB}$ (in cm$^{-1}$) as a function of the electric field applied in the Y direction, obtained at (i)CAS(6,4)SCF/SCF-SO (blue line with squares), (ii) CAS(6,4)DDCI/SCF-SO (orange line with triangles) and (iii) CAS(6,4)DDCI/DDCI-SO (green line with circles)}
+    \caption[$D_{AB}$ (in cm$^{-1}$) as a function of the electric field applied in the Y direction, obtained at three levels of calculation.]{$D_{AB}$ (in cm$^{-1}$) as a function of the electric field applied in the Y direction, obtained at (i)CAS(6,4)SCF/SCF-SO (blue line with squares), (ii) CAS(6,4)DDCI/SCF-SO (orange line with triangles) and (iii) CAS(6,4)DDCI/DDCI-SO (green line with circles)}
     \label{DABcorrelation}
 \end{figure}
 
@@ -1692,7 +1721,7 @@ If the choice of fragment and construction of the embedding are done correctly, 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=\textwidth]{Images/Groupir.png}
-    \caption{The three computed fragments using DFT calculations for in-plane couplings. Cu are represented in blue, Zn in grey, Cl in green, O in red and H in white.}
+    \caption[The three computed fragments using DFT calculations for in-plane coplings.]{The three computed fragments using DFT calculations for in-plane couplings. Cu are represented in blue, Zn in grey, Cl in green, O in red and H in white.}
     \label{FragmentDFT}
 \end{figure}
 
@@ -1766,7 +1795,7 @@ However, replacing this ion with a $Cu^{2+}$, which is susceptible to the Jahn-T
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.5\textwidth]{Images/Fragment_AvOpt.png}
-    \caption{Embedded cluster used to compute the out of plane coupling before geometry optimisation. The three copper ions (blue) at the top and bottom of the fragment each belong to their own kagome plane.}
+    \caption[Embedded cluster used to compute the out of plane coupling before geometry optimisation]{Embedded cluster used to compute the out of plane coupling before geometry optimisation. The three copper ions (blue) at the top and bottom of the fragment each belong to their own kagome plane.}
     \label{fig:FragAv}
 \end{figure}
 
@@ -1795,7 +1824,7 @@ As the two structures are quite close in energy, a difference lower than the est
       \caption{``2+4'' structure}
       \label{fig:Struc2+4}
     \end{subfigure}
-    \caption{Close environment of intersite $Cu^{2+}$ in both structure obtained via DFT with the B3LYP functional. The bond lengths are shown in Angstrom}
+    \caption[Close environnment of intersite $Cu^{2+}$ in both structure obtained via DFT with the B3LYP functional]{Close environment of intersite $Cu^{2+}$ in both structure obtained via DFT with the B3LYP functional. The bond lengths are shown in Angstrom}
     \label{fig:StrucInterplan}
 \end{figure}
 
@@ -2162,7 +2191,7 @@ It is important to mention that the out-of-plane component $d_{\perp}$ oscillate
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/SchemaDMI.png}
-    \caption{Schematic representation of the DMI vector components in two adjacent $Cu^{2+}$ triangle of the lattice. The black arrows
+    \caption[Schematic representation of the DMI vector components in two adjacent $Cu^{2+}$ triangles of the lattice.]{Schematic representation of the DMI vector components in two adjacent $Cu^{2+}$ triangles of the lattice. The black arrows
     between the magnetic centers indicates the order of the first and second spins in the
     vector products of the DM interactions. The out-of-plane components alternate from
     one triangle to its neighbors and point in the opposite direction to the position of
