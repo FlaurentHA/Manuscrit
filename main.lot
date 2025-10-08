@@ -2,25 +2,25 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Dipole moment components in Debye at $F$=0 V.m$^{-1}$}}{47}{table.caption.15}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Slopes of the straight lines in cases (a), (b) and (c) for the D and E parameter for $\vec {vb F}\parallel Z$, Fig. \ref {fig:Ni_D_Z} and \ref {fig:Ni_E_Z}}}{48}{table.caption.19}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Contributions to the axial parameter D of the most contributing excited states, variations of SOC and energy difference $\Delta E$ for F//Z}}{51}{table.caption.20}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Variation of the distances in Angstrom between the Ni(II) ion and the closest atoms of the ligand between $-F$ and $+F$ with F//Z.}}{51}{table.caption.21}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Variation between $-F$ and $+F$ applied in the Z direction of the orbital energy difference $\Delta (\Delta \epsilon (d_{x^2-y^2}-d_{xy}))$ in cm$^{-1}$}}{52}{table.caption.22}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces Weight w($d_{xz}$) and w($d_{yz})$ of the determinants with single occupation in the respective orbitals, their difference $\Delta w(X-Y)$ and their overall variation $\Delta (\Delta w(X-Y))$ in all three case of calculation for F//Z. }}{52}{table.caption.23}%
-\contentsline {table}{\numberline {3.7}{\ignorespaces Slopes of the straight lines in cases (a), (b) and (c) for the D and E parameter for F//Y}}{54}{table.caption.27}%
-\contentsline {table}{\numberline {3.8}{\ignorespaces Contributions to the axial parameter D of the most contributing excited states, variations of SOC and energy difference $\Delta E$ for F//Y}}{56}{table.caption.28}%
-\contentsline {table}{\numberline {3.9}{\ignorespaces Variation of the distances in Angstrom between the Ni(II) ion and the closest atoms of the ligand between $-F$ and $+F$ with F//Y.}}{56}{table.caption.29}%
-\contentsline {table}{\numberline {3.10}{\ignorespaces Weight w($d_{xz}$) and w($d_{yz})$ of the determinants with single occupation in the respective orbitals, their difference $\Delta w(X-Y)$ and their overall variation $\Delta (\Delta w(X-Y))$ in all three case of calculation for F//Y.}}{57}{table.caption.30}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Dipole moment components in Debye at $F$=0 V.m$^{-1}$}}{50}{table.caption.15}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Slopes of the straight lines in cases (a), (b) and (c) for the D and E parameter for F//Z}}{51}{table.caption.19}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Contributions to the axial parameter D of the most contributing excited states, variations of SOC and energy difference $\Delta E$ for F//Z}}{54}{table.caption.20}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Variation of the distances in Angstrom between the Ni(II) ion and the closest atoms of the ligand between $-F$ and $+F$ with F//Z.}}{54}{table.caption.21}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Variation between $-F$ and $+F$ applied in the Z direction of the orbital energy difference $\Delta (\Delta \epsilon (d_{x^2-y^2}-d_{xy}))$ in cm$^{-1}$}}{55}{table.caption.22}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Weight w($d_{xz}$) and w($d_{yz})$ of the determinants with single occupation in the respective orbitals, their difference $\Delta w(X-Y)$ and their overall variation $\Delta (\Delta w(X-Y))$ in all three case of calculation for F//Z. }}{55}{table.caption.23}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Slopes of the straight lines in cases (a), (b) and (c) for the D and E parameter for F//Y}}{57}{table.caption.27}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Contributions to the axial parameter D of the most contributing excited states, variations of SOC and energy difference $\Delta E$ for F//Y}}{59}{table.caption.28}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Variation of the distances in Angstrom between the Ni(II) ion and the closest atoms of the ligand between $-F$ and $+F$ with F//Y.}}{59}{table.caption.29}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Weight w($d_{xz}$) and w($d_{yz})$ of the determinants with single occupation in the respective orbitals, their difference $\Delta w(X-Y)$ and their overall variation $\Delta (\Delta w(X-Y))$ in all three case of calculation for F//Y.}}{60}{table.caption.30}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Representation matrix of $\hat {H}^{SO}$ and electronic couplings in the uncoupled basis.}}{64}{table.caption.32}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Numerical matrix of $\hat {H}^{SO}$ and electronic couplings in the uncoupled basis from a CAS(6,4)DDCI/DDCI-SO calculation with no electric field and $\phi =130\degree $.}}{68}{table.caption.34}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Variational contribution in cm$^{-1}$ of the excited states to $D_{AB}$ and its value in cm$^{-1}$ extracted from effective Hamiltonian at CAS(6,4)DDCI/DDCI-SO level}}{68}{table.caption.35}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Numerical matrix of $\hat {H}^{SO}$ and electronic couplings in the uncoupled basis from a CAS(6,4)DDCI/DDCI-SO calculation in the presence of an electric field of 0.01 a.u (5.1724 $\times $ 10$^4$ kV.cm$^{-1}$) and $\phi =130\degree $.}}{71}{table.caption.38}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Variational contribution in cm$^{-1}$ of the excited states to $D_{AB}$ and $|d_{ab}|$ given in value in cm$^{-1}$ extracted from effective Hamiltonian at CAS(6,4)DDCI/DDCI-SO level}}{71}{table.caption.39}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Representation matrix of $\hat {H}^{SO}$ and electronic couplings in the uncoupled basis.}}{67}{table.caption.32}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Numerical matrix of $\hat {H}^{SO}$ and electronic couplings in the uncoupled basis from a CAS(6,4)DDCI/DDCI-SO calculation with no electric field and $\phi =130\degree $.}}{71}{table.caption.34}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Variational contribution in cm$^{-1}$ of the excited states to $D_{AB}$ and its value in cm$^{-1}$ extracted from effective Hamiltonian at CAS(6,4)DDCI/DDCI-SO level}}{71}{table.caption.35}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Numerical matrix of $\hat {H}^{SO}$ and electronic couplings in the uncoupled basis from a CAS(6,4)DDCI/DDCI-SO calculation in the presence of an electric field of 0.01 a.u (5.1724 $\times $ 10$^4$ kV.cm$^{-1}$) and $\phi =130\degree $.}}{74}{table.caption.38}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Variational contribution in cm$^{-1}$ of the excited states to $D_{AB}$ and $|d_{ab}|$ given in value in cm$^{-1}$ extracted from effective Hamiltonian at CAS(6,4)DDCI/DDCI-SO level}}{74}{table.caption.39}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Matrix representation of the Ising Hamiltonian in the basis of determintants $M_S$=1/2 and $M_S$=3/2}}{76}{table.caption.42}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Values of the $J_i$ couplings in Kelvin in the three fragments and the distance associated to each couplings.}}{77}{table.caption.44}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Distance between the oxygens and the copper ions, defect or in plane, given in \r Afor the X-Ray structure and both optimisation scheme.}}{80}{table.caption.47}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Values of the $J_i$ interactions given in Kelvin in presence of a $Cu^{2+}$ defect in the intersite for the $C_3$ and both optimised structure.}}{81}{table.caption.49}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Values in Kelvin of the $|d|$ DM magnitude and its components, axial (D) and rhomic (E) anisotropic exchange parameters, obtained for both fragments.}}{89}{table.caption.56}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Matrix representation of the Ising Hamiltonian in the basis of determintants $M_S$=1/2 and $M_S$=3/2}}{79}{table.caption.42}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Values of the $J_i$ couplings in Kelvin in the three fragments and the distance associated to each couplings.}}{80}{table.caption.44}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Distance between the oxygens and the copper ions, defect or in plane, given in \r Afor the X-Ray structure and both optimisation scheme.}}{83}{table.caption.47}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Values of the $J_i$ interactions given in Kelvin in presence of a $Cu^{2+}$ defect in the intersite for the $C_3$ and both optimised structure.}}{84}{table.caption.49}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Values in Kelvin of the $|d|$ DM magnitude and its components, axial (D) and rhomic (E) anisotropic exchange parameters, obtained for both fragments.}}{92}{table.caption.56}%
