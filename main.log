@@ -1455,4 +1455,129 @@ Package pdftex.def Info: Images/Cu.2+4.png  used on input line 1861.
 <Images/CouplageInterplan.jpg, id=1110, 187.902pt x 302.0886pt>
 File: Images/CouplageInterplan.jpg Graphic file (type jpg)
 <use Images/CouplageInterplan.jpg>
-Package pdftex.def Info: Imag
+Package pdftex.def Info: Images/CouplageInterplan.jpg  used on input line 1906.
+(pdftex.def)             Requested size: 188.8096pt x 303.56288pt.
+ [85] [86 <./Images/Cu.4+2.png> <./Images/Cu.2+4.png> <./Images/CouplageInterplan.jpg>]
+Overfull \hbox (28.54869pt too wide) in paragraph at lines 1938--1947
+\T1/cmr/m/n/14.4 Calculations were also performed on the $\OML/cmm/m/it/14.4 C[]$ \T1/cmr/m/n/14.4 structure in order to provide comparisons.
+ []
+
+
+Overfull \hbox (3.52264pt too wide) in paragraph at lines 2000--2003
+\T1/cmr/m/n/14.4 The second purpose of this study was the determination of anisotropic interaction
+ []
+
+[87]
+<Images/Trimere.jpg, id=1131, 548.0475pt x 465.74pt>
+File: Images/Trimere.jpg Graphic file (type jpg)
+<use Images/Trimere.jpg>
+Package pdftex.def Info: Images/Trimere.jpg  used on input line 2009.
+(pdftex.def)             Requested size: 236.01561pt x 200.56987pt.
+<Images/Dimer.jpg, id=1132, 588.1975pt x 497.86pt>
+File: Images/Dimer.jpg Graphic file (type jpg)
+<use Images/Dimer.jpg>
+Package pdftex.def Info: Images/Dimer.jpg  used on input line 2015.
+(pdftex.def)             Requested size: 236.01561pt x 199.7634pt.
+ [88 <./Images/Trimere.jpg> <./Images/Dimer.jpg>]
+Overfull \hbox (4.66612pt too wide) in paragraph at lines 2060--2063
+[]\T1/cmr/m/n/14.4 CASSCF calculation tends to "over"-localise the wave-function on the metallic
+ []
+
+[89]
+<Images/OrbCAS43.png, id=1154, 939.51pt x 143.53625pt>
+File: Images/OrbCAS43.png Graphic file (type png)
+<use Images/OrbCAS43.png>
+Package pdftex.def Info: Images/OrbCAS43.png  used on input line 2088.
+(pdftex.def)             Requested size: 472.03123pt x 72.11618pt.
+<Images/mo1.trimer.png, id=1155, 528.97626pt x 488.82625pt>
+File: Images/mo1.trimer.png Graphic file (type png)
+<use Images/mo1.trimer.png>
+Package pdftex.def Info: Images/mo1.trimer.png  used on input line 2096.
+(pdftex.def)             Requested size: 141.61081pt x 130.85855pt.
+<Images/mo2.trimer.png, id=1156, 528.97626pt x 488.82625pt>
+File: Images/mo2.trimer.png Graphic file (type png)
+<use Images/mo2.trimer.png>
+Package pdftex.def Info: Images/mo2.trimer.png  used on input line 2101.
+(pdftex.def)             Requested size: 141.61081pt x 130.85855pt.
+<Images/mo3.trimer.png, id=1157, 528.97626pt x 488.82625pt>
+File: Images/mo3.trimer.png Graphic file (type png)
+<use Images/mo3.trimer.png>
+Package pdftex.def Info: Images/mo3.trimer.png  used on input line 2106.
+(pdftex.def)             Requested size: 141.61081pt x 130.85855pt.
+<Images/mo4.trimer.png, id=1158, 528.97626pt x 488.82625pt>
+File: Images/mo4.trimer.png Graphic file (type png)
+<use Images/mo4.trimer.png>
+Package pdftex.def Info: Images/mo4.trimer.png  used on input line 2113.
+(pdftex.def)             Requested size: 141.61081pt x 130.85855pt.
+<Images/mo5.trimer.png, id=1159, 528.97626pt x 488.82625pt>
+File: Images/mo5.trimer.png Graphic file (type png)
+<use Images/mo5.trimer.png>
+Package pdftex.def Info: Images/mo5.trimer.png  used on input line 2119.
+(pdftex.def)             Requested size: 141.61081pt x 130.85855pt.
+<Images/mo6.trimer.png, id=1160, 528.97626pt x 488.82625pt>
+File: Images/mo6.trimer.png Graphic file (type png)
+<use Images/mo6.trimer.png>
+Package pdftex.def Info: Images/mo6.trimer.png  used on input line 2125.
+(pdftex.def)             Requested size: 141.61081pt x 130.85855pt.
+ [90 <./Images/OrbCAS43.png>] [91 <./Images/mo1.trimer.png> <./Images/mo2.trimer.png> <./Images/mo3.trimer.png> <./Images/mo4.trimer.png> <./Images/mo5.trimer.png> <./Images/mo6.trimer.png>] [92] [93] [94] [95]
+<Images/HMS.png, id=1199, 1325.95375pt x 392.46625pt>
+File: Images/HMS.png Graphic file (type png)
+<use Images/HMS.png>
+Package pdftex.def Info: Images/HMS.png  used on input line 2281.
+(pdftex.def)             Requested size: 472.03123pt x 139.71274pt.
+ [96
+
+ <./Images/HMS.png>]
+<Images/SchemaDMI.png, id=1207, 407.5225pt x 405.515pt>
+File: Images/SchemaDMI.png Graphic file (type png)
+<use Images/SchemaDMI.png>
+Package pdftex.def Info: Images/SchemaDMI.png  used on input line 2319.
+(pdftex.def)             Requested size: 377.62642pt x 375.78232pt.
+
+Overfull \hbox (15.29861pt too wide) in paragraph at lines 2311--2328
+[]\T1/cmr/m/n/14.4 The axis system was not changed between the dinuclear and trinuclear fragment.
+ []
+
+
+Overfull \hbox (2.46254pt too wide) in paragraph at lines 2348--2369
+\T1/cmr/m/n/14.4 The purpose of this work was the application of \T1/cmr/m/it/14.4 ab initio \T1/cmr/m/n/14.4 calculation to extraction
+ []
+
+
+Overfull \hbox (5.63878pt too wide) in paragraph at lines 2348--2369
+\T1/cmr/m/n/14.4 DFT calculations, it allowed the determination of the possible isotropic couplings.
+ []
+
+[97
+
+] [98 <./Images/SchemaDMI.png>] [99] (./main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 342DFF3550B86DE94B0E69232CCDE758;7946.
+ ) 
+Here is how much of TeX's memory you used:
+ 26199 strings out of 474222
+ 474979 string characters out of 5748733
+ 1961975 words of memory out of 5000000
+ 47730 multiletter control sequences out of 15000+600000
+ 583994 words of font info for 98 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,19n,93p,768b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on main.pdf (100 pages, 5619734 bytes).
+PDF statistics:
+ 1393 PDF objects out of 1440 (max. 8388607)
+ 1072 compressed objects within 11 object streams
+ 264 named destinations out of 1000 (max. 500000)
+ 564 words of extra memory for PDF output out of 10000 (max. 10000000)
+
