@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.16)  15 OCT 2025 14:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.16)  15 OCT 2025 16:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -826,7 +826,7 @@ Overfull \hbox (10.441pt too wide) in paragraph at lines 244--250
  []
 
 [12]
-<Images/SpectreZFS.png, id=446, 260.975pt x 265.99374pt>
+<Images/SpectreZFS.png, id=451, 260.975pt x 265.99374pt>
 File: Images/SpectreZFS.png Graphic file (type png)
 <use Images/SpectreZFS.png>
 Package pdftex.def Info: Images/SpectreZFS.png  used on input line 275.
@@ -862,7 +862,7 @@ Overfull \hbox (10.68372pt too wide) in paragraph at lines 446--458
  []
 
 [18]
-<Images/EspaceCAS.png, id=503, 657.45625pt x 392.46625pt>
+<Images/EspaceCAS.png, id=508, 657.45625pt x 392.46625pt>
 File: Images/EspaceCAS.png Graphic file (type png)
 <use Images/EspaceCAS.png>
 Package pdftex.def Info: Images/EspaceCAS.png  used on input line 480.
@@ -883,7 +883,7 @@ Overfull \hbox (8.25034pt too wide) in paragraph at lines 505--511
  []
 
 [21]
-<Images/DDCI.png, id=520, 851.18pt x 576.1525pt>
+<Images/DDCI.png, id=525, 851.18pt x 576.1525pt>
 File: Images/DDCI.png Graphic file (type png)
 <use Images/DDCI.png>
 Package pdftex.def Info: Images/DDCI.png  used on input line 523.
@@ -913,7 +913,7 @@ Overfull \hbox (26.15425pt too wide) in paragraph at lines 602--607
 \T1/cmr/m/n/14.4 operator and $[]$ the spin momenta operator. The application of this Hamiltonian
  []
 
-<Images/Bain.png, id=549, 419.5675pt x 365.365pt>
+<Images/Bain.png, id=554, 419.5675pt x 365.365pt>
 File: Images/Bain.png Graphic file (type png)
 <use Images/Bain.png>
 Package pdftex.def Info: Images/Bain.png  used on input line 620.
@@ -928,7 +928,7 @@ Overfull \hbox (3.14482pt too wide) in paragraph at lines 641--645
 \T1/cmr/m/n/14.4 Having ways to compute the \T1/cmr/m/it/14.4 ab initio \T1/cmr/m/n/14.4 multi-reference wave-functions usually
  []
 
-<Images/HEFF.schema.png, id=560, 372.39125pt x 472.76625pt>
+<Images/HEFF.schema.png, id=565, 372.39125pt x 472.76625pt>
 File: Images/HEFF.schema.png Graphic file (type png)
 <use Images/HEFF.schema.png>
 Package pdftex.def Info: Images/HEFF.schema.png  used on input line 648.
@@ -965,7 +965,7 @@ Overfull \hbox (9.05167pt too wide) in paragraph at lines 698--704
 \T1/cmr/m/n/14.4 with the large amount of experimental data available enable for the validation
  []
 
-<Images/ComplexFe.XY.jpg, id=581, 396.48125pt x 217.81375pt>
+<Images/ComplexFe.XY.jpg, id=586, 396.48125pt x 217.81375pt>
 File: Images/ComplexFe.XY.jpg Graphic file (type jpg)
 <use Images/ComplexFe.XY.jpg>
 Package pdftex.def Info: Images/ComplexFe.XY.jpg  used on input line 744.
@@ -1003,7 +1003,7 @@ Overfull \hbox (23.13995pt too wide) in paragraph at lines 780--782
  []
 
 [33]
-<JPS.pdf, id=599, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=604, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf>
 Package pdftex.def Info: JPS.pdf  used on input line 786.
@@ -1012,7 +1012,7 @@ File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf>
 Package pdftex.def Info: JPS.pdf  used on input line 786.
 (pdftex.def)             Requested size: 597.50682pt x 782.44934pt.
-<JPS.pdf, id=602, page=1, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=607, page=1, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 1>
 Package pdftex.def Info: JPS.pdf , page1 used on input line 786.
@@ -1036,7 +1036,7 @@ Package pdftex.def Info: JPS.pdf , page1 used on input line 786.
  [34
 
  <./JPS.pdf>]
-<JPS.pdf, id=709, page=2, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=714, page=2, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 2>
 Package pdftex.def Info: JPS.pdf , page2 used on input line 786.
@@ -1052,7 +1052,7 @@ Package pdftex.def Info: JPS.pdf , page2 used on input line 786.
  [35
 
  <./JPS.pdf>]
-<JPS.pdf, id=726, page=3, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=731, page=3, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 3>
 Package pdftex.def Info: JPS.pdf , page3 used on input line 786.
@@ -1068,7 +1068,7 @@ Package pdftex.def Info: JPS.pdf , page3 used on input line 786.
  [36
 
  <./JPS.pdf>]
-<JPS.pdf, id=738, page=4, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=744, page=4, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 4>
 Package pdftex.def Info: JPS.pdf , page4 used on input line 786.
@@ -1084,7 +1084,7 @@ Package pdftex.def Info: JPS.pdf , page4 used on input line 786.
  [37
 
  <./JPS.pdf>]
-<JPS.pdf, id=750, page=5, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=755, page=5, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 5>
 Package pdftex.def Info: JPS.pdf , page5 used on input line 786.
@@ -1100,7 +1100,7 @@ Package pdftex.def Info: JPS.pdf , page5 used on input line 786.
  [38
 
  <./JPS.pdf>]
-<JPS.pdf, id=774, page=6, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=779, page=6, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 6>
 Package pdftex.def Info: JPS.pdf , page6 used on input line 786.
@@ -1116,7 +1116,7 @@ Package pdftex.def Info: JPS.pdf , page6 used on input line 786.
  [39
 
  <./JPS.pdf>]
-<JPS.pdf, id=779, page=7, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=784, page=7, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 7>
 Package pdftex.def Info: JPS.pdf , page7 used on input line 786.
@@ -1132,7 +1132,7 @@ Package pdftex.def Info: JPS.pdf , page7 used on input line 786.
  [40
 
  <./JPS.pdf>]
-<JPS.pdf, id=790, page=8, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=795, page=8, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 8>
 Package pdftex.def Info: JPS.pdf , page8 used on input line 786.
@@ -1148,7 +1148,7 @@ Package pdftex.def Info: JPS.pdf , page8 used on input line 786.
  [41
 
  <./JPS.pdf>]
-<JPS.pdf, id=800, page=9, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=805, page=9, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 9>
 Package pdftex.def Info: JPS.pdf , page9 used on input line 786.
@@ -1164,7 +1164,7 @@ Package pdftex.def Info: JPS.pdf , page9 used on input line 786.
  [42
 
  <./JPS.pdf>]
-<JPS.pdf, id=806, page=10, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=811, page=10, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 10>
 Package pdftex.def Info: JPS.pdf , page10 used on input line 786.
@@ -1180,7 +1180,7 @@ Package pdftex.def Info: JPS.pdf , page10 used on input line 786.
  [43
 
  <./JPS.pdf>]
-<JPS.pdf, id=816, page=11, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=821, page=11, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 11>
 Package pdftex.def Info: JPS.pdf , page11 used on input line 786.
@@ -1196,7 +1196,7 @@ Package pdftex.def Info: JPS.pdf , page11 used on input line 786.
  [44
 
  <./JPS.pdf>]
-<JPS.pdf, id=829, page=12, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=834, page=12, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 12>
 Package pdftex.def Info: JPS.pdf , page12 used on input line 786.
@@ -1212,7 +1212,7 @@ Package pdftex.def Info: JPS.pdf , page12 used on input line 786.
  [45
 
  <./JPS.pdf>]
-<JPS.pdf, id=834, page=13, 597.50829pt x 782.45125pt>
+<JPS.pdf, id=839, page=13, 597.50829pt x 782.45125pt>
 File: JPS.pdf Graphic file (type pdf)
 <use JPS.pdf, page 13>
 Package pdftex.def Info: JPS.pdf , page13 used on input line 786.
@@ -1232,7 +1232,7 @@ Overfull \hbox (24.09381pt too wide) in paragraph at lines 791--794
 \T1/cmr/m/n/14.4 strong unaxial anisotropy. This complex has a tetradentate ligand (hexamethyl-
  []
 
-<Images/NiMe6trenTalal.png, id=840, 144.54pt x 123.1875pt>
+<Images/NiMe6trenTalal.png, id=845, 144.54pt x 123.1875pt>
 File: Images/NiMe6trenTalal.png Graphic file (type png)
 <use Images/NiMe6trenTalal.png>
 Package pdftex.def Info: Images/NiMe6trenTalal.png  used on input line 797.
@@ -1253,7 +1253,7 @@ Overfull \hbox (4.34644pt too wide) in paragraph at lines 803--809
  []
 
 [47 <./Images/NiMe6trenTalal.png>]
-<Images/NiMe6tren_config.png, id=847, 615.29875pt x 297.11pt>
+<Images/NiMe6tren_config.png, id=852, 615.29875pt x 297.11pt>
 File: Images/NiMe6tren_config.png Graphic file (type png)
 <use Images/NiMe6tren_config.png>
 Package pdftex.def Info: Images/NiMe6tren_config.png  used on input line 812.
@@ -1279,18 +1279,18 @@ Overfull \hbox (2.23122pt too wide) in paragraph at lines 855--861
  []
 
 [50]
-<Images/E_Z_grand.png, id=872, 794.97pt x 614.295pt>
+<Images/E_Z_grand.png, id=877, 794.97pt x 614.295pt>
 File: Images/E_Z_grand.png Graphic file (type png)
 <use Images/E_Z_grand.png>
 Package pdftex.def Info: Images/E_Z_grand.png  used on input line 900.
 (pdftex.def)             Requested size: 354.86412pt x 274.21806pt.
  [51]
-<Images/D_E_Z.png, id=881, 794.97pt x 614.295pt>
+<Images/D_E_Z.png, id=886, 794.97pt x 614.295pt>
 File: Images/D_E_Z.png Graphic file (type png)
 <use Images/D_E_Z.png>
 Package pdftex.def Info: Images/D_E_Z.png  used on input line 928.
 (pdftex.def)             Requested size: 354.86412pt x 274.21806pt.
-<Images/E_E_Z.png, id=882, 794.97pt x 614.295pt>
+<Images/E_E_Z.png, id=887, 794.97pt x 614.295pt>
 File: Images/E_E_Z.png Graphic file (type png)
 <use Images/E_E_Z.png>
 Package pdftex.def Info: Images/E_E_Z.png  used on input line 935.
@@ -1309,17 +1309,17 @@ Overfull \hbox (17.63063pt too wide) in paragraph at lines 1068--1076
  []
 
 [54 <./Images/E_E_Z.png>] [55] [56]
-<Images/E_Y.png, id=924, 228.636pt x 176.4045pt>
+<Images/E_Y.png, id=929, 228.636pt x 176.4045pt>
 File: Images/E_Y.png Graphic file (type png)
 <use Images/E_Y.png>
 Package pdftex.def Info: Images/E_Y.png  used on input line 1120.
 (pdftex.def)             Requested size: 443.57848pt x 342.25928pt.
-<Images/D_E_Y.png, id=926, 794.97pt x 614.295pt>
+<Images/D_E_Y.png, id=931, 794.97pt x 614.295pt>
 File: Images/D_E_Y.png Graphic file (type png)
 <use Images/D_E_Y.png>
 Package pdftex.def Info: Images/D_E_Y.png  used on input line 1134.
 (pdftex.def)             Requested size: 354.86412pt x 274.21806pt.
-<Images/E_E_Y.png, id=927, 794.97pt x 614.295pt>
+<Images/E_E_Y.png, id=932, 794.97pt x 614.295pt>
 File: Images/E_E_Y.png Graphic file (type png)
 <use Images/E_E_Y.png>
 Package pdftex.def Info: Images/E_E_Y.png  used on input line 1141.
@@ -1339,7 +1339,7 @@ Overfull \hbox (1.48409pt too wide) in paragraph at lines 1313--1314
 []\T1/cmr/m/n/14.4 The spin Hamiltonian used to describe anisotropic behaviour in binuclear
  []
 
-<Images/Cu2Cl5.png, id=967, 855.195pt x 642.4pt>
+<Images/Cu2Cl5.png, id=972, 855.195pt x 642.4pt>
 File: Images/Cu2Cl5.png Graphic file (type png)
 <use Images/Cu2Cl5.png>
 Package pdftex.def Info: Images/Cu2Cl5.png  used on input line 1324.
@@ -1362,7 +1362,7 @@ Overfull \hbox (1.20975pt too wide) in paragraph at lines 1482--1484
  []
 
 [69] [70]
-<Images/D_AB_Angle2.png, id=1019, 1378.1889pt x 682.2288pt>
+<Images/D_AB_Angle2.png, id=1024, 1378.1889pt x 682.2288pt>
 File: Images/D_AB_Angle2.png Graphic file (type png)
 <use Images/D_AB_Angle2.png>
 Package pdftex.def Info: Images/D_AB_Angle2.png  used on input line 1527.
@@ -1382,13 +1382,13 @@ Overfull \hbox (43.78125pt too wide) in paragraph at lines 1598--1598
 []\T1/cmr/bx/n/17.28 Impact of the electric field on the symmetric anisotropic
  []
 
-<Images/D_AB_E.png, id=1037, 666.99188pt x 411.78844pt>
+<Images/D_AB_E.png, id=1042, 666.99188pt x 411.78844pt>
 File: Images/D_AB_E.png Graphic file (type png)
 <use Images/D_AB_E.png>
 Package pdftex.def Info: Images/D_AB_E.png  used on input line 1605.
 (pdftex.def)             Requested size: 354.86412pt x 219.08879pt.
 [73 <./Images/D_AB_E.png>]
-<Images/DABcorrelation.png, id=1046, 446.103pt x 239.4765pt>
+<Images/DABcorrelation.png, id=1051, 446.103pt x 239.4765pt>
 File: Images/DABcorrelation.png Graphic file (type png)
 <use Images/DABcorrelation.png>
 Package pdftex.def Info: Images/DABcorrelation.png  used on input line 1621.
@@ -1426,227 +1426,231 @@ Overfull \hbox (27.38043pt too wide) in paragraph at lines 1711--1712
 [76] [77]
 Chapter 5.
 
-Overfull \hbox (6.67781pt too wide) in paragraph at lines 1723--1726
-\T1/cmr/m/n/14.4 package with def2-TZVP basis set on all atoms and the $\OML/cmm/m/it/14.4 !$\T1/cmr/m/n/14.4 B97X-D3 functional
- []
-
-
-Overfull \hbox (6.6613pt too wide) in paragraph at lines 1727--1731
-\T1/cmr/m/n/14.4 J1 values are in perfect agreement: 240K for periodic and 239K for embedded
- []
-
-
-Overfull \hbox (13.9109pt too wide) in paragraph at lines 1734--1746
-\T1/cmr/m/n/14.4 In a first approximation, the isotropic behavior of Herbertsmithite is described
+Overfull \hbox (7.73512pt too wide) in paragraph at lines 1718--1729
+\T1/cmr/m/n/14.4 characterisation of such object is the difficulty to obtain reliable experimental
  []
 
 [78
 
 ]
 
-LaTeX Warning: Reference `FragmentDFT' on page 79 undefined on input line 1750.
+LaTeX Warning: Reference `Herbert' on page 79 undefined on input line 1738.
 
 
-Overfull \hbox (0.76938pt too wide) in paragraph at lines 1750--1754
+Overfull \hbox (6.67781pt too wide) in paragraph at lines 1750--1753
+\T1/cmr/m/n/14.4 package with def2-TZVP basis set on all atoms and the $\OML/cmm/m/it/14.4 !$\T1/cmr/m/n/14.4 B97X-D3 functional
+ []
+
+
+Overfull \hbox (6.6613pt too wide) in paragraph at lines 1754--1758
+\T1/cmr/m/n/14.4 J1 values are in perfect agreement: 240K for periodic and 239K for embedded
+ []
+
+
+Overfull \hbox (13.9109pt too wide) in paragraph at lines 1761--1773
+\T1/cmr/m/n/14.4 In a first approximation, the isotropic behavior of Herbertsmithite is described
+ []
+
+[79]
+Overfull \hbox (0.76938pt too wide) in paragraph at lines 1777--1781
 \T1/cmr/m/n/14.4 solutions can be computed with $\OML/cmm/m/it/14.4 M[]$$\OMS/cmsy/m/n/14.4 ^^U$$\OT1/cmr/m/n/14.4 0$\T1/cmr/m/n/14.4 , first a $\OML/cmm/m/it/14.4 M[] \OT1/cmr/m/n/14.4 = 3\OML/cmm/m/it/14.4 =\OT1/cmr/m/n/14.4 2$ \T1/cmr/m/n/14.4 where all magnetic
  []
 
-<Images/Groupir.png, id=1075, 887.315pt x 399.4925pt>
+<Images/Groupir.png, id=1085, 887.315pt x 399.4925pt>
 File: Images/Groupir.png Graphic file (type png)
 <use Images/Groupir.png>
-Package pdftex.def Info: Images/Groupir.png  used on input line 1757.
+Package pdftex.def Info: Images/Groupir.png  used on input line 1784.
 (pdftex.def)             Requested size: 443.57848pt x 199.70918pt.
-[79] [80 <./Images/Groupir.png>]
-<Images/ModeleDFT_plan.png, id=1088, 276.7941pt x 126.11115pt>
+[80] [81 <./Images/Groupir.png>]
+<Images/ModeleDFT_plan.png, id=1098, 276.7941pt x 126.11115pt>
 File: Images/ModeleDFT_plan.png Graphic file (type png)
 <use Images/ModeleDFT_plan.png>
-Package pdftex.def Info: Images/ModeleDFT_plan.png  used on input line 1796.
+Package pdftex.def Info: Images/ModeleDFT_plan.png  used on input line 1823.
 (pdftex.def)             Requested size: 354.86412pt x 161.68724pt.
 
-Overfull \hbox (14.87527pt too wide) in paragraph at lines 1801--1805
+Overfull \hbox (14.87527pt too wide) in paragraph at lines 1828--1832
 []\T1/cmr/m/n/14.4 The results obtained for each couplings in the three fragments are presented
  []
 
 
-Overfull \hbox (52.84055pt too wide) in paragraph at lines 1801--1805
+Overfull \hbox (52.84055pt too wide) in paragraph at lines 1828--1832
 \T1/cmr/m/n/14.4 positive value indicates antiferromagnetism while negative indicates ferromagnetism.
  []
 
 
-Overfull \hbox (12.83046pt too wide) in paragraph at lines 1801--1805
+Overfull \hbox (12.83046pt too wide) in paragraph at lines 1828--1832
 \T1/cmr/m/n/14.4 The closest neighbor interaction $\OML/cmm/m/it/14.4 J[]$ \T1/cmr/m/n/14.4 is in good agreement with values published
  []
 
-
-Overfull \hbox (26.2947pt too wide) in paragraph at lines 1827--1835
+[82 <./Images/ModeleDFT_plan.png>]
+Overfull \hbox (26.2947pt too wide) in paragraph at lines 1854--1862
 \T1/cmr/m/n/14.4 Another preoccupation of the model is the occupation disorder. Cristallographic
  []
 
-[81 <./Images/ModeleDFT_plan.png>]
-<Images/Fragment_AvOpt.png, id=1096, 512.91624pt x 587.19376pt>
+<Images/Fragment_AvOpt.png, id=1106, 512.91624pt x 587.19376pt>
 File: Images/Fragment_AvOpt.png Graphic file (type png)
 <use Images/Fragment_AvOpt.png>
-Package pdftex.def Info: Images/Fragment_AvOpt.png  used on input line 1838.
+Package pdftex.def Info: Images/Fragment_AvOpt.png  used on input line 1865.
 (pdftex.def)             Requested size: 221.78923pt x 253.90405pt.
- [82 <./Images/Fragment_AvOpt.png>]
-<Images/Cu.4+2.png, id=1102, 630.355pt x 537.00626pt>
+[83]
+<Images/Cu.4+2.png, id=1111, 630.355pt x 537.00626pt>
 File: Images/Cu.4+2.png Graphic file (type png)
 <use Images/Cu.4+2.png>
-Package pdftex.def Info: Images/Cu.4+2.png  used on input line 1859.
+Package pdftex.def Info: Images/Cu.4+2.png  used on input line 1886.
 (pdftex.def)             Requested size: 221.78923pt x 188.94649pt.
-<Images/Cu.2+4.png, id=1103, 646.415pt x 524.96124pt>
+<Images/Cu.2+4.png, id=1112, 646.415pt x 524.96124pt>
 File: Images/Cu.2+4.png Graphic file (type png)
 <use Images/Cu.2+4.png>
-Package pdftex.def Info: Images/Cu.2+4.png  used on input line 1865.
+Package pdftex.def Info: Images/Cu.2+4.png  used on input line 1892.
 (pdftex.def)             Requested size: 221.78923pt x 180.11855pt.
- [83 <./Images/Cu.4+2.png> <./Images/Cu.2+4.png>]
-<Images/CouplageInterplan.jpg, id=1112, 187.902pt x 302.0886pt>
+<Images/CouplageInterplan.jpg, id=1114, 187.902pt x 302.0886pt>
 File: Images/CouplageInterplan.jpg Graphic file (type jpg)
 <use Images/CouplageInterplan.jpg>
-Package pdftex.def Info: Images/CouplageInterplan.jpg  used on input line 1910.
+Package pdftex.def Info: Images/CouplageInterplan.jpg  used on input line 1937.
 (pdftex.def)             Requested size: 177.42868pt x 285.26318pt.
- [84 <./Images/CouplageInterplan.jpg>]
-Overfull \hbox (11.65065pt too wide) in paragraph at lines 1942--1951
+ [84 <./Images/Fragment_AvOpt.png>]
+Overfull \hbox (11.65065pt too wide) in paragraph at lines 1969--1978
 []\T1/cmr/m/n/14.4 Table []5.4[] shows the values extracted using BS-DFT for both the optimised.
  []
 
 
-Overfull \hbox (40.0727pt too wide) in paragraph at lines 1942--1951
+Overfull \hbox (40.0727pt too wide) in paragraph at lines 1969--1978
 \T1/cmr/m/n/14.4 comparisons. The $\OML/cmm/m/it/14.4 C[]$ \T1/cmr/m/n/14.4 structure indicates a strong $\OML/cmm/m/it/14.4 J[] \OT1/cmr/m/n/14.4 = 184\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 22\OML/cmm/m/it/14.4 K$ \T1/cmr/m/n/14.4 antiferromagnetic
  []
 
 
-Overfull \hbox (21.28459pt too wide) in paragraph at lines 1942--1951
+Overfull \hbox (21.28459pt too wide) in paragraph at lines 1969--1978
 \T1/cmr/m/n/14.4 non negligible out-of-plane ferromagnetic coupling $\OML/cmm/m/it/14.4 J[] \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 80\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 64\OML/cmm/m/it/14.4 K$\T1/cmr/m/n/14.4 . Extractions
  []
 
 
-Overfull \hbox (7.77861pt too wide) in paragraph at lines 1942--1951
+Overfull \hbox (7.77861pt too wide) in paragraph at lines 1969--1978
 \T1/cmr/m/n/14.4 the $\OML/cmm/m/it/14.4 J$ \T1/cmr/m/n/14.4 coupling, which decreases with distance. Note that these displacements
  []
 
 
-Overfull \hbox (7.10495pt too wide) in paragraph at lines 1942--1951
+Overfull \hbox (7.10495pt too wide) in paragraph at lines 1969--1978
 \T1/cmr/m/n/14.4 lead to significant differences in the values of couplings of the same nature,\T1/cmr/m/it/14.4 i.e.
  []
 
-<Images/Trimere.jpg, id=1122, 548.0475pt x 465.74pt>
+[85 <./Images/Cu.4+2.png> <./Images/Cu.2+4.png>] [86 <./Images/CouplageInterplan.jpg>]
+<Images/Trimere.jpg, id=1137, 548.0475pt x 465.74pt>
 File: Images/Trimere.jpg Graphic file (type jpg)
 <use Images/Trimere.jpg>
-Package pdftex.def Info: Images/Trimere.jpg  used on input line 2013.
+Package pdftex.def Info: Images/Trimere.jpg  used on input line 2040.
 (pdftex.def)             Requested size: 221.78923pt x 188.48154pt.
-<Images/Dimer.jpg, id=1123, 588.1975pt x 497.86pt>
+<Images/Dimer.jpg, id=1138, 588.1975pt x 497.86pt>
 File: Images/Dimer.jpg Graphic file (type jpg)
 <use Images/Dimer.jpg>
-Package pdftex.def Info: Images/Dimer.jpg  used on input line 2019.
+Package pdftex.def Info: Images/Dimer.jpg  used on input line 2046.
 (pdftex.def)             Requested size: 221.78923pt x 187.7226pt.
-[85] [86 <./Images/Trimere.jpg> <./Images/Dimer.jpg>]
-Overfull \hbox (63.26996pt too wide) in paragraph at lines 2064--2067
+ [87 <./Images/Trimere.jpg> <./Images/Dimer.jpg>]
+Overfull \hbox (63.26996pt too wide) in paragraph at lines 2091--2094
 \T1/cmr/m/n/14.4 metallic center, thus underestimating mechanism at the origin of the antiferromagnetic
  []
 
-[87]
-<Images/OrbCAS43.png, id=1150, 939.51pt x 143.53625pt>
+[88]
+<Images/OrbCAS43.png, id=1160, 939.51pt x 143.53625pt>
 File: Images/OrbCAS43.png Graphic file (type png)
 <use Images/OrbCAS43.png>
-Package pdftex.def Info: Images/OrbCAS43.png  used on input line 2092.
+Package pdftex.def Info: Images/OrbCAS43.png  used on input line 2119.
 (pdftex.def)             Requested size: 443.57848pt x 67.76866pt.
-<Images/mo1.trimer.png, id=1151, 528.97626pt x 488.82625pt>
+<Images/mo1.trimer.png, id=1161, 528.97626pt x 488.82625pt>
 File: Images/mo1.trimer.png Graphic file (type png)
 <use Images/mo1.trimer.png>
-Package pdftex.def Info: Images/mo1.trimer.png  used on input line 2100.
+Package pdftex.def Info: Images/mo1.trimer.png  used on input line 2127.
 (pdftex.def)             Requested size: 133.07489pt x 122.97452pt.
-<Images/mo2.trimer.png, id=1152, 528.97626pt x 488.82625pt>
+<Images/mo2.trimer.png, id=1162, 528.97626pt x 488.82625pt>
 File: Images/mo2.trimer.png Graphic file (type png)
 <use Images/mo2.trimer.png>
-Package pdftex.def Info: Images/mo2.trimer.png  used on input line 2105.
+Package pdftex.def Info: Images/mo2.trimer.png  used on input line 2132.
 (pdftex.def)             Requested size: 133.07489pt x 122.97452pt.
-<Images/mo3.trimer.png, id=1153, 528.97626pt x 488.82625pt>
+<Images/mo3.trimer.png, id=1163, 528.97626pt x 488.82625pt>
 File: Images/mo3.trimer.png Graphic file (type png)
 <use Images/mo3.trimer.png>
-Package pdftex.def Info: Images/mo3.trimer.png  used on input line 2110.
+Package pdftex.def Info: Images/mo3.trimer.png  used on input line 2137.
 (pdftex.def)             Requested size: 133.07489pt x 122.97452pt.
-<Images/mo4.trimer.png, id=1154, 528.97626pt x 488.82625pt>
+<Images/mo4.trimer.png, id=1164, 528.97626pt x 488.82625pt>
 File: Images/mo4.trimer.png Graphic file (type png)
 <use Images/mo4.trimer.png>
-Package pdftex.def Info: Images/mo4.trimer.png  used on input line 2117.
+Package pdftex.def Info: Images/mo4.trimer.png  used on input line 2144.
 (pdftex.def)             Requested size: 133.07489pt x 122.97452pt.
-<Images/mo5.trimer.png, id=1155, 528.97626pt x 488.82625pt>
+<Images/mo5.trimer.png, id=1165, 528.97626pt x 488.82625pt>
 File: Images/mo5.trimer.png Graphic file (type png)
 <use Images/mo5.trimer.png>
-Package pdftex.def Info: Images/mo5.trimer.png  used on input line 2123.
+Package pdftex.def Info: Images/mo5.trimer.png  used on input line 2150.
 (pdftex.def)             Requested size: 133.07489pt x 122.97452pt.
-<Images/mo6.trimer.png, id=1156, 528.97626pt x 488.82625pt>
+<Images/mo6.trimer.png, id=1166, 528.97626pt x 488.82625pt>
 File: Images/mo6.trimer.png Graphic file (type png)
 <use Images/mo6.trimer.png>
-Package pdftex.def Info: Images/mo6.trimer.png  used on input line 2129.
+Package pdftex.def Info: Images/mo6.trimer.png  used on input line 2156.
 (pdftex.def)             Requested size: 133.07489pt x 122.97452pt.
- [88 <./Images/OrbCAS43.png>] [89 <./Images/mo1.trimer.png> <./Images/mo2.trimer.png> <./Images/mo3.trimer.png> <./Images/mo4.trimer.png> <./Images/mo5.trimer.png> <./Images/mo6.trimer.png>] [90]
-Overfull \hbox (14.16653pt too wide) in paragraph at lines 2209--2210
+ [89 <./Images/OrbCAS43.png>] [90 <./Images/mo1.trimer.png> <./Images/mo2.trimer.png> <./Images/mo3.trimer.png> <./Images/mo4.trimer.png> <./Images/mo5.trimer.png> <./Images/mo6.trimer.png>] [91]
+Overfull \hbox (14.16653pt too wide) in paragraph at lines 2236--2237
 []\T1/cmr/m/n/14.4 a mixing between $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 and $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 or $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 and $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 generates a $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 component. 
  []
 
 
-Overfull \hbox (13.71286pt too wide) in paragraph at lines 2210--2211
+Overfull \hbox (13.71286pt too wide) in paragraph at lines 2237--2238
 []\T1/cmr/m/n/14.4 a mixing between $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 and $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 or $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 and $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 generates a $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 component. 
  []
 
 
-Overfull \hbox (13.54156pt too wide) in paragraph at lines 2211--2212
+Overfull \hbox (13.54156pt too wide) in paragraph at lines 2238--2239
 []\T1/cmr/m/n/14.4 a mixing between $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 and $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 or $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 and $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 generates a $\OML/cmm/m/it/14.4 d[]$ \T1/cmr/m/n/14.4 component. 
  []
 
 
-Overfull \hbox (8.82758pt too wide) in paragraph at lines 2214--2216
+Overfull \hbox (8.82758pt too wide) in paragraph at lines 2241--2243
 []\T1/cmr/m/n/14.4 This mixing can be clearly observed on Figure []5.7[], and from the expression
  []
 
-[91]
-<Images/matrice_fullpage.pdf, id=1184, 1138.11pt x 569.055pt>
+[92]
+<Images/matrice_fullpage.pdf, id=1194, 1138.11pt x 569.055pt>
 File: Images/matrice_fullpage.pdf Graphic file (type pdf)
 <use Images/matrice_fullpage.pdf>
-Package pdftex.def Info: Images/matrice_fullpage.pdf  used on input line 2296.
+Package pdftex.def Info: Images/matrice_fullpage.pdf  used on input line 2323.
 (pdftex.def)             Requested size: 1138.10724pt x 569.0536pt.
 File: Images/matrice_fullpage.pdf Graphic file (type pdf)
 <use Images/matrice_fullpage.pdf>
-Package pdftex.def Info: Images/matrice_fullpage.pdf  used on input line 2296.
+Package pdftex.def Info: Images/matrice_fullpage.pdf  used on input line 2323.
 (pdftex.def)             Requested size: 1138.10724pt x 569.0536pt.
-<Images/matrice_fullpage.pdf, id=1187, page=1, 1138.11pt x 569.055pt>
+<Images/matrice_fullpage.pdf, id=1197, page=1, 1138.11pt x 569.055pt>
 File: Images/matrice_fullpage.pdf Graphic file (type pdf)
 <use Images/matrice_fullpage.pdf, page 1>
-Package pdftex.def Info: Images/matrice_fullpage.pdf , page1 used on input line 2296.
+Package pdftex.def Info: Images/matrice_fullpage.pdf , page1 used on input line 2323.
 (pdftex.def)             Requested size: 1138.10724pt x 569.0536pt.
 File: Images/matrice_fullpage.pdf Graphic file (type pdf)
 <use Images/matrice_fullpage.pdf, page 1>
-Package pdftex.def Info: Images/matrice_fullpage.pdf , page1 used on input line 2296.
+Package pdftex.def Info: Images/matrice_fullpage.pdf , page1 used on input line 2323.
 (pdftex.def)             Requested size: 614.3445pt x 307.17224pt.
- [92]
+ [93]
 File: Images/matrice_fullpage.pdf Graphic file (type pdf)
 <use Images/matrice_fullpage.pdf, page 1>
-Package pdftex.def Info: Images/matrice_fullpage.pdf , page1 used on input line 2296.
-(pdftex.def)             Requested size: 614.3445pt x 307.17224pt.
-File: Images/matrice_fullpage.pdf Graphic file (type pdf)
-<use Images/matrice_fullpage.pdf, page 1>
-Package pdftex.def Info: Images/matrice_fullpage.pdf , page1 used on input line 2296.
+Package pdftex.def Info: Images/matrice_fullpage.pdf , page1 used on input line 2323.
 (pdftex.def)             Requested size: 614.3445pt x 307.17224pt.
 File: Images/matrice_fullpage.pdf Graphic file (type pdf)
 <use Images/matrice_fullpage.pdf, page 1>
-Package pdftex.def Info: Images/matrice_fullpage.pdf , page1 used on input line 2296.
+Package pdftex.def Info: Images/matrice_fullpage.pdf , page1 used on input line 2323.
 (pdftex.def)             Requested size: 614.3445pt x 307.17224pt.
- [93
+File: Images/matrice_fullpage.pdf Graphic file (type pdf)
+<use Images/matrice_fullpage.pdf, page 1>
+Package pdftex.def Info: Images/matrice_fullpage.pdf , page1 used on input line 2323.
+(pdftex.def)             Requested size: 614.3445pt x 307.17224pt.
+ [94
 
  <./Images/matrice_fullpage.pdf, page is rotated 90 degrees>]
-<Images/SchemaDMI.png, id=1230, 407.5225pt x 405.515pt>
+<Images/SchemaDMI.png, id=1240, 407.5225pt x 405.515pt>
 File: Images/SchemaDMI.png Graphic file (type png)
 <use Images/SchemaDMI.png>
-Package pdftex.def Info: Images/SchemaDMI.png  used on input line 2332.
+Package pdftex.def Info: Images/SchemaDMI.png  used on input line 2359.
 (pdftex.def)             Requested size: 354.86412pt x 353.12932pt.
 
-Overfull \hbox (3.19308pt too wide) in paragraph at lines 2361--2382
+Overfull \hbox (3.19308pt too wide) in paragraph at lines 2388--2409
 \T1/cmr/m/n/14.4 intersite $\OML/cmm/m/it/14.4 Zn[]$ \T1/cmr/m/n/14.4 ion by a additional $\OML/cmm/m/it/14.4 Cu[]$ \T1/cmr/m/n/14.4 ion tends to modify the environment
  []
 
-[94] [95 <./Images/SchemaDMI.png>] [96] (./main.aux)
+[95] [96 <./Images/SchemaDMI.png>] [97] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1659,21 +1663,21 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 009E89C784DB58F5D5F2406DD4F87F29;7956.
+(rerunfilecheck)             Checksum: 69572C9FA1B81713A014F3C7007A5477;8144.
  ) 
 Here is how much of TeX's memory you used:
- 26197 strings out of 474222
- 475205 string characters out of 5748733
+ 26200 strings out of 474222
+ 475232 string characters out of 5748733
  1961975 words of memory out of 5000000
- 47731 multiletter control sequences out of 15000+600000
+ 47732 multiletter control sequences out of 15000+600000
  583994 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,19n,93p,776b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (97 pages, 5522176 bytes).
+Output written on main.pdf (98 pages, 5525225 bytes).
 PDF statistics:
- 1412 PDF objects out of 1440 (max. 8388607)
- 1087 compressed objects within 11 object streams
- 261 named destinations out of 1000 (max. 500000)
- 579 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1422 PDF objects out of 1440 (max. 8388607)
+ 1096 compressed objects within 11 object streams
+ 263 named destinations out of 1000 (max. 500000)
+ 587 words of extra memory for PDF output out of 10000 (max. 10000000)
 

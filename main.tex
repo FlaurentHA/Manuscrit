@@ -1715,8 +1715,35 @@ These considerations could pave the way for the design of compounds with strong 
 
 \chapter{Herbertsmithite}
 
+The following work if part of an effort to open up quantum chemistry methods to more theoretically oriented physical systems, in particular to the frustrated magnetism field.
+The purpose of this work is to apply the methods presented herebefore to a certain type of physical object, Quantum Spin Liquids (QSLs).
+This concept was first introduced by P.W Anderson in 1973, in an attempt to indentify the ground state of an antiferromagnetic Heisenberg type interaction in a triangular lattice of spin-1/2.
+He first proposed the Resonating Valence Bond (RVB) model as a possible ground state of this system. 
+In this model, the spins do not order magnetically at low temperature, as would be expected in more conventional systems, but fluctuate.
+This absence of magnetic order would not come from thermal fluctuations but from purely quantum ones. 
+Contraty to paramagnets, the disorder would be a direct consequence of higly correlated quantum states.
+The pictures of magnetic disorder is a good enough starting point to define a QSL, but it remains imperfect.
+Several properties, namely fractionalised excitations and long range quantum entanglement, have been identified to occur in such system and can help refine the definition. 
+Such concerns are out of the scope of this work but should serve as an explanation to the challenges that the study of QSL present.
+Another obstacle to the characterisation of such object is the difficulty to obtain reliable experimental data.
 
-\subsection*{Computational Informations}
+The interest of this work lies in the Kagome lattice, it consists in corner sharing triangle where metalic ions occupy the vertices.
+More precisely, this work focuses solely on Herbertsmithite which is has long been considered to be a perfect realisation of such a lattice with an antiferromagnetic behavior.
+This material has long been studied from the theoretical side, but a renewed interest has emerged at the beginning of the 2000s with the synthesis of high-quality crystals.
+
+
+
+\subsection*{Crystal Structure}
+
+Herbertsmithite has the formula $ZnCu_3(OH)Cl_2$, its crystal stucture is trigonal rhombohedral (space group $R{\overline{3}m}$) is represented in Figure \ref{Herbert}.
+The Kagomé lattice sites are occupied by Cu$^{2+}$ ions which forms $CuO_4$ plaquettes with the bridging oxygens. 
+Each Kagomé planes are separated by Cl$^-$ ions and $Zn^{2+}$ ions forming distorted ZnO$_6$ octahedra. 
+Note that the hidroxide groups, and Zn$^{2+}$ ions,   alternate above and below the Kagomé plane.
+Each kagomé plane is rotated 120$\degree$ relative to the others, forming a three-layer stacking pattern.
+
+
+
+\section{Computational Informations}
 
 The structure studied was taken from a X-ray study, the Hydrogen position were optimised using periodic DFT with PBE functional implemented in the Quantum Espresso code.
 
@@ -1747,7 +1774,7 @@ Additionaly, the time necessary for a DFT calculation and for the derivation of 
 
 \subsection{In-plane couplings}
 
-In a first description, a fragment presenting only the first neighbor coupling was introduced with three copper ions as shown on Figure \ref{FragmentDFT}(a).
+In a first description, a fragment presenting only the first neighbor coupling was introduced with three copper ions as shown on Figure \ref{fig:FragmentDFT}(a).
 Four solutions can be computed with $M_S$$\ge$$0$, first a $M_S=3/2$ where all magnetic moment of the Cu$^{2+}$ ions are aligned creating a fully ferromagnetic solution. 
 Then, three other solutions are possible by switching the $M_S$ value of one of the Cu$^{2+}$ ion to $-1/2$. 
 If the choice of fragment and construction of the embedding are done correctly, this should lead to three equal energy differences as these solutions are degenerate in the Ising Hamiltonian.
