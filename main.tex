@@ -218,12 +218,14 @@ $J$  is an effective parameter, that means that it considers, in the ideal case,
  At the second-order perturbation theory, one obtains the following expression for the effective integral $J$:
 \begin{equation}
     J=2K-\frac{4t^2}{U}
+    \label{eq:JHubb}
 \end{equation}
 This expression shows the competition between a ferromagnetic component (direct exchange $K$>0) and an antiferromagnetic one (Anderson mechanism).
 
 Super-exchange contributions (excitations on diamagnetic ligands) appear at higher order of perturbation and can be seen as correction to the value of the above parameters and can be expressed as:
 \begin{equation}
 	J=2K_{eff}-\frac{4t_{eff}^2}{U_{eff}}
+    \label{eq:JeffHubb}
 \end{equation}
 where the parameters are now effective parameters taking into account the effect of mechanisms involving the bridging ligand electrons and orbitals.
 For $t_{eff}$ some mechanisms are illustrated in Figure XXX une belle figure montrant un mécanisme passant par le pont.
@@ -1751,20 +1753,37 @@ These considerations could pave the way for the design of compounds with strong 
 \chapter{Herbertsmithite}
 
 The following work if part of an effort to open up quantum chemistry methods to more theoretically oriented physical systems, in particular to the frustrated magnetism field.
-The purpose of this work is to apply the methods presented herebefore to a certain type of physical object, Quantum Spin Liquids (QSLs).
-This concept was first introduced by P.W Anderson in 1973, in an attempt to indentify the ground state of an antiferromagnetic Heisenberg type interaction in a triangular lattice of spin-1/2.
-He first proposed the Resonating Valence Bond (RVB) model as a possible ground state of this system. 
-In this model, the spins do not order magnetically at low temperature, as would be expected in more conventional systems, but fluctuate.
+The purpose of this work is to apply the methods presented herebefore to a physical object that has attracted the attention of theorician for a long time, Quantum Spin Liquids (QSLs).
+This concept was first introduced by P.W Anderson in 1973, in an attempt to indentify the ground state in a triangular lattice of spin-1/2 with an antiferromagnetic Heisenberg type interaction.
+%He first proposed the Resonating Valence Bond (RVB) model as a possible ground state of this system.
+The ground state of such a system is far from trivial, the infinite number of spin orientation configurations all lead to spin frustration. 
+Consequently, unlike in more conventional antiferromagnetic systems, the spins do not order magnetically at low temperatures.
 This absence of magnetic order would not come from thermal fluctuations but from purely quantum ones. 
 Contraty to paramagnets, the disorder would be a direct consequence of higly correlated quantum states.
 The pictures of magnetic disorder is a good enough starting point to define a QSL, but it remains imperfect.
-Several properties, namely fractionalised excitations and long range quantum entanglement, have been identified to occur in such system and can help refine the definition. 
-Such concerns are out of the scope of this work but should serve as an explanation to the challenges that the study of QSL present.
-Another obstacle to the characterisation of such object is the difficulty to obtain reliable experimental data.
+Several properties have been identified as occurring in such systems, namely fractionalised excitations and long-range quantum entanglement. 
+These properties can help to refine the definition. 
+Such concerns are beyond the scope of this work, but should serve as an explanation to the challenges posed by the study of QSLs.
+Another obstacle to characterising such objects is the difficulty of obtaining reliable experimental data.
 
-The interest of this work lies in the Kagome lattice, it consists in corner sharing triangle where metalic ions occupy the vertices.
-More precisely, this work focuses solely on Herbertsmithite which is has long been considered to be a perfect realisation of such a lattice with an antiferromagnetic behavior.
-This material has long been studied from the theoretical side, but a renewed interest has emerged at the beginning of the 2000s with the synthesis of high-quality crystals.
+One of the lattice where QSL behavior is suspected to show up is called kagomé, it consists in corner sharing triangle where metalic ions occupy the vertices.
+More precisely, this work focuses solely on Herbertsmithite which has long been considered to be a perfect realisation of such a lattice with an antiferromagnetic first-neighbor interaction.
+In a first approximation, it is described by one of the most puzzling, yet extremely simple Hamiltonians: the Heisenberg model, which consists in magnetic exchange couplings of S = 1/2 spins on neighboring sites of a Kagomé lattice.
+Already at the classical level, this model remains unordered down to zero temperature (classical spin liquid), with an extensive ground state degeneracy.
+This behavior is expected to persist in the quantum case. 
+At the quantum level, the exact nature of the S = 1/2 Kagomé antiferromagnet is today still an open question, which has stimulated many theoretical and numerical studies (high
+temperature series expansions, exact diagonalizations, tensor network methods, mean-field approaches, variational studies...).
+Those methods allow the description of the collective effects and aim to indentify the characteristic of the ground state.
+Back to Herbertsmithite, the excitement of having a compound that realizes such an interesting theoretical model has led to increasingly advanced synthesis methods (high quality crys-
+tals) and measurements (specific heat under high magnetic fields, NMR magnetic
+susceptibility, thermal conductivity, magnetic structure factors via neutron scatter-
+ing [24]). The precision achieved today highlights the inevitable deviations of the compound
+from the ideal theoretical model.
+Many different deviations can occur, and their effect is inevitably strong due to the high
+density of low energy states. For example, further neighbor interactions lift the classical de-
+generacy: second neighbors favor the q = (0, 0) or p3 × p3 long-range order, while interac-
+tions beyond second neighbors open a wide range of exotic classical orders, including chiral
+ones [25, 26], some of which were eventually realized in other kagome compounds [27, 28].
 
 
 
@@ -1788,12 +1807,12 @@ for O, 4s3p1d for Cl and 2s1p for H)
 
 The embedding's pseudopotential were set to the SDD Effective Core Potentiel (ECP) for ORCA calculations and \textit{ab initio} model potentials (AIMP) for MOLCAS calculations. 
 The quality of the embedding was checked by comparing the value of $J_1$ using the B3LYP functional for embedded cluster and periodic calculations (using the Crystal code). 
-The J1 values are in perfect agreement: 240K for periodic and 239K for embedded cluster. 
-As we will see below, these B3LYP values slightly overestimate the coupling but demonstrate the adequacy of the embedding adopted in this study.
+The $J_1$ values are in perfect agreement: 240K for periodic and 239K for embedded cluster. 
+This demonstrates the adequacy of the embedding adopted in this study even if, as we will see below, B3LYP slightly overestimates the coupling intensity.
 
 \section{Density-Functional Theory study}
 
-In a first approximation, the isotropic behavior of Herbertsmithite is described by an unique first neighbor coupling. 
+In a first approximation, the isotropic behavior of Herbertsmithite is described by an unique nearest-neighbor coupling. 
 The highly-correlated nature of such system suggests the possibility of longer range interaction between copper ions separated by one or more neighbors. 
 To explore this possibility, the need to compute large fragments arises making the application of wave-function based method complicated.
 First the number of Cu$^{2+}$ into the fragment has a direct impact on the size of the active space, even restricting to one orbital/one electron per copper centres leads to convergence troubles in the calculations.
@@ -1803,21 +1822,21 @@ As such, Density Functional Theory provides a good middle ground to compute larg
 It also presents some disadvantages, the DFT wave-function is monodeterminantal and usually not an eigenfunction of the $\hat{S}^2$ operator which prevents the mapping on the HDvV Hamiltonian.
 Nevertheless, the combinated use of Broken-Symmetry DFT (BS-DFT) and the Ising Hamiltonian provides a good way to obtain an estimation of the couplings in the system.
 The Broken-Symmetry approach relies on the computation of DFT solutions where the $M_S$ value of spin moment of each copper ion of the fragment have been imposed beforehand to $\pm \frac{1}{2}$. 
-It is then possible to obtain multiple solutions per fragments to make a connection between the energy differenceés of each solution and the Ising Hamiltonian energies.
-Additionaly, the time necessary for a DFT calculation and for the derivation of its analytical solution allows for the exploration of different properties of the embedding such as the size of the fragments and its overall quality.
+It is then possible to obtain multiple solutions per fragments to make a connection between the energy differences of each solution and the Ising Hamiltonian energies.
+Futhermore, the time necessary for a DFT calculation and for the derivation of its analytical solution allows for the exploration of different properties of the embedding such as the size of the fragments and its overall quality.
 
 
 \subsection{In-plane couplings}
 
-In a first description, a fragment presenting only the first neighbor coupling was introduced with three copper ions as shown on Figure \ref{fig:FragmentDFT}(a).
+In a first description, a fragment presenting only the nearest-neighbor coupling was introduced with three copper ions as shown on Figure \ref{fig:FragmentDFT}(a).
 Four solutions can be computed with $M_S$$\ge$$0$, first a $M_S=3/2$ where all magnetic moment of the Cu$^{2+}$ ions are aligned creating a fully ferromagnetic solution. 
 Then, three other solutions are possible by switching the $M_S$ value of one of the Cu$^{2+}$ ion to $-1/2$. 
-If the choice of fragment and construction of the embedding are done correctly, this should lead to three equal energy differences as these solutions are degenerate in the Ising Hamiltonian.
+If the choice of fragment and construction of the embedding are done correctly, this should lead to three equal energy differences as the system presents a $C_3$ symmetry axis.
 
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=\textwidth]{Images/Groupir.png}
-    \caption[The three computed fragments using DFT calculations for in-plane coplings.]{The three computed fragments using DFT calculations for in-plane couplings. Cu are represented in blue, Zn in grey, Cl in green, O in red and H in white.}
+    \caption[The three computed fragments using DFT calculations for in-plane coplings.]{The three fragments (based on 3, 13 and 12 Cu(II) centers, from left to right) used in DFT calculations of the in-plane couplings. Cu are represented in blue, Zn in grey, Cl in green, O in red and H in white.}
     \label{fig:FragmentDFT}
 \end{figure}
 
@@ -1836,21 +1855,21 @@ The Ising Hamiltonian's matrix representation is diagonal:
         $|a\overline{b}c|$ & 0 & 0 & $\frac{1}{2}J_1 $ & 0 \\
         $|\overline{a}bc|$ & 0 & 0 & 0 & $\frac{1}{2}J_1 $
     \end{tabular}
-    \caption{Matrix representation of the Ising Hamiltonian in the basis of determintants $M_S$=1/2 and $M_S$=3/2}
+    \caption{Matrix representation of the Ising Hamiltonian in the basis of determinants of $M_S$=1/2 and $M_S$=3/2}
 \end{table}
 
-The value of $J_1$ can then be extracted from the difference in energy between the high spin solution and low-spin ones:
+The value of $J_1$ can then be extracted from the energy difference between the high spin and low-spin solutions:
 \begin{equation}
     J_1=E_{HS}-E_{LS}
 \end{equation}
 
-The same procedure of extraction can now be applied to largers fragment allowing the introduction of longer range couplings.
+The same procedure of extraction can now be applied to larger fragments allowing the evaluation of couplings between more distant magnetic centres.
 The second fragment created included nine copper ions which allows for the consideration of two new couplings, $J_2$ and $J_3$ represented on Figure \ref{fig:CouplageDFT}.
 It indicated that these couplings were small ($|J_{2}|\approx |J_{3}|\approx1 cm^{-1}$ each) with a large standard deviation.
 While these results provided good insight on the nature of these two couplings, the extraction was unsatisfactory.
 The source of this deviation is believed to be the environment of ions taking part in the interaction. 
-The extraction of these couplings requires to to flip the spin of at least one of the ion at the edge of the fragment whose neighboring atoms are not always explicitely computed (treated with ECP's).
-It was decided to increase the size of the fragment to twelve and thirteen copper ions (fragment (c) and (b) from Figure \ref{fig:FragmentDFT}) so that there would be ways account for these interaction within the centre of the fragments.
+The extraction of these couplings requires to flip the spin of at least one of the ion at the edge of the fragment whose neighboring atoms are not always explicitely computed (treated with ECP's).
+It was decided to increase the size of the fragment to twelve and thirteen copper ions (fragment (c) and (b) from Figure \ref{fig:FragmentDFT}) so that there would be ways account for these interactions between magnetic centers far from the edges and thus weakly affected by the substitution of atoms by ECPs).
 
 
 \begin{figure}[!ht]
@@ -1861,9 +1880,9 @@ It was decided to increase the size of the fragment to twelve and thirteen coppe
 \end{figure}
 
 The results obtained for each couplings in the three fragments are presented in Table \ref{tab:ResultatsDFT}.
-The first thing to comment is the good transferability with a small relative deviation from one cluster to the other.
 Note that with this convention of the Ising Hamiltonian (a plus sign in front of the $J$ term), a positive value indicates antiferromagnetism while negative indicates ferromagnetism.
-The closest neighbor interaction $J_1$ is in good agreement with values published in the litterature while $J_2$,$J_3$ and $J_4$ are very weak. 
+The first thing to comment is the good transferability with a small relative deviation from one cluster to the other.
+Moreover, the nearest-neighbor interaction $J_1$ obained is in good agreement with values found in the litterature while $J_2$,$J_3$ and $J_4$ are very weak. 
 
 \begin{table}
     \centering
@@ -1882,17 +1901,17 @@ The closest neighbor interaction $J_1$ is in good agreement with values publishe
 \end{table}
 
 These results highlight the mainly antiferromagnetic nature of these interactions with a leading interaction $J_1$, at least two order of magnitude higher than the other.
-This confirm the the use of models composed of only one $J$ interaction, the negligenge of other couplings should cause no more than a small deviation.
+This confirm the the use of models composed of only one $J$ interaction between nearest-neighbors, the neglect of other couplings should cause no more than a small deviation.
 
 \subsection{Out-of-plane coupling}
 
 Another preoccupation of the model is the occupation disorder. Cristallographic studies have identified two types of defect present at low temperatures. 
 The first is the substitution of the $Zn^{2+}$ inter-plane site with a $Cu^{2+}$ ion, estimated to occur at a rate of 0.15, and the second is a $Zn^{2+}$ ion entering the Kagome plane with a much smaller occurance rate (<0.05).
-The latter is suspected to appear even less (<0.01) because of the difficulty of the $Zn^{2+}$ ion to enter the $Cu^{2+}$ site in the kahome plane. 
-As such, our study focus on the first type.
-Following the same approach, an embedding with the defect at its centre was constructed to include the inter-ion, the fragment is shown in Figure \ref{fig:FragAv}.
-This cluster contains two layers of Kagome planes, each with three $Cu^{2+}$ ions and their neighbouring ions while the interstitial $Zn^{2+}$ ion is replaced by a copper ion.
-In a structuraly perfect Kagome lattice, the inter*-site is occupied by a $Zn^{2+}$ ion which is not susceptible to the Jahn-Teller effect because of its doubly occupied d-orbitals, allowing for a $C_3$ symmetry axis.
+The latter is suspected to appear even less (<0.01) because of the difficulty of the $Zn^{2+}$ ion to enter the $Cu^{2+}$ site in the kagomé plane. 
+As such, our study focus on the first type of disorder.
+Following the same approach, an embedding with the defect at its centre was constructed to include the interplan ion, the fragment is shown in Figure \ref{fig:FragAv}.
+This cluster contains two layers of Kagome planes, each with three $Cu^{2+}$ ions and hydroxo ions of their coordination sphere while the interstitial $Zn^{2+}$ ion is replaced by a copper ion.
+In a structuraly perfect Kagome lattice, the inter-site is occupied by a $Zn^{2+}$ ion which is not susceptible to the Jahn-Teller effect because of its doubly occupied d-orbitals, allowing for a $C_3$ symmetry axis.
 However, replacing this ion with a $Cu^{2+}$, which is susceptible to the Jahn-Teller effect with a singly occupied d-orbital, induces structural deformation in the vicinity of the defect.
 
 \begin{figure}[!ht]
@@ -1904,14 +1923,12 @@ However, replacing this ion with a $Cu^{2+}$, which is susceptible to the Jahn-T
 
 To account for the deformations, the structure of the fragment was optimised using the ORCA package via DFT calculations with the PBE or B3LYP functionals.
 It is expected that local impurities act only locally and should not have any long range effect, thus no changes were made to the embedding.
-To order to maintain the rigidity of the crystal structure only the coordination sphere of the defect, \textit{i.e.} the hydroxide groups close, was left free during optimisation, while the positions of the remaining ions were constrained.
-Depending on the functional used, two different types of structure were obtained.
+In order to maintain the rigidity of the crystal structure only the coordination sphere of the defect, \textit{i.e.} the hydroxide groups, was left free during optimisation, while the positions of the remaining ions were constrained.
+Starting from the symmetric structure, two different types of structure were obtained depending of the functional used.
 The PBE functional calculation converges towards a structure with four short Cu-O bonds and two long ones, this structure is referred to as the ``4+2'' structure.
 While the B3LYP functional calculation converges towards the opposite, with two short Cu-O bonds and four long ones. This structure is labelled ``2+4''.
-In order to determine the most stable structure, one would compare the final single-point energy provided by the program at the end of the $SCF$ cycle.
-However, comparing energies obtained using different functionals is not appropriate.
-Therefore, a second set of optimisations was performed starting from the previously obtained PBE (B3LYP) structure but now using the B3LYP (PBE) functional.
-Both calculations converged towards the ``4+2'' structure which was found to be slightly lower in energy than the ``2+4'' structure with a difference of $\Delta E=100 K$ using the B3LYP functional.
+In order to determine the most stable structure, a second set of optimisations was performed starting from the previously obtained PBE (B3LYP) structure but now using the B3LYP (PBE) functional.
+Both calculations converged towards the ``4+2'' structure which was found to be slightly lower in energy than the ``2+4'' structure with an energy difference of $\Delta E=100 K$ using the B3LYP functional.
 As the two structures are quite close in energy, a difference lower than the estimated first neighbour coupling, both structures were explored for the extraction of $J$ couplings.
 
 \begin{figure}[!ht]
@@ -1928,13 +1945,12 @@ As the two structures are quite close in energy, a difference lower than the est
       \caption{``2+4'' structure}
       \label{fig:Struc2+4}
     \end{subfigure}
-    \caption[Close environnment of intersite $Cu^{2+}$ in both structure obtained via DFT with the B3LYP functional]{Close environment of intersite $Cu^{2+}$ in both structure obtained via DFT with the B3LYP functional. The bond lengths are shown in Angstrom}
+    \caption[Close environnment of intersite $Cu^{2+}$ in both structure obtained via DFT with the B3LYP functional]{Close environment of intersite $Cu^{2+}$ in both structure obtained via DFT with the B3LYP functional. Bond lengths are in Angstrom}
     \label{fig:StrucInterplan}
 \end{figure}
 
-These distortions, together with the presence of a copper ion at the intersite, require the definition of new $J_i$ couplings.
-Table \ref{tab:DefautDist} shows the distances between the oxygens atoms and the different $Cu^{2+}$ ions in the unoptimised structure and the relative displacements induced by the defect.
-In both the optimised structures, one type of oxygens moves away from the in-plane copper while the other moves closer.
+Table \ref{tab:DefautDist} shows the distances between the oxygens atoms and the different $Cu^{2+}$ ions in the symmetric structure and the relative displacements induced by the defect.
+In both the optimised structures, one type of oxygen moves away from the in-plane copper while the other moves closer.
 % \begin{table}[!ht]
 %     \centering
 %     \begin{tabular}{c | c c c}
@@ -1957,10 +1973,10 @@ In both the optimised structures, one type of oxygens moves away from the in-pla
         & $C_3$ & ``4+2'' & ``2+4''\\
         \hline
         \hline
-        $Cu_{defect}-O$ (1) & 2.11887 & -$7.50.10^{-2}$ & 4.24.10$^{-2}$ \\
+        $Cu_{defect}-O$ (1) & 2.119 & -$7.50.10^{-2}$ & 4.24.10$^{-2}$ \\
         $Cu_{defect}-O$ (2) & '' & 11.55.10$^{-2}$ & -11.72.10$^{-2}$ \\
         \hline
-        $Cu_{plane}-O (1)$ & 1.98423 & 2.86.10$^{-2}$ & 0.40.10$^{-2}$ \\
+        $Cu_{plane}-O (1)$ & 1.984 & 2.86.10$^{-2}$ & 0.40.10$^{-2}$ \\
         $Cu_{plane}-O (2)$  & '' & -1.17.10$^{-2}$ & 4.65.10$^{-2}$\\
     \end{tabular}
     \caption{Distance between the oxygens and the copper ions, defect or in plane, in the $C_3$ structure and the relative displacement in both optimisation scheme given in \AA.}
@@ -1975,13 +1991,15 @@ In both the optimised structures, one type of oxygens moves away from the in-pla
 \end{figure}
 
 
-This displacement results to a second in-plane coupling $J_1'$, which differs from the $J_1$ by the distance between the copper ions and the bridging oxygen.
-Focusing on a triad of $Cu{2+}$ ions of the same plane, two bridging oxygens occupy equivalent positions while the third one occupies a different one.
-The $J_1'$ coupling is defined between two $Cu{2+}$ ions bridged by one of the two equivalent oxygens for a total of two $J_1'$ couplings in the triad while $J_1''$ denotes the final possible coupling.
-The out-of-plane coupling is a bit more complicated as the two copper ions involved are bridged by two oxygens.
-The coupling between two $Cu_{2+}$ bridged by two equivalent oxygens is called $J_5'$ and appears once in the triad involving the defect.
-The coupling going through two non-equivalent bridges, in turn, is referred to as $J_5''$, this coupling appears twice in the triad.
-These couplings are represented in Figure \ref{fig:CouplageInterplan}, the dashed-line indicates couplings that involves the non-equivalent oxygen position.
+Focusing on a tetra-nuclear fragment with a triad of $Cu{2+}$ ions in the same kagomé plane and the defect ion, two of the bridging oxygens undergo an equivalent displacement while the third one differs.
+Whereas the symmetric structure has only one in-plane coupling, $J_1$, the displacements of the oxygen necessitate the definition of new couplings:
+\begin{itemize}
+\item $J_1'$ the in-plane coupling is defined between two $Cu^{2+}$ ions bridged by one of the two equivalent oxygens. It appears twice in the triad involving the defect.
+\item $J_1''$ is the in-plane coupling involves the remaining oxygen, appearing once.
+\item $J_5'$ is the out-of-plane coupling between two $Cu^{2+}$ bridged by two equivalent oxygens. It appears once in the triad involving the defect.
+\item $J_5''$ is the out-of-plane coupling between two $Cu^{2+}$ through two non-equivalent bridges. It appears twice in the triad involving the defect.
+\end{itemize}
+These couplings are represented in Figure \ref{fig:CouplageInterplan}, the dashed-line indicates couplings that involves the non-equivalent oxygen.
 
 
 \begin{table}[!ht]
@@ -1995,25 +2013,44 @@ These couplings are represented in Figure \ref{fig:CouplageInterplan}, the dashe
         ``2+4'' & 185.3 & 66.14 & -81.61 & -63.4\\
         \hline
     \end{tabular}
-    \caption{Values of the $J_i$ interactions given in Kelvin in presence of a $Cu^{2+}$ defect in the intersite for the $C_3$ and both optimised structure.}
+    \caption{Values of the $J_i$ interactions given in Kelvin in presence of a $Cu^{2+}$ defect in the intersite for both optimised structure.}
     \label{tab:DefautJ}
 \end{table}
 
 
 
-Table \ref{tab:DefautJ} shows the values extracted using BS-DFT for both the optimised.
+Table \ref{tab:DefautJ} reports the values extracted using BS-DFT for the two optimised structure.
 Calculations were also performed on the $C_3$ structure in order to provide comparisons.
-The $C_3$ structure indicates a strong $J_1=184.22K$ antiferromagnetic coupling which is consistent with previously extracted values, as well as a non negligible out-of-plane ferromagnetic coupling $J_5=-80.64K$. 
-Extractions from the optimised structure show a significant impact of the deformations on the first neighbor coupling.
+The $C_3$ structure indicates a strong $J_1=184.22K$ antiferromagnetic coupling which is consistent with previously extracted values, as well as a non negligible out-of-plane ferromagnetic coupling $J_5=-80.64K$ (the symmetric structure has only one type of out of plane coupling). 
+Extractions from the optimised structure show a significant impact of the deformations on the $J_1$ coupling.
 Firstly, coupling within the plane decreases as oxygen atoms move away from it, whereas it increases as they move closer.
-This can be rationalised by the variation of the hopping term between ligand and metal, involved in the superexchange contribution to the $J$ coupling, which decreases with distance.
-Note that these displacements lead to significant differences in the values of couplings of the same nature,\textit{i.e.} $J_1"$ and $J_1''$ or $J_5'$ and $J_5''$.
-The most important result of this study is the identification of ferromagnetic couplings between the in-plane copper ion and the defects.
-These couplings are no negligible and can go up to 0.4$|J_1|$ which should have an impact on the physics of the system.
+This can be rationalised by the decrease of the ligand-metal hopping integral when the distance increases, resulting in the decrease of the antiferromagnetic superexchange contribution to $J$ coupling (see Eq. \ref{eq:JHubb} and \ref{eq:JeffHubb}).
 
+The most important result of this study is the identification of ferromagnetic couplings between the in-plane copper ion and the defect.
+These couplings are not negligible and can go up to 0.4$|J_1|$ which should have an impact on the physics of the system.
+Note that with a distance of $3.07$\AA{} separating the defect from the in-plane $Cu^{2+}$ ions compared to the distance of $3.42$\AA{} between two in-plane $Cu^{2+}$, the out-of-plane couplings become first-neighbor coupling.
 
+\begin{figure}[!ht]
+   \centering
+    \makebox[0pt][c]{%
+   \includegraphics[width=1.1\textwidth,height=4cm]{Images/CAS44.png}
+       }
+   \caption{CAS(4,4)SCF active orbitals calculated for a tetra-nuclear fragment constituted of three in-plane (below) and an inter-plane (above) copper ions.}
+   \label{fig:CAS44}
+\end{figure}
 
-
+Around the defects, these two types of interactions are of the same order of magnitude which should impact the collective properties of the whole material.
+To obtain insight into the ferromagnetic character of the inter-plane couplings, we have plotted in Figure \ref{fig:CAS44} the magnetic orbital optimized using a CAS(4,4)SCF calculation on a tetra-nuclear embedded fragment (obtained by removing the three uppermost copper ions of the ``4+2'' structure cluster to get a clearer view).
+The nature of the coupling is roughly determined by three ingredients: 
+\begin{itemize}
+    \item[(i)] the orbital overlap increasing the kinetic exchange and hence the antiferromagnetic character of the interaction.
+    \item[(ii)] the direct exchange, a purely ferromagnetic interaction.
+    \item[(iii)] the spin polarization, that may favor ferro- or antiferromagnetism depending on the system. 
+\end{itemize}
+The three active orbitals on the right of the Figure \ref{fig:CAS44} are strongly delocalised on the three in-plane copper ions.
+On the contrary, the orbital (left) localized on the impurity shows a very small overlap with the orbitals of the in-plane copper ions, excluding a large kinetic exchange contribution.
+The direct exchange integral is generally quite small between distant atoms, and therefore, large values of $J_5'$ and $J_5''$ must be attributed to spin polarization.
+The appearance of such large interactions calls into question the validity of considering this material as two-dimensional. 
 
 % In a similar approach, three clusters that were built to include the intersite ion are represented on Figure \ref{fig:FragmentIntersite}.
 % Fragment (a) was designed to check the $J_1$ coupling, fragment (b) and (c) allow the exploration of both type of disorder.
@@ -2082,7 +2119,7 @@ The computation of SO-states being very computationally demanding, this extracti
       \caption{Dimer}
       \label{fig:subdimer}
     \end{subfigure}
-    \caption{Trinuclear and dinuclear embedded clusters used for Wave-funciton computation}
+    \caption{Trinuclear and dinuclear embedded clusters used for wave-function computation}
     \label{fig:FragmentWF}
     \end{figure}
 
@@ -2100,7 +2137,7 @@ In both cluster, two type of active space were considered:
     \item all electrons occupying the d shell of each magnetic center.
 \end{itemize}
 
-\noindent The first type of active space results in a CAS(2,2) for the dimer calculation which generates one triplet (S=1) and one singlet (S=0) state.
+\noindent The first type of active space results in a CAS(2,2)SCF for the dimer calculation which generates one triplet (S=1) and one singlet (S=0) state.
 \begin{align}
     &\ket{1,1}=|ab|\\
     &\ket{1,0}=\frac{1}{\sqrt{2}}(|a\overline{b}|-|b\overline{a}|)\\
@@ -2109,9 +2146,9 @@ In both cluster, two type of active space were considered:
 \end{align}
 These functions are eigenfunctions of the $\vb{\hat{S}}^2$ operator, as such their energies can be mapped on the HDvV Hamiltonian's eigenvalues.
 The value of $J_1$ is then given by the difference in energy between the triplet and singlet state $J_1=E(S=1)-E(S=0)$.
-The enlarged active space CAS(18,10) generates 25 Triplet and 25 Singlet states.
+The enlarged active space CAS(18,10)SCF generates 25 Triplet and 25 Singlet states.
 
-In the case of the trimer cluster, CAS(3,3) represents the minimum active space which generates one quartet (S=3/2) state and two doublet (S=1/2) states.
+In the case of the trimer cluster, CAS(3,3)SCF represents the minimum active space which generates one quartet (S=3/2) state and two doublet (S=1/2) states.
 The two doublets are degenerate if only one value of $J$ is taken into account as is our case with an equilateral repartition of the copper ions.
 \begin{align}
     &\ket{3/2,3/2}=|abc|\\
@@ -2121,7 +2158,7 @@ The two doublets are degenerate if only one value of $J$ is taken into account a
 \end{align}
 The expressions of the negative $m_s$ value components were left out as they only differ by the number of up and down spins.
 The value of $J_1$ is then given by $J_1=\frac{2}{3}(E(S=3/2)-E(S=1/2))$.
-The enlarged active space CAS(27,15) generates 125 quartet and 250 doublets states.
+The enlarged active space CAS(27,15)SCF generates 125 quartet and 250 doublets states.
 
 CASSCF calculation tends to "over"-localise the wave-function on the metallic center, thus underestimating mechanism at the origin of the antiferromagnetic contribution to the $J$ integral.
 As such it does not provide a good estimate but can nonetheless give informations about the nature of the coupling.
@@ -2132,7 +2169,7 @@ Table \ref{tab:ResultatsWFT} shows the results obtained at different levels of c
     %\makebox[0pt][c]{%
     \begin{tabular}{c m{6em} m{6em} c c c }
         \hline
-        Fragment & \makecell{CAS(2,2) \\CAS(3,3)} &\makecell{CAS(18,10) \\CAS(27,15)} & CASPT2 & DDCI1  & DDCI3  \\
+        Fragment & \makecell{CAS(2,2)SCF \\CAS(3,3)SCF} &\makecell{CAS(18,10)SCF \\CAS(27,15)SCF} & CASPT2 & DDCI1  & DDCI3  \\
         \hline
         Dinuclear & \centering 10.7 & \centering 8.3 & 69.8 & 50.0 & 80.1 \\
         Trinuclear & \centering 8.2 & \centering 7.7 & 56.0  & 50.7 & 60 \\
@@ -2174,7 +2211,7 @@ This allows to obtain a reproducible active space with well defined orbitals rep
 	        \label{fig:subfigC}
          \end{subfigure}
 	\label{fig:OrbP96}
-    \caption*{Bridging orbitals from the CAS(9,6) calculation.}
+    \caption*{Bridging orbitals from the CAS(9,6)SCF calculation.}
     \begin{subfigure}{0.3\linewidth}
         \includegraphics[width=\linewidth]{Images/mo4.trimer.png}
         %\caption{Green color}
@@ -2193,14 +2230,14 @@ This allows to obtain a reproducible active space with well defined orbitals rep
     \label{fig:subfigF}
  \end{subfigure}
 \label{fig:OrbMag96}
-\caption*{Magnetic orbitals from the CAS(9,6) calculation.}
-\caption{Active space orbitals from CAS(9,6) calculation.}
+\caption*{Magnetic orbitals from the CAS(9,6)SCF calculation.}
+\caption{Active space orbitals from CAS(9,6)SCF calculation.}
 \label{fig:PorbCAS96}
 \end{figure}
 
 
 It has been previously established that performing a DDCI1 calculation on a active space composed of the ligands orbitals in addition to the magnetic orbitals allows to obtain value of $J$ coupling on par to a DDCI3 calculation.
-This allows to greatly reduce computational time, the active space is now composed of one electron/orbital per metallic centre and two electrons in one orbital per oxygen (CAS(4,3) in the dinuclear and CAS(9,6) in the trinuclear fragment).
+This allows to greatly reduce computational time, the active space is now composed of one electron/orbital per metallic centre and two electrons in one orbital per oxygen (CAS(4,3)SCF in the dinuclear and CAS(9,6)SCF in the trinuclear fragment).
 This procedure has allowed the extraction of new values for $J_1$ in both fragment, $J_1=105.3 cm^{-1}$ in the dinuclear cluster and $J_1=126.3 cm^{-1}$ in the trinuclear cluster.
 Even if the dinuclear value of $J_1$ is lower, the coupling extracted from the trinuclear fragment is well within range of the expected value by both DFT and experiment as such the extraction is considered satisfactory.
 
