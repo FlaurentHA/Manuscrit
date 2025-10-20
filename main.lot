@@ -3,7 +3,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Dipole moment components in Debye at $F$=0 V.m$^{-1}$}}{53}{table.caption.15}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Slopes of the straight lines in cases (a), (b) and (c) for the D and E parameter for $\vec {\vb {F}}\parallel Z$, Fig. \ref {fig:Ni_D_Z} and \ref {fig:Ni_E_Z}}}{54}{table.caption.19}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Slopes of the straight lines in cases (a), (b) and (c) for the D and E parameter for $\vec {\vb {F}}\parallel Z$, Fig.~\ref {fig:Ni_D_Z} and~\ref {fig:Ni_E_Z}}}{54}{table.caption.19}%
 \contentsline {table}{\numberline {3.3}{\ignorespaces Contributions to the axial parameter D of the most contributing excited states, variations of SOC and energy difference $\Delta E$ for $\vec {\vb {F}}\parallel Z$}}{57}{table.caption.20}%
 \contentsline {table}{\numberline {3.4}{\ignorespaces Variation of the distances in Angstrom between the Ni(II) ion and the atoms of its coordination sphere between $-F$ and $+F$ with $\vec {\vb {F}}\parallel Z$.}}{57}{table.caption.21}%
 \contentsline {table}{\numberline {3.5}{\ignorespaces Variation between $-F$ and $+F$ applied in the Z direction of the orbital energy difference $\Delta (\Delta \epsilon (d_{x^2-y^2}-d_{xy}))$ in cm$^{-1}$}}{58}{table.caption.22}%
@@ -20,8 +20,8 @@
 \contentsline {table}{\numberline {4.5}{\ignorespaces Variational contribution in cm$^{-1}$ of the excited states to $D_{AB}$ and $|d_{ab}|$ given in value in cm$^{-1}$ extracted from effective Hamiltonian at CAS(6,4)DDCI/DDCI-SO level}}{77}{table.caption.39}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Matrix representation of the Ising Hamiltonian in the basis of determinants of $M_S$=1/2 and $M_S$=3/2}}{84}{table.caption.42}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Values of the $J_i$ couplings in Kelvin in the three fragments and the distance associated to each couplings.}}{85}{table.caption.44}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Distance between the oxygens and the copper ions, defect or in plane, in the $C_3$ structure and the relative displacement in both optimisation scheme given in \r A.}}{87}{table.caption.47}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Values of the $J_i$ couplings in Kelvin in the three fragments and the distance associated to each couplings.}}{86}{table.caption.44}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Distance between the oxygens and the copper ions, defect or in plane, in the $C_3$ structure and the relative displacement in both optimisation scheme given in \r A.}}{88}{table.caption.47}%
 \contentsline {table}{\numberline {5.4}{\ignorespaces Values of the $J_i$ interactions given in Kelvin in presence of a $Cu^{2+}$ defect in the intersite for both optimised structure.}}{89}{table.caption.49}%
 \contentsline {table}{\numberline {5.5}{\ignorespaces Values of $J_1$ in cm$^{-1}$ extracted on both fragment. Dynamical correlation calculation are performed on the miniaml active space.}}{93}{table.caption.52}%
 \contentsline {table}{\numberline {5.6}{\ignorespaces Values in Kelvin of the $|d|$ DM magnitude and its components, axial (D) and rhomic (E) anisotropic exchange parameters, obtained for both fragments.}}{99}{table.caption.58}%

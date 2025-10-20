@@ -1,0 +1,1924 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{sessoli_high-spin_1993}{article}{}
+      \name{author}{9}{}{%
+        {{hash=9d78ffe94589930cb62c130921129bb2}{%
+           family={Sessoli},
+           familyi={S\bibinitperiod},
+           given={Roberta},
+           giveni={R\bibinitperiod}}}%
+        {{hash=561ddb8bc24bad1105b682fbe799a17f}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Hui\bibnamedelima Lien},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d5a9466cdba844edba4fc9b8c8922269}{%
+           family={Schake},
+           familyi={S\bibinitperiod},
+           given={Ann\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=126d2525ac61447cb738f2d08833a25a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Sheyi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9b4fc0ff207b9ec97cad3535c9062ff6}{%
+           family={Vincent},
+           familyi={V\bibinitperiod},
+           given={John\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=9ab3be81f3dfc996a2e480f4cd1b362c}{%
+           family={Folting},
+           familyi={F\bibinitperiod},
+           given={Kirsten},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f2055a1bd9c21d76260d35412eaf8dbd}{%
+           family={Gatteschi},
+           familyi={G\bibinitperiod},
+           given={Dante},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b0171c23fa4deb7b4ff073802acec5dd}{%
+           family={Christou},
+           familyi={C\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=36fdeaf9096a6fd8e771e500adcf0b6e}{%
+           family={Hendrickson},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce44e1b58d8e980014d9de5843b373e4}
+      \strng{fullhash}{592402b047b904a45c581c502dfed122}
+      \strng{bibnamehash}{592402b047b904a45c581c502dfed122}
+      \strng{authorbibnamehash}{592402b047b904a45c581c502dfed122}
+      \strng{authornamehash}{ce44e1b58d8e980014d9de5843b373e4}
+      \strng{authorfullhash}{592402b047b904a45c581c502dfed122}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0002-7863}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{month}{3}
+      \field{note}{Publisher: American Chemical Society}
+      \field{number}{5}
+      \field{shorttitle}{High-spin molecules}
+      \field{title}{High-spin molecules: [{Mn12O12}({O2CR})16({H2O})4]}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{115}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{1804\bibrangedash 1816}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1021/ja00058a027
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/ja00058a027
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/ja00058a027
+      \endverb
+      \keyw{Mn12}
+    \endentry
+    \entry{s_theory_1932}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cde50a071fd29ce8ebf9813061a2db77}{%
+           family={S.},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{cde50a071fd29ce8ebf9813061a2db77}
+      \strng{fullhash}{cde50a071fd29ce8ebf9813061a2db77}
+      \strng{bibnamehash}{cde50a071fd29ce8ebf9813061a2db77}
+      \strng{authorbibnamehash}{cde50a071fd29ce8ebf9813061a2db77}
+      \strng{authornamehash}{cde50a071fd29ce8ebf9813061a2db77}
+      \strng{authorfullhash}{cde50a071fd29ce8ebf9813061a2db77}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{THE development of a scientific theory involves the interplay of observation, reasoning, and imagination. Experimental results are co-ordinated by generalisations of ever-widening scope through those imaginative leaps which place scientific method, as a whole, outside the scope of strict logic. The generalisations can then be regarded as premises on which may be built a deductive scheme, in which logical consistency is of paramount importance—logical consistency, in theoretical physics, appearing as mathematical rigour. The reasoning, however, is barren, scientifically, unless the deductions are confronted, as ‘predictions’, with experimental findings. If there is continued agreement, the premises take rank as a scientific theory.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{10}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{3283}
+      \field{title}{The {Theory} of {Electric} and {Magnetic} {Susceptibilities}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{130}
+      \field{year}{1932}
+      \field{urldateera}{ce}
+      \field{pages}{490\bibrangedash 491}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1038/130490a0
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/130490a0
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/130490a0
+      \endverb
+      \keyw{HDvV,Humanities and Social Sciences,multidisciplinary,Science}
+    \endentry
+    \entry{malrieu_magnetic_2014}{article}{}
+      \name{author}{5}{}{%
+        {{hash=539024986571970be6b00ab81578166a}{%
+           family={Malrieu},
+           familyi={M\bibinitperiod},
+           given={Jean\bibnamedelima Paul},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=01a05caa04f1e2e843389bfed9c1aedb}{%
+           family={Caballol},
+           familyi={C\bibinitperiod},
+           given={Rosa},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e0ad28ec4159424f9b6af9c4dc5562d3}{%
+           family={Calzado},
+           familyi={C\bibinitperiod},
+           given={Carmen\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d72923cf448e422f0cd8c9ee43b75ec3}{%
+           family={Graaf},
+           familyi={G\bibinitperiod},
+           given={Coen},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=7f73690aef2e3699597053baedee6dc6}{%
+           family={Guihéry},
+           familyi={G\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{f25174837052d426f9ee377f4ffc5797}
+      \strng{fullhash}{34855e428f390a70e1342f81a62ca935}
+      \strng{bibnamehash}{34855e428f390a70e1342f81a62ca935}
+      \strng{authorbibnamehash}{34855e428f390a70e1342f81a62ca935}
+      \strng{authornamehash}{f25174837052d426f9ee377f4ffc5797}
+      \strng{authorfullhash}{34855e428f390a70e1342f81a62ca935}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1520-6890}
+      \field{journaltitle}{Chemical Reviews}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{Magnetic interactions in molecules and highly correlated materials}
+      \field{title}{Magnetic interactions in molecules and highly correlated materials: physical content, analytical derivation, and rigorous extraction of magnetic {Hamiltonians}}
+      \field{volume}{114}
+      \field{year}{2014}
+      \field{pages}{429\bibrangedash 492}
+      \range{pages}{64}
+      \verb{doi}
+      \verb 10.1021/cr300500z
+      \endverb
+      \keyw{Jhubbard}
+    \endentry
+    \entry{noauthor_molecular_1995}{article}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Monograph.}
+      \field{issn}{0021-9584}
+      \field{journaltitle}{Journal of Chemical Education}
+      \field{month}{1}
+      \field{note}{Publisher: American Chemical Society}
+      \field{number}{1}
+      \field{title}{Molecular {Magnetism} ({Kahn}, {Olivier})}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{72}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \field{pages}{A19}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1021/ed072pA19.2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/fheully/Zotero/storage/3YWB87PY/1995 - Molecular Magnetism (Kahn, Olivier).pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/ed072pA19.2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/ed072pA19.2
+      \endverb
+      \keyw{Kahn}
+    \endentry
+    \entry{maurice_universal_2009}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a33dc45d28e97d59f1f8830d870db523}{%
+           family={Maurice},
+           familyi={M\bibinitperiod},
+           given={Rémi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=72a1ba85e53970b42deab94582940776}{%
+           family={Bastardis},
+           familyi={B\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d72923cf448e422f0cd8c9ee43b75ec3}{%
+           family={Graaf},
+           familyi={G\bibinitperiod},
+           given={Coen\bibnamedelima de},
+           giveni={C\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=2ccade728b57d8970bd14fe507f07fcb}{%
+           family={Suaud},
+           familyi={S\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e445c7a52c5747ead2019c6549863463}{%
+           family={Mallah},
+           familyi={M\bibinitperiod},
+           given={Talal},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7f73690aef2e3699597053baedee6dc6}{%
+           family={Guihéry},
+           familyi={G\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{019a04b7cc556224f10c09ab48413646}
+      \strng{fullhash}{79a082bf01674d3e9069f034f0b038c4}
+      \strng{bibnamehash}{79a082bf01674d3e9069f034f0b038c4}
+      \strng{authorbibnamehash}{79a082bf01674d3e9069f034f0b038c4}
+      \strng{authornamehash}{019a04b7cc556224f10c09ab48413646}
+      \strng{authorfullhash}{79a082bf01674d3e9069f034f0b038c4}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Monometallic Ni(II) and Co(II) complexes with large magnetic anisotropy are studied using correlated wave function based ab initio calculations. Based on the effective Hamiltonian theory, we propose a scheme to extract both the parameters of the zero-field splitting (ZFS) tensor and the magnetic anisotropy axes. Contrarily to the usual theoretical procedure of extraction, the method presented here determines the sign and the magnitude of the ZFS parameters in any circumstances. While the energy levels provide enough information to extract the ZFS parameters in Ni(II) complexes, additional information contained in the wave functions must be used to extract the ZFS parameters of Co(II) complexes. The effective Hamiltonian procedure also enables us to confirm the validity of the standard model Hamiltonian to produce the magnetic anisotropy of monometallic complexes. The calculated ZFS parameters are in good agreement with high-field, high-frequency electron paramagnetic resonance spectroscopy and frequency domain magnetic resonance spectroscopy data. A methodological analysis of the results shows that the ligand-to-metal charge transfer configurations must be introduced in the reference space to obtain quantitative agreement with the experimental estimates of the ZFS parameters.}
+      \field{issn}{1549-9618}
+      \field{journaltitle}{Journal of Chemical Theory and Computation}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Universal {Theoretical} {Approach} to {Extract} {Anisotropic} {Spin} {Hamiltonians}}
+      \field{volume}{5}
+      \field{year}{2009}
+      \field{pages}{2977\bibrangedash 2984}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/ct900326e
+      \endverb
+    \endentry
+    \entry{moreira_derivation_2002}{article}{}
+      \name{author}{7}{}{%
+        {{hash=19816eb1c2c36e074e72ddf45201503a}{%
+           family={Moreira},
+           familyi={M\bibinitperiod},
+           given={I.\bibnamedelimi de\bibnamedelimb P.\bibnamedelimi R.},
+           giveni={I\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=0f957717ccc76e5a2e29c4fbeb6b705c}{%
+           family={Suaud},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6f8e3fabba4c93a8f531ca3d5b2eb25c}{%
+           family={Guihéry},
+           familyi={G\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=221d7b09bacefe7c291d8be37722c8d9}{%
+           family={Malrieu},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e994683439dc704b5ab781d4c861b13c}{%
+           family={Caballol},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a281137289b2cd7fff154001bfa60509}{%
+           family={Bofill},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=157835a4fb52b93d686994e8144c5ace}{%
+           family={Illas},
+           familyi={I\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbbf57d157a9be02e836c30ae2a0591d}
+      \strng{fullhash}{dcc729f8d8c43125a6af5afbe8a1bcdd}
+      \strng{bibnamehash}{dcc729f8d8c43125a6af5afbe8a1bcdd}
+      \strng{authorbibnamehash}{dcc729f8d8c43125a6af5afbe8a1bcdd}
+      \strng{authornamehash}{dbbf57d157a9be02e836c30ae2a0591d}
+      \strng{authorfullhash}{dcc729f8d8c43125a6af5afbe8a1bcdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The foundations and limits of 𝑆 =12 and 𝑆 =1 spin Hamiltonians for systems with two unpaired electrons in two well-defined orbitals per site are discussed by merging accurate ab initio calculations in binuclear systems with the effective Hamiltonian theory. It is shown that, beyond the usual 𝐽ij⁢𝑆𝑖⋅𝑆𝑗 terms, the effective spin Hamiltonian necessarily introduces four-body spin operators in the 𝑆 =12 case and biquadratic terms in the 𝑆 =1 formalism. The order of magnitude of these additional terms can be rationalized from a quasidegenerate perturbation theory expansion starting from a Hubbard-type Hamiltonian. This permits to discuss the physical mechanisms governing the reduction from the all electron Hamiltonian to the spin-only Hamiltonians and the conditions under which a further reduction from a spin Hamiltonian to the simplest Heisenberg–Dirac–Van Vleck form is possible. The overall discussion is illustrated by numerical calculations of the magnetic coupling between two Ni2+ cations in the K2⁢NiF4 perovskite and between triply bonded carbon atoms in poly-ynes.}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{10}
+      \field{note}{Publisher: American Physical Society}
+      \field{number}{13}
+      \field{shorttitle}{Derivation of spin {Hamiltonians} from the exact {Hamiltonian}}
+      \field{title}{Derivation of spin {Hamiltonians} from the exact {Hamiltonian}: {Application} to systems with two unpaired electrons per magnetic site}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{66}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{134430}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.66.134430
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/fheully/Zotero/storage/3VHIUSY7/PhysRevB.66.html:text/html;Texte intégral:/Users/fheully/Zotero/storage/PW5SU9PR/Moreira et al. - 2002 - Derivation of spin Hamiltonians from the exact Hamiltonian Application to systems with two unpaired.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.66.134430
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.66.134430
+      \endverb
+      \keyw{Stevens1}
+    \endentry
+    \entry{bastardis_microscopic_2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=72a1ba85e53970b42deab94582940776}{%
+           family={Bastardis},
+           familyi={B\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7f73690aef2e3699597053baedee6dc6}{%
+           family={Guihéry},
+           familyi={G\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d72923cf448e422f0cd8c9ee43b75ec3}{%
+           family={Graaf},
+           familyi={G\bibinitperiod},
+           given={Coen},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{47f5644ad055a2fc1d180a110bdb4fa9}
+      \strng{fullhash}{3747ee08855820db87f1ea2942dc0376}
+      \strng{bibnamehash}{3747ee08855820db87f1ea2942dc0376}
+      \strng{authorbibnamehash}{3747ee08855820db87f1ea2942dc0376}
+      \strng{authornamehash}{47f5644ad055a2fc1d180a110bdb4fa9}
+      \strng{authorfullhash}{3747ee08855820db87f1ea2942dc0376}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have reanalyzed the microscopic origin of the isotropic deviations that are observed from the energy spacings predicted by the Heisenberg–Dirac–van Vleck (HDVV) Hamiltonian. Usually, a biquadratic spin operator is added to the HDVV Hamiltonian to account for such deviations. It is shown here that this operator cannot describe the effect of the excited atomic non-Hund states which brought the most important contribution to the deviations. For systems containing more than two magnetic centers, non-Hund states cause additional interactions that are of the same order of magnitude as the biquadratic exchange and should have significant effects on the macroscopic properties of extended systems.}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{10}
+      \field{note}{Publisher: American Physical Society}
+      \field{number}{13}
+      \field{title}{Microscopic origin of isotropic non-{Heisenberg} behavior in \${S}=1\$ magnetic systems}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{76}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{132412}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.76.132412
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/fheully/Zotero/storage/UJVBWXZT/PhysRevB.76.html:text/html;Version soumise:/Users/fheully/Zotero/storage/W2ETHPVM/Bastardis et al. - 2007 - Microscopic origin of isotropic non-Heisenberg behavior in \$S=1\$ magnetic systems.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.76.132412
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.76.132412
+      \endverb
+      \keyw{Stevens2}
+    \endentry
+    \entry{maurice_zero-field_2011}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=a33dc45d28e97d59f1f8830d870db523}{%
+           family={Maurice},
+           familyi={M\bibinitperiod},
+           given={Rémi},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Université Paul Sabatier - Toulouse III}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a33dc45d28e97d59f1f8830d870db523}
+      \strng{fullhash}{a33dc45d28e97d59f1f8830d870db523}
+      \strng{bibnamehash}{a33dc45d28e97d59f1f8830d870db523}
+      \strng{authorbibnamehash}{a33dc45d28e97d59f1f8830d870db523}
+      \strng{authornamehash}{a33dc45d28e97d59f1f8830d870db523}
+      \strng{authorfullhash}{a33dc45d28e97d59f1f8830d870db523}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Magnetic anisotropy is responsible for the slow relaxation of the magnetization in single molecule magnets. The main goal of this work is to understand the factors that govern local and intersite anisotropies in polynuclear compounds. For this purpose, correlated relativistic calculations are performed in mono- and bi-nuclear species. The main degrees of freedoms of the two-step state-interaction ab initio method have been optimized in order to obtain anisotropic parameters in good agreement with the spectroscopic data. The effective Hamiltonian theory provides a universal procedure of extraction of these parameters. It has therefore been used to check the accuracy of the standard model and to propose improved models when necessary. Finally, the anisotropy parameters have been rationalized in several cases by using the quasi-degenerate perturbation theory.}
+      \field{month}{6}
+      \field{shorttitle}{Zero-{Field} {Anisotropic} {Spin} {Hamiltonians} in {First}-{Row} {Transition} {Metal} {Complexes}}
+      \field{title}{Zero-{Field} {Anisotropic} {Spin} {Hamiltonians} in {First}-{Row} {Transition} {Metal} {Complexes}: {Theory}, {Models} and {Applications}}
+      \field{type}{phdthesis}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/Users/fheully/Zotero/storage/QIYJ3KCW/Maurice - 2011 - Zero-Field Anisotropic Spin Hamiltonians in First-Row Transition Metal Complexes Theory, Models and.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://theses.hal.science/tel-00608878
+      \endverb
+      \verb{url}
+      \verb https://theses.hal.science/tel-00608878
+      \endverb
+      \keyw{GiantSpin}
+    \endentry
+    \entry{noauthor_r_nodate}{misc}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{R. {McWeeny}, {On} the origin of the spin-{Hamiltonian} parameters, {J}. {Chem}. {Phys}. 42, 1717–1725 (1965). - {Recherche} {Google}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.google.com/search?client=firefox-b-d&q=R.+McWeeny%2C+On+the+origin+of+the+spin-Hamiltonian+parameters%2C+J.+Chem.+Phys.+42%2C+1717%E2%80%931725+%281965%29.
+      \endverb
+      \verb{url}
+      \verb https://www.google.com/search?client=firefox-b-d&q=R.+McWeeny%2C+On+the+origin+of+the+spin-Hamiltonian+parameters%2C+J.+Chem.+Phys.+42%2C+1717%E2%80%931725+%281965%29.
+      \endverb
+    \endentry
+    \entry{slater_theory_1929}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2680effb67f4c8cd7c73443f7af7dbe9}{%
+           family={Slater},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \strng{fullhash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \strng{bibnamehash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \strng{authorbibnamehash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \strng{authornamehash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \strng{authorfullhash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Atomic multiplets are treated by wave mechanics, without using group theory. In part 1 Hund's scheme for multiplet classification is derived directly from theory. Part 2 is devoted to the computation of the energy distances between multiplets, and comparison of these distances with experiment in some typical examples. There is no treatment of the separations between the various terms of a multiplet, since that has been done elsewhere, but only between one multiplet and another. It is found that Hund's rule, that terms of large 𝐿 and 𝑆 values lie lowest, has no general significance; the present theory leads to the same results as the rule when it is obeyed experimentally, but many cases which were exceptions to that rule are in agreement with the theory. The method of calculation of multiplet distances is described in sufficient detail, with the necessary tables of coefficients, etc., so that further checks with experiment could easily be made.}
+      \field{journaltitle}{Physical Review}
+      \field{month}{11}
+      \field{note}{Publisher: American Physical Society}
+      \field{number}{10}
+      \field{title}{The {Theory} of {Complex} {Spectra}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{34}
+      \field{year}{1929}
+      \field{urldateera}{ce}
+      \field{pages}{1293\bibrangedash 1322}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1103/PhysRev.34.1293
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/fheully/Zotero/storage/EKHNK79Y/PhysRev.34.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.34.1293
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.34.1293
+      \endverb
+      \keyw{Slater}
+    \endentry
+    \entry{roothaan_new_1951}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4675483650acb9e51aae91d1e51043ac}{%
+           family={Roothaan},
+           familyi={R\bibinitperiod},
+           given={C.\bibnamedelimi C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4675483650acb9e51aae91d1e51043ac}
+      \strng{fullhash}{4675483650acb9e51aae91d1e51043ac}
+      \strng{bibnamehash}{4675483650acb9e51aae91d1e51043ac}
+      \strng{authorbibnamehash}{4675483650acb9e51aae91d1e51043ac}
+      \strng{authornamehash}{4675483650acb9e51aae91d1e51043ac}
+      \strng{authorfullhash}{4675483650acb9e51aae91d1e51043ac}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reviews of Modern Physics}
+      \field{month}{4}
+      \field{note}{Publisher: American Physical Society}
+      \field{number}{2}
+      \field{title}{New {Developments} in {Molecular} {Orbital} {Theory}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{23}
+      \field{year}{1951}
+      \field{urldateera}{ce}
+      \field{pages}{69\bibrangedash 89}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.23.69
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/fheully/Zotero/storage/8AABPV66/RevModPhys.23.html:text/html;Version soumise:/Users/fheully/Zotero/storage/Y2KWA7FS/Roothaan - 1951 - New Developments in Molecular Orbital Theory.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.23.69
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.23.69
+      \endverb
+      \keyw{Roothans}
+    \endentry
+    \entry{roos_complete_1980}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8f64f800130be105934c19e9d9131b9e}{%
+           family={Roos},
+           familyi={R\bibinitperiod},
+           given={Björn\bibnamedelima O.},
+           giveni={B\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=6d1617bc302b725966a19d84679af0eb}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Peter\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5ce5be580b6f6809f7d7409c0d89a00f}{%
+           family={Sigbahn},
+           familyi={S\bibinitperiod},
+           given={Per\bibnamedelimb E.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{69c268209e8b97335c178871934dec4c}
+      \strng{fullhash}{146939548bbccc2e43c794619a49cc33}
+      \strng{bibnamehash}{146939548bbccc2e43c794619a49cc33}
+      \strng{authorbibnamehash}{146939548bbccc2e43c794619a49cc33}
+      \strng{authornamehash}{69c268209e8b97335c178871934dec4c}
+      \strng{authorfullhash}{146939548bbccc2e43c794619a49cc33}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A density matrix formulation of the super-CI MCSCF method is presented. The MC expansion is assumed to be complete in an active subset of the orbital space, and the corresponding CI secular problem is solved by a direct scheme using the unitary group approach. With a density matrix formulation the orbital optimization step becomes independent of the size of the CI expansion. It is possible to formulate the super-CI in terms of density matrices defined only in the small active subspace; the doubly occupied orbitals (the inactive subspace) do not enter. Further, in the unitary group formalism it is straightforward and simple to obtain the necessary density matrices from the symbolic formula list. It then becomes possible to treat very long MC expansions, the largest so far comprising 726 configurations. The method is demonstrated in a calculation of the potential curves for the three lowest states (1Σ+g, 3Σ+u and 3Πg) of the N2 molecule, using a medium-sized gaussian basis set. Seven active orbitals were used yielding the following results: De: 8.76 (9.90), 2.43 (3.68) and 3.39 (4.90) eV; re: 1.108 (1.098), 1.309 (1.287) and 1.230 (1.213) Å; ωe: 2333 (2359), 1385 (1461) and 1680 (1733) cm−1, for the three states (experimental values within parentheses). The results of these calculations indicate that it is important to consider not only the dissociation limit but also the united atom limit in partitioning the occupied orbital space into an active and an inactive part.}
+      \field{issn}{0301-0104}
+      \field{journaltitle}{Chemical Physics}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{A complete active space {SCF} method ({CASSCF}) using a density matrix formulated super-{CI} approach}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{48}
+      \field{year}{1980}
+      \field{urldateera}{ce}
+      \field{pages}{157\bibrangedash 173}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/0301-0104(80)80045-0
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/fheully/Zotero/storage/JGDA7QQR/0301010480800450.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0301010480800450
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0301010480800450
+      \endverb
+      \keyw{CASSCF}
+    \endentry
+    \entry{noauthor_second-order_nodate}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Second-order perturbation theory with a {CASSCF} reference function {|} {The} {Journal} of {Physical} {Chemistry}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Second-order perturbation theory with a CASSCF reference function | The Journal of Physical Chemistry:/Users/fheully/Zotero/storage/GAU5A8T8/j100377a012.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/10.1021/j100377a012
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/10.1021/j100377a012
+      \endverb
+      \keyw{CASPT2}
+    \endentry
+    \entry{angeli_introduction_2001}{article}{}
+      \name{author}{5}{}{%
+        {{hash=32f59b07fa226d5c0266d04b57598b78}{%
+           family={Angeli},
+           familyi={A\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=203c1d1abd28d03156fc8c2ae6a02fef}{%
+           family={Cimiraglia},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2af6e46200fb637f7df849d7072cea2a}{%
+           family={Evangelisti},
+           familyi={E\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a777e85523be97c9069a3b950cc43881}{%
+           family={Leininger},
+           familyi={L\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=bee30594786d48b8917be6a9ea0d7b1a}{%
+           family={Malrieu},
+           familyi={M\bibinitperiod},
+           given={J.-P.},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{006f3e72a37a6bb17610f99423724641}
+      \strng{fullhash}{1cfe5c849fc8cd4adbdddd70209c780f}
+      \strng{bibnamehash}{1cfe5c849fc8cd4adbdddd70209c780f}
+      \strng{authorbibnamehash}{1cfe5c849fc8cd4adbdddd70209c780f}
+      \strng{authornamehash}{006f3e72a37a6bb17610f99423724641}
+      \strng{authorfullhash}{1cfe5c849fc8cd4adbdddd70209c780f}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The present work presents three second-order perturbative developments from a complete active space (CAS) zero-order wave function, which are strictly additive with respect to molecular dissociation and intruder state free. They differ by the degree of contraction of the outer-space perturbers. Two types of zero-order Hamiltonians are proposed, both are bielectronic, incorporating the interactions between electrons in the active orbitals, therefore introducing a rational balance between the zero-order wave function and the outer-space. The use of Dyall’s Hamiltonian, which puts the active electrons in a fixed core field, and of a partially contracted formalism seems a promising compromise. The formalism is generalizable to multireference spaces which are parts of a CAS. A few test applications of the simplest variant developed in this paper illustrate its potentialities.}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{6}
+      \field{number}{23}
+      \field{title}{Introduction of n-electron valence states for multireference perturbation theory}
+      \field{urlday}{18}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{114}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{10252\bibrangedash 10264}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1063/1.1361246
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.1361246
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.1361246
+      \endverb
+    \endentry
+    \entry{angeli_n-electron_2002}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2a087ea83e19105b59c6284ad2f7bab4}{%
+           family={Angeli},
+           familyi={A\bibinitperiod},
+           given={Celestino},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b62bc6b05427b8023cbe4b0d19e00a3f}{%
+           family={Cimiraglia},
+           familyi={C\bibinitperiod},
+           given={Renzo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=df54e6e859ff63eafc93f90b33c0347d}{%
+           family={Malrieu},
+           familyi={M\bibinitperiod},
+           given={Jean-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{0574ce47139d27ab53f7bcbd65d4969e}
+      \strng{fullhash}{538a3ffcd84a0dfe3e5b7146ca96db0f}
+      \strng{bibnamehash}{538a3ffcd84a0dfe3e5b7146ca96db0f}
+      \strng{authorbibnamehash}{538a3ffcd84a0dfe3e5b7146ca96db0f}
+      \strng{authornamehash}{0574ce47139d27ab53f7bcbd65d4969e}
+      \strng{authorfullhash}{538a3ffcd84a0dfe3e5b7146ca96db0f}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The n-electron valence state perturbation theory is reformulated in a spin-free formalism, concentrating on the “strongly contracted” and “partially contracted” variants. The new formulation is based on the introduction of average values in the unperturbed state of excitation operators which bear resemblance with analogous ones occurring in the extended Koopmans’ theorem and in the equations-of-motion technique. Such auxiliary quantities, which allow the second-order perturbation contribution to the energy to be evaluated very efficiently, can be calculated at the outset provided the unperturbed four-particle spinless density matrix in the active orbital space is available. A noticeable inequality concerning second-order energy contributions of the same type between the strongly and partially contracted versions is proven to hold. An example concerning the successful calculation of the potential energy curve for the Cr2 molecule is discussed.}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{11}
+      \field{number}{20}
+      \field{title}{n-electron valence state perturbation theory: {A} spinless formulation and an efficient implementation of the strongly contracted and of the partially contracted variants}
+      \field{urlday}{18}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{117}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{9138\bibrangedash 9153}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1063/1.1515317
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.1515317
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.1515317
+      \endverb
+    \endentry
+    \entry{hohenberg_inhomogeneous_1964}{article}{}
+      \name{author}{2}{}{%
+        {{hash=40ea553b503fe0418f7f07689980cd95}{%
+           family={Hohenberg},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5d41414fe0631332e20a859e66a25627}{%
+           family={Kohn},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d5f8c830aae8dc4c996b32459939beb}
+      \strng{fullhash}{7d5f8c830aae8dc4c996b32459939beb}
+      \strng{bibnamehash}{7d5f8c830aae8dc4c996b32459939beb}
+      \strng{authorbibnamehash}{7d5f8c830aae8dc4c996b32459939beb}
+      \strng{authornamehash}{7d5f8c830aae8dc4c996b32459939beb}
+      \strng{authorfullhash}{7d5f8c830aae8dc4c996b32459939beb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper deals with the ground state of an interacting electron gas in an external potential 𝑣⁡(r). It is proved that there exists a universal functional of the density, 𝐹⁡[𝑛⁡(r)], independent of 𝑣⁡(r), such that the expression 𝐸≡∫𝑣⁡(r)⁢𝑛⁡(r)𝑑r +𝐹⁡[𝑛⁡(r)] has as its minimum value the correct ground-state energy associated with 𝑣⁡(r). The functional 𝐹⁡[𝑛⁡(r)] is then discussed for two situations: (1) 𝑛⁡(r) =𝑛0 +̃𝑛⁡(r), ̃𝑛𝑛0 ≪1, and (2) 𝑛⁡(r) =𝜙⁡(r𝑟0) with 𝜙 arbitrary and 𝑟0 →∞. In both cases 𝐹 can be expressed entirely in terms of the correlation energy and linear and higher order electronic polarizabilities of a uniform electron gas. This approach also sheds some light on generalized Thomas-Fermi methods and their limitations. Some new extensions of these methods are presented.}
+      \field{journaltitle}{Physical Review}
+      \field{month}{11}
+      \field{note}{Publisher: American Physical Society}
+      \field{number}{3B}
+      \field{title}{Inhomogeneous {Electron} {Gas}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{136}
+      \field{year}{1964}
+      \field{urldateera}{ce}
+      \field{pages}{B864\bibrangedash B871}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRev.136.B864
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/fheully/Zotero/storage/6QPPYMIS/PhysRev.136.html:text/html;Full Text PDF:/Users/fheully/Zotero/storage/RUZ6G7D7/Hohenberg et Kohn - 1964 - Inhomogeneous Electron Gas.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.136.B864
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.136.B864
+      \endverb
+      \keyw{HohenbergKohn1}
+    \endentry
+    \entry{kohn_self-consistent_1965}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5d41414fe0631332e20a859e66a25627}{%
+           family={Kohn},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=408fdc9dce7e09d891fdc02bb87d27d9}{%
+           family={Sham},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{52da45566c0310e12ed857c5012d1622}
+      \strng{fullhash}{52da45566c0310e12ed857c5012d1622}
+      \strng{bibnamehash}{52da45566c0310e12ed857c5012d1622}
+      \strng{authorbibnamehash}{52da45566c0310e12ed857c5012d1622}
+      \strng{authornamehash}{52da45566c0310e12ed857c5012d1622}
+      \strng{authorfullhash}{52da45566c0310e12ed857c5012d1622}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{From a theory of Hohenberg and Kohn, approximation methods for treating an inhomogeneous system of interacting electrons are developed. These methods are exact for systems of slowly varying or high density. For the ground state, they lead to self-consistent equations analogous to the Hartree and Hartree-Fock equations, respectively. In these equations the exchange and correlation portions of the chemical potential of a uniform electron gas appear as additional effective potentials. (The exchange portion of our effective potential differs from that due to Slater by a factor of 23.) Electronic systems at finite temperatures and in magnetic fields are also treated by similar methods. An appendix deals with a further correction for systems with short-wavelength density oscillations.}
+      \field{journaltitle}{Physical Review}
+      \field{month}{11}
+      \field{note}{Publisher: American Physical Society}
+      \field{number}{4A}
+      \field{title}{Self-{Consistent} {Equations} {Including} {Exchange} and {Correlation} {Effects}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{140}
+      \field{year}{1965}
+      \field{urldateera}{ce}
+      \field{pages}{A1133\bibrangedash A1138}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRev.140.A1133
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/fheully/Zotero/storage/6YCFVEDA/PhysRev.140.html:text/html;Full Text PDF:/Users/fheully/Zotero/storage/T64SL7SG/Kohn et Sham - 1965 - Self-Consistent Equations Including Exchange and Correlation Effects.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.140.A1133
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.140.A1133
+      \endverb
+      \keyw{KohnShameq}
+    \endentry
+    \entry{bloch_sur_1958}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c52aaa3dbe6e81908c40a2e223e529b7}{%
+           family={Bloch},
+           familyi={B\bibinitperiod},
+           given={Claude},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c52aaa3dbe6e81908c40a2e223e529b7}
+      \strng{fullhash}{c52aaa3dbe6e81908c40a2e223e529b7}
+      \strng{bibnamehash}{c52aaa3dbe6e81908c40a2e223e529b7}
+      \strng{authorbibnamehash}{c52aaa3dbe6e81908c40a2e223e529b7}
+      \strng{authornamehash}{c52aaa3dbe6e81908c40a2e223e529b7}
+      \strng{authorfullhash}{c52aaa3dbe6e81908c40a2e223e529b7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Two methods leading to general prescriptions for the construction of the time independent perturbation expansions for bound states to all orders are discussed. The two methods differ by the choice of the zeroth-order wave functions. In both cases, the expansions are simplified by the use of non-orthonormalized zeroth-order wave functions. The terms of the expansions are described by means of diagrams. The accuracy of the expansions is tested by a calculation of two eigen-values of the Mathieu equation.}
+      \field{issn}{0029-5582}
+      \field{journaltitle}{Nuclear Physics}
+      \field{month}{3}
+      \field{title}{Sur la théorie des perturbations des états liés}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{1958}
+      \field{urldateera}{ce}
+      \field{pages}{329\bibrangedash 347}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/0029-5582(58)90116-0
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/fheully/Zotero/storage/EWICA2MJ/0029558258901160.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0029558258901160
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0029558258901160
+      \endverb
+      \keyw{HEFFbloch}
+    \endentry
+    \entry{des_cloizeaux_extension_1960}{article}{}
+      \name{author}{1}{}{%
+        {{hash=47ba7b5a5bf851ee6f83553a0324b820}{%
+           family={Cloizeaux},
+           familyi={C\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           prefix={des},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{47ba7b5a5bf851ee6f83553a0324b820}
+      \strng{fullhash}{47ba7b5a5bf851ee6f83553a0324b820}
+      \strng{bibnamehash}{47ba7b5a5bf851ee6f83553a0324b820}
+      \strng{authorbibnamehash}{47ba7b5a5bf851ee6f83553a0324b820}
+      \strng{authornamehash}{47ba7b5a5bf851ee6f83553a0324b820}
+      \strng{authorfullhash}{47ba7b5a5bf851ee6f83553a0324b820}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Résumé An implicit eigenvalue equation may be transformed into an ordinary eigenvalue problem by generalizing the Lagrange formula to operators. A method is given to build a constant operator h which has the same eigenvalues and eigenvectors as the original equation. Moreover it is possible to find a hermitian operator K which has the same eigenvalues and whose eigenvectors are related in a simple way to the original ones. The method is applied to the calculation of perturbation expansions for bound states starting from the Brillouin-Wigner formula. In this case, the eigenvectors of K have a simple geometric meaning and may be considered as good unperturbed wave functions.}
+      \field{issn}{0029-5582}
+      \field{journaltitle}{Nuclear Physics}
+      \field{month}{10}
+      \field{title}{Extension d'une formule de {Lagrange} à des problèmes de valeurs propres}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{20}
+      \field{year}{1960}
+      \field{urldateera}{ce}
+      \field{pages}{321\bibrangedash 346}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1016/0029-5582(60)90177-2
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/fheully/Zotero/storage/P3UB2SJG/0029558260901772.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0029558260901772
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0029558260901772
+      \endverb
+      \keyw{HeffsDesCloi}
+    \endentry
+    \entry{atanasov_detailed_2011}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7d13ac8c116ad8dc36cc801913a4c719}{%
+           family={Atanasov},
+           familyi={A\bibinitperiod},
+           given={Mihail},
+           giveni={M\bibinitperiod}}}%
+        {{hash=80e443b57f06be2976ed45f2fbe7dd48}{%
+           family={Ganyushin},
+           familyi={G\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bbda3b70898a65eacc9ce1379c12746d}{%
+           family={Pantazis},
+           familyi={P\bibinitperiod},
+           given={Dimitrios\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2159fdbf560fa488e2447584161c106d}{%
+           family={Sivalingam},
+           familyi={S\bibinitperiod},
+           given={Kantharuban},
+           giveni={K\bibinitperiod}}}%
+        {{hash=fff80c744c5a0bff437149b6520d03a2}{%
+           family={Neese},
+           familyi={N\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{e21278ed3489f72f90aed674a0b9e7ba}
+      \strng{fullhash}{883c8b84da3e336294c9d61645ccebf2}
+      \strng{bibnamehash}{883c8b84da3e336294c9d61645ccebf2}
+      \strng{authorbibnamehash}{883c8b84da3e336294c9d61645ccebf2}
+      \strng{authornamehash}{e21278ed3489f72f90aed674a0b9e7ba}
+      \strng{authorfullhash}{883c8b84da3e336294c9d61645ccebf2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A theoretical, computational, and conceptual framework for the interpretation and prediction of the magnetic anisotropy of transition metal complexes with orbitally degenerate or orbitally nearly degenerate ground states is explored. The treatment is based on complete active space self-consistent field (CASSCF) wave functions in conjunction with N-electron valence perturbation theory (NEVPT2) and quasidegenerate perturbation theory (QDPT) for treatment of magnetic field- and spin-dependent relativistic effects. The methodology is applied to a series of Fe(II) complexes in ligand fields of almost trigonal pyramidal symmetry as provided by several variants of the tris-pyrrolylmethyl amine ligand (tpa). These systems have recently attracted much attention as mononuclear single-molecule magnet (SMM) complexes. This study aims to establish how the ligand field can be fine tuned in order to maximize the magnetic anisotropy barrier. In trigonal ligand fields high-spin Fe(II) complexes adopt an orbitally degenerate 5E ground state with strong in-state spin–orbit coupling (SOC). We study the competing effects of SOC and the 5E⊗ε multimode Jahn–Teller effect as a function of the peripheral substituents on the tpa ligand. These subtle distortions were found to have a significant effect on the magnetic anisotropy. Using a rigorous treatment of all spin multiplets arising from the triplet and quintet states in the d6 configuration the parameters of the effective spin-Hamiltonian (SH) approach were predicted from first principles. Being based on a nonperturbative approach we investigate under which conditions the SH approach is valid and what terms need to be retained. It is demonstrated that already tiny geometric distortions observed in the crystal structures of four structurally and magnetically well-documented systems, reported recently, i.e., [Fe(tpaR)]− (R = tert-butyl, Tbu (1), mesityl, Mes (2), phenyl, Ph (3), and 2,6-difluorophenyl, Dfp (4), are enough to lead to five lowest and thermally accessible spin sublevels described sufficiently well by S = 2 SH provided that it is extended with one fourth order anisotropy term. Using this most elementary parametrization that is consistent with the actual physics, the reported magnetization data for the target systems were reinterpreted and found to be in good agreement with the ab initio results. The multiplet energies from the ab initio calculations have been fitted with remarkable consistency using a ligand field (angular overlap) model (ab initio ligand field, AILFT). This allows for determination of bonding parameters and quantitatively demonstrates the correlation between increasingly negative D values and changes in the σ-bond strength induced by the peripheral ligands. In fact, the sigma-bonding capacity (and hence the Lewis basicity) of the ligand decreases along the series 1 {>} 2 {>} 3 {>} 4.}
+      \field{issn}{0020-1669}
+      \field{journaltitle}{Inorganic Chemistry}
+      \field{month}{8}
+      \field{note}{Publisher: American Chemical Society}
+      \field{number}{16}
+      \field{title}{Detailed {Ab} {Initio} {First}-{Principles} {Study} of the {Magnetic} {Anisotropy} in a {Family} of {Trigonal} {Pyramidal} {Iron}({II}) {Pyrrolide} {Complexes}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{50}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{7460\bibrangedash 7477}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1021/ic200196k
+      \endverb
+      \verb{file}
+      \verb Version soumise:/Users/fheully/Zotero/storage/AIC8XTBF/Atanasov et al. - 2011 - Detailed Ab Initio First-Principles Study of the Magnetic Anisotropy in a Family of Trigonal Pyramid.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/ic200196k
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/ic200196k
+      \endverb
+      \keyw{1erordre}
+    \endentry
+    \entry{ruamps_giant_2013}{article}{}
+      \name{author}{12}{}{%
+        {{hash=c957aa35c5222eeaf68abe0979d3162e}{%
+           family={Ruamps},
+           familyi={R\bibinitperiod},
+           given={Renaud},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a33dc45d28e97d59f1f8830d870db523}{%
+           family={Maurice},
+           familyi={M\bibinitperiod},
+           given={Rémi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=432c37130a37422a28bbc951d976e2b1}{%
+           family={Batchelor},
+           familyi={B\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod}}}%
+        {{hash=06b3021065e65980c6d76277b9ba4f7b}{%
+           family={Boggio-Pasqua},
+           familyi={B\bibinithyphendelim P\bibinitperiod},
+           given={Martial},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c575031ba3bf862ab6b2e9ac5d6141e5}{%
+           family={Guillot},
+           familyi={G\bibinitperiod},
+           given={Régis},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c7c90186ab780088ae71da2117dbad98}{%
+           family={Barra},
+           familyi={B\bibinitperiod},
+           given={Anne\bibnamedelima Laure},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f29d5f47839f5438acce0f0b4e67401c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Junjie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=74a3214d73d6c893b4404ffe305d0ffc}{%
+           family={Bendeif},
+           familyi={B\bibinitperiod},
+           given={El-Eulmi},
+           giveni={E\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=6de7cf982e0c489a18f463596931a9d6}{%
+           family={Pillet},
+           familyi={P\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod}}}%
+        {{hash=43ec69dc0bf45d0bd1718b8510152bf2}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e445c7a52c5747ead2019c6549863463}{%
+           family={Mallah},
+           familyi={M\bibinitperiod},
+           given={Talal},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7f73690aef2e3699597053baedee6dc6}{%
+           family={Guihéry},
+           familyi={G\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{62f5dbd9984ac643411e65f7596d3c1b}
+      \strng{fullhash}{76bb9737da411b96d45852234708b1cf}
+      \strng{bibnamehash}{76bb9737da411b96d45852234708b1cf}
+      \strng{authorbibnamehash}{76bb9737da411b96d45852234708b1cf}
+      \strng{authornamehash}{62f5dbd9984ac643411e65f7596d3c1b}
+      \strng{authorfullhash}{76bb9737da411b96d45852234708b1cf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper reports the experimental and theoretical investigations of two trigonal bipyramidal Ni(II) complexes, [Ni(Me6tren)Cl](ClO4) (1) and [Ni(Me6tren)Br](Br) (2). High-field, high-frequency electron paramagnetic resonance spectroscopy performed on a single crystal of 1 shows a giant uniaxial magnetic anisotropy with an experimental Dexpt value (energy difference between the Ms = ± 1 and Ms = 0 components of the ground spin state S = 1) estimated to be between −120 and −180 cm–1. The theoretical study shows that, for an ideally trigonal Ni(II) complex, the orbital degeneracy leads to a first-order spin–orbit coupling that results in a splitting of the Ms = ± 1 and Ms = 0 components of approximately −600 cm–1. Despite the Jahn–Teller distortion that removes the ground term degeneracy and reduces the effects of the first-order spin–orbit interaction, the D value remains very large. A good agreement between theoretical and experimental results (theoretical Dtheor between −100 and −200 cm–1) is obtained.}
+      \field{issn}{0002-7863}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{month}{2}
+      \field{note}{Publisher: American Chemical Society}
+      \field{number}{8}
+      \field{shorttitle}{Giant {Ising}-{Type} {Magnetic} {Anisotropy} in {Trigonal} {Bipyramidal} {Ni}({II}) {Complexes}}
+      \field{title}{Giant {Ising}-{Type} {Magnetic} {Anisotropy} in {Trigonal} {Bipyramidal} {Ni}({II}) {Complexes}: {Experiment} and {Theory}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{135}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{3017\bibrangedash 3026}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1021/ja308146e
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/ja308146e
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/ja308146e
+      \endverb
+      \keyw{RenaudJACS}
+    \endentry
+    \entry{bouammali_how_2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b6d436cd5dbf1bcbd83a52990cd56b49}{%
+           family={Bouammali},
+           familyi={B\bibinitperiod},
+           given={Mohammed-Amine},
+           giveni={M\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=2ccade728b57d8970bd14fe507f07fcb}{%
+           family={Suaud},
+           familyi={S\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=81655c4a64bb0691d53128784c74335a}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={Cyril},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a33dc45d28e97d59f1f8830d870db523}{%
+           family={Maurice},
+           familyi={M\bibinitperiod},
+           given={Rémi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7f73690aef2e3699597053baedee6dc6}{%
+           family={Guihéry},
+           familyi={G\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{67007e77feaf50b5cf16be47c2efd3e0}
+      \strng{fullhash}{fa8d11ffc35f64cd92021b03f0ae80df}
+      \strng{bibnamehash}{fa8d11ffc35f64cd92021b03f0ae80df}
+      \strng{authorbibnamehash}{fa8d11ffc35f64cd92021b03f0ae80df}
+      \strng{authornamehash}{67007e77feaf50b5cf16be47c2efd3e0}
+      \strng{authorfullhash}{fa8d11ffc35f64cd92021b03f0ae80df}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper is a theoretical “proof of concept” on how the on-site first-order spin–orbit coupling (SOC) can generate giant Dzyaloshinskii–Moriya interactions in binuclear transition metal complexes. This effective interaction plays a key role in strongly correlated materials, skyrmions, multiferroics, and molecular magnets of promising use in quantum information science and computing. Despite this, its determination from both theory and experiment is still in its infancy and existing systems usually exhibit very tiny magnitudes. We derive analytical formulas that perfectly reproduce both the nature and the magnitude of the Dzyaloshinskii–Moriya interaction calculated using state-of-the-art ab initio calculations performed on model bicopper(II) complexes. We also study which geometrical structures/ligand-field forces would enable one to control the magnitude and the orientation of the Dzyaloshinskii–Moriya vector in order to guide future synthesis of molecules or materials. This article provides an understanding of its microscopic origin and proposes recipes to increase its magnitude. We show that (i) the on-site mixings of 3d orbitals rule the orientation and magnitude of this interaction, (ii) increased values can be obtained by choosing more covalent complexes, and (iii) huge values (∼1000 cm−1) and controlled orientations could be reached by approaching structures exhibiting on-site first-order SOC, i.e., displaying an “unquenched orbital momentum.”}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{4}
+      \field{number}{13}
+      \field{shorttitle}{How to create giant {Dzyaloshinskii}–{Moriya} interactions?}
+      \field{title}{How to create giant {Dzyaloshinskii}–{Moriya} interactions? {Analytical} derivation and ab initio calculations on model dicopper({II}) complexes}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{154}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{134301}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0045569
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/fheully/Zotero/storage/SWNZCJWQ/5.html:text/html;Version soumise:/Users/fheully/Zotero/storage/DWZGEQMK/Bouammali et al. - 2021 - How to create giant Dzyaloshinskii–Moriya interactions Analytical derivation and ab initio calculat.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/5.0045569
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/5.0045569
+      \endverb
+      \keyw{Mohammed1}
+    \endentry
+    \entry{bouammali_extraction_2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b6d436cd5dbf1bcbd83a52990cd56b49}{%
+           family={Bouammali},
+           familyi={B\bibinitperiod},
+           given={Mohammed-Amine},
+           giveni={M\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=2ccade728b57d8970bd14fe507f07fcb}{%
+           family={Suaud},
+           familyi={S\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a33dc45d28e97d59f1f8830d870db523}{%
+           family={Maurice},
+           familyi={M\bibinitperiod},
+           given={Rémi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7f73690aef2e3699597053baedee6dc6}{%
+           family={Guihéry},
+           familyi={G\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{67007e77feaf50b5cf16be47c2efd3e0}
+      \strng{fullhash}{c7ad1ba44f43effdf4306e168d1d0618}
+      \strng{bibnamehash}{c7ad1ba44f43effdf4306e168d1d0618}
+      \strng{authorbibnamehash}{c7ad1ba44f43effdf4306e168d1d0618}
+      \strng{authornamehash}{67007e77feaf50b5cf16be47c2efd3e0}
+      \strng{authorfullhash}{c7ad1ba44f43effdf4306e168d1d0618}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Dzyaloshinskii–Moriya interaction is expected to be at the origin of interesting magnetic properties, such as multiferroicity, skyrmionic states, and exotic spin orders. Despite this, its theoretical determination is far from being established, neither from the point of view of ab initio methodologies nor from that of the extraction technique to be used afterward. Recently, a very efficient way to increase its amplitude has been demonstrated near the first-order spin–orbit coupling regime. Within the first-order regime, the anisotropic spin Hamiltonian involving the Dzyaloshinskii–Moriya operator becomes inappropriate. Nevertheless, in order to approach this regime and identify the spin Hamiltonian limitations, it is necessary to characterize the underlying physics. To this end, we have developed a simple electronic and spin–orbit model describing the first-order regime and used ab initio calculations to conduct a thorough methodological study.}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{10}
+      \field{number}{16}
+      \field{shorttitle}{Extraction of giant {Dzyaloshinskii}–{Moriya} interaction from ab initio calculations}
+      \field{title}{Extraction of giant {Dzyaloshinskii}–{Moriya} interaction from ab initio calculations: {First}-order spin–orbit coupling model and methodological study}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{155}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{164305}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0065213
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/fheully/Zotero/storage/6PBPF8UM/5.html:text/html;Texte intégral:/Users/fheully/Zotero/storage/DUWHWQ45/Bouammali et al. - 2021 - Extraction of giant Dzyaloshinskii–Moriya interaction from ab initio calculations First-order spin–.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/5.0065213
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/5.0065213
+      \endverb
+      \keyw{Mohammed2}
+    \endentry
+    \entry{pradines_impact_2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6a584a6672c2b59f3760241a341c0e13}{%
+           family={Pradines},
+           familyi={P\bibinitperiod},
+           given={Barthélémy},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5454a1eac6605ab84d1d1e3672150885}{%
+           family={Cahier},
+           familyi={C\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2ccade728b57d8970bd14fe507f07fcb}{%
+           family={Suaud},
+           familyi={S\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7f73690aef2e3699597053baedee6dc6}{%
+           family={Guihéry},
+           familyi={G\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ec6cc6998200bb69b283de5125a9c91}
+      \strng{fullhash}{14cc62beb95df3a5c439f97d79dd01ba}
+      \strng{bibnamehash}{14cc62beb95df3a5c439f97d79dd01ba}
+      \strng{authorbibnamehash}{14cc62beb95df3a5c439f97d79dd01ba}
+      \strng{authornamehash}{3ec6cc6998200bb69b283de5125a9c91}
+      \strng{authorfullhash}{14cc62beb95df3a5c439f97d79dd01ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{One may obviously think that the best way to control magnetic properties relies on using a magnetic field. However, it is not convenient to focus a magnetic field on a small object, whereas it is much easier to do so with an electric field. Magnetoelectric coupling allows one to control the magnetization with the electric field and the polarization with the magnetic field and could therefore provide a solution to this problem. This paper aims at quantifying the impact of the electric field on both the isotropic magnetic exchange and the Dzyaloshinskii–Moriya interaction in the case of a binuclear system of S = 1/2 spins. This study follows previous studies that showed that very high Dzyaloshinskii–Moriya interaction, i.e., the antisymmetric exchange, can be generated when close to first order spin orbit coupling. We will, therefore, explore this regime in a model Cu(II) complex that exhibits a quasi-degeneracy of the dx2−y2 and dxy orbitals. This situation is indeed the one that allows us to obtain the largest spin orbit couplings in transition metal complexes. We will show that both the magnetic exchange and the Dzyaloshinskii–Moriya interaction are very sensitive to the electric field and that it would therefore be possible to modulate and control magnetic properties by the electric field. Finally, rationalizations of the obtained results will be proposed.}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{11}
+      \field{number}{20}
+      \field{title}{Impact of the electric field on isotropic and anisotropic spin {Hamiltonian} parameters}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{157}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{204308}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0116709
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/fheully/Zotero/storage/WZ643LRR/5.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/5.0116709
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/5.0116709
+      \endverb
+    \endentry
+    \entry{aquilante_molcas_2010}{article}{}
+      \name{author}{14}{}{%
+        {{hash=bdb93b2e5b8ee869342640a3433e0eff}{%
+           family={Aquilante},
+           familyi={A\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ffe61e5a9204fb3479b68cf857b50de0}{%
+           family={De\bibnamedelima Vico},
+           familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7a727beab0b28f6a902fc44f39788eea}{%
+           family={Ferré},
+           familyi={F\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a83f3b53313318a09d07e48614efafca}{%
+           family={Ghigo},
+           familyi={G\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2ad17377aed8014e170b19daffa3b9bc}{%
+           family={Malmqvist},
+           familyi={M\bibinitperiod},
+           given={Per-åke},
+           giveni={P\bibinithyphendelim å\bibinitperiod}}}%
+        {{hash=5521461de27a1f75849b4b37738d63a9}{%
+           family={Neogrády},
+           familyi={N\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod}}}%
+        {{hash=402483dab35f9d854452ae9530a3be1c}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima Bondo},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=60c3dcc63c558a308c9e945636c1baf7}{%
+           family={Pitoňák},
+           familyi={P\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=101a884703c155ac5ca9bc3f658bcc99}{%
+           family={Reiher},
+           familyi={R\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8f64f800130be105934c19e9d9131b9e}{%
+           family={Roos},
+           familyi={R\bibinitperiod},
+           given={Björn\bibnamedelima O.},
+           giveni={B\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=7e72c2e05b5afbd1f9bbdcfe52d5aa1c}{%
+           family={Serrano-Andrés},
+           familyi={S\bibinithyphendelim A\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e85e67653955f211a8f24c58f017e7dc}{%
+           family={Urban},
+           familyi={U\bibinitperiod},
+           given={Miroslav},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bd2c685e0d7737c641fa5cc40e5c08a0}{%
+           family={Veryazov},
+           familyi={V\bibinitperiod},
+           given={Valera},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5c108ab1a0843637b047fce28ac482fa}{%
+           family={Lindh},
+           familyi={L\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f71a4c070a94d655de17b3ecfdabfe9}
+      \strng{fullhash}{ac6d3ff5158547fc509f46ace7a6055f}
+      \strng{bibnamehash}{ac6d3ff5158547fc509f46ace7a6055f}
+      \strng{authorbibnamehash}{ac6d3ff5158547fc509f46ace7a6055f}
+      \strng{authornamehash}{2f71a4c070a94d655de17b3ecfdabfe9}
+      \strng{authorfullhash}{ac6d3ff5158547fc509f46ace7a6055f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Some of the new unique features of the MOLCAS quantum chemistry package version 7 are presented in this report. In particular, the Cholesky decomposition method applied to some quantum chemical methods is described. This approach is used both in the context of a straight forward approximation of the two-electron integrals and in the generation of so-called auxiliary basis sets. The article describes how the method is implemented for most known wave functions models: self-consistent field, density functional theory, 2nd order perturbation theory, complete-active space self-consistent field multiconfigurational reference 2nd order perturbation theory, and coupled-cluster methods. The report further elaborates on the implementation of a restricted-active space self-consistent field reference function in conjunction with 2nd order perturbation theory. The average atomic natural orbital basis for relativistic calculations, covering the whole periodic table, are described and associated unique properties are demonstrated. Furthermore, the use of the arbitrary order Douglas-Kroll-Hess transformation for one-component relativistic calculations and its implementation are discussed. This section especially focuses on the implementation of the so-called picture-change-free atomic orbital property integrals. Moreover, the ElectroStatic Potential Fitted scheme, a version of a quantum mechanics/molecular mechanics hybrid method implemented in MOLCAS, is described and discussed. Finally, the report discusses the use of the MOLCAS package for advanced studies of photo chemical phenomena and the usefulness of the algorithms for constrained geometry optimization in MOLCAS in association with such studies. ? 2009 Wiley Periodicals, Inc. J Comput Chem 2010}
+      \field{issn}{0192-8651}
+      \field{journaltitle}{Journal of Computational Chemistry}
+      \field{month}{1}
+      \field{note}{Publisher: John Wiley \& Sons, Ltd}
+      \field{number}{1}
+      \field{title}{{MOLCAS} 7: {The} {Next} {Generation}}
+      \field{urlday}{18}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{31}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{224\bibrangedash 247}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1002/jcc.21318
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/jcc.21318
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/jcc.21318
+      \endverb
+      \keyw{ANO-RCC,Cholesky decomposition,coupled cluster,Douglas-Kroll-Hess,ESPF,MOLCAS,photo chemistry,RASPT2}
+    \endentry
+    \entry{ben_amor_direct_2011}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1956edf1847700a1617dfd96ad6a6f43}{%
+           family={Ben\bibnamedelima Amor},
+           familyi={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Nadia},
+           giveni={N\bibinitperiod}}}%
+        {{hash=dc17276f537b1e676a960c75314af469}{%
+           family={Bessac},
+           familyi={B\bibinitperiod},
+           given={Fabienne},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c45d77d5827bccb5c6e3b20fab5f441d}{%
+           family={Hoyau},
+           familyi={H\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=51ff714163d6e847055342a5b7894e66}{%
+           family={Maynau},
+           familyi={M\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c38365abf3a23523ce8abef64cb29031}
+      \strng{fullhash}{adf4e44f54ec45f9e3232bf2b0907cdc}
+      \strng{bibnamehash}{adf4e44f54ec45f9e3232bf2b0907cdc}
+      \strng{authorbibnamehash}{adf4e44f54ec45f9e3232bf2b0907cdc}
+      \strng{authornamehash}{c38365abf3a23523ce8abef64cb29031}
+      \strng{authorfullhash}{adf4e44f54ec45f9e3232bf2b0907cdc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A selected multireference configuration interaction (CI) method and the corresponding code are presented. It is based on a procedure of localization that permits to obtain well localized occupied and virtual orbitals. Due to the local character of the electron correlation, using local orbitals allows one to neglect long range interactions. In a first step, three topological matrices are constructed, which determine whether two orbitals must be considered as interacting or not. Two of them concern the truncation of the determinant basis, one for occupied/virtual, the second one for dispersive interactions. The third one concerns the truncation of the list of two electron integrals. This approach permits a fine analysis of each kind of approximation and induces a huge reduction of the CI size and of the computational time. The procedure is tested on linear polyene aldehyde chains, dissociation potential energy curve, and reaction energy of a pesticide-Ca2+ complex and finally on transition energies of a large iron system presenting a light-induced excited spin-state trapping effect.}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Direct selected multireference configuration interaction calculations for large systems using localized orbitals}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{135}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{014101}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3600351
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/fheully/Zotero/storage/ZVU4RHZ2/1.html:text/html;Texte intégral:/Users/fheully/Zotero/storage/TJGX767L/Ben Amor et al. - 2011 - Direct selected multireference configuration interaction calculations for large systems using locali.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3600351
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3600351
+      \endverb
+    \endentry
+    \entry{dunn_spin-orbit_1961}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c3dfbaab405a60f233ddaf00b631819a}{%
+           family={Dunn},
+           familyi={D\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c3dfbaab405a60f233ddaf00b631819a}
+      \strng{fullhash}{c3dfbaab405a60f233ddaf00b631819a}
+      \strng{bibnamehash}{c3dfbaab405a60f233ddaf00b631819a}
+      \strng{authorbibnamehash}{c3dfbaab405a60f233ddaf00b631819a}
+      \strng{authornamehash}{c3dfbaab405a60f233ddaf00b631819a}
+      \strng{authorfullhash}{c3dfbaab405a60f233ddaf00b631819a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{No abstract available}
+      \field{issn}{0014-7672}
+      \field{journaltitle}{Transactions of the Faraday Society}
+      \field{month}{1}
+      \field{note}{Publisher: The Royal Society of Chemistry}
+      \field{number}{0}
+      \field{title}{Spin-orbit coupling in the first and second transition series}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{57}
+      \field{year}{1961}
+      \field{urldateera}{ce}
+      \field{pages}{1441\bibrangedash 1444}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1039/TF9615701441
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/fheully/Zotero/storage/9Q9VS7S4/Dunn - 1961 - Spin-orbit coupling in the first and second transition series.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.rsc.org/en/content/articlelanding/1961/tf/tf9615701441
+      \endverb
+      \verb{url}
+      \verb https://pubs.rsc.org/en/content/articlelanding/1961/tf/tf9615701441
+      \endverb
+      \keyw{SOC}
+    \endentry
+    \entry{anderson_resonating_1973}{article}{}
+      \name{author}{1}{}{%
+        {{hash=847b0698d138c139548ed0a7422a6a16}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{847b0698d138c139548ed0a7422a6a16}
+      \strng{fullhash}{847b0698d138c139548ed0a7422a6a16}
+      \strng{bibnamehash}{847b0698d138c139548ed0a7422a6a16}
+      \strng{authorbibnamehash}{847b0698d138c139548ed0a7422a6a16}
+      \strng{authornamehash}{847b0698d138c139548ed0a7422a6a16}
+      \strng{authorfullhash}{847b0698d138c139548ed0a7422a6a16}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The possibility of a new kind of electronic state is pointed out, corresponding roughly to Pauling's idea of “resonating valence bonds” in metals. As observed by Pauling, a pure state of this type would be insulating; it would represent an alternative state to the Néel antiferromagnetic state for S = 1/2. An estimate of its energy is made in one case.}
+      \field{issn}{0025-5408}
+      \field{journaltitle}{Materials Research Bulletin}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{Resonating valence bonds}
+      \field{title}{Resonating valence bonds: {A} new kind of insulator?}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{1973}
+      \field{urldateera}{ce}
+      \field{pages}{153\bibrangedash 160}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/0025-5408(73)90167-0
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/fheully/Zotero/storage/YKD24CYT/0025540873901670.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0025540873901670
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0025540873901670
+      \endverb
+      \keyw{QSL}
+    \endentry
+    \entry{lauchli_sfrac12_2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aa88ff676660bf9b7df1ae7572c4d836}{%
+           family={Läuchli},
+           familyi={L\bibinitperiod},
+           given={Andreas\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7c39697e282f0578ccf57d66cdd4c705}{%
+           family={Sudan},
+           familyi={S\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fa20764593b20f64ced4f0358080adf2}{%
+           family={Moessner},
+           familyi={M\bibinitperiod},
+           given={Roderich},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2747231fb3e2f71f135cbb34bd90b76}
+      \strng{fullhash}{c355a3dca80545e511858597e960fc4c}
+      \strng{bibnamehash}{c355a3dca80545e511858597e960fc4c}
+      \strng{authorbibnamehash}{c355a3dca80545e511858597e960fc4c}
+      \strng{authornamehash}{b2747231fb3e2f71f135cbb34bd90b76}
+      \strng{authorfullhash}{c355a3dca80545e511858597e960fc4c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We examine the perennial quantum spin liquid candidate 𝑆=12 Heisenberg antiferromagnet on the kagome lattice. Our paper is based on achieving Lanczos diagonalization of the Hamiltonian on a 48 site cluster in sectors with dimensions as large as 5×1011. The results reveal intricate structures in the low-lying energy spectrum. These structures by no means unambiguously support a ℤ2 spin liquid ground state, but instead appear compatible with several scenarios, including fourfold topological degeneracy, inversion symmetry breaking, and a combination thereof. We discuss finite-size effects, such as the apparent absence of the eigenstate thermalization hypothesis, and note that, while considerably reduced, some are still present for the largest cluster. Finally, we observe that an XXZ model in the Ising limit reproduces remarkably well the most striking features of finite-size spectra.}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{10}
+      \field{note}{Publisher: American Physical Society}
+      \field{number}{15}
+      \field{title}{\${S}={\textbackslash}frac\{1\}\{2\}\$ kagome {Heisenberg} antiferromagnet revisited}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{100}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{155142}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.100.155142
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/fheully/Zotero/storage/ZSM5YHFQ/PhysRevB.100.html:text/html;Version soumise:/Users/fheully/Zotero/storage/RE4VVX7C/Läuchli et al. - 2019 - \$S=frac 1 2 \$ kagome Heisenberg antiferromagnet revisited.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.100.155142
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.100.155142
+      \endverb
+      \keyw{DiagExact}
+    \endentry
+    \entry{he_signatures_2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ce45c1517c2ef9e1e0e946a5e52e33f8}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Yin-Chen},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=131232ddc3570a824149c27c960f2ca5}{%
+           family={Zaletel},
+           familyi={Z\bibinitperiod},
+           given={Michael\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7b605da98c1badd6bb9ec0d9c6d6f5af}{%
+           family={Oshikawa},
+           familyi={O\bibinitperiod},
+           given={Masaki},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fb4c86c0948ce1f16f8d42001263c071}{%
+           family={Pollmann},
+           familyi={P\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{92ff54e9122b85f9bb1fad61130178d4}
+      \strng{fullhash}{091afd27f212995c452bf3e157a73f6e}
+      \strng{bibnamehash}{091afd27f212995c452bf3e157a73f6e}
+      \strng{authorbibnamehash}{091afd27f212995c452bf3e157a73f6e}
+      \strng{authornamehash}{92ff54e9122b85f9bb1fad61130178d4}
+      \strng{authorfullhash}{091afd27f212995c452bf3e157a73f6e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The antiferromagnetic spin-1/2 Heisenberg model on a kagome lattice is one of the most paradigmatic models in the context of spin liquids, yet the precise nature of its ground state is not understood. We use large-scale density matrix renormalization group simulations (DMRG) on infinitely long cylinders and find indications for the formation of a gapless Dirac spin liquid. First, we use adiabatic flux insertion to demonstrate that the spin gap is much smaller than estimated from previous DMRG simulation. Second, we find that the momentum-dependent excitation spectrum, as extracted from the DMRG transfer matrix, exhibits Dirac cones that match those of a 𝜋-flux free-fermion model [the parton mean-field ansatz of a 𝑈⁡(1) Dirac spin liquid].}
+      \field{journaltitle}{Physical Review X}
+      \field{month}{7}
+      \field{note}{Publisher: American Physical Society}
+      \field{number}{3}
+      \field{title}{Signatures of {Dirac} {Cones} in a {DMRG} {Study} of the {Kagome} {Heisenberg} {Model}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{7}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{031020}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevX.7.031020
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/fheully/Zotero/storage/K9R6HUFJ/PhysRevX.7.html:text/html;Full Text PDF:/Users/fheully/Zotero/storage/PHB7FCS9/He et al. - 2017 - Signatures of Dirac Cones in a DMRG Study of the Kagome Heisenberg Model.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevX.7.031020
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevX.7.031020
+      \endverb
+      \keyw{tensor}
+    \endentry
+    \entry{liao_gapless_2017}{article}{}
+      \name{author}{8}{}{%
+        {{hash=8c685ea0b957eea61caa59ec49d8d70f}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={H.\bibnamedelimi J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1bd28b22055f5def29d9360d890b671a}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Z.\bibnamedelimi Y.},
+           giveni={Z\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=38241eaee18102cab15a125b0654c7da}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4e1aa65f0850e40ce6290baa8d462e41}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Z.\bibnamedelimi Y.},
+           giveni={Z\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=655fe93fdee700c474e7205febbdbc3f}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={H.\bibnamedelimi D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a5eb5f5be063096504033112b0b3a78b}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi Z.},
+           giveni={R\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=81717fa9709f9d1487e74c4d0f830160}{%
+           family={Normand},
+           familyi={N\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1db6acd62cb634c1b96862361c954a5c}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{86616c8320d0279648c783c1eb8ac53f}
+      \strng{fullhash}{7d5e8af7a274ed81fd6dfe3ff782be77}
+      \strng{bibnamehash}{7d5e8af7a274ed81fd6dfe3ff782be77}
+      \strng{authorbibnamehash}{7d5e8af7a274ed81fd6dfe3ff782be77}
+      \strng{authornamehash}{86616c8320d0279648c783c1eb8ac53f}
+      \strng{authorfullhash}{7d5e8af7a274ed81fd6dfe3ff782be77}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The defining problem in frustrated quantum magnetism, the ground state of the nearest-neighbor 𝑆 =1/2 antiferromagnetic Heisenberg model on the kagome lattice, has defied all theoretical and numerical methods employed to date. We apply the formalism of tensor-network states, specifically the method of projected entangled simplex states, which combines infinite system size with a correct accounting for multipartite entanglement. By studying the ground-state energy, the finite magnetic order appearing at finite tensor bond dimensions, and the effects of a next-nearest-neighbor coupling, we demonstrate that the ground state is a gapless spin liquid. We discuss the comparison with other numerical studies and the physical interpretation of this result.}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{3}
+      \field{note}{Publisher: American Physical Society}
+      \field{number}{13}
+      \field{title}{Gapless {Spin}-{Liquid} {Ground} {State} in the \${S}=1/2\$ {Kagome} {Antiferromagnet}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{118}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{137202}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.118.137202
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/fheully/Zotero/storage/859B2ZVW/PhysRevLett.118.html:text/html;Texte intégral:/Users/fheully/Zotero/storage/NIAS76KV/Liao et al. - 2017 - Gapless Spin-Liquid Ground State in the \$S=12\$ Kagome Antiferromagnet.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.118.137202
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.118.137202
+      \endverb
+      \keyw{tensor}
+    \endentry
+    \entry{iqbal_gapless_2013}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ec1243bc81aad32f839c67de3ee1fd24}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Yasir},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1fee49380e123910a01cc65d3537c50f}{%
+           family={Becca},
+           familyi={B\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=22dfda36f72f4fbb3c23c87d064dff2f}{%
+           family={Sorella},
+           familyi={S\bibinitperiod},
+           given={Sandro},
+           giveni={S\bibinitperiod}}}%
+        {{hash=33bbc5d0580cf4c199c1f249a72f76a2}{%
+           family={Poilblanc},
+           familyi={P\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{89851becea4e8a751b6316f228ce5f2f}
+      \strng{fullhash}{c7e98f0605bfb56d44eaeb292456f22d}
+      \strng{bibnamehash}{c7e98f0605bfb56d44eaeb292456f22d}
+      \strng{authorbibnamehash}{c7e98f0605bfb56d44eaeb292456f22d}
+      \strng{authornamehash}{89851becea4e8a751b6316f228ce5f2f}
+      \strng{authorfullhash}{c7e98f0605bfb56d44eaeb292456f22d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the energy and the static spin structure factor of the ground state of the spin-1/2 quantum Heisenberg antiferromagnetic model on the kagome lattice. By the iterative application of a few Lanczos steps on accurate projected fermionic wave functions and the Green’s function Monte Carlo technique, we find that a gapless (algebraic) 𝑈⁡(1) Dirac spin liquid is competitive with previously proposed gapped (topological) ℤ2 spin liquids. By performing a finite-size extrapolation of the ground-state energy, we obtain an energy per site 𝐸/𝐽=−0.4365⁢(2), which is equal, within three error bars, to the estimates given by the density-matrix renormalization group (DMRG). Our estimate is obtained for a translationally invariant system, and, therefore, does not suffer from boundary effects, like in DMRG. Moreover, on finite toric clusters at the pure variational level, our energies are lower compared to those from DMRG calculations.}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{2}
+      \field{note}{Publisher: American Physical Society}
+      \field{number}{6}
+      \field{title}{Gapless spin-liquid phase in the kagome spin-\${\textbackslash}frac\{1\}\{2\}\$ {Heisenberg} antiferromagnet}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{87}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{060405}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.87.060405
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/fheully/Zotero/storage/29NZ65EE/PhysRevB.87.html:text/html;Version soumise:/Users/fheully/Zotero/storage/9Z9873RQ/Iqbal et al. - 2013 - Gapless spin-liquid phase in the kagome spin-\$frac 1 2 \$ Heisenberg antiferromagnet.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.87.060405
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.87.060405
+      \endverb
+      \keyw{MonteCarlo}
+    \endentry
+    \entry{braithwaite_herbertsmithite_2004}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1be7ed6d3216c4bc50a2616b7270977a}{%
+           family={Braithwaite},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi S.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=b965899a0f5608bf266ad1795986639d}{%
+           family={Mereiter},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=33a33c2e60bb19a352919ea727a92772}{%
+           family={Paar},
+           familyi={P\bibinitperiod},
+           given={W.\bibnamedelimi H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=29075373b2b07a75de7a87648aa51356}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0ca4e3c02adf08785f343d804cdad653}
+      \strng{fullhash}{533d7add9f6b6d33b82ff2cc4be4ac07}
+      \strng{bibnamehash}{533d7add9f6b6d33b82ff2cc4be4ac07}
+      \strng{authorbibnamehash}{533d7add9f6b6d33b82ff2cc4be4ac07}
+      \strng{authornamehash}{0ca4e3c02adf08785f343d804cdad653}
+      \strng{authorfullhash}{533d7add9f6b6d33b82ff2cc4be4ac07}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{One in four of the Cu-filled cation sites in clinoatacamite, the monoclinic polymorph of atacamite and botallackite, is angle- rather than Jahn-Teller-distorted. Experiments show that this site alone is susceptible to substitution by a non-Jahn-Teller distorting cation of suitable radius and charge, such as Zn2+, and also Ni2+, Co2+, Fe2+, Cd2+ and Mg2+. The crystal symmetry changes to rhombohedral when ∼⅓ of the Cu in this site is substituted by e.g. Zn, thus giving paratacamite; the Zn is essential for stability and forms, with larger proportions of Zn, a series to the end-member in which the site is fully occupied by Zn. This end-member, rhombohedral stoichiometric Cu3Zn(OH)6Cl2, has been characterized using natural specimens from Chile and Iran and is named herbertsmithite. The other cations mentioned behave similarly, producing stabilized rhombohedral paratacamites and end-members analogous to herbertsmithite, which if found in nature, as the Ni analogue has been, should be named species. Clinoatacamite, paratacamite and herbertsmithite have rather similar X-ray powder diffraction patterns, but are readily distinguished by infrared spectroscopy.Zn-stabilized paratacamite forms blue-green crystals of rhombohedral habit, with vitreous lustre, e = 1.828-1.830, o = 1.835, uniaxial negative, weakly pleochroic O {>} E, density: 3.75 g cm-3, Mohs hardness: 3-3½; space group R, a = 13.654(5), c = 14.041(6) Å, Z = 24, with pronounced Rm substructure; six strongest XRD lines 5.452 (100), 2.895 (20), 2.760 (74), 2.262 (52), 1.817 (18), 1.708 (21).Herbertsmithite forms dark green crystals of rhombohedral habit, with vitreous lustre, e = 1.817, o = 1.825, uniaxial negative, weakly pleochroic O {>} E, density: 3.95 g cm-3, Mohs hardness: 3-3½;; space group Rm with no superstructure observed, a = 6.834(1), c = 14.075(2) Å, Z = 3; six strongest XRD lines 5.466 (55), 4.702 (14), 2.764 (100), 2.266 (36), 1.820 (13), 1.709 (18).}
+      \field{issn}{0026-461X, 1471-8022}
+      \field{journaltitle}{Mineralogical Magazine}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{Herbertsmithite, {Cu3Zn}({OH}){6Cl2}, a new species, and the definition of paratacamite}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{68}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{527\bibrangedash 539}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1180/0026461046830204
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/journals/mineralogical-magazine/article/abs/herbertsmithite-cu3znoh6cl2-a-new-species-and-the-definition-of-paratacamite/3E5F4DE2E06EFDA3C99E6515BEB6BE19
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/journals/mineralogical-magazine/article/abs/herbertsmithite-cu3znoh6cl2-a-new-species-and-the-definition-of-paratacamite/3E5F4DE2E06EFDA3C99E6515BEB6BE19
+      \endverb
+      \keyw{Anarak,anarakite,Chile,Cu chlorides,DiagExact,herbertsmithite,IR spectroscopy,Iran,new mineral,paratacamite,Sierra Gorda,site occupancy and selectivity,solid solution,XRD}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
