@@ -1,0 +1,108 @@
+% !TEX TS-program = xelatex
+\documentclass[a4paper,12pt]{article}
+
+% --- Packages principaux ---
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage{tikz}
+
+% --- Marges et interlignes ---
+\geometry{
+  top=2.5cm,
+  bottom=2.5cm,
+  left=2.5cm,
+  right=2.5cm
+}
+\setstretch{1.1}
+
+% --- Polices modernes ---
+\setmainfont{Arial} % tu peux changer pour Helvetica, Times New Roman, etc.
+
+% --- Commandes de style ---
+\newcommand{\ligneRouge}{
+  \vspace{3mm}
+  \noindent\textcolor{red!70!black}{\rule{0.75\textwidth}{0.8pt}}
+  \vspace{3mm}
+}
+
+% --- En-têtes de niveau personnalisés ---
+\titleformat{\section}{\large\bfseries\centering}{}{0pt}{}
+\titleformat{\subsection}{\bfseries\centering}{}{0pt}{}
+
+% --- Début du document ---
+\begin{document}
+
+% === LOGO UNIVERSITÉ ===
+\vspace*{-1cm}
+\noindent
+%\includegraphics[height=3cm]{logo_universite.png} % %% À compléter : chemin du logo
+\hfill
+\vspace{1cm}
+
+% === TITRE PRINCIPAL ===
+\begin{center}
+  {\fontsize{36}{42}\selectfont\textbf{\textcolor{red!70!black}{THÈSE}}}\\[1.2cm]
+
+  {\large En vue de l’obtention du}\\[2mm]
+  {\Large\textbf{DOCTORAT DE L’UNIVERSITÉ DE TOULOUSE}}\\[3mm]
+  {\normalsize Délivré par l’Université Toulouse 3 – Paul Sabatier}
+\end{center}
+
+\vspace{1cm}
+
+% === NOM DU CANDIDAT ===
+\begin{center}
+  \ligneRouge
+  \textbf{Présentée et soutenue par}\\[2mm]
+  {\Large\textbf{[Prénom NOM]}}\\[2mm] % %% À compléter
+  Le [Date de soutenance]\\[4mm]
+  \textbf{Titre de la thèse :}\\[2mm]
+  \textit{[Titre complet de la thèse]} % %% À compléter
+  \ligneRouge
+\end{center}
+
+\vspace{3mm}
+
+% === INFORMATIONS DOCTORALES ===
+\begin{center}
+  \textbf{École doctorale :} SDM – Sciences de la Matière – Toulouse\\[2mm]
+  \textbf{Spécialité :} Physico-Chimie Théorique\\[2mm]
+  \textbf{Unité de recherche :}\\
+  LCPQ–IRSAMC – Laboratoire de Chimie et Physique Quantiques\\[2mm]
+  \textbf{Thèse dirigée par :}\\
+  Nicolas SUAÜD et Nathalie GUIHÉRY
+\end{center}
+
+\vspace{0.6cm}
+
+% === JURY ===
+\begin{center}
+  {\large\textbf{Jury}}\\[3mm]
+  \begin{tabular}{l l}
+    \textbf{Mme [Prénom NOM]} & Rapporteure \\[2mm]
+    \textbf{M. [Prénom NOM]} & Rapporteur \\[2mm]
+    \textbf{M. [Prénom NOM]} & Examinateur \\[2mm]
+    \textbf{Mme [Prénom NOM]} & Examinatrice \\[2mm]
+    \textbf{M. [Prénom NOM]} & Directeur de thèse \\[2mm]
+    \textbf{Mme [Prénom NOM]} & Co-directrice de thèse \\[2mm]
+    \textbf{M. [Prénom NOM]} & Invité \\[2mm]
+    \textbf{M. [Prénom NOM]} & Invité \\
+  \end{tabular}
+\end{center}
+
+\vfill
+
+% === FILIGRANE (optionnel) ===
+% Si tu veux ajouter le logo en arrière-plan :
+% \begin{tikzpicture}[remember picture,overlay]
+%   \node[opacity=0.05,inner sep=0pt] at (current page.center)
+%     {\includegraphics[width=0.7\paperwidth]{logo_fond.png}}; % %% À compléter si souhaité
+% \end{tikzpicture}
+
+\end{document}
